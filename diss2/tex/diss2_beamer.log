@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2013.4.20)  5 MAY 2013 06:43
+This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2013.4.20)  6 MAY 2013 15:24
 entering extended mode
 **diss2_beamer.tex
 (C:\Users\Steve\Documents\GitHub\publish\diss2\tex\diss2_beamer.tex
@@ -990,11 +990,7 @@ Package: supertabular 2004/02/20 v4.1e the supertabular environment
 y
 Package: glossary-tree 2009/01/14 v1.01 (NLCT)
 \glstreeindent=\skip71
-))
-\glo@main@file=\write5
-Package glossaries Info: Writing glossary file diss2_beamer.glo on input line 5
-6.
- (C:\Users\Steve\Documents\GitHub\publish\diss2\tex\diss2_beamer.aux)
+)) (C:\Users\Steve\Documents\GitHub\publish\diss2\tex\diss2_beamer.aux)
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 62.
 LaTeX Font Info:    Try loading font information for OML+txmi on input line 62.
 
@@ -1104,7 +1100,7 @@ LaTeX Info: Redefining \pageref on input line 62.
 
 (C:\Users\Steve\Documents\GitHub\publish\diss2\tex\diss2_beamer.out)
 (C:\Users\Steve\Documents\GitHub\publish\diss2\tex\diss2_beamer.out)
-\@outlinefile=\write6
+\@outlinefile=\write5
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/txr/m/n --> OT1/cmss/m/n on input line 62.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
@@ -1194,280 +1190,294 @@ LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
 (Font)              scaled to size 7.59998pt on input line 67.
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
 (Font)              scaled to size 3.79999pt on input line 67.
- [1
+ [1{D:/LaTeX-Portable/miktex-portable/pdftex/config/pdftex.map}
 
-{D:/LaTeX-Portable/miktex-portable/pdftex/config/pdftex.map}]
-LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 9.49997pt on input line 95.
-LaTeX Font Info:    Font shape `OT1/txss/m/it' in size <10> not available
-(Font)              Font shape `OT1/txss/m/sl' tried instead on input line 95.
+]
+LaTeX Font Info:    Font shape `OT1/txss/m/it' in size <10.95> not available
+(Font)              Font shape `OT1/txss/m/sl' tried instead on input line 83.
 LaTeX Font Info:    Font shape `OT1/txss/m/sl' will be
-(Font)              scaled to size 9.49997pt on input line 95.
+(Font)              scaled to size 10.40245pt on input line 83.
  [2
 
 ]
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 8.54997pt on input line 112.
-LaTeX Font Info:    Try loading font information for U+txsya on input line 112.
+(Font)              scaled to size 8.54997pt on input line 103.
+LaTeX Font Info:    Try loading font information for U+txsya on input line 103.
 
 
 (D:\LaTeX-Portable\miktex-portable\tex\latex\txfonts\utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyb on input line 112.
+LaTeX Font Info:    Try loading font information for U+txsyb on input line 103.
 
 
 (D:\LaTeX-Portable\miktex-portable\tex\latex\txfonts\utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for OT1+txr on input line 112.
+LaTeX Font Info:    Try loading font information for OT1+txr on input line 103.
 
 
 (D:\LaTeX-Portable\miktex-portable\tex\latex\txfonts\ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txmia on input line 112.
+LaTeX Font Info:    Try loading font information for U+txmia on input line 103.
 
 
 (D:\LaTeX-Portable\miktex-portable\tex\latex\txfonts\utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyc on input line 112.
+LaTeX Font Info:    Try loading font information for U+txsyc on input line 103.
 
 
 (D:\LaTeX-Portable\miktex-portable\tex\latex\txfonts\utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 4.74998pt on input line 112.
+(Font)              scaled to size 4.74998pt on input line 103.
 LaTeX Font Info:    Font shape `OT1/txss/m/it' in size <9> not available
-(Font)              Font shape `OT1/txss/m/sl' tried instead on input line 112.
+(Font)              Font shape `OT1/txss/m/sl' tried instead on input line 103.
 
 LaTeX Font Info:    Font shape `OT1/txss/m/sl' will be
-(Font)              scaled to size 8.54997pt on input line 112.
+(Font)              scaled to size 8.54997pt on input line 103.
 LaTeX Font Info:    Font shape `OT1/txss/m/it' in size <6> not available
-(Font)              Font shape `OT1/txss/m/sl' tried instead on input line 112.
+(Font)              Font shape `OT1/txss/m/sl' tried instead on input line 103.
 
 LaTeX Font Info:    Font shape `OT1/txss/m/sl' will be
-(Font)              scaled to size 5.69998pt on input line 112.
+(Font)              scaled to size 5.69998pt on input line 103.
 LaTeX Font Info:    Font shape `OT1/txss/m/it' in size <5> not available
-(Font)              Font shape `OT1/txss/m/sl' tried instead on input line 112.
+(Font)              Font shape `OT1/txss/m/sl' tried instead on input line 103.
 
 LaTeX Font Info:    Font shape `OT1/txss/m/sl' will be
-(Font)              scaled to size 4.74998pt on input line 112.
+(Font)              scaled to size 4.74998pt on input line 103.
 
-Overfull \hbox (16.42853pt too wide) in paragraph at lines 112--112
+Overfull \hbox (16.42853pt too wide) in paragraph at lines 103--103
  [] 
  []
 
 [3
 
-]
-Overfull \hbox (27.21892pt too wide) in paragraph at lines 133--133
- [] 
+] <../images/overallLevels.png, id=61, 481.8pt x 481.8pt>
+File: ../images/overallLevels.png Graphic file (type png)
+
+<use ../images/overallLevels.png>
+Overfull \vbox (0.62872pt too high) detected at line 113
  []
 
 [4
 
-]
-Overfull \hbox (31.82628pt too wide) in paragraph at lines 166--166
- [] 
- []
-
-[5
-
-]
-LaTeX Font Info:    Font shape `OT1/txss/m/it' in size <10.95> not available
-(Font)              Font shape `OT1/txss/m/sl' tried instead on input line 186.
-
-LaTeX Font Info:    Font shape `OT1/txss/m/sl' will be
-(Font)              scaled to size 10.40245pt on input line 186.
-LaTeX Font Info:    Font shape `OT1/txss/m/it' in size <8> not available
-(Font)              Font shape `OT1/txss/m/sl' tried instead on input line 186.
-
-LaTeX Font Info:    Font shape `OT1/txss/m/sl' will be
-(Font)              scaled to size 7.59998pt on input line 186.
- [6
-
-]
-Overfull \hbox (38.89372pt too wide) in paragraph at lines 205--205
- [] 
- []
-
-[7
-
-] <../images/overallLevels.png, id=67, 481.8pt x 481.8pt>
-File: ../images/overallLevels.png Graphic file (type png)
-
-<use ../images/overallLevels.png> [8
-
  <C:/Users/Steve/Documents/GitHub/publish/diss2/images/overallLevels.png (PNG c
-opy)>]
-<../images/ggdp.png, id=75, 505.6491pt x 505.6491pt>
+opy)>] <../images/ggdp.png, id=71, 505.6491pt x 505.6491pt>
 File: ../images/ggdp.png Graphic file (type png)
- <use ../images/ggdp.png>
-<../images/ggdppop.png, id=76, 505.6491pt x 505.6491pt>
+
+<use ../images/ggdp.png>
+<../images/ggdppop.png, id=72, 505.6491pt x 505.6491pt>
 File: ../images/ggdppop.png Graphic file (type png)
 
-<use ../images/ggdppop.png> [9
+<use ../images/ggdppop.png> [5
 
  <C:/Users/Steve/Documents/GitHub/publish/diss2/images/ggdp.png (PNG copy)> <C:
 /Users/Steve/Documents/GitHub/publish/diss2/images/ggdppop.png (PNG copy)>]
-<../images/gdpLog.png, id=85, 505.6491pt x 505.6491pt>
+<../images/gdpLog.png, id=83, 505.6491pt x 505.6491pt>
 File: ../images/gdpLog.png Graphic file (type png)
 
 <use ../images/gdpLog.png>
-<../images/gdpPopLog.png, id=86, 505.6491pt x 505.6491pt>
+<../images/gdpPopLog.png, id=84, 505.6491pt x 505.6491pt>
 File: ../images/gdpPopLog.png Graphic file (type png)
 
-<use ../images/gdpPopLog.png> [10
+<use ../images/gdpPopLog.png> [6
 
  <C:/Users/Steve/Documents/GitHub/publish/diss2/images/gdpLog.png (PNG copy)> <
 C:/Users/Steve/Documents/GitHub/publish/diss2/images/gdpPopLog.png (PNG copy)>]
 
-<../images/popLog.png, id=95, 491.436pt x 491.436pt>
-File: ../images/popLog.png Graphic file (type png)
-
-<use ../images/popLog.png> [11
-
- <C:/Users/Steve/Documents/GitHub/publish/diss2/images/popLog.png (PNG copy)>]
-<../images/energyLog1.png, id=103, 505.6491pt x 505.6491pt>
+<../images/energyLog1.png, id=95, 505.6491pt x 505.6491pt>
 File: ../images/energyLog1.png Graphic file (type png)
 
-<use ../images/energyLog1.png> [12
-
- <C:/Users/Steve/Documents/GitHub/publish/diss2/images/energyLog1.png (PNG copy
-)>]
-<../images/energyVsGdp.png, id=111, 481.8pt x 481.8pt>
-File: ../images/energyVsGdp.png Graphic file (type png)
-
-<use ../images/energyVsGdp.png> [13
-
- <C:/Users/Steve/Documents/GitHub/publish/diss2/images/energyVsGdp.png (PNG cop
-y)>]
-<../images/energyVsGdpDiff.png, id=120, 722.7pt x 722.7pt>
-File: ../images/energyVsGdpDiff.png Graphic file (type png)
-
-<use ../images/energyVsGdpDiff.png> [14
-
- <C:/Users/Steve/Documents/GitHub/publish/diss2/images/energyVsGdpDiff.png (PNG
- copy)>]
-<../images/scatterplot.png, id=128, 674.52pt x 674.52pt>
-File: ../images/scatterplot.png Graphic file (type png)
-
-<use ../images/scatterplot.png> [15
-
- <C:/Users/Steve/Documents/GitHub/publish/diss2/images/scatterplot.png (PNG cop
-y)>]
-File: ../images/energyLog1.png Graphic file (type png)
- <use ../images/energyLog1.png>
-<../images/gbpgdplog.png, id=136, 491.436pt x 491.436pt>
+<use ../images/energyLog1.png>
+<../images/gbpgdplog.png, id=96, 491.436pt x 491.436pt>
 File: ../images/gbpgdplog.png Graphic file (type png)
 
 <use ../images/gbpgdplog.png>
+<../images/popLog.png, id=97, 491.436pt x 491.436pt>
 File: ../images/popLog.png Graphic file (type png)
- <use ../images/popLog.png> [16
 
- <C:/Users/Steve/Documents/GitHub/publish/diss2/images/gbpgdplog.png (PNG copy)
+<use ../images/popLog.png> [7
+
+ <C:/Users/Steve/Documents/GitHub/publish/diss2/images/energyLog1.png (PNG copy
+)> <C:/Users/Steve/Documents/GitHub/publish/diss2/images/gbpgdplog.png (PNG cop
+y)> <C:/Users/Steve/Documents/GitHub/publish/diss2/images/popLog.png (PNG copy)
 >]
-<../images/woodCoal.png, id=144, 390.258pt x 325.215pt>
+<../images/woodCoal.png, id=110, 390.258pt x 325.215pt>
 File: ../images/woodCoal.png Graphic file (type png)
 
-<use ../images/woodCoal.png> [17
+<use ../images/woodCoal.png>
+Overfull \vbox (0.62872pt too high) detected at line 166
+ []
+
+[8
 
  <C:/Users/Steve/Documents/GitHub/publish/diss2/images/woodCoal.png (PNG copy)>
-]
-<../images/era1.png, id=151, 505.6491pt x 505.6491pt>
+] <../images/energyVsGdp.png, id=119, 481.8pt x 481.8pt>
+File: ../images/energyVsGdp.png Graphic file (type png)
+
+<use ../images/energyVsGdp.png>
+<../images/energyVsGdpDiff.png, id=120, 722.7pt x 722.7pt>
+File: ../images/energyVsGdpDiff.png Graphic file (type png)
+
+<use ../images/energyVsGdpDiff.png> [9
+
+ <C:/Users/Steve/Documents/GitHub/publish/diss2/images/energyVsGdp.png (PNG cop
+y)> <C:/Users/Steve/Documents/GitHub/publish/diss2/images/energyVsGdpDiff.png (
+PNG copy)>]
+<../images/scatterplot.png, id=131, 674.52pt x 674.52pt>
+File: ../images/scatterplot.png Graphic file (type png)
+
+<use ../images/scatterplot.png> [10
+
+ <C:/Users/Steve/Documents/GitHub/publish/diss2/images/scatterplot.png (PNG cop
+y)>]
+LaTeX Font Info:    Font shape `OT1/txss/m/it' in size <8> not available
+(Font)              Font shape `OT1/txss/m/sl' tried instead on input line 210.
+
+LaTeX Font Info:    Font shape `OT1/txss/m/sl' will be
+(Font)              scaled to size 7.59998pt on input line 210.
+
+Overfull \hbox (38.89372pt too wide) in paragraph at lines 210--210
+ [] 
+ []
+
+[11
+
+] <../images/era1.png, id=151, 505.6491pt x 505.6491pt>
 File: ../images/era1.png Graphic file (type png)
- <use ../images/era1.png>
-<../images/era2.png, id=152, 505.6491pt x 505.6491pt>
+
+<use ../images/era1.png> <../images/era2.png, id=152, 505.6491pt x 505.6491pt>
 File: ../images/era2.png Graphic file (type png)
- <use ../images/era2.png>
-<../images/era3.png, id=153, 505.6491pt x 505.6491pt>
+
+<use ../images/era2.png> <../images/era3.png, id=153, 505.6491pt x 505.6491pt>
 File: ../images/era3.png Graphic file (type png)
- <use ../images/era3.png>
-<../images/era4.png, id=154, 505.6491pt x 505.6491pt>
+
+<use ../images/era3.png> <../images/era4.png, id=154, 505.6491pt x 505.6491pt>
 File: ../images/era4.png Graphic file (type png)
- <use ../images/era4.png>
-[18
+
+<use ../images/era4.png> [12
 
  <C:/Users/Steve/Documents/GitHub/publish/diss2/images/era1.png (PNG copy)> <C:
 /Users/Steve/Documents/GitHub/publish/diss2/images/era2.png (PNG copy)> <C:/Use
 rs/Steve/Documents/GitHub/publish/diss2/images/era3.png (PNG copy)> <C:/Users/S
-teve/Documents/GitHub/publish/diss2/images/era4.png (PNG copy)>]
-<../images/desagulier1.png, id=165, 633.11531pt x 161.10187pt>
+teve/Documents/GitHub/publish/diss2/images/era4.png (PNG copy)>] <../images/des
+agulier1.png, id=167, 633.11531pt x 161.10187pt>
 File: ../images/desagulier1.png Graphic file (type png)
 
 <use ../images/desagulier1.png>
-<../images/desagulier2.png, id=166, 728.7225pt x 327.47343pt>
+<../images/desagulier2.png, id=168, 728.7225pt x 327.47343pt>
 File: ../images/desagulier2.png Graphic file (type png)
 
 <use ../images/desagulier2.png>
-Overfull \hbox (15.36542pt too wide) in paragraph at lines 330--330
+Overfull \hbox (15.36542pt too wide) in paragraph at lines 238--238
  [][] 
  []
 
 
-Overfull \vbox (11.70628pt too high) detected at line 330
+Overfull \vbox (12.26904pt too high) detected at line 238
  []
 
-[19
+[13
 
  <C:/Users/Steve/Documents/GitHub/publish/diss2/images/desagulier1.png (PNG cop
 y)> <C:/Users/Steve/Documents/GitHub/publish/diss2/images/desagulier2.png (PNG 
-copy)>] <../images/wage-energy.png, id=174, 505.6491pt x 505.6491pt>
+copy)>] <../images/wage-energy.png, id=178, 505.6491pt x 505.6491pt>
 File: ../images/wage-energy.png Graphic file (type png)
 
-<use ../images/wage-energy.png> [20
+<use ../images/wage-energy.png>
+Overfull \vbox (0.40302pt too high) detected at line 248
+ []
+
+[14
 
  <C:/Users/Steve/Documents/GitHub/publish/diss2/images/wage-energy.png (PNG cop
-y)>]
-<../images/energyIntensity.png, id=182, 674.52pt x 674.52pt>
+y)>] [15
+
+] [16
+
+] [17
+
+] <../images/wood.png, id=211, 505.6491pt x 505.6491pt>
+File: ../images/wood.png Graphic file (type png)
+
+<use ../images/wood.png> [18
+
+ <C:/Users/Steve/Documents/GitHub/publish/diss2/images/wood.png (PNG copy)>]
+LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
+(Font)              scaled to size 9.49997pt on input line 295.
+
+<../images/energyIntensity.png, id=220, 674.52pt x 674.52pt>
 File: ../images/energyIntensity.png Graphic file (type png)
 
-<use ../images/energyIntensity.png> [21
+<use ../images/energyIntensity.png> [19
 
  <C:/Users/Steve/Documents/GitHub/publish/diss2/images/energyIntensity.png (PNG
  copy)>]
 File: ../images/gbpgdplog.png Graphic file (type png)
  <use ../images/gbpgdplog.png>
-[22
-
-] [23
+[20
 
 ]
-\tf@nav=\write7
-\tf@toc=\write8
-\tf@snm=\write9
+File: ../images/popLog.png Graphic file (type png)
+ <use ../images/popLog.png> [21
+
+]
+Overfull \hbox (27.21892pt too wide) in paragraph at lines 335--335
+ [] 
+ []
+
+[22
+
+]
+Overfull \hbox (31.82628pt too wide) in paragraph at lines 368--368
+ [] 
+ []
+
+[23
+
+] [24
+
+]
+\tf@nav=\write6
+\tf@toc=\write7
+\tf@snm=\write8
+
+
+Package glossaries Warning: \makeglossaries hasn't been used,
+the glossaries will not be updated.
 
 
 Package glossaries Warning: No \printglossary or \printglossaries found.
 This document will not have a glossary.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 368.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 368.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 392.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 392.
 (C:\Users\Steve\Documents\GitHub\publish\diss2\tex\diss2_beamer.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 368.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 392.
 Package rerunfilecheck Info: File `diss2_beamer.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+(rerunfilecheck)             Checksum: AA6017C9CE3AD4043B4ADE5289036A86;86.
  ) 
 Here is how much of TeX's memory you used:
- 17097 strings out of 495289
- 305491 string characters out of 3180135
- 408365 words of memory out of 3000000
- 19701 multiletter control sequences out of 15000+200000
- 43603 words of font info for 100 fonts, out of 3000000 for 9000
+ 17136 strings out of 495289
+ 306323 string characters out of 3180135
+ 409452 words of memory out of 3000000
+ 19738 multiletter control sequences out of 15000+200000
+ 42866 words of font info for 99 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 48i,16n,75p,1173b,640s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 48i,16n,75p,1173b,628s stack positions out of 5000i,500n,10000p,200000b,50000s
 {D:/LaTeX-Portable/miktex-portable/fonts/enc/dvips/fontname/8r.enc}<D:/LaTeX-
 Portable/miktex-portable/fonts/type1/public/amsfonts/cm/cmss8.pfb><D:/LaTeX-Por
 table/miktex-portable/fonts/type1/public/txfonts/rtxmi.pfb><D:/LaTeX-Portable/m
 iktex-portable/fonts/type1/public/txfonts/txsy.pfb><D:/LaTeX-Portable/miktex-po
 rtable/fonts/type1/urw/helvetic/uhvr8a.pfb><D:/LaTeX-Portable/miktex-portable/f
 onts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on diss2_beamer.pdf (23 pages, 1413427 bytes).
+Output written on diss2_beamer.pdf (24 pages, 1487034 bytes).
 PDF statistics:
- 237 PDF objects out of 1000 (max. 8388607)
- 68 named destinations out of 1000 (max. 500000)
- 169 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 306 PDF objects out of 1000 (max. 8388607)
+ 71 named destinations out of 1000 (max. 500000)
+ 196 words of extra memory for PDF output out of 10000 (max. 10000000)
 

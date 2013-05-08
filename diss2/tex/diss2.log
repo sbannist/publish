@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2013.4.20)  5 MAY 2013 06:03
+This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2013.4.20)  6 MAY 2013 09:54
 entering extended mode
 **diss2.tex
 (C:\Users\Steve\Documents\GitHub\publish\diss2\tex\diss2.tex
@@ -1096,74 +1096,74 @@ Overfull \hbox (11.29819pt too wide) in paragraph at lines 427--437
 [][] 
  []
 
-[16] [17] [18] [19] <../images/overallLevels.png, id=285, 481.8pt x 481.8pt>
+[16] [17] [18] [19] <../images/overallLevels.png, id=281, 481.8pt x 481.8pt>
 File: ../images/overallLevels.png Graphic file (type png)
 
 <use ../images/overallLevels.png>
-<../images/ggdp.png, id=286, 505.6491pt x 505.6491pt>
+<../images/ggdp.png, id=282, 505.6491pt x 505.6491pt>
 File: ../images/ggdp.png Graphic file (type png)
  <use ../images/ggdp.png>
-<../images/ggdppop.png, id=287, 505.6491pt x 505.6491pt>
+<../images/ggdppop.png, id=283, 505.6491pt x 505.6491pt>
 File: ../images/ggdppop.png Graphic file (type png)
 
 <use ../images/ggdppop.png>
-<../images/gdpLog.png, id=288, 505.6491pt x 505.6491pt>
+<../images/gdpLog.png, id=284, 505.6491pt x 505.6491pt>
 File: ../images/gdpLog.png Graphic file (type png)
 
 <use ../images/gdpLog.png>
-<../images/gdpPopLog.png, id=289, 505.6491pt x 505.6491pt>
+<../images/gdpPopLog.png, id=285, 505.6491pt x 505.6491pt>
 File: ../images/gdpPopLog.png Graphic file (type png)
 
 <use ../images/gdpPopLog.png>
-<../images/popLog.png, id=290, 491.436pt x 491.436pt>
+<../images/popLog.png, id=286, 491.436pt x 491.436pt>
 File: ../images/popLog.png Graphic file (type png)
 
 <use ../images/popLog.png>
-<../images/energyLog1.png, id=291, 505.6491pt x 505.6491pt>
+<../images/energyLog1.png, id=287, 505.6491pt x 505.6491pt>
 File: ../images/energyLog1.png Graphic file (type png)
 
 <use ../images/energyLog1.png>
-<../images/energyVsGdp.png, id=292, 481.8pt x 481.8pt>
+<../images/energyVsGdp.png, id=288, 481.8pt x 481.8pt>
 File: ../images/energyVsGdp.png Graphic file (type png)
 
 <use ../images/energyVsGdp.png>
-<../images/energyVsGdpDiff.png, id=293, 722.7pt x 722.7pt>
+<../images/energyVsGdpDiff.png, id=289, 722.7pt x 722.7pt>
 File: ../images/energyVsGdpDiff.png Graphic file (type png)
 
 <use ../images/energyVsGdpDiff.png>
-<../images/scatterplot.png, id=294, 674.52pt x 674.52pt>
+<../images/scatterplot.png, id=290, 674.52pt x 674.52pt>
 File: ../images/scatterplot.png Graphic file (type png)
 
 <use ../images/scatterplot.png>
 File: ../images/energyLog1.png Graphic file (type png)
  <use ../images/energyLog1.png>
-<../images/gbpgdplog.png, id=295, 491.436pt x 491.436pt>
+<../images/gbpgdplog.png, id=291, 491.436pt x 491.436pt>
 File: ../images/gbpgdplog.png Graphic file (type png)
 
 <use ../images/gbpgdplog.png>
 File: ../images/popLog.png Graphic file (type png)
  <use ../images/popLog.png>
-<../images/woodCoal.png, id=296, 390.258pt x 325.215pt>
+<../images/woodCoal.png, id=292, 390.258pt x 325.215pt>
 File: ../images/woodCoal.png Graphic file (type png)
 
 <use ../images/woodCoal.png>
-<../images/era1.png, id=297, 505.6491pt x 505.6491pt>
+<../images/era1.png, id=293, 505.6491pt x 505.6491pt>
 File: ../images/era1.png Graphic file (type png)
  <use ../images/era1.png>
-<../images/era2.png, id=298, 505.6491pt x 505.6491pt>
+<../images/era2.png, id=294, 505.6491pt x 505.6491pt>
 File: ../images/era2.png Graphic file (type png)
  <use ../images/era2.png>
-<../images/era3.png, id=299, 505.6491pt x 505.6491pt>
+<../images/era3.png, id=295, 505.6491pt x 505.6491pt>
 File: ../images/era3.png Graphic file (type png)
  <use ../images/era3.png>
-<../images/era4.png, id=300, 505.6491pt x 505.6491pt>
+<../images/era4.png, id=296, 505.6491pt x 505.6491pt>
 File: ../images/era4.png Graphic file (type png)
  <use ../images/era4.png>
-<../images/desagulier1.png, id=301, 633.11531pt x 161.10187pt>
+<../images/desagulier1.png, id=297, 633.11531pt x 161.10187pt>
 File: ../images/desagulier1.png Graphic file (type png)
 
 <use ../images/desagulier1.png>
-<../images/desagulier2.png, id=302, 728.7225pt x 327.47343pt>
+<../images/desagulier2.png, id=298, 728.7225pt x 327.47343pt>
 File: ../images/desagulier2.png Graphic file (type png)
 
 <use ../images/desagulier2.png>
@@ -1171,11 +1171,11 @@ Overfull \hbox (21.6148pt too wide) in paragraph at lines 540--542
  [][] 
  []
 
-<../images/wage-energy.png, id=303, 505.6491pt x 505.6491pt>
+<../images/wage-energy.png, id=299, 505.6491pt x 505.6491pt>
 File: ../images/wage-energy.png Graphic file (type png)
 
 <use ../images/wage-energy.png>
-<../images/energyIntensity.png, id=304, 674.52pt x 674.52pt>
+<../images/energyIntensity.png, id=300, 674.52pt x 674.52pt>
 File: ../images/energyIntensity.png Graphic file (type png)
 
 <use ../images/energyIntensity.png>
@@ -1206,18 +1206,18 @@ tensity.png (PNG copy)>] [32] [33]
 Package glossaries Warning: No \printglossary or \printglossaries found.
 This document will not have a glossary.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 665.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 665.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 669.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 669.
 (C:\Users\Steve\Documents\GitHub\publish\diss2\tex\diss2.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 665.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 669.
 Package rerunfilecheck Info: File `diss2.out' has not changed.
-(rerunfilecheck)             Checksum: 1C6DAF30DA58F2574DB634EC6A84496D;1303.
+(rerunfilecheck)             Checksum: 97144D6053DBBC4539675B66371970DA;1238.
  ) 
 Here is how much of TeX's memory you used:
- 14490 strings out of 495289
- 232005 string characters out of 3180135
- 343375 words of memory out of 3000000
- 17233 multiletter control sequences out of 15000+200000
+ 14487 strings out of 495289
+ 231967 string characters out of 3180135
+ 343322 words of memory out of 3000000
+ 17231 multiletter control sequences out of 15000+200000
  48680 words of font info for 114 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  44i,9n,73p,1166b,396s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1228,9 +1228,9 @@ e/miktex-portable/fonts/type1/public/txfonts/rtxr.pfb><D:/LaTeX-Portable/miktex
 e/fonts/type1/urw/times/utmb8a.pfb><D:/LaTeX-Portable/miktex-portable/fonts/typ
 e1/urw/times/utmr8a.pfb><D:/LaTeX-Portable/miktex-portable/fonts/type1/urw/time
 s/utmri8a.pfb>
-Output written on diss2.pdf (33 pages, 1477565 bytes).
+Output written on diss2.pdf (33 pages, 1477247 bytes).
 PDF statistics:
- 422 PDF objects out of 1000 (max. 8388607)
- 86 named destinations out of 1000 (max. 500000)
- 289 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 418 PDF objects out of 1000 (max. 8388607)
+ 85 named destinations out of 1000 (max. 500000)
+ 281 words of extra memory for PDF output out of 10000 (max. 10000000)
 

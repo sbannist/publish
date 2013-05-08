@@ -53,7 +53,7 @@
 
 \usepackage{hyperref}
 
-\makeglossaries
+%\makeglossaries
 
 %\loadglsentries{glossary.tex}
 
@@ -72,32 +72,23 @@
 %	\bibliographystyle{plain}
 
 \begin{frame}
-	\begin{abstract}
-	
-	England, during the period leading up to and spanning the first Industrial Revolution, learned how to consume a virtually unconstrained quantity of fossil carbon energy. This led directly to modern economic growth for the first time in recorded history. 
-	
-%	I pursue a new approach toward understanding and quantifying the causes and outcome of the English Industrial Revolution. The issues surrounding this most important economic event since the Neolithic Revolution are not settled. I will demonstrate with empirics and historical analysis that England, uniquely and fortuitously, learned how to consume unconstrained fossil energy. This invention yielded an unprecedented positive growth externality for the English macro economy, and eventually for the world. The emergent macro effect resulted from numerous micro-inventions which substituted fossil energy for labour, animal, and other organic power. The demand incentive for these productivity-improving inventions grew from an epoch of rising and spreading incomes.
-	
-%	I contribute to the questions of what happened, and why, during the English Industrial Revolution. My analysis permits me to freshly address these questions: Why England? Why in the $18^{th}$ century? Why no where else? I design my modelling strategy to reveal whether the usual explanations of this event, the cultural, social, and institutional explanation of English exceptionalism, are sufficient to settle the matter. My hypothesis is they are not, rather that economics, specifically the economics of energy, is the prime mover in the outcome. Yet, they help importantly to explain the long and complex tapestry of social changes that permitted the great English invention of Industrial Capitalism.
-	
-	Studying the event empirically, I use recent long-period series estimates of the rate of English energy consumption, Gross Domestic Product, and population to test the hypothesis that this was primarily an \textit{energy} revolution with important but very limited institutional/cultural support.
-	
-%	Historically, I document changes dating to the $8^{th}$ and $9^{th}$ century CE Carolingian Renaissance to explain the complex social, cultural, scientific, and economic changes that enabled the miracle revolution of the Industrial Revolution a millennium later. In order to provide a complete and coherent story, I discuss, and include in my model, the European Marriage Pattern (EMP) of the middle and late Middle Ages as a mechanism to explain the increase and diffusion of income and the resulting increase in commodity consumption required to drive demand for the eventual products of the Industrial Revolution. 
-	
-%	This long period of gradual change motivated the inventor/entrepreneurs of the early modern age to use their cumulating knowledge and skills, increasingly available after Johannes Gutenberg introduced moveable type printing and the printing press, to invent productivity-improving technologies and serve the increasing demand for commodity products. My model includes this series of events.
-	
-%	Additionally, my model includes England's increasing export trade as a source of external demand, and a likely important addition to growing internal demand, as a further incentive to drive manufacturing productivity.
-	
-%	The modelling approach I develop applies generally, and suggests follow-on work for other major economies, in both historical and contemporaneous time frames.
-	
-	The outcome should provide insights into economic development for development economists, highlighting the importance of energy transitions for growth of economic systems. Additionally, the analytic framework I develop can be applied across time and geography, adding insights to ongoing development puzzles.% and to the realistic chances of curbing ecologically damaging mineral (fossil) energy consumption for ecological economists and others interested in that critical topic.
-	\end{abstract}
+\frametitle{English Industrial Revolution, 1590 - 1876}
+
+	\begin{itemize}
+	\item Modern economic growth
+	\item Unconstrained quantity of fossil carbon energy -- an \textit{energy} revolution led by a demand revolution
+	\item Little statistical space for institutional or cultural events -- except to explain structural breaks
+	\item Framework applicable across time series, space, and time
+	\end{itemize}
 \end{frame}
 
+\section{main}
+
 \begin{frame}
+\frametitle{Taxonomy of EIR explanations}
 \footnotesize{
 \begin{table}[p!]
-\caption{Taxonomy of EIR explanations}
+%\caption{Taxonomy of EIR explanations}
 \label{tbl:taxonomy}
 \begin{tabular}{rl}
 Label&Examples\\
@@ -112,9 +103,220 @@ Thermodynamicists&Georgescu-Roegen (1975), Ayres (2003), Garrett (2009)\\
 \end{frame}
 
 \begin{frame}
+\frametitle{Author/time-span series of energy consumption, GDP, and population}
+\begin{figure}[p!]
+\center
+%\caption{Author/time-span series of energy consumption, GDP, and population}
+\label{fig:overall levels}
+\includegraphics[height=0.8\textheight]{overallLevels}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{English real gross domestic product, \\
+levels and per--capita }
+
+		\begin{figure}[p!]
+%		\caption{English real gross domestic product, \\
+%		levels and per--capita }
+		\label{fig:ggdp}		
+		\centerline{
+		\mbox{\includegraphics[width=0.55\textwidth]{ggdp}}
+		\mbox{\includegraphics[width=0.55\textwidth]{ggdppop}}
+		}
+		\end{figure}
+\end{frame}
+
+\begin{frame}
+		\frametitle{English real gross domestic product, \\
+	log levels and log per--capita}
+
+		\begin{figure}[p!]
+%		\caption{English real gross domestic product, \\
+%		log levels and log per--capita}
+		\label{fig:gdpLog}		
+		\centerline{
+		\mbox{\includegraphics[width=0.55\textwidth]{gdpLog}}
+		\mbox{\includegraphics[width=0.55\textwidth]{gdpPopLog}}
+		}
+		\end{figure}
+\end{frame}
+
+\begin{frame}
+		\frametitle{Structural break comparison}
+\begin{figure}[p!]
+%		\caption{Structural break comparison}
+		\label{fig:structural}		
+		\centerline{
+		\mbox{\includegraphics[width=0.33\textwidth]{energyLog1}}
+		\mbox{\includegraphics[width=0.33\textwidth]{gbpgdplog}}
+		\mbox{\includegraphics[width=0.33\textwidth]{popLog}}
+		}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{Coal and wood energy sources\\\textit{Source:} Pearson \& Fouquet}
+\begin{figure}[p!]
+\center
+%\caption{Coal and wood energy sources\\\textit{Source:} Pearson \& Fouquet}
+\label{fig:woodCoal}
+\includegraphics[height=0.8\textheight]{woodCoal.png}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{Energy consumption vs. standarized GDP}
+\begin{figure}[p!]
+\center
+%\caption{Energy consumption vs. standarized GDP}
+\label{fig:energyVsGdp}
+		\centerline{
+		\mbox{\includegraphics[width=0.55\textwidth]{energyVsGdp}}
+		\mbox{\includegraphics[width=0.55\textwidth]{energyVsGdpDiff}}
+		}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{Scatterplot of energy consumption vs. GDP}
+\begin{figure}[p!]
+\center
+%\caption{Scatterplot of energy consumption vs. GDP}
+\label{fig:scatterplot}
+\includegraphics[height=0.8\textheight]{scatterplot.png}
+\end{figure}
+No ``Solow'' residual
+\end{frame}
+
+\begin{frame}
+\frametitle{Granger tests of energy/GDP dynamics}
+\scriptsize{
+\begin{table}[p!]
+%\caption{Granger tests of energy/GDP dynamics}
+\label{tbl:grangerEnergyGdp}
+\begin{tabular}{lrrl}
+Era&Energy $\sim$ GDP Pr($>$F)& GDP $\sim$ Energy Pr($>$F)&AS/AD regime\\
+\hline
+1300 -- 1500&0.0106&0.0003&EMP, Black Death, \\&&&wages/family income increasing\\
+1500 -- 1600&0.1939&0.6126&Positive demand shock\\
+1600 -- 1750&0.3529&0.5185&Energy supply constraint\\
+1750 -- 1873&0.0024&0.1100&Positive supply shock,\\&&&``virtuous'' macro feedback cycle\\
+\hline
+1300 -- 1873& 0.0002& 0.0361&Total study period\\
+\end{tabular}
+\end{table}
+}
+\end{frame}
+
+\begin{frame}
+		\frametitle{Aggregate Supply - Aggregate Demand \\ Four energy/GDP regimes}
+\begin{figure}[p!]
+%		\caption{Aggregate Supply - Aggregate Demand \\ Four energy/GDP regimes}
+		\label{fig:asad}		
+		\centerline{
+		\mbox{\includegraphics[width=0.25\textwidth]{era1}}
+		\mbox{\includegraphics[width=0.25\textwidth]{era2}}
+		\mbox{\includegraphics[width=0.25\textwidth]{era3}}
+		\mbox{\includegraphics[width=0.25\textwidth]{era4}}				
+		}
+		\end{figure}
+\end{frame}
+
+\begin{frame}
+		\frametitle{Desagulier manuscript}
+\begin{figure}[p!]
+%		\caption{Desagulier manuscript}
+		\label{fig:desagulier}		
+		\center
+%		\mbox{\includegraphics[width=0.95\textwidth]{desagulier1}}\\
+%		\mbox{\includegraphics[width=0.95\textwidth]{desagulier2}}
+		\includegraphics[width=0.95\textwidth]{desagulier1}\\
+		\includegraphics[width=1.05\textwidth]{desagulier2}
+%		}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{Real wage to energy ratios\\\textit{Source:} Robert Allen (2009)}
+\begin{figure}[p!]
+\center
+%\caption{Real wage to energy ratios\\\textit{Source:} Robert Allen (2009)}
+\label{fig:wage-energy}
+\includegraphics[height=0.8\textheight]{wage-energy.png}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{Microeconomic theory}
+\scriptsize{
+		\begin{equation}
+		\label{eq:mrp}
+		\frac{\text{Marginal Revenue Product}_{\text{ organic energy joule}}}{\text{Price}_{\text{ organic energy joule}}} = \frac{\text{Marginal Revenue Product}_{\text{ fossil energy joule}}}{\text{Price}_{\text{ fossil energy joule}}}
+		\end{equation}
+}
+\end{frame}
+
+\begin{frame}
+\frametitle{English Industrial Revolution, 1590 - 1876}
+
+	\begin{itemize}
+	\item Modern economic growth
+	\item Unconstrained quantity of fossil carbon energy -- an \textit{energy} revolution led by a demand revolution
+	\item Little statistical space for institutional or cultural events -- except to explain structural breaks
+	\item Macro and micro explain a great deal
+	\item Framework applicable across time series, space, and time
+	\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Thank you}
+\end{frame}
+
+\section{Supplement}
+
+\begin{frame}
+\frametitle{English wood enegy supply constraint}
+\begin{figure}[p!]
+\center
+%\caption{English wood enegy supply constraint}
+\label{fig:wood}
+\includegraphics[height=0.8\textheight]{wood}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\begin{figure}[p!]
+\center
+\caption{Standardized English energy intensity of GDP}
+\label{fig:energyIntensity}
+\includegraphics[height=0.8\textheight]{energyIntensity}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\begin{figure}[p!]
+\center
+\caption{Log of GDP, with structural breaks}
+\label{fig:gbpgdplog.png}
+\includegraphics[height=0.8\textheight]{gbpgdplog.png}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\begin{figure}[p!]
+\center
+\caption{Log of population, with structural breaks}
+\label{fig:popLog}
+\includegraphics[height=0.8\textheight]{popLog}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{Data Sources}
 \footnotesize{
 \begin{table}[p!]
-\caption{Data Sources}
+%\caption{Data Sources}
 \label{tbl:dataSources}
 \begin{tabular}{lrll}
 Data series&Year range&Geography&Source\\
@@ -185,184 +387,6 @@ Chi-square&2864&0.0004998\tabularnewline
 \end{table}
 \end{frame}
 
-\begin{frame}
-\scriptsize{
-\begin{table}[p!]
-\caption{granger tests of energy/gdp}
-\label{tbl:grangerEnergyGdp}
-\begin{tabular}{lrrl}
-Era&Energy $\sim$ GDP Pr($>$F)& GDP $\sim$ Energy Pr($>$F)&AS/AD regime\\
-\hline
-1300 -- 1500&0.0106&0.0003&EMP, Black Death, \\&&&wages/family income increasing\\
-1500 -- 1600&0.1939&0.6126&Positive demand shock\\
-1600 -- 1750&0.3529&0.5185&Energy supply constraint\\
-1750 -- 1873&0.0024&0.1100&Positive supply shock,\\&&&``virtuous'' macro feedback cycle\\
-\hline
-1300 -- 1873& 0.0002& 0.0361&Total study period\\
-\end{tabular}
-\end{table}
-}
-\end{frame}
 
-\begin{frame}
-\begin{figure}[p!]
-\center
-\caption{Author/time-span series of energy consumption, GDP, and population}
-\label{fig:overall levels}
-\includegraphics[height=0.8\textheight]{overallLevels}
-\end{figure}
-\end{frame}
-
-\begin{frame}
-		\begin{figure}[p!]
-		\caption{English real gross domestic product, \\
-		levels and per--capita }
-		\label{fig:ggdp}		
-		\centerline{
-		\mbox{\includegraphics[width=0.55\textwidth]{ggdp}}
-		\mbox{\includegraphics[width=0.55\textwidth]{ggdppop}}
-		}
-		\end{figure}
-\end{frame}
-
-\begin{frame}
-		\begin{figure}[p!]
-		\caption{English real gross domestic product, \\
-		log levels and log per--capita}
-		\label{fig:gdpLog}		
-		\centerline{
-		\mbox{\includegraphics[width=0.55\textwidth]{gdpLog}}
-		\mbox{\includegraphics[width=0.55\textwidth]{gdpPopLog}}
-		}
-		\end{figure}
-\end{frame}
-
-\begin{frame}
-\begin{figure}[p!]
-\center
-\caption{Log of population, with structural breaks}
-\label{fig:popLog}
-\includegraphics[height=0.8\textheight]{popLog}
-\end{figure}
-\end{frame}
-
-\begin{frame}
-\begin{figure}[p!]
-\center
-\caption{Log of energy consumption, with structural breaks}
-\label{fig:energyLog}
-\includegraphics[height=0.8\textheight]{energyLog1.png}
-\end{figure}
-\end{frame}
-
-\begin{frame}
-\begin{figure}[p!]
-\center
-\caption{Energy consumption vs. standarized GDP}
-\label{fig:energyVsGdp}
-\includegraphics[height=0.8\textheight]{energyVsGdp}
-\end{figure}
-\end{frame}
-
-\begin{frame}
-\begin{figure}[p!]
-\center
-\caption{Energy consumption vs. standardized GDP, differences}
-\label{fig:energyVsGdpDiff}
-\includegraphics[height=0.8\textheight]{energyVsGdpDiff}
-\end{figure}
-\end{frame}
-
-\begin{frame}
-\begin{figure}[p!]
-\center
-\caption{Scatterplot of energy consumption vs. GDP}
-\label{fig:scatterplot}
-\includegraphics[height=0.8\textheight]{scatterplot.png}
-\end{figure}
-\end{frame}
-
-\begin{frame}
-\begin{figure}[p!]
-		\caption{Structural break comparison}
-		\label{fig:structural}		
-		\centerline{
-		\mbox{\includegraphics[width=0.33\textwidth]{energyLog1}}
-		\mbox{\includegraphics[width=0.33\textwidth]{gbpgdplog}}
-		\mbox{\includegraphics[width=0.33\textwidth]{popLog}}
-		}
-\end{figure}
-\end{frame}
-
-\begin{frame}
-\begin{figure}[p!]
-\center
-\caption{Coal and wood energy sources\\\textit{Source:} Pearson \& Fouquet}
-\label{fig:woodCoal}
-\includegraphics[height=0.8\textheight]{woodCoal.png}
-\end{figure}
-\end{frame}
-
-\begin{frame}
-\begin{figure}[p!]
-		\caption{Aggregate Supply - Aggregate Demand \\ Four energy/GDP regimes}
-		\label{fig:asad}		
-		\centerline{
-		\mbox{\includegraphics[width=0.25\textwidth]{era1}}
-		\mbox{\includegraphics[width=0.25\textwidth]{era2}}
-		\mbox{\includegraphics[width=0.25\textwidth]{era3}}
-		\mbox{\includegraphics[width=0.25\textwidth]{era4}}				
-		}
-		\end{figure}
-\end{frame}
-
-\begin{frame}
-\begin{figure}[p!]
-		\caption{Desagulier manuscript}
-		\label{fig:desagulier}		
-		\center
-%		\mbox{\includegraphics[width=0.95\textwidth]{desagulier1}}\\
-%		\mbox{\includegraphics[width=0.95\textwidth]{desagulier2}}
-		\includegraphics[width=0.95\textwidth]{desagulier1}\\
-		\includegraphics[width=1.05\textwidth]{desagulier2}
-%		}
-\end{figure}
-\end{frame}
-
-\begin{frame}
-\begin{figure}[p!]
-\center
-\caption{Real wage to energy ratios\\\textit{Source:} Robert Allen (2009)}
-\label{fig:wage-energy}
-\includegraphics[height=0.8\textheight]{wage-energy.png}
-\end{figure}
-\end{frame}
-
-\begin{frame}
-\begin{figure}[p!]
-\center
-\caption{Standardized English energy intensity of GDP}
-\label{fig:energyIntensity}
-\includegraphics[height=0.8\textheight]{energyIntensity}
-\end{figure}
-\end{frame}
-
-\begin{frame}
-\begin{figure}[p!]
-\center
-\caption{Log of GDP, with structural breaks}
-\label{fig:gbpgdplog.png}
-\includegraphics[height=0.8\textheight]{gbpgdplog.png}
-\end{figure}
-\end{frame}
-
-\begin{frame}
-\scriptsize{
-		\begin{equation}
-		\label{eq:mrp}
-		\frac{\text{Marginal Revenue Product}_{\text{ organic energy joule}}}{\text{Price}_{\text{ organic energy joule}}} = \frac{\text{Marginal Revenue Product}_{\text{ fossil energy joule}}}{\text{Price}_{\text{ fossil energy joule}}}
-		\end{equation}
-}
-\end{frame}
 
 \end{document}
