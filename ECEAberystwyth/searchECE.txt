@@ -1,0 +1,36 @@
+("nickel hydride" ("electronic structure" OR "electron density" OR "electron density" OR "density of states" OR "crystal structure" OR "magnetic structure" OR "surface layers"))
+
+("electron" AND "Compton scattering")
+
+((("electron electron"~1) AND "Compton scattering"))
+
+((("electron positron"~1) AND "Compton scattering"))
+
+("relativistic electron scattering") 1 return
+
+(("relativistic electron" AND "scattering")~5) ~125 returns
+
+("nickel hydride" AND "LAPW" AND ("electronic structure" OR "electron density" OR "electron density" OR "density of states" OR "crystal structure" OR "magnetic structure" OR "surface layers")) 0 returns
+
+("nickel hydride" AND "LAPW") 0 returns
+
+( "LAPW") 51 returns
+
+( "FLAPW") 16 returns
+
+(( "LAPW" AND "electron")~5) 12 returns
+
+(Experimental soft X-ray) ~6300 returns
+
+("Experimental soft X-ray") 0 returns
+
+(photoemission spectra) ~400 returns
+
+("photoemission spectra") 85 returns
+
+("photoemission spectra" AND "Nickel") 16 returns *
+
+
+
+
+

@@ -29,11 +29,12 @@
 \usepackage{graphicx}
 \usepackage[lofdepth,lotdepth,position=bottom]{subfig}
 \usepackage{caption}
+\usepackage{float}
 %\usepackage{draftwatermark}
 
 \usepackage{verbatim}
 %\usepackage{underscore}
-\linespread{1.9}	% remove for single, 1.3 for 1.5 and 1.6 for 2.0. use this setting for print editing
+%\linespread{1.9}	% remove for single, 1.3 for 1.5 and 1.6 for 2.0. use this setting for print editing
 
 \usepackage{glossaries}
 
@@ -48,7 +49,11 @@
 
 \usepackage{tocloft}
 
+\usepackage{natbib}
+\bibpunct{(}{)}{;}{a}{,}{,}
+
 \usepackage{hyperref}
+
 
 \makeglossaries
 
@@ -62,10 +67,10 @@
 %\SetWatermarkScale{1}
 
 	\maketitle
-	\nocite{*}
+%	\nocite{*}
 %	\bibliographystyle{E:/LaTeX-Portable/MikTex-Portable/bibtex/bst/base/IEEEanot}
 
-	\bibliographystyle{E:/LaTeX-Portable/MikTex-Portable/bibtex/bst/base/plain-annote}
+%	\bibliographystyle{E:/LaTeX-Portable/MikTex-Portable/bibtex/bst/base/plain-annote}
 %	\bibliographystyle{plain}
 
 \newcommand{\listequationsname}{List of Equations}
@@ -77,21 +82,9 @@
 
 	\begin{abstract}
 	
-	England, during the period leading up to and spanning the first Industrial Revolution, learned how to consume a virtually unconstrained quantity of fossil carbon energy. This led directly to modern economic growth for the first time in recorded history. 
-	
-%	I pursue a new approach toward understanding and quantifying the causes and outcome of the English Industrial Revolution. The issues surrounding this most important economic event since the Neolithic Revolution are not settled. I will demonstrate with empirics and historical analysis that England, uniquely and fortuitously, learned how to consume unconstrained fossil energy. This invention yielded an unprecedented positive growth externality for the English macro economy, and eventually for the world. The emergent macro effect resulted from numerous micro-inventions which substituted fossil energy for labour, animal, and other organic power. The demand incentive for these productivity-improving inventions grew from an epoch of rising and spreading incomes.
-	
-%	I contribute to the questions of what happened, and why, during the English Industrial Revolution. My analysis permits me to freshly address these questions: Why England? Why in the $18^{th}$ century? Why no where else? I design my modelling strategy to reveal whether the usual explanations of this event, the cultural, social, and institutional explanation of English exceptionalism, are sufficient to settle the matter. My hypothesis is they are not, rather that economics, specifically the economics of energy, is the prime mover in the outcome. Yet, they help importantly to explain the long and complex tapestry of social changes that permitted the great English invention of Industrial Capitalism.
-	
-	Studying the event empirically, I use recent long-period series estimates of the rate of English energy consumption, Gross Domestic Product, and population to test the hypothesis that this was primarily an \textit{energy} revolution with important but very limited institutional/cultural support.
-	
-%	Historically, I document changes dating to the $8^{th}$ and $9^{th}$ century CE Carolingian Renaissance to explain the complex social, cultural, scientific, and economic changes that enabled the miracle revolution of the Industrial Revolution a millennium later. In order to provide a complete and coherent story, I discuss, and include in my model, the European Marriage Pattern (EMP) of the middle and late Middle Ages as a mechanism to explain the increase and diffusion of income and the resulting increase in commodity consumption required to drive demand for the eventual products of the Industrial Revolution. 
-	
-%	This long period of gradual change motivated the inventor/entrepreneurs of the early modern age to use their cumulating knowledge and skills, increasingly available after Johannes Gutenberg introduced moveable type printing and the printing press, to invent productivity-improving technologies and serve the increasing demand for commodity products. My model includes this series of events.
-	
-%	Additionally, my model includes England's increasing export trade as a source of external demand, and a likely important addition to growing internal demand, as a further incentive to drive manufacturing productivity.
-	
-%	The modelling approach I develop applies generally, and suggests follow-on work for other major economies, in both historical and contemporaneous time frames.
+	England, during the period leading up to and spanning the first Industrial Revolution, collectively learned how to consume a virtually unconstrained quantity of fossil (carbon) energy. Led by the period's effective aggregate demand growth, this led directly to productivity growth which then led to modern economic growth for the first time in recorded history. 
+		
+	Studying the event empirically, I use recent long-period series estimates of levels of English energy consumption, Gross Domestic Product, and population to test the hypothesis that this was primarily an \textit{energy} revolution with important but mostly proximate institutional and cultural support.
 	
 	The outcome should provide insights into economic development for development economists, highlighting the importance of energy transitions for growth of economic systems. Additionally, the analytic framework I develop can be applied across time and geography, adding insights to ongoing development puzzles.% and to the realistic chances of curbing ecologically damaging mineral (fossil) energy consumption for ecological economists and others interested in that critical topic.
 	\end{abstract}
@@ -99,23 +92,28 @@
 
 Unravelling the history of the English Industrial Revolution remains in the center ring of economic history. Beyond its historical significance, it holds major lessons for development economists in modern eras.
 
-In this paper, I propose a methodological return to data-informed economic principles to explain the miracle. And I conclude that it was primarily an energy revolution; the English learned how to consume virtually unconstrained amounts of fossil energy. This directly led to modern economic growth for the first time in history.
+In this paper, I propose a methodological appeal to data-informed economic principles to explain the miracle. And I conclude that it was primarily an energy revolution; the English learned how to consume virtually unconstrained amounts of fossil energy. This directly led to modern economic growth for the first time in history.
 
-Many, but not all, historians look to primarily institutional or cultural explanations for the event often expressed as a form of English exceptionalism; I propose a taxonomy in table \ref{tbl:taxonomy}. But this is not a paper about institutions; it is about economics. I try to make a strong case that while (a very few) necessary institutions were proximate, they were not sufficient, and do so by telling a compelling economic story.
+Many, but not all, historians look to primarily institutional or cultural explanations for the event often expressed as a form of English exceptionalism; I propose a taxonomy in table \ref{tbl:taxonomy}. But this is not a paper about institutions; it is about economics. I try to make a strong case that while (a very few) necessary institutions were proximate, they were not sufficient, and do so by telling a compelling economic story, with economics often driving (endogenous) institutional change. The important exogenous institutional/cultural changes likely relate to expanded aggregate effective demand.
 
 \begin{center}
 Table \ref{tbl:taxonomy} about here
 \end{center}
 
-One must include Max Weber \footnote{Weber (2002)} among the canonical exceptionalists, although indirectly bearing on England. Rather than lengthening this paper with details of this taxonomy, those will be in a forthcoming project. So I will proceed with the economics, acknowledging the few potentially causal cultural/institutional events that are required.
+One must include Max Weber (\citeyear{weber_protestant_2002}) among the canonical exceptionalists, although indirectly bearing on England. Rather than lengthening this paper with details of this taxonomy, those will be in a forthcoming project. So I will proceed with the economics, acknowledging the few potentially causal cultural/institutional events that are required on the demand and supply sides.
 
-The contributions I hope to make are to build a framework for analyzing the event which: coherently explains the event; can be extended to test the hypothesized importance of any institutional or cultural events; can accommodate new data series; proposes a structure of different energy/GDP regimes; re-dates the start of the event, moving it considerably earlier than many historians propose; uses statistical methods to understand the dynamics of the event; and applies macroeconomic and microeconomic theoretical principles to describe and explain the incentives embedded in this great \textit{sui generis} event.
+As an important example of emphasizing how economic pressures led institutional changes, John Nef (\citeyear{nef_rise_1932}) relates how the economic pressure of English deforestation on wood prices influenced the post-English Reformation transfer of mineral-rich properties from the Church to the Crown, and the Crown's support of enclosures to consolidate mineral rights. Both of these ``institutional'' changes \textit{resulted} from economic pressures, improved the profitability of leasing mineral rights for coal and other mineral extraction, and thus had the macroeconomic result of an increase in the aggregate supply curve. A complete description of institutional changes must await further research.
+
+The contributions I hope to make are to build a framework for analyzing the event which: coherently explains the event; can be extended to test the hypothesized importance of any institutional or cultural events; can accommodate new data series; proposes a structure of different energy/GDP regimes; re-dates the start of the event, moving it considerably earlier than many historians propose (John Nef excepted); uses statistical methods to understand the dynamics of the event; and applies macroeconomic and microeconomic theoretical principles to describe and explain the incentives embedded in this great and \textit{sui generis} event.
 
 %\section{Variations on the story}
-\section{Research question} %1
-I seek to identify empirically, economically, and eventually institutionally, what facts constituted the English Industrial Revolution. What was it, why did it occur, why did it happen when it did, why did it happen in England and only England? This paper addresses a subset of this agenda, describing what happened empirically, and suggesting the economic events that caused this result.
+\section{Research questions} %1
+I seek to identify empirically, economically, and eventually institutionally, what facts constituted the English Industrial Revolution. What was it, why did it occur, why did it happen when it did, why did it happen in England and only England? This paper addresses a subset of this agenda, describing what happened empirically, and suggesting the economic pressures and events that caused this result.
+
 \section{Hypotheses}
-The English Industrial Revolution (henceforth EIR) was the first example of modern economic growth.\footnote{Kuznets 1996} There were both macroeconomic and microeconomic forces that were causal. The primary driver of the EIR was an energy consumption revolution. There is limited statistical space for a very few causal institutional or cultural events.	%2
+The English Industrial Revolution (henceforth EIR) was the first example of modern economic growth (\cite{kuznets_modern_1966}). There were both macroeconomic and microeconomic forces that were causal. The primary driver of the EIR was an energy consumption revolution. There is limited statistical space for a very few exogenous causal institutional or cultural event clusters.	%2
+
+I claim that the English Industrial Revolution was actually two related energy revolutions: the first substituted fossil mineral energy (coal) for wood for heat generation for both industrial and domestic uses; the second and later one substituted fossil mineral energy for labour energy inputs. Both were economically driven; the second one led directly to modern economic growth, and was enabled by the first.
 
 \section{Research approach}
 As this is a largely data-driven project, I first describe the data sources and comment on their limitations.
@@ -128,7 +126,7 @@ Figure \ref{fig:overall levels} displays the three data series keyed to the sour
 Table \ref{tbl:dataSources} about here
 \end{center}
 
-The energy consumption data from Roger Fouquet covers England and Wales for the entire study period (1300 -- 1873). A word about why I end analysis in 1873: that is the end date Robert Allen \footnote{Allen (2009)} places on the EIR. I can make a case from the data that it was a few years later, perhaps 1876, but there is little difference.
+The energy consumption data from Roger Fouquet covers England and Wales for the entire study period (1300 -- 1873). A word about why I end analysis in 1873: that is the end date Robert Allen (\citeyear{allen_british_2009}) places on the EIR. I can make a case from the data that it was a few years later, perhaps 1876, but there is little difference.
 
 The gross domestic product data is composed from data series from Graeme Snooks and Lawrence Officer. The normalizing index is 2005 Great Britain Pounds. For this study period, those were the closest to England/Wales gross domestic product data that I have found.
 
@@ -140,7 +138,7 @@ Figure \ref{fig:overall levels} about here
 
 All such historical series are clearly composed, modelled, estimated, and thus fraught; a common problem with macroeconomic data to the present day. That said, I reserve special admiration in general for the work of the English economics historians. And these series are generally bounded by their starting point, their ending point, and various benchmarks along the way. The historians use a variety of methods to validate their work. In general, they cannot be too far wrong with the worst case being shifts by several decades in the shape of the curve. And the later data is generally better.
 
-I do not claim these series are definitive for all time, simply the best I know of at this point, and probably good enough. Their shapes clearly affect the analysis to follow. As better series appear, I will incorporate them into this analytic framework.
+I do not claim these series are definitive for all time, simply the best I know of at this point, and possibly good enough. Their shapes clearly affect the analysis to follow. As better series appear, I will incorporate them into this analytic framework.
 
 \begin{comment}
 compare gdp, energy, pop series. table for sources\\
@@ -150,16 +148,22 @@ e -- foquet vs. warde
 \end{comment}
 
 \subsection{Methodology}		%3
-This paper uses largely descriptive statistics of the three data series to describe the EIR. Much of the discussion of results depends on the graphs. I do provide analytic statistics including correlations, sample tests, structural break analyses, bi-variate Granger causality tests, \footnote{Granger (1969)} and a scatterplot of energy consumption and gross domestic product. I also discuss the results in the context of microeconomic and macroeconomic theory.
+This paper uses largely descriptive statistics of the three data series to describe the EIR. Much of the discussion of results depends on the graphs. I do provide analytic statistics including correlations, sample tests, structural break analyses, bi-variate Granger causality tests (\cite{granger_investigating_1969}), and a scatterplot of energy consumption and gross domestic product. 
+
+I also discuss the results in the context of microeconomic and macroeconomic theory, in a way consistent with the observed data.
 
 I do not estimate a formal empirical model, such as a regression, as that seems redundant after examining the scatterplot. The correlation between energy consumption and gross domestic products is strikingly, and visibly, strong.
 
-In an appendix, I do provide substantial time series analyses as a foundation for formal modelling when this work is extended to examining how important certain historical events are in explaining the outcome. I believe that will be the best use of formal modelling; the approach in this paper is sufficient to support my stated hypothesis.
+%In an appendix, I provide substantial time series analyses as a foundation for formal modelling when this work is extended to examining how
 
-\section{Results and discussion}		%6
+In a future version, I will provide substantial time series analyses as a foundation for formal modelling when this work is extended to examining how important certain historical events are in explaining the outcome. I believe that will be the best use of formal modelling; the approach in this paper is sufficient to support my stated hypothesis.
+
+Anticipating the, potentially many, issues my claims will raise, I enumerate my known ones in a list summarized in table \ref{tbl:issues}. My goal, and hope, is that comments will either add issues to or remove them from the list. Further, I encourage comments on approaches to resolving these important historical issues.
+
+\section{Results}		%6
 
 \subsection{Modern economic growth}
-Simon Kuznets defined modern economic growth as high rates of growth of per capita product and population. Figures \ref{fig:ggdp} and \ref{fig:gdpLog} indicate that England experienced high rates of growth of per capita product in (possibly) two eras, from 1500 to 1600 that was not sustained, and after 1750 that was mostly sustained. Clearly after about 1820 England had a high and sustained rate of growth in per-capita product here measured as gross domestic product. The annual rate after 1800 was 2.4 percent per-year total growth and 1.1 percent per-capita growth as seen in table \ref{tbl:growthByCentury}. Figure \ref{fig:popLog} shows the log of population growth which, supporting the Kuznets definition, mirrors GDP growth with a lag.
+Simon Kuznets defined modern economic growth as high rates of growth of per-capita product and population (\cite{kuznets_modern_1966}). Figures \ref{fig:ggdp} and \ref{fig:gdpLog} indicate that England experienced high rates of growth of per-capita product in (possibly) two eras, from 1500 to 1600 that was not sustained, and after 1750 that was mostly sustained. Clearly after about 1820 England had a high and sustained rate of growth in per-capita product here measured as gross domestic product. The annual rate after 1800 was 2.4 percent per-year total growth and 1.1 percent per-capita growth as seen in table \ref{tbl:growthByCentury}. Figure \ref{fig:popLog} shows the log of population growth which, supporting the Kuznets definition, mirrors GDP growth with a lag.
 
 \begin{center}
 Figures \ref{fig:ggdp} and \ref{fig:gdpLog} about here\\
@@ -170,11 +174,11 @@ Table \ref{tbl:growthByCentury} about here
 
 
 \subsection{An energy revolution}
-This paper's central assertion is that the EIR was, primarily, an energy revolution. Specifically a consumer consumption revolution supported by an energy supply revolution. To support that hypothesis, first I present the data:
+This paper's central assertion is that the EIR was, primarily, an energy revolution. More generally, this was a consumer goods consumption revolution enabled by an energy supply revolution. To support that hypothesis, first I present the data:
 
-Figure \ref{fig:energyLog} displays the log of energy consumption over the study period; the vertical lines are formally determined structural breaks. The log presentation enhances rate-of-change and potential structural differences in the series. I note four significantly different periods or regimes. The first is from 1300 to 1500, a period dominated by the Black Death epidemic; energy consumption clearly drops, then recovers. The second is from 1500 to roughly 1600 as determined by the structural break. The third is the period from 1600 to roughly 1750; note that the rate-of-change of energy growth in this period is approximately the same as in the prior period; this rate of change similarity is confirmed by the presentation in table \ref{tbl:growthByCentury}. The final period is from 1750 through 1873; clearly the energy consumption rate-of-change accelerates as confirmed by the structural breaks in \ref{fig:energyLog} and table \ref{tbl:growthByCentury}.
+Figure \ref{fig:energyLog} displays the log of energy consumption over the study period; the vertical lines are formally determined structural breaks.\footnote{The structural breaks use an F-test methodology on the time series as implemented in the $R$ package struccchange, \cite{zeileis_strucchange:_2002}} The log presentation enhances rate-of-change and potential structural differences in the series. I note four significantly different periods or regimes. The first is from 1300 to 1500, a period dominated by the Black Death epidemic; energy consumption clearly drops, then recovers. The second is from 1500 to roughly 1600 as determined by the structural break. The third is the period from 1600 to roughly 1750; note that the rate-of-change of energy growth in this period is approximately the same as in the prior period; this rate of change similarity is confirmed by the presentation in table \ref{tbl:growthByCentury}. The final period is from 1750 through 1873; clearly the energy consumption rate-of-change accelerates as confirmed by the structural breaks in figure \ref{fig:energyLog} and table \ref{tbl:growthByCentury}.
 
-Based on the structural changes, and based on the hypothesis that the EIR was an energy revolution, I propose that the revolution happened in two stages: one starting in the late sixteenth century, and one starting after 1750. The first, under this hypothesis, would have set the stage for the second.
+Based on the structural changes, and based on the hypothesis that the EIR was an energy revolution, I propose that the revolution happened as two main eras: one starting in the mid-to-late sixteenth century,\footnote{This validates John U. Nef's hypothesis of an early start to the British Industrial Revolution \cite{nef_rise_1932}}, and one starting after 1750. The first, under this hypothesis, would have set the stage for the second. The second could not have been possible without the first.
 
 \begin{center}
 Figure \ref{fig:energyLog} about here
@@ -192,7 +196,7 @@ The dynamics of GDP growth and energy consumption growth can be seen more clearl
 Figure \ref{fig:energyVsGdpDiff} about here
 \end{center}
 
-The Black Death and its aftermath affected the relatively flat net economic performance from 1300 to 1500, but set the stage for a growth boom in the period 1500 to 1600. In the period 1600 to 1750 growth in both relatively flattened, and then boomed during the period 1750 to 1873.
+The Black Death and its aftermath affected the relatively flat net economic performance from 1300 to 1500, but set the stage for a growth boom in the period 1500 to 1600. In the period 1600 to 1750 growth in both relatively flattened, and then boomed again during the period 1750 to 1873.
 
 \subsection{Correlations}
 
@@ -204,7 +208,9 @@ Starting simply, a Pearson's correlation coefficient and a paired t-test of ener
 Table \ref{tbl:fitTest} about here
 \end{center}
 
-These simple results suggest that the two series are statistically very similar; a more formal co-integration test could be expected to be positive and is presented in section \ref{app:Appendix B}. However, for the purposes of this paper, a scatterplot of the series is shown in figure \ref{fig:scatterplot}. The solid green line is a linear fit; the solid red line is a \textit{lowess} (non-parametric, non-linear) fit.
+%These simple results suggest that the two series are statistically very similar; a more formal co-integration test could be expected to be positive, and is presented as Appendix B in section \ref{app:Appendix B}. However, for the purposes of this paper, a scatterplot of the series 
+These simple results suggest that the two series are statistically very similar; a more formal co-integration test could be expected to be positive, and will be  presented in a future version. However, for the purposes of this paper, a scatterplot of the series 
+is shown in figure \ref{fig:scatterplot}. The solid green line is a linear fit; the solid red line is a \textit{lowess} (non-parametric, non-linear) fit.
 
 \begin{center}
 Figure \ref{fig:scatterplot} about here
@@ -212,34 +218,33 @@ Figure \ref{fig:scatterplot} about here
 
 Clearly, there is a very high correlation between the two series. For current purposes, more formal modelling is not needed. Overall statistically, these two series are very close to being the same, that is they share a common data generating process. In a strong sense this is a validation of the thermodynamic view of economic production and growth at least in the long run.
 
+From an economics point of view, this graph suggests a Leontief, fixed-factors production function, which could also be consistent with a Sraffian production interpretation.
+
 However, this overall view does hide important dynamics that the data contain. I examine these more subtle results next, and thereby set the stage for telling a history of the EIR.
 
 
 \subsection{Causality tests}
-I continue by using basic statistical causality tests, specifically the Granger bi-variate test to examine changing dynamics. \footnote{Granger (1969)} Table \ref{tbl:grangerEnergyGdp} reports this result for the four main eras already identified.
+I continue by using basic statistical causality tests, specifically the Granger bi-variate test to examine changing dynamics (\cite{granger_investigating_1969}). Table \ref{tbl:grangerEnergyGdp} reports this result for the four main eras already identified.
 
 \begin{center}
 Table \ref{tbl:grangerEnergyGdp} about here
 \end{center}
 
-During the first energy/GDP era Granger causality between energy and GDP runs both ways at significant levels; while not ignoring these results, I do not want to over-interpret what was happening given the huge shocks of the Black Death. However, it is significant for later eras that the Black Death caused wages to rise, and the European Marriage Pattern (EMP) \footnote{Hajnal (1965)} increased family incomes entering the early modern period.
+During the first energy/GDP era Granger causality between energy and GDP runs both ways at significant levels; while not ignoring these results, I do not want to over-interpret what was happening given the huge shocks of the Black Death. However, it is significant for later eras that the Black Death caused wages to rise, and the European Marriage Pattern (EMP)(\cite{hajnal_european_1965}) increased family incomes entering the early modern period.
 
-During the second energy/GDP era of 1500 to 1600 causality from GDP growth to energy consumption is weakly significant; energy Granger-causing GDP growth is not at all significant.
+During the second energy/GDP era of 1500 to 1600 causality from GDP growth to energy consumption is weakly significant; energy Granger-causing GDP growth is not at all significant. However there is narrative evidence that this was an important proto-industrial period in which home manufacture for markets became important; this is the ``Industrious Revolution'' of Jan de Vries (\citeyear{de_vries_industrial_1994}). Further, there is evidence that the English state supported an early version of Import Substitution Industrialization to replace imports, and to export (\cite{thirsk_economic_1978}). These events support the idea that demand must have been growing, both in domestic consumption markets and for military goods from the government, and eventually for exports.
 
-In the third energy/GDP era of 1600 to 1750, neither direction of causality is significant. This will turn out to have important implications as I build the historical shortly for the EIR.
+These events occurred in a backdrop of global population growth during a century of benign agricultural climate; croplands expanded, food was plentiful, real wages likely grew, nuptiality and fertility increased, and England participated in this bounty.
+
+In the third energy/GDP era of 1600 to 1750, neither direction of causality is significant. This will turn out to have important implications as I build the history for the EIR.
 
 In the fourth energy/GDP era of 1750 to 1873, we again see both directions of causality significant, with GDP Granger-causing energy consumption being the stronger.
 
-Notably, through the entire study period GDP Granger-causes energy consumption more significantly than energy Granger-causes GDP, but causality is significant in both directions.
+Notably, over the entire study period GDP Granger-causes energy consumption more significantly than energy Granger-causes GDP, but causality is significant in both directions.
 
 \subsection{Structural breaks}
 
-Figure \ref{fig:structural} juxtaposes frames with logs of energy consumption, gross domestic product, and population, each with formal structural break lines noted. The point here is to note the correspondence of the structural breaks, again suggesting the same underlying data generating process.
-
-\begin{center}
-Figure \ref{fig:structural} about here
-\end{center}
-
+Figure \ref{fig:structural} juxtaposes frames with logs of energy consumption, gross domestic product, and population, each with formal structural break lines noted. The point here is to note the correspondence of the structural breaks, again suggesting the same underlying data generating process, but with causality-implying lags.
 
 \section{Discussion of results}
 
@@ -247,76 +252,109 @@ I can now present a story of the EIR as supported by the data presented above.
 
 \subsection{Narrative discussion}
 
-Energy/GDP era one, due to the Black Death, saw both negative demand and supply shocks, but set the stage for the following EIR eras. 
+Energy/GDP era one, due to the Black Death, saw both negative demand and supply shocks, but set the stage for the following EIR eras through long-term effects on wages, incomes, and effective aggregate demand. More broadly, the five centuries prior to era one comprise the Medieval Warming Epoch (or Period) supporting higher agricultural output and population levels, both supporting effective aggregate demand through expanded incomes. See figure \ref{fig:temps}.
 
-In energy/GDP era two, wages rose due to the negative labor supply shock of era one. Demand had positive shocks, as a result both of wages and  of incomes rising due to later marriages and women working -- the EMP outcomes. Supply expanded as can be seen by the stronger growth of energy consumption. Refer to table \ref{tbl:growthByCentury} or figure \ref{fig:energyLog}. This era provided the demand shocks and supply constraints that caused the EIR. It started here.
+\begin{center}
+Figure \ref{fig:temps} about here
+\end{center}
 
-In energy/GDP era three, rates of growth for both GDP and energy consumptions stagnated. A story that fits the data, and the history, is that this era was one of a negative energy supply shock, and for the whole economic system growth slowed. This era was the transition between primarily wood-supplied energy to primarily coal-supplied energy. As London grew because of exports and world trade domination, wood became scarcer and more expensive, driving demand for coal for heating from the north east. You can see this pattern during the 1600 to 1750 era three in the following figure \ref{fig:woodCoal}.
+
+In energy/GDP era two, wages rose due to the negative labor supply shock of era one. Demand had positive shocks, as a result both of wages and  of incomes rising due to later marriages and women working -- the EMP outcomes -- and favorable agricultural conditions.  Expanded household production (\cite{de_vries_industrial_1994}) and explicit import substitution policies starting with Henry VIII, and continuing through Edward VI and Elizabeth I, supported increased aggregate demand. (\cite{thirsk_economic_1978}) See table \ref{tbl:monarchs} for reigns. Supply expanded as can be seen by the stronger growth of energy consumption. Refer to table \ref{tbl:growthByCentury} or figure \ref{fig:energyLog}. This era provided the positive demand shocks and supply constraints that caused the EIR. It started here.
+
+John Nef amplifies this view. He tells the story of era two as the ``age of timber.'' The time frames are a bit different, he says ``\ldots no less appropriate to call the sixteenth and seventeenth centuries an age of timber'' (\citeyear{nef_rise_1932}, p.191). Nef tells a very rich story of rising use of timber for industrial and home heating use, and for construction, and the beginnings of a timber crisis. My dates for era two are 1500--1600, which Nef's dates overlap by going into my era three.
+
+In energy/GDP era three, rates of growth for both GDP and energy consumptions stagnated. This still puzzles scholars including Braudel and Hobsbawm, but there are several potential stories that I will sketch out here. Returning to figure \ref{fig:temps}, notice that a decline in mean temperatures occurred in the early modern era. This era is called the Little Ice Age, and is believed to have been a global phenomenon. This would have opposite effects from the Medieval Warming Epoch, that is reduce agricultural output and population levels, and a negative aggregate demand shock due to reduced income levels. In a sense, this is also a negative energy supply shock, featuring reduced growing space and time due to less effective insolation.  
+
+Scholarly discussion of both the Medieval Warming Epoch and the Little Ice Age seems concentrated among paleoclimatologists; yet they often refer to the effects on the economy, sometimes citing contemporaneous accounts. Jean Grove provides a survey in "The Little Ice Age " (\cite{grove_little_2003}). Hubert Lamb is often cited as an early researcher.\footnote{See, for example, \cite{lamb_aspects_1980}} Lamb describes failed grain harvests in Scotland, and the disappearance of the cod schools in the Atlantic. These examples are typical, though not the focus, in the climatology literature. They do provide a plausible economic explanation for the stagnation in GDP, and the lagged stagnation in population growth.
+
+A related story that fits the data, and the history, is that this era was one of a negative energy supply shock due to deforestation, and growth in the whole economic system thus slowed. This era was the transition between primarily wood-supplied energy to primarily coal-supplied energy for industrial and home heat needs. As London grew because of internal growth, exports, and world trade domination, wood became scarcer and more expensive, driving demand for coal for heating from the north east. You can see this pattern during the 1600 to 1750 era three in the following figure \ref{fig:woodCoal}.
 
 \begin{center}
 Figure \ref{fig:woodCoal} about here
 \end{center}
 
-This demand for heating coal and the fortuitous geology of the English coal mines created the path necessary to support energy/GDP era four, in which the EIR accelerated into modern economic growth via the virtuous, mutually reinforcing, growth cycle between GDP and energy consumption. 
+Notably, this is also the era Nef calls the ``first energy crisis'' (\cite{nef_early_1977}). During the period 1550 to 1700, according to Nef, increased heating and building demand for wood, and reduced woodlands due to agricultural demands, caused wood prices to rise dramatically.
 
-The geology story is that the coal mines were water-infused, and as they were dug deeper, more water had to be pumped out. This provided an economically feasible site for the seminal but very inefficient Newcomen steam engines to pump the water. The coal was essentially free to power the engines. Human or horse power were too expensive. And as the steam engines gained efficiency, they began to be applied to industrial capitalism. That is the story of energy/GDP era four, the age of steam. I turn next to telling that story in more detail; again it is an economic story, supported by data.
+We can hypothesize that this series of events provided the economic pressure to cause the first phase of the energy revolution -- the transition from wood to coal for heating needs.
+
+A further potential explanation appeals to political events, mainly the large number of wars during the period. By and large the contemporary anecdotes were that war was economically stimulative (\cite{thirsk_economic_1978}). 
+
+In the editing process for this paper, I reviewed further work of Jan de Vries, who reportedly denigrated any climatic explanation; in "The economy of Europe in an age of crisis, 1600-1750" de Vries indeed says the climate evidence is not consistent with population evidence; my work shows population lags GDP, which was plausibly affected by climate change, suggesting a more consistent data set. Separately, I note that my energy/GDP era three has the same year boundaries as de Vries (\citeyear{de_vries_economy_1976}). De Vries also has an extensive empirical look at Dutch temperatures and various measures of agricultural output. In the end he comes to few conclusions except that time-series data are essential, a conclusion I share (\cite{de_vries_measuring_1980}).
+
+This demand for heating coal arising from the first energy crisis and the fortuitous geology of the English coal mines created the path necessary to support energy/GDP era four, in which the second phase of EIR accelerated into modern economic growth via the virtuous, mutually reinforcing, growth cycle between GDP and energy consumption. 
+
+The geology story is that the coal mines were water-infused, and as they were dug deeper, more water had to be pumped out. This provided an economically feasible site for the seminal but very inefficient Newcomen steam engines to pump the water. The coal was essentially free to power the engines. Human or horse power were too expensive. And as the steam engines gained efficiency, they began to be applied to the products of industrial capitalism. That is the story of energy/GDP era four, the age of steam. I turn next to telling that story in more detail; again it is an economic story, supported by the data.
 
 
 \subsection{Theory discussion}
 
-We have already examined the GDP and energy consumption data for the fourth era. To finish the story, I will retreat to economic theory. First, I summarize the eras in aggregate supply/aggregate demand charts; second, I address the question of what were the incentives for the English inventor/entrepreneur to spend the time and money to make the inventions of the EIR, particularly the steam engine. To do this, I appeal to microeconomic theory.
+We have already examined the GDP and energy consumption data for the fourth era. To finish the story, I will retreat to economic theory. First, I summarize the eras in aggregate supply/aggregate demand charts; second, I address the question of what caused the English inventor/entrepreneur to spend the time and money to make the inventions of the first and second phases of the EIR, particularly the steam engine. To do this, I appeal to standard microeconomic theory.
 
-Figure \ref{fig:asad} displays the four eras in an aggregate demand/aggregate supply (AS/AD) framework. The dotted lines indicate prior locations of AS/AD; solid lines indicate the ending locations. Lines colored red indicate the constraint in each era. These are obviously abstract depictions of the history I have told above. I do this for two reasons; first to solidify and emphasize the history so that the debate can commence; second to provide a framework for later projects incorporating the institutional and cultural events into the history. If we can agree on the AS/AD by era, then we can hypothesize about those events that might have caused the location or shape to change and then test those ideas in an econometric framework.
+Figure \ref{fig:asad} displays the four eras in an aggregate demand/aggregate supply (AD/AS) framework. The dotted lines indicate prior locations of AD/AS; solid lines indicate the ending locations. Lines colored red indicate the constraint in each era. These are obviously abstract depictions of the history I have told above. I do this for two reasons; first to solidify and emphasize the history so that the debate can proceed; second to provide a framework for later projects incorporating the institutional and cultural events into the history. If we can agree on the AD/AS by era, then we can hypothesize about those events that might have caused the location or shape to change and then test those ideas in an econometric framework.
 
 
 \begin{center}
 Figure \ref{fig:asad} about here
 \end{center}
 
-A notable observations is that energy/GDP era four is the first in which supply was not the constraint; according to the Granger causality tests, supply and demand were jointly constraining in that era, but the lack of relative barriers in consuming energy was surely the defining event of the era.
+A notable observation is that energy/GDP era four is the first in which supply was not the constraint; according to the Granger causality tests, supply and demand were jointly constraining in that era. Statistically, only GDP Granger-causing energy consumption is significant at normal levels, but the lack of relative barriers in consuming energy was surely the uniquely defining event of the era.
 
-Second for the theoretical discussion of the EIR, it is important to consider at the microeconomic level what can explain the event. At this level I will discuss only the supply side having already suggested the demand side factors. So the question becomes what were the incentives or motivations of the English inventors and entrepreneurs during energy/GDP eras two and three, so from 1500 through 1750.
+Second for the theoretical discussion of the EIR, it is important to consider at the microeconomic level what can explain the event. At this level I will discuss only the supply side having already suggested a story of the important demand-side factors. So the question becomes what were the incentives or motivations of the English inventors and entrepreneurs during energy/GDP eras two and three, so from 1500 through 1750.
 
 For this analysis I rely on three sources; first the contemporaneous comments of a key participant in the EIR; second the excellent work of Robert Allen; and third an appeal to microeconomic theory.
 
-Jean Theophilus Desagulier had a large influence on the EIR. He was an eighteenth century English ``natural philosophe (physicist), member of the Royal Society, colleague of Sir Isaac Newton, and author of ``A Course of Experimental Philosophy.'' This was an influential two-volume engineering text that contained a chapter on ``Fire-Engines'' (steam engines). In this chapter, Jean Theophilus describes the economic and scalability motives of replacing men and horses with coal-fired steam engines to pump water out of Newcastle mines.  Profit was on his mind.  The age of the industrial capitalism, fueled by fossil energy, was dawning. \footnote{Desaguliers 1734, vols. II, 467-468}
+Jean (or John) Theophilus Desaguliers had a large influence on the EIR. He was an eighteenth century English ``natural philosopher (physicist), member of the Royal Society, colleague of Sir Isaac Newton, and author of ``A Course of Experimental Philosophy.'' This was an influential 1734 two-volume engineering text that contained a chapter on ``Fire-Engines'' (steam engines). In this chapter, Jean Theophilus describes the economic and scalability motives of replacing men and horses with coal-fired steam engines to pump water out of Newcastle mines.  Profit was on his mind.  The age of the industrial capitalism, fueled by fossil energy, was dawning (\cite{desaguliers_course_1734}, vols. II, 467-468).
 
-Figure \ref{fig:desagulier} shows a page of this manuscript.
+Figure \ref{fig:desagulier} shows a page of his manuscript.
 
 \begin{center}
 Figure \ref{fig:desagulier} about here
 \end{center}
 
-Beyond the quaintness of the 1734 English prose, this man demonstrated the soul of a profit-maximizing capitalist. In that context, let's examine some data that drove Desagulier.
+Beyond the quaintness of the 1734 English prose, this man demonstrated the soul of a profit-maximizing capitalist. In that context, let us examine some data that drove Desaguliers.
 
 Figure \ref{fig:wage-energy} is from Robert Allen and shows the ratios of real wages to energy costs (the cheapest source) by benchmark city around 1700.
 
 \begin{center}
-Figure \ref{fig:wage-energy} about here \footnote{Allen 2009}
+Figure \ref{fig:wage-energy} about here\footnote{\cite{allen_british_2009}}
 \end{center}
 
-Clearly, Newcastle in 1700 had high wages and very low energy costs, by far the largest ratio in the sample. Those were the economic fundamentals that faced Desagulier and motivated his profit comment. London had the second largest ratio, and thus the economic incentives existed there as well. Beijing had the lowest ratio, a topic I investigate in another research project.
+Clearly, Newcastle in 1700 had high wages and very low energy costs, by far the largest ratio in the sample. Those were the economic fundamentals that faced Desaguliers and motivated his profit comment. London had the second largest ratio, and thus the economic incentives existed there as well. Beijing had the lowest ratio, a topic I investigate in another research project.
 
-While the economics of these ratios may be intuitive, why not appeal to microeconomic theory to help us understand what motivated Desagulier, Newcomen, Watt and all the other founding fathers of the EIR.
+While the economics of these ratios may be intuitive, why not appeal to microeconomic theory to help us understand what motivated Desaguliers, Newcomen, Watt and all the other founding fathers of the EIR. Equation \ref{eq:mrp} is a variation on production theory that will be familiar to those who remember their Econ 101. A major topic of mainstream production theory is how entrepreneurs maximize profits given the derived demand curves of the various input choices. 
 
-Equation \ref{eq:mrp} is a variation on production theory that will be familiar to those who remember their Econ 101. A major topic of production theory is how entrepreneurs maximize profits given the derived demand curves of the various input choices. This equation is a variation on that theme: \footnote{We can proceed either with a neo-classical factor substitution argument, or a more general classical view of normal prices of production. Either approach will react to the enormous productivity-enhancing energy supply shock that was the Industrial Revolution. A more challenging story to tell is one which identifies the sources of aggregate demand that supported expansion of English production. Here, I simply stipulate that aggregate demand existed.}
+This equation is a variation on that theme:\footnote{We can proceed either with a neo-classical factor substitution argument, or a more general classical view of normal prices of production. Either approach will react to the enormous productivity-enhancing energy supply shock that was the Industrial Revolution. A more challenging story to tell is one which identifies the sources of aggregate demand that supported expansion of English production. Here, I simply stipulate that aggregate demand existed.}
 
 
 \begin{center}
 Equation \ref{eq:mrp} about here
 \end{center}
 
-Instead of using different substitutable inputs such as labor and capital, I apply the theory to the different sources of energy, energy being essentially the only non-substitutable input as in you must have joules from whatever source to do an economic transformation. This equation is written as the profit-maximizing equilibrium that will substitute between human-input joules and coal-input joules. Clearly, the equation needs additional terms to cover the amortization of whatever equipment is necessary to apply either kind of joule, but also clearly from just what is written we see that when wage-to-energy cost ratios are sufficiently high, entrepreneur/inventors will be motivated to substitute coal joules for human joules. And that is what happened at the micro level to drive the EIR, first in Newcastle atop the mines, then in London, later spreading to the world.
+Instead of using different substitutable inputs such as labor and capital, I apply the theory to the different sources of energy, energy being essentially the only non-substitutable input as in you must have joules from whatever source to do any economic transformation. 
+
+This equation is written as the profit-maximizing equilibrium that will substitute between different energy sources, say wood and coal for heating as wood becomes scarce; and, say, human-input joules replaced by coal-input joules as wages rise. Clearly, the equation needs additional terms to cover the amortization of whatever equipment is necessary to apply either kind of joule, but also clearly from just what is written we see that when wage-to-coal-energy cost ratios are sufficiently high, entrepreneur/inventors will be motivated to substitute coal joules for human joules. And that is what happened at the micro level to drive the EIR, first in Newcastle atop the mines, then in the English textile mills, then other English industries, later spreading to the world.
+
+
+\section{Unresolved issues}
+This essay is focused on exploring a data-driven economic explanation using energy inputs as primary in causing the Industrial Revolution. As space here is constrained, and given the claims the paper makes, there will be a (possibly very) large number of unresolved issues. I will initiate the list here as table \ref{tbl:issues}.
+
+\begin{center}
+Table \ref{tbl:issues} about here
+\end{center}
+
+In general E. A. Wrigley has the most textured descriptions over many publications of what uniquely occurred in England which was a transition from, in his terms, an advanced organic economy to an inorganic economy. So much of the reconciliation given my claims will be to his work.
 
 \section{Conclusion} %second last
 
-The English Industrial Revolution, whatever else it was, was an \textit{energy consumption} revolution. This stands out as its primary feature, a feature that caused, for the first time in history, modern economic growth. Mankind learned to consume energy in the economic process at a rate that was essentially unbounded, such that there was no longer an energy supply constraint on output.
+The English Industrial Revolution, whatever else it was, was an \textit{energy consumption} revolution. This stands out as its primary feature, a feature that caused, for the first time in history, modern economic growth through large productivity gains. Mankind learned to consume energy in the economic process at a rate that was essentially unbounded, such that there was no longer an energy supply constraint on output.
 
-This happened in England because England had a set of critical conditions that were rare: high wages, high family incomes, sufficient knowledge to construct ``Fire-Engines'', and very low relative energy costs with essentially unlimited supply. Of these critical factors, only England had very low relative energy costs; this last factor then must be deemed the necessary condition for the EIR.
+This happened in England because England had a set of critical conditions that were rare: high wages, high family incomes, sufficient knowledge to construct ``Fire-Engines'', and very low relative energy costs with essentially unlimited supply. Of these critical factors, only England uniquely had very low relative energy costs; this last factor then must be deemed the necessary condition for the EIR.
 
-The EIR happened in distinct stages, each of which can be defined as specific energy/GDP (aggregate supply - aggregate demand) regimes which frame further research on what institutions may have been important. We can use simple macroeconomic principles and data to usefully investigate the EIR. England collectively ``learned'' how to create a positive virtuous macroeconomic growth feedback cycle
+The EIR happened in distinct eras, each of which can be defined as a specific energy/GDP (aggregate supply -- aggregate demand) regime which frames further research on what exogenous institutions and other factors may have been important. We can use data and simple macroeconomic principles to usefully investigate the EIR. England collectively ``learned'' how to create a positive virtuous macroeconomic growth feedback cycle driven by fossil energy consumption.
 
-Further, the behavior of the EIR inventors and entrepreneurs can be explained using simple microeconomic principles. 
+Also, there were two distinct energy transitions which are intertwined in a path-dependent story: the first substituting coal for wood in domestic and industrial heating uses; and the second substituting coal energy for labour energy in industrial mechanical uses enabled initially by the steam engine.
+
+Further, the individual behavior of the EIR inventors and entrepreneurs can be explained using simple microeconomic principles. 
 
 Given all this, extant hypotheses of English cultural and/or institutional exceptionalism seem redundant to the outcome. England was a very lucky country, geographically advantaged, at the right place and time for this miracle to occur.
 
@@ -332,6 +370,10 @@ Reynolds suggests going for AER!\\
 Journal of Applied Econometrics (Dave Giles)\\
 Journal of International Trade and Economic Development (Dave Giles)\\
 \end{comment}
+
+\section{References}
+		\bibliographystyle{agsm}	
+	\bibliography{diss2}
 
 \listoftables
 
@@ -351,7 +393,7 @@ Label&Examples\\
 \hline
 English exceptionalists&Landes (1969), McCloskey (2010), Mokyr (1992,2010)\\
 Partial culturalists&Cipolla (1966), Pomeranz (2001), Allen (2009)\\
-Primarily energetic&Cottrell (1955), Wrigley (1988,2010), Malanima (2010)\\
+Primarily energetic&Cottrell (1955), Wrigley (1988,2010), Malanima (2010), Nef (1932)\\
 Thermodynamicists&Georgescu-Roegen (1975), Ayres (2003), Garrett (2009)\\
 \end{tabular}
 \end{table}
@@ -382,6 +424,31 @@ Population&1300 -- 1540&England&Graeme Snooks (1994)\\
 \end{tabular}
 \end{table}
 \end{comment}
+
+\begin{table}[p!]
+\caption{Wood and total price indices. \textit{Source:} Nef (1932, p.158,221)}
+\label{tbl:woodPrice}
+\center
+\begin{tabular}{lrr}
+Period&General price index&Wood price index\\
+\hline
+1451-1500&100&100\\
+1531-1540&105&94\\
+1551-1560&132&163\\
+1583-1592&198&277\\
+1603-1612&251&366\\
+1613-1622&257&457\\
+1623-1632&282&677\\
+1633-1642&291&780\\
+1643-1652&331&490\\
+1653-1662&308&662\\
+1663-1672&324&577\\
+1673-1682&348&679\\
+1683-1692&319&683\\
+1693-1702&339&683\\
+\end{tabular}
+\end{table}
+
 
 \begin{table}[p!]
 \caption{growth rates by century}
@@ -425,7 +492,7 @@ Chi-square&2864&0.0004998\tabularnewline
 \caption{granger tests of energy/gdp}
 \label{tbl:grangerEnergyGdp}
 \begin{tabular}{lrrl}
-Era&Energy $\sim$ GDP Pr($>$F)& GDP $\sim$ Energy Pr($>$F)&AS/AD regime\\
+Era&Energy $\sim$ GDP Pr($>$F)& GDP $\sim$ Energy Pr($>$F)&AD/AS regime\\
 \hline
 1300 -- 1500&0.0106&0.0003&EMP, Black Death, \\&&&wages/family income increasing\\
 1500 -- 1600&0.1939&0.6126&Positive demand shock\\
@@ -435,6 +502,54 @@ Era&Energy $\sim$ GDP Pr($>$F)& GDP $\sim$ Energy Pr($>$F)&AS/AD regime\\
 1300 -- 1873& 0.0002& 0.0361&Total study period\\
 \end{tabular}
 \end{table}
+
+\begin{table}[p!]
+\caption{Unresolved issues}
+\label{tbl:issues}
+\center
+\begin{tabular}{ll}
+Issue&Comment\\
+\hline
+Reconcile to 1970 English energy study&Humphrey and Stanislaw\\
+Reconcile to Broadberry et al. on agricultural revolution, growth&Broadberry et al. vs. PBH\\
+Reconcile to English agricultural revolution&Wrigley is the starting place\\
+Effects of ``Columbian Exchange'' &Crosby\\
+(e.g. potatoes) on English agriculture&\\
+Reconcile to English urbanization&Again, Wrigley\\
+Paradox of short nineteenth century heights&mentioned by deLong\\
+Reconcile to narrow industry energy scope&McCloskey\\
+Address general purpose technology story&Bresnehan\\
+Reconcile to Nef data&John U. Nef\\
+Reconcile to ``little ice age''&de Vries\\
+Reconcile to Marc Braudel&Marc Braudel\\
+\hline
+\end{tabular}
+\end{table}
+
+\begin{table}[p!]
+\caption{Early modern English monarchs}
+\label{tbl:monarchs}
+\center
+\begin{tabular}{lll}
+Monarch&Reign&House\\
+\hline
+Henry VIII&1509-1547&Tudor\\
+Edward VI&1547-1553&Tudor\\
+Mary I&1553-1558&Tudor\\
+Elizabeth I&1558-1603&Tudor\\
+James I&1603-1625&Stuart\\
+Charles I&1625-1649&Stuart\\
+Oliver Cromwell&1653-1658&Commonwealth\\
+Richard Cromwell&1658-1659&Commonwealth\\
+Charles II&1660-1685&Stuart\\
+James II&1685-1688&Stuart\\
+Mary II&1689-1694&Stuart\\
+William III&1689-1702&Stuart\\
+Anne&1702-1707&Stuart\\
+\hline
+\end{tabular}
+\end{table}
+
 
 \newpage
 
@@ -512,14 +627,21 @@ Era&Energy $\sim$ GDP Pr($>$F)& GDP $\sim$ Energy Pr($>$F)&AS/AD regime\\
 		}
 \end{figure}
 
-\begin{figure}[p!]
+\begin{figure}[H]
+\center
+\caption{Late Holocene temperatures. \textit{source:} NASA and IPCC composite}
+\label{fig:temps}
+\includegraphics[width=0.9\textwidth]{2000_Year_Temperature_Comparison.png}
+\end{figure}
+
+\begin{figure}[h!]
 \center
 \caption{Coal and wood energy sources\\\textit{Source:} Pearson \& Fouquet}
 \label{fig:woodCoal}
 \includegraphics[width=0.9\textwidth]{woodCoal.png}
 \end{figure}
 
-\begin{figure}[p!]
+\begin{figure}[h!]
 		\caption{Aggregate Supply - Aggregate Demand \\ Four energy/GDP regimes}
 		\label{fig:asad}		
 		\centerline{
@@ -528,10 +650,10 @@ Era&Energy $\sim$ GDP Pr($>$F)& GDP $\sim$ Energy Pr($>$F)&AS/AD regime\\
 		\mbox{\includegraphics[width=0.25\textwidth]{era3}}
 		\mbox{\includegraphics[width=0.25\textwidth]{era4}}				
 		}
-		\end{figure}
+\end{figure}
 
-\begin{figure}[p!]
-		\caption{Desagulier manuscript}
+\begin{figure}[h!]
+		\caption{Desaguliers manuscript}
 		\label{fig:desagulier}		
 		\center
 %		\mbox{\includegraphics[width=0.95\textwidth]{desagulier1}}\\
@@ -541,21 +663,21 @@ Era&Energy $\sim$ GDP Pr($>$F)& GDP $\sim$ Energy Pr($>$F)&AS/AD regime\\
 %		}
 \end{figure}
 
-\begin{figure}[p!]
+\begin{figure}[h!]
 \center
 \caption{Real wage to energy ratios\\\textit{Source:} Robert Allen (2009)}
 \label{fig:wage-energy}
 \includegraphics[width=0.9\textwidth]{wage-energy.png}
 \end{figure}
 
-\begin{figure}[p!]
+\begin{figure}[h!]
 \center
 \caption{Standardized English energy intensity of GDP}
 \label{fig:energyIntensity}
 \includegraphics[width=0.9\textwidth]{energyIntensity}
 \end{figure}
 
-\begin{figure}[p!]
+\begin{figure}[h!]
 \center
 \caption{Log of GDP, with structural breaks}
 \label{fig:gbpgdplog.png}
@@ -568,17 +690,18 @@ Era&Energy $\sim$ GDP Pr($>$F)& GDP $\sim$ Energy Pr($>$F)&AS/AD regime\\
 
 		\begin{equation}
 		\label{eq:mrp}
-		\frac{\text{Marginal Revenue Product}_{\text{ organic energy joule}}}{\text{Price}_{\text{ organic energy joule}}} = \frac{\text{Marginal Revenue Product}_{\text{ fossil energy joule}}}{\text{Price}_{\text{ fossil energy joule}}}
+%		\frac{\text{Marginal Revenue Product}_{\text{ organic energy joule}}}{\text{Price}_{\text{ organic energy joule}}} = \frac{\text{Marginal Revenue Product}_{\text{ fossil energy joule}}}{\text{Price}_{\text{ fossil energy joule}}}
+		\frac{\text{Marginal Product}_{\text{ organic energy joule}}}{\text{Price}_{\text{ organic energy joule}}} = \frac{\text{Marginal Product}_{\text{ fossil energy joule}}}{\text{Price}_{\text{ fossil energy joule}}}
 		\end{equation}
-		\myequations{Microeconomic theory - marginal revenue product} 
+		\myequations{Microeconomic theory - marginal product} 
 		
 %granger tests over at least two regimes
+%add back in for full paper
+%\section{Appendix A. Detailed Granger test output} 
+%\label{app:Appendix A}
 
-\section{Appendix A. Detailed Granger test output} 
-\label{app:Appendix A}
-
-\section{Appendix B. Time series analyses}
-\label{app:Appendix B}
+%\section{Appendix B. Time series analyses}
+%\label{app:Appendix B}
 
 \begin{comment}
 \section{Appendix C. Future research}
@@ -1680,11 +1803,16 @@ $\bold{R}$&concentrated notation of VAR model for notational simplicity\\
 \end{longtable}
 %\end{center}
 
-\end{document}
-
-\section{End}
+\end{document} \section{End}
 
 \section{notes}
+\subsection{2013 EHA notes}
+Nef, Habakuk\\
+Agriculture transition\\
+
+\subsection{Thirsk 05/13}
+ISI, government encouraged, sponsored\\
+demand?\\
 
 \subsection{committee notes}
 Tim -- remove personal references e.g. Marx  %done 10/13/11
