@@ -61,12 +61,88 @@
 %\begin{flushleft}
 %$$
 \begin{flalign*}
-&E^a = - \underline{\nabla} \phi^a - \frac{\partial A^a}{\partial t} - \omega^a_{0b}A^b + \omega^a_b \phi^b\\
-&B^a = \underline{\nabla} \times A^a - \omega^a_b \times A^b\\
+&\bold{E}^a = - \underline{\nabla} \phi^a - \frac{\partial \bold{A}^a}{\partial t} - \omega^a_{0b}\bold{A}^b + \pmb{\omega}^a_b \phi^b\\
+&\bold{B}^a = \underline{\nabla} \times \bold{A}^a - \pmb{\omega}^a_b \times \bold{A}^b\\
 \end{flalign*}
 \begin{flalign*}
-&\underline{\nabla} \cdot B^a = 0\\
-&\underline{\nabla} \times E^a + \frac{\partial B^a}{\partial t}= 0\\
+&\underline{\nabla} \cdot \bold{B}^a = 0\\
+&\underline{\nabla} \times \bold{E}^a + \frac{\partial \bold{B}^a}{\partial t}= 0\\
+\end{flalign*}
+\end{frame}
+
+\begin{frame}
+\frametitle{Need for Non-Linearity}
+From Gauss's Law
+\begin{flalign*}
+&\underline{\nabla} \cdot (\pmb{\omega}^a_b \times \bold{A}^b) = 0\\
+&\pmb{\omega}^a_b \times \bold{A}^b = \underline{\nabla} \times \bold{F}^a\\
+\end{flalign*}
+Note that if
+\begin{flalign*}
+F^a = - A^a
+\end{flalign*}
+This is the ``Lindstrom Constraint'' for magnetic antisymmetry.
+\end{frame}
+
+\begin{frame}
+\frametitle{Need for Non-Linearity}
+Substituting these into the Faraday Equation
+\begin{flalign*}
+&\underline{\nabla} \times \left(- \omega^a_{0b}\bold{A}^b + \pmb{\omega}^a_b \phi^b - \frac{\partial \bold{F}^a}{\partial{t}} \right)=0\\
+&- \omega^a_{0b}\bold{A}^b + \pmb{\omega}^a_b \phi^b - \frac{\partial \bold{F}^a}{\partial{t}}  = \underline{\nabla} \psi^a\\
+\end{flalign*}
+Write
+\begin{flalign*}
+&\Phi^a = \phi^a - \psi^a \quad \quad \quad \bold{\mathcal{A}}^a = \bold{A}^a - \bold{F}^a\\
+\end{flalign*}
+Then a Maxwell-Heaviside theory emerges, i.e.
+\begin{flalign*}
+&\bold{E}^a = -\underline{\nabla}\Phi^a - \frac{\partial \bold{\mathcal{A}}^a}{\partial t} \quad \quad \quad \bold{B}^a = \underline{\nabla} \times \bold{\mathcal{A}}^a\\
+\end{flalign*}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Non-Linear Field Equations}
+From the first Bianchi Identity
+\begin{flalign*}
+&\partial_{\mu} \widetilde{T}^{\; a \mu \nu} + \omega^a_{\;\; \mu b} \widetilde{T}^{\; b \mu \nu} = \widetilde{R}^{\;\; a \mu \nu}_\mu\\
+&\partial_{\mu} T^{\; a \mu \nu} + \omega^a_{\;\; \mu b} T^{\; b \mu \nu} = R^{\;\; a \mu \nu}_\mu\\
+\end{flalign*}
+Until now
+\begin{flalign*}
+&j^{a \nu}_H  = \widetilde{R}^{\;\; a \mu \nu}_\mu - \omega^a_{\;\; \mu b} \widetilde{T}^{\; a \mu \nu} \approx 0\\
+&j^{a \nu}_I = R^{\;\; a \mu \nu}_\mu - \omega^a_{\;\; \mu b} T^{\; a \mu \nu} \\
+\end{flalign*}
+Giving
+\begin{flalign*}
+&\partial_{\mu} \widetilde{T}^{\; a \mu \nu} \approx 0 \quad \quad \quad \partial_{\mu} T^{\; a \mu \nu} = j^{a \nu}_I \\
+\end{flalign*}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Non-Linear Field Equations}
+If we redefine the 4-current densities as
+\begin{flalign*}
+&j^{a \nu}_I = R^{\;\; a \mu \nu}_\mu \\
+&j^{a \nu}_H  = \widetilde{R}^{\;\; a \mu \nu}_\mu \approx 0\\
+\end{flalign*}
+Then new non-linear field equations emerge
+\begin{flalign*}
+&\partial_{\mu} T^{\; a \mu \nu} + \omega^a_{\;\; \mu b} T^{\; b \mu \nu} = R^{\;\; a \mu \nu}_\mu = j^{a \nu}_I\\
+&\partial_{\mu} \widetilde{T}^{\; a \mu \nu} + \omega^a_{\;\; \mu b} \widetilde{T}^{\; b \mu \nu} = \widetilde{R}^{\;\; a \mu \nu}_\mu = j^{a \nu}_H \approx 0\\
+\end{flalign*}
+\end{frame}
+
+\begin{frame}
+\frametitle{Non-Linear Field Equations}
+In vector notation
+\begin{flalign*}
+&\underline{\nabla} \cdot \bold{B}^a - \pmb{\omega}^a_b \cdot \bold{B}^b = 0\\
+&\underline{\nabla} \times \bold{E}^a + \frac{\partial \bold{B}^a}{\partial	t} + \omega^a_{0b}\bold{B}^b - \pmb{\omega}^a_b \times \bold{E}^b = 0\\
+&\underline{\nabla} \cdot \bold{D}^a - \pmb{\omega}^a_b \cdot \bold{D}^b = \rho^a\\
+&\underline{\nabla} \times \bold{H}^a + \frac{\partial \bold{D}^a}{\partial	t} + \omega^a_{0b}\bold{D}^b - \pmb{\omega}^a_b \times \bold{H}^b = \bold{J}^a\\
 \end{flalign*}
 
 \end{frame}

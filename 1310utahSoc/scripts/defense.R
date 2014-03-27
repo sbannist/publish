@@ -1,0 +1,425 @@
+## for 5/1/12 topic defense and subsequent papers
+
+filepath <- c('../data/')
+
+load(paste(filepath,"dissert.RData",sep=""))
+require(strucchange)
+require(ggplot2)
+
+plot(mtoesplineln)
+mtoebp <- ts(mtoesplineln,start=1300)         #for ggplot will need to change to a non-ts object
+
+## use mtoespline without ln log conversion, do conversion in ggplot
+
+df.mtoespline <- as.data.frame(mtoespline)
+df.mtoespline$date <- index(mtoespline)
+
+df.diff.mtoesplineln <- as.data.frame(diff(mtoesplineln))
+df.diff.mtoesplineln$date <- index(mtoesplineln)[1:708]
+
+
+bp.mtoe <- breakpoints(mtoebp ~ 1,breaks = 3) ### based on BIC,RSS
+summary(bp.mtoe)
+plot(bp.mtoe)
+ci.mtoe <- confint(bp.mtoe)
+plot(mtoebp)
+lines(ci.mtoe)
+
+begin <- min(df.mtoespline$date)
+end <- 1874
+
+ggplot(df.mtoespline,aes(x=date,y=mtoespline))+
+    geom_line(colour='blue',size=2)+
+    scale_x_continuous(lim = c(begin,end),name='Year')+
+    scale_y_continuous(lim = c(0,70),name='Million Tonnes of Oil Equivalent')+
+    opts(title='English Energy Consumption \n levels scale')
+
+ggsave(file='notes/gmtoe.png') #to save file just printed, so change file name as appropriate
+
+ggplot(df.mtoespline,aes(x=date,y=mtoespline))+
+    geom_line(colour='blue',size=2)+
+    geom_vline(xintercept = c(1590,1736,1844),colour='red',size=1)+
+    scale_x_continuous(lim = c(begin,end),name='Year')+
+    scale_y_continuous(lim = c(0,70))+
+    scale_y_log10(name='log base 10 of Million Tonnes of Oil Equivalent')+
+    ggtitle('English Energy Consumption \n log scale, with structural breakpoints')
+
+filename <- c('gbpmtoelog.png')
+
+## for presentation with colour
+image.path <- c('../images/')
+ggsave(file=paste(image.path,filename,sep=""))
+
+## for publication, essentially enhance theme_bw
+image.path <- c('../images_pub/')
+ggsave(file=paste(image.path,filename,sep=""))
+
+ggsave(file='notes/gbpmtoelog.png') #to save file just printed, so change file name as appropriate
+
+## now do diff plot on logs
+
+ggplot(df.diff.mtoesplineln,aes(x=date,y=diff(mtoesplineln)))+
+    geom_line(colour='blue',size=1.3)+
+    scale_x_continuous(limits=c(1300,1900),name='Year')+
+    scale_y_continuous(limits=c(-0.03,0.065),name='first difference of log of MTOE')+
+    geom_hline(yintercept=0.00,colour='red',size=1.3)+
+    opts(title='English Energy Consumption, MTOE \n first difference of log')
+
+ggsave(filename = 'notes/gdifflogmtoe.png')
+
+### do diff for visual comparison
+
+plot(diff(mtoebp))
+abline(h=0)
+plot(diff(window(mtoebp,end=1900)))
+abline(h=0)
+
+
+### 575  entries through 1874, so create a vector with 575 zeros, then populate for offset
+
+dsubs1 <- ts(rep(0,575), start = 1300) ### to set up for arima.sim with intervention dummy
+window(dsubs1,start=1802) <- 1
+
+### 2 breaks
+dsubs2 <- ts(rep(0,575), start = 1300)
+dsubs2 <- cbind(dsubs2,dsubs2) ### to get two vectors
+window(dsubs2[,1],start=1696) <- 1
+window(dsubs2[,2],start=1839) <- 1
+
+### 3 breaks
+dsubs3 <- ts(rep(0,575), start = 1300)
+dsubs3 <- cbind(dsubs3,dsubs3,dsubs3) ### to get three vectors
+window(dsubs3[,1],start=1590) <- 1
+window(dsubs3[,2],start=1736) <- 1
+window(dsubs3[,3],start=1844) <- 1
+
+library(forecast)
+
+mtoear <- auto.arima(window(mtoebp,end=1874),stepwise=F,xreg=NULL)
+summary(mtoear)
+mtoear <- auto.arima(window(mtoebp,end=1874),stepwise=F,xreg=dsubs1)
+summary(mtoear)
+mtoear <- auto.arima(window(mtoebp,end=1874),stepwise=F,xreg=dsubs2)
+summary(mtoear)
+mtoear <- auto.arima(window(mtoebp,end=1874),stepwise=F,xreg=dsubs3)
+summary(mtoear)
+
+## ######################################## now plots and breakpoints for gdp
+
+df.gdpspline <- as.data.frame(gdpspline)
+df.gdpspline$date <- index(gdpspline)
+
+df.diff.gdpsplineln <- as.data.frame(diff(gdpsplineln))
+df.diff.gdpsplineln$date <- index(gdpsplineln)[1:923]
+
+gdpbp <- ts(gdpsplineln,start=1086)
+bp.gdp <- breakpoints(gdpbp ~ 1)
+summary(bp.gdp)
+plot(bp.gdp)
+bp.gdp <- breakpoints(gdpbp ~ 1,breaks=3)
+summary(bp.gdp)
+ci.gdp <- confint(bp.gdp)
+plot(gdpbp)
+lines(ci.gdp)
+
+begin <- 1300
+end <- 1874
+
+ggplot(df.gdpspline,aes(x=date,y=gdpspline))+
+    geom_line(colour='blue',size=2)+
+    scale_x_continuous(lim = c(begin,end),name='Year')+
+    scale_y_continuous(lim = c(0,115000),name='English GDP, Million 1990 G-K Dollars',formatter='comma')+
+    opts(title='English Real Gross Domestic Product, \n levels, 1300 - 1874')
+
+ggsave(file='notes/ggdp.png') #to save file just printed, so change file name as appropriate
+
+ggplot(df.gdpspline,aes(x=date,y=gdpspline))+
+    geom_line(colour='blue',size=2)+
+    geom_vline(xintercept = c(1556, 1731, 1869),colour='red',size=1)+
+    scale_x_continuous(lim = c(begin,end),name='Year')+
+##    scale_y_continuous(lim = c(0,50))+
+    scale_y_log10(name='log base 10 of English GDP',lim=c(500,100000))+
+    opts(title='English Gross Domestic Product, 1300 - 1874 \n log scale, with structural breakpoints in 1556,1731,1869')
+
+ggsave(file='notes/gbpgdplog.png') #to save file just printed, so change file name as appropriate
+
+## now do diff plot on logs
+
+ggplot(df.diff.gdpsplineln,aes(x=date,y=diff(gdpsplineln)))+
+    geom_line(colour='blue',size=1.3)+
+    scale_x_continuous(limits=c(1300,1900),name='Year')+
+    scale_y_continuous(limits=c(-0.03,0.065),name='first difference of log of GDP')+
+    geom_hline(yintercept=0.00,colour='red',size=1.3)+
+    opts(title='English Gross Domestic Product \n first difference of log')
+
+ggsave(filename = 'notes/gdiffloggdp.png')
+
+### do diff for visual comparison
+
+plot(diff(gdpbp))
+abline(h=0)
+plot(diff(window(gdpbp,end=1900)))
+abline(h=0)
+
+## ######################################## now do pop
+
+df.popspline <- as.data.frame(popspline)
+df.popspline$date <- index(popspline)
+
+df.diff.popsplineln <- as.data.frame(diff(popsplineln))
+df.diff.popsplineln$date <- index(popsplineln)[1:809]
+
+
+popbp <- ts(popsplineln,start=1086)
+bp.pop <- breakpoints(popbp ~ 1)
+summary(bp.pop)
+plot(bp.pop)
+bp.pop <- breakpoints(popbp ~ 1,breaks=4)
+summary(bp.pop)
+ci.pop <- confint(bp.pop)
+plot(popbp)
+lines(ci.pop)
+
+begin <- 1300
+end <- 1874
+
+ggplot(df.popspline,aes(x=date,y=popspline))+
+    geom_line(colour='blue',size=2)+
+    scale_x_continuous(lim = c(begin,end),name='Year')+
+    scale_y_continuous(lim = c(2000000,25000000),name='English Population',formatter='comma')+
+    opts(title='English Population, \n levels, 1300 - 1874')
+
+ggsave(file='notes/gpop.png') #to save file just printed, so change file name as appropriate
+
+ggplot(df.popspline,aes(x=date,y=popspline))+
+    geom_line(colour='blue',size=2)+
+    geom_vline(xintercept = c(1367, 1580, 1774),colour='red',size=1)+
+    scale_x_continuous(lim = c(begin,end),name='Year')+
+    scale_y_log10(name='log base 10 of English Population')+##,lim=c(500,100000))+
+    opts(title='English Population, 1300 - 1874 \n log scale, with structural breakpoints in 1367, 1580, 1774')
+
+ggsave(file='notes/gbppoplog.png') #to save file just printed, so change file name as appropriate
+
+## now do diff plot on logs
+
+ggplot(df.diff.popsplineln,aes(x=date,y=diff(popsplineln)))+
+    geom_line(colour='blue',size=1.3)+
+    scale_x_continuous(limits=c(1300,1900),name='Year')+
+    scale_y_continuous(limits=c(-0.03,0.065),name='first difference of log of Population')+
+    geom_hline(yintercept=0.00,colour='red',size=1.3)+
+    opts(title='English Population, 1300 - 1900 \n first difference of log')
+
+ggsave(filename = 'notes/gdifflogpop.png')
+
+
+### do diff for visual comparison
+
+plot(diff(popbp))
+abline(h=0)
+plot(diff(window(popbp,end=1900)))
+abline(h=0)
+
+## ######################################## do mtoe/pop for defense slides
+
+## set up matching date series
+
+df.popspline.sub <- subset(df.popspline, df.popspline$date >= '1300') #596 rows starting in 1300 ending in 1895
+df.mtoespline.sub <- subset(df.mtoespline, df.mtoespline$date <= '1895')
+
+ggplot(df.popspline.sub,aes(x=date,y=df.mtoespline.sub$mtoespline/popspline*1000000))+ #so in toe/pop
+    geom_line(colour='blue',size=2)+
+    scale_x_continuous(lim = c(begin,end),name='Year')+
+    scale_y_continuous(name='Tonne of Oil Equivalent per capita')+
+    opts(title='English Energy Consumption per capita, \n levels, 1300 - 1875')
+
+ggsave(file='notes/gmtoepop.png') #to save file just printed, so change file name as appropriate
+
+## ######################################## redo labour/energy price ratios
+###	Allens' wage to energy price ratio, early 18th c. from p 140
+
+wageenergyratio=c(1.4,1.9,0.6,0.9,5.0,0.15)
+citytext=c("Amsterdam","London","Paris","Strasbourg","Newcastle","Beijing")
+df.wageenergy <- as.data.frame(wageenergyratio)
+df.wageenergy$city <- citytext
+
+ggplot(df.wageenergy,aes(x=city,y=wageenergyratio))+
+    geom_bar(aes(fill=city),stat="identity")+
+    scale_x_discrete(name='City')+
+    scale_y_continuous(name='Relative Wage to Energy Price Ratio')+
+    theme(legend.position=c(0.14,0.66),legend.background=element_rect(fill="transparent"))+
+    ggtitle('Energy Source Substitution Ratios \n c. 1700')+
+    labs(fill="City")
+
+filename <- c('wage-energy.png')
+
+## for presentation with colour
+image.path <- c('../images/')
+ggsave(file=paste(image.path,filename,sep=""))
+
+## for publication, essentially enhance theme_bw
+image.path <- c('../images_pub/')
+ggsave(file=paste(image.path,filename,sep=""))
+
+
+## deprecated. for base graphics
+barplot(wageenergyratio,
+	col=rainbow(6),
+	main="Relative Labour to Energy Prices, early 1700s",
+	ylab="Price Ratios",
+	names.arg=citytext,
+	cex.names=.9
+	)
+
+## ######################################## do gdp/pop
+
+df.popspline.sub <- subset(df.popspline, df.popspline$date >= '1300') #596 rows starting in 1300 ending in 1895
+df.gdpspline.sub <- subset(df.gdpspline, df.gdpspline$date >= '1300' & df.gdpspline$date <= '1895')
+
+ggplot(df.popspline.sub,aes(x=date,y=df.gdpspline.sub$gdpspline/popspline*1000000))+ #so in toe/pop
+    geom_line(colour='blue',size=2)+
+    scale_x_continuous(lim = c(begin,end),name='Year')+
+    scale_y_continuous(name='English GDP per capita, Million 1990 G-K Dollars',formatter='comma')+
+    opts(title='English Real Gross Domestic Product, \n per capita levels, 1300 - 1875')
+
+ggsave(file='notes/ggdppop.png') #to save file just printed, so change file name as appropriate
+
+###########################################################################	acres of forest calculation
+#	two tons dry wood = 1 ton coal
+#	forest yield, favorable conditions, 2 tons /acre
+#	Wrigley p 127 in Snooks, quoting White and Plaskett 1981
+#	1 tonne coal (toc) = .588 tonne oil-equivalent (toe) - Fouquet p 39
+#	1 tonne (t) = .9842 (long) ton - Fouquet p 39
+#	land: 241,930 sq km - https://www.cia.gov/library/publications/the-world-factbook/geos/uk.html
+#	= 59782204.938 acres - http://www.metric-conversions.org/area/square-kilometers-to-acres.htm
+#	1873 mtoe = 66.1 = 66100000
+#	acres/toe = acres/tow * tow/toc * toc/tonne * tonne/toe
+#	= .5 * 2 * 1/.9842 * .588 = 0.5974395 acres/toe = 597439.5 acres/mtoe
+.5*2*(1/.9842)*.588
+#	total 1873 acres = 66.1 * 597439.5 =  39490751 acres
+#	percent of total UK acres : 39490751/59782204.938 = 0.660577 conservative need to check white and plaskett
+#	set up acres/mtoe series:
+
+
+filepath <- c('../data/')
+
+load(paste(filepath,"gothenburg.RData",sep=""))
+
+library(stinepack)
+library(zoo)
+library(ggplot2)
+
+acres = na.stinterp(mtoetz) * (.5*2*(1/.9842)*.588) * 1000000
+
+plot(acres/1000000,
+	ylab = "Million Acres",
+	xlab = "1300 - 2008, C.E.",
+	main = "Forest Acres Required for Energy Consumption, U.K.",
+	col="blue"
+	)
+abline(h=59782204.938/1000000,col="red")
+locate=locator()
+text(locate, labels="Total U.K. Land Area = 59.8 Million Acres",col="red")
+
+
+## ok, now with ggplot
+
+df.acres <- as.data.frame(acres)
+df.acres$year <- index(acres)
+
+ggplot(df.acres,aes(x=year,y=acres/1000000))+
+    geom_hline(yintercept=59782204.938/1000000,colour='red',size=1.5)+
+    geom_line(size=1.5,colour='blue')+
+    scale_x_continuous(name='Year')+
+    scale_y_continuous(name='Million Acres')+
+    annotate('text',x=1600,y=63,label='59.8 million acres total land area',colour='red')+
+    annotate('text',x=1750,y=40,label='2.21 TOE/Capita --->',colour='blue')+
+    ggtitle('Forest Acres Required for English Energy Consumption \n counterfactual CE 1300 - 2008')
+
+filename <- c('wood.png')
+
+## for presentation with colour
+image.path <- c('../images/')
+ggsave(file=paste(image.path,filename,sep=""))
+
+## for publication, essentially enhance theme_bw
+image.path <- c('../images_pub/')
+ggsave(file=paste(image.path,filename,sep=""))
+
+###########################################################################	acres of forest calculation
+
+## ######################################## recent Chinese acres
+
+## 2.304 billion acres in china per  http://wiki.answers.com/Q/How_much_land_is_in_China_in_acres
+
+filepath <- c('../data/')
+
+china.mtoe <- read.csv(paste(filepath,'china.energy.csv',sep=""), header=TRUE, stringsAsFactors=FALSE)
+
+china.mtoe$acres = china.mtoe$mtoe * (.5*2*(1/.9842)*.588) * 1000000
+
+plot(china.mtoe$acres/1000000,
+	ylab = "Million Acres",
+	xlab = "1978 - 2008, C.E.",
+	main = "Forest Acres Required for Energy Consumption, China",
+	col="blue"
+	)
+abline(h=2.304*1000,col="red")
+locate=locator()
+text(locate, labels="Total U.K. Land Area = 59.8 Million Acres",col="red")
+
+
+## ok, now with ggplot
+
+
+
+ggplot(china.mtoe,aes(x=Year,y=acres/1000000))+
+    geom_hline(yintercept=2.304*1000,colour='red',size=1.5)+
+    geom_line(size=1.5,colour='blue')+
+    scale_x_continuous(name='Year')+
+    scale_y_continuous(name='Million Acres')+
+#    geom_text(1990,2400,label='2.304 billion acres total land area',colour='red')+
+    annotate('text',x=1990,y=2400,label='2.304 billion acres total land area',colour='red')+
+    annotate('text',x=2001,y=2000,label='2.56 TOE/Capita --->',colour='blue')+
+    ggtitle('Forest Acres Required for Chinese Energy Consumption \n counterfactual 1978 - 2008')
+
+filename <- c('chinawood.png')
+
+## for presentation with colour
+image.path <- c('../images/')
+ggsave(file=paste(image.path,filename,sep=""))
+
+## for publication, essentially enhance theme_bw
+image.path <- c('../images_pub/')
+ggsave(file=paste(image.path,filename,sep=""))
+
+## ######################################## try an AD-AS in ggplot
+
+
+# setup data
+x <- seq(0, 50, 1)
+demand <- x * -2 + 100
+supply <- x * 2
+df <- data.frame( x = x, supply=supply, demand=demand)
+
+ggplot(df, aes(x)) +
+  geom_vline(aes(xintercept=10), colour="red",size=2) +
+  geom_line(aes(y=demand), colour="green",size=2) +
+  scale_x_continuous(name='Output')+
+  scale_y_continuous(name='')+
+  opts(title='Pre-Energy Revolution AD - AS')
+
+ggsave(file='notes/prerev.png')
+
+x <- seq(0, 200, 1)
+demand <- x * -2 + 400
+supply <- x * 2
+df <- data.frame( x = x, supply=supply, demand=demand)
+
+ggplot(df, aes(x)) +
+  geom_hline(aes(yintercept=50), colour="green",size=2) +
+  geom_line(aes(y=demand), colour="red",size=2) +
+  scale_x_continuous(name='Output')+
+  scale_y_continuous(name='')+
+  opts(title='Post-Energy Revolution AD - AS')
+
+ggsave(file='notes/postrev.png')
