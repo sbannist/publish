@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2013.4.20)  2 APR 2014 15:55
+This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2013.4.20)  3 APR 2014 07:03
 entering extended mode
 **diss3AfitBeamer.tex
 (C:\Users\Steve\Documents\GitHub\publish\diss3\tex\diss3AfitBeamer.tex
@@ -1240,17 +1240,17 @@ Package rerunfilecheck Info: File `diss3AfitBeamer.out' has not changed.
 Here is how much of TeX's memory you used:
  15450 strings out of 495289
  276781 string characters out of 3180135
- 357839 words of memory out of 3000000
+ 357838 words of memory out of 3000000
  18171 multiletter control sequences out of 15000+200000
  50419 words of font info for 121 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 48i,11n,51p,656b,538s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 48i,11n,51p,656b,527s stack positions out of 5000i,500n,10000p,200000b,50000s
 {D:/LaTeX-Portable/miktex-portable/fonts/enc/dvips/fontname/8r.enc}<D:/LaTeX-
 Portable/miktex-portable/fonts/type1/public/txfonts/rtxmi.pfb><D:/LaTeX-Portabl
 e/miktex-portable/fonts/type1/public/txfonts/txsy.pfb><D:/LaTeX-Portable/miktex
 -portable/fonts/type1/urw/helvetic/uhvr8a.pfb><D:/LaTeX-Portable/miktex-portabl
 e/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on diss3AfitBeamer.pdf (13 pages, 42541 bytes).
+Output written on diss3AfitBeamer.pdf (13 pages, 42590 bytes).
 PDF statistics:
  123 PDF objects out of 1000 (max. 8388607)
  34 named destinations out of 1000 (max. 500000)

@@ -1,5 +1,5 @@
 % makeindex style file created by the glossaries package
-% for document 'diss2' on 2014-6-5
+% for document '1503ASSA-EH' on 2014-5-12
 actual '?'
 encap '|'
 level '!'
@@ -27,5 +27,3 @@ heading_suffix "\}\\relax \\glsresetentrylist "
 symhead_positive "glssymbols"
 numhead_positive "glsnumbers"
 page_compositor "."
-suffix_2p ""
-suffix_3p ""
