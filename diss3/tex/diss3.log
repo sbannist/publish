@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.5.26)  14 SEP 2014 20:42
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.5.26)  28 SEP 2014 20:59
 entering extended mode
 **diss3.tex
 (C:\Users\Steve\Documents\GitHub\publish\diss3\tex\diss3.tex
@@ -1201,11 +1201,11 @@ Package glossaries Warning: No \printglossary or \printglossaries found.
 (Remove \makeglossaries if you don't want any glossaries.)
 This document will not have a glossary.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 352.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 352.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 358.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 358.
 (C:\Users\Steve\Documents\GitHub\publish\diss3\tex\diss3.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 352.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 352.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 358.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 358.
 Package rerunfilecheck Info: File `diss3.out' has not changed.
 (rerunfilecheck)             Checksum: D29DA379DFD019CBA7E8C19AC43AE4D2;1775.
  ) 
@@ -1224,7 +1224,7 @@ portable/fonts/type1/public/txfonts/txsy.pfb><D:/LaTeX-Portable/miktex-portable
 /fonts/type1/urw/times/utmb8a.pfb><D:/LaTeX-Portable/miktex-portable/fonts/type
 1/urw/times/utmr8a.pfb><D:/LaTeX-Portable/miktex-portable/fonts/type1/urw/times
 /utmri8a.pfb>
-Output written on diss3.pdf (18 pages, 101733 bytes).
+Output written on diss3.pdf (18 pages, 102546 bytes).
 PDF statistics:
  231 PDF objects out of 1000 (max. 8388607)
  54 named destinations out of 1000 (max. 500000)
