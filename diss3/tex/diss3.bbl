@@ -1,4 +1,4 @@
-\begin{thebibliography}{19}
+\begin{thebibliography}{21}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -26,6 +26,11 @@ Robert Brenner.
   1976.
 \newblock ISSN 0031-2746.
 \newblock URL \url{http://www.jstor.org/stable/650345}.
+
+\bibitem[Cottrell(1955)]{cottrell_energy_1955}
+F.~Cottrell.
+\newblock \emph{Energy and society}.
+\newblock {McGraw}-Hill, 1955.
 
 \bibitem[Crafts and Harley(1992)]{crafts_output_1992}
 N.~F.~R. Crafts and C.~K. Harley.
@@ -59,7 +64,7 @@ Robert Hartwell.
 \newblock ISSN 0022-0507.
 \newblock URL \url{http://www.jstor.org/stable/2116001}.
 \newblock {ArticleType}: research-article / Full publication date: Mar., 1966 /
-  Copyright \copyright 1966 Economic History Association.
+  Copyright 1966 Economic History Association.
 
 \bibitem[Jones(1988)]{jones_growth_1988}
 Eric~Lionel Jones.
@@ -116,6 +121,12 @@ Vernon~W. Ruttan and Yujiro Hayami.
 \newblock \doi{10.1080/00220388408421914}.
 \newblock URL
   \url{http://www.tandfonline.com/doi/abs/10.1080/00220388408421914}.
+
+\bibitem[Temin(2012)]{temin_roman_2012}
+Peter Temin.
+\newblock \emph{The Roman Market Economy}.
+\newblock Princeton University Press, Princeton, December 2012.
+\newblock ISBN 9780691147680.
 
 \bibitem[Wang(2009)]{hsien-chun_wang_discovering_2009}
 Hsien-Chun Wang.
