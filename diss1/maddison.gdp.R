@@ -1,0 +1,202 @@
+### Maddison gdp data for area chart
+## do in percents, remember to take out individual countries from regions
+## want pop in proportions, want total world gdp, pop
+
+Windows(record=T)
+
+library(ggplot2)
+
+## area chart in proportions
+
+onepraw <- read.csv("maddison.reg.gdp.pct.csv", stringsAsFactors = F)
+onep <- t(onepraw[c(1:12,70),])                      #transpose in prep for melt, also just pick of rows
+rownames(onep) <- NULL                  #wipe out row names for clarity
+onep <- onep[,-1]                       #get rid off unneded column
+onep <- onep[-13,]                      #get rid of total row
+onep[1,1] <- 'region'                   #label first column
+colnames(onep) <- onep[1,]              #clean up names
+onep <- onep[-1,]                       #clean up
+onep <- as.data.frame(onep,stringsAsFactors=FALSE) #convert to df
+
+#onep$region <- factor(onep$region, rev(levels = onep$region))
+onep$region <- factor(onep$region, levels = onep$region)
+onepm <- melt(onep, id.vars = "region", variable_name = "year")
+onepm$year <- as.integer(levels(onepm$year))[onepm$year]
+onepm$value <- as.numeric(levels(onepm$value))[onepm$value]
+
+## Some cleanup of years needed
+##onepm$Year <- as.character(onepm$Year)
+##onepm$Year <- sapply(strsplit(onepm$Year, split = "X"), function(x)
+##               as.numeric(x[2]))
+
+## Generate dataframe and placement for text labels in plot
+##textvals <- onep[c("region", "X1700")]
+##mids <- c(0, cumsum(textvals$X1700)) ### original doesn't work
+##mids <- c(cumsum(textvals$X1700))
+##textvals$mids <- (mids[-1] + mids[-length(mids)]) / 2 - 0.3
+##textvals$mids <-  mids[-length(mids)] / 2 - 0.3
+##textvals$region <- as.character(textvals$region)
+#textvals$region <- c("Executives, managers, supervisors\n(non-finance)",
+#                         "Medical workers",
+#                        "Finance professions,\nincluding management",
+#                         "Lawyers",
+#                         "Tech")
+
+#png("pics/oneplottime.png")
+
+
+ggplot(onepm, aes(x=year,y=value,fill=region )) +
+  geom_area() +
+#  geom_text(data = textvals,
+#            aes(label = region, y = mids), x = 1700, size = 4.5) +
+  scale_fill_brewer(pal = "Paired",legend=T,(breaks=rev(levels(onep$regions)) )) + #does not work with old version of ggplot2
+  opts(title = "GDP Proportions",legend.position=c(.25,.5)) +
+scale_y_continuous(name="GDP Proportions",formatter='comma')+
+#scale_x_discrete()
+scale_x_continuous(name='Year',breaks=c(1,1000,1500,1700,1820,2008),
+         labels=c('1','1000','1500','1700','1820','2008')          )
+#print(oneplottime)
+#dev.off()
+
+ggsave(file='C:/Documents and Settings/Russell/Desktop/VAT/Projects/Research/Conferences/1211ssha/images/maddisonreggdppct.png')
+
+## gdp area chart in levels
+
+onepraw <- read.csv("maddison.reg.gdp.csv", stringsAsFactors = F)
+onep <- t(onepraw[c(1:12,70),])                      #transpose in prep for melt, also just pick of rows
+rownames(onep) <- NULL                  #wipe out row names for clarity
+onep <- onep[,-1]                       #get rid off unneeded column
+onep <- onep[-13,]                      #get rid of total row
+onep[1,1] <- 'region'                   #label first column
+colnames(onep) <- onep[1,]              #clean up names
+onep <- onep[-1,]                       #clean up
+onep <- onep[,-c(2:3)]                  #get rid of 1 and 1000
+onep <- as.data.frame(onep,stringsAsFactors=FALSE) #convert to df
+
+onep$region <- factor(onep$region, levels = onep$region)
+onepm <- melt(onep, id.vars = "region", variable_name = "year")
+onepm$year <- as.integer(levels(onepm$year))[onepm$year]
+onepm$value <- as.numeric(levels(onepm$value))[onepm$value]
+
+ggplot(onepm, aes(x=year,y=value/1000000,fill=region )) +
+  geom_area() +
+  scale_fill_brewer(pal = "Paired",legend=T,(breaks=rev(levels(onep$regions)) )) + #does not work with old version of ggplot2
+  opts(title = "GDP Levels, 1990 GK $",legend.position=c(.25,.5)) +
+scale_y_continuous(name="GDP, Trillion 1990 GK $",formatter='comma')+
+scale_x_continuous(name='Year',breaks=c(1500,1700,1820,1900,1950,2008),
+         labels=c('1500','1700','1820','1900','1950','2008')          )
+
+ggsave(file='C:/Documents and Settings/Russell/Desktop/VAT/Projects/Research/Conferences/1211ssha/images/maddisonreggdplevels.png')
+
+## gdp area chart in levels through 1900
+
+onepraw <- read.csv("maddison.reg.gdp.csv", stringsAsFactors = F)
+onep <- t(onepraw[c(1:12,70),])                      #transpose in prep for melt, also just pick of rows
+rownames(onep) <- NULL                  #wipe out row names for clarity
+onep <- onep[,-1]                       #get rid off unneeded column
+onep <- onep[-13,]                      #get rid of total row
+onep[1,1] <- 'region'                   #label first column
+colnames(onep) <- onep[1,]              #clean up names
+onep <- onep[-1,]                       #clean up
+onep <- onep[,-c(2:3,10:12)]                  #get rid of 1 and 1000 and after 1900
+onep <- as.data.frame(onep,stringsAsFactors=FALSE) #convert to df
+
+onep$region <- factor(onep$region, levels = onep$region)
+onepm <- melt(onep, id.vars = "region", variable_name = "year")
+onepm$year <- as.integer(levels(onepm$year))[onepm$year]
+onepm$value <- as.numeric(levels(onepm$value))[onepm$value]
+
+ggplot(onepm, aes(x=year,y=value/1000000,fill=region )) +
+  geom_area() +
+  scale_fill_brewer(pal = "Paired",legend=T,(breaks=rev(levels(onep$regions)) )) + #does not work with old version of ggplot2
+  opts(title = "GDP Levels, 1990 GK $",legend.position=c(.25,.5)) +
+scale_y_continuous(name="GDP, Trillion 1990 GK $",formatter='comma')+
+scale_x_continuous(name='Year',breaks=c(1,1000,1500,1700,1820,1900,1950,2008),
+         labels=c('1','1000','1500','1700','1820','1900','1950','2008')          )
+
+ggsave(file='C:/Documents and Settings/Russell/Desktop/VAT/Projects/Research/Conferences/1211ssha/images/maddisonreggdplevels1900.png')
+
+
+## population area chart in proportions
+
+onepraw <- read.csv("maddison.reg.pop.pct.csv", stringsAsFactors = F)
+onep <- t(onepraw[c(1:13),])                      #transpose in prep for melt, also just pick of rows
+rownames(onep) <- NULL                  #wipe out row names for clarity
+onep <- onep[,-1]                       #get rid off unneded column
+onep <- onep[-13,]                      #get rid of total row
+onep[1,1] <- 'region'                   #label first column
+colnames(onep) <- onep[1,]              #clean up names
+onep <- onep[-1,]                       #clean up
+onep <- as.data.frame(onep,stringsAsFactors=FALSE) #convert to df
+
+onep$region <- factor(onep$region, levels = onep$region)
+onepm <- melt(onep, id.vars = "region", variable_name = "year")
+onepm$year <- as.integer(levels(onepm$year))[onepm$year]
+onepm$value <- as.numeric(levels(onepm$value))[onepm$value]
+
+
+ggplot(onepm, aes(x=year,y=value,fill=region )) +
+  geom_area() +
+  scale_fill_brewer(pal = "Paired",legend=T,(breaks=rev(levels(onep$regions)) )) + #does not work with old version of ggplot2
+  opts(title = "Population Proportions",legend.position=c(.25,.5)) +
+scale_y_continuous(name="Population Proportions",formatter='comma')+
+scale_x_continuous(name='Year',breaks=c(1,1000,1500,1700,1820,2008),
+         labels=c('1','1000','1500','1700','1820','2008')          )
+
+ggsave(file='C:/Documents and Settings/Russell/Desktop/VAT/Projects/Research/Conferences/1211ssha/images/maddisonregpoppct.png')
+
+## population area chart in levels
+
+onepraw <- read.csv("maddison.reg.pop.csv", stringsAsFactors = F)
+onep <- t(onepraw[c(1:13),])                      #transpose in prep for melt, also just pick of rows
+rownames(onep) <- NULL                  #wipe out row names for clarity
+onep <- onep[,-1]                       #get rid off unneeded column
+onep <- onep[-13,]                      #get rid of total row
+onep[1,1] <- 'region'                   #label first column
+colnames(onep) <- onep[1,]              #clean up names
+onep <- onep[-1,]                       #clean up
+onep <- onep[,-c(2:3)]                  #get rid of 1 and 1000
+onep <- as.data.frame(onep,stringsAsFactors=FALSE) #convert to df
+
+onep$region <- factor(onep$region, levels = onep$region)
+onepm <- melt(onep, id.vars = "region", variable_name = "year")
+onepm$year <- as.integer(levels(onepm$year))[onepm$year]
+onepm$value <- as.numeric(levels(onepm$value))[onepm$value]
+
+ggplot(onepm, aes(x=year,y=value/1000000,fill=region )) +
+  geom_area() +
+  scale_fill_brewer(pal = "Paired",legend=T,(breaks=rev(levels(onep$regions)) )) + #does not work with old version of ggplot2
+  opts(title = "Population Levels, Billion",legend.position=c(.25,.5)) +
+scale_y_continuous(name="Population, Billion",formatter='comma')+
+scale_x_continuous(name='Year',breaks=c(1,1000,1500,1700,1820,1900,1950,2008),
+         labels=c('1','1000','1500','1700','1820','1900','1950','2008')          )
+
+ggsave(file='C:/Documents and Settings/Russell/Desktop/VAT/Projects/Research/Conferences/1211ssha/images/maddisonregpoplevels.png')
+
+## population area chart in levels through 1900
+
+onepraw <- read.csv("maddison.reg.pop.csv", stringsAsFactors = F)
+onep <- t(onepraw[c(1:13),])                      #transpose in prep for melt, also just pick of rows
+rownames(onep) <- NULL                  #wipe out row names for clarity
+onep <- onep[,-1]                       #get rid off unneeded column
+onep <- onep[-13,]                      #get rid of total row
+onep[1,1] <- 'region'                   #label first column
+colnames(onep) <- onep[1,]              #clean up names
+onep <- onep[-1,]                       #clean up
+onep <- onep[,-c(2:3,10:12)]                  #get rid of 1 and 1000, after 1900
+onep <- as.data.frame(onep,stringsAsFactors=FALSE) #convert to df
+
+onep$region <- factor(onep$region, levels = onep$region)
+onepm <- melt(onep, id.vars = "region", variable_name = "year")
+onepm$year <- as.integer(levels(onepm$year))[onepm$year]
+onepm$value <- as.numeric(levels(onepm$value))[onepm$value]
+
+ggplot(onepm, aes(x=year,y=value/1000000,fill=region )) +
+  geom_area() +
+  scale_fill_brewer(pal = "Paired",legend=T,(breaks=rev(levels(onep$regions)) )) + #does not work with old version of ggplot2
+  opts(title = "Population Levels, Billion",legend.position=c(.25,.5)) +
+scale_y_continuous(name="Population, Billion",formatter='comma')+
+scale_x_continuous(name='Year',breaks=c(1,1000,1500,1700,1820,1900,1950,2008),
+         labels=c('1','1000','1500','1700','1820','1900','1950','2008')          )
+
+ggsave(file='C:/Documents and Settings/Russell/Desktop/VAT/Projects/Research/Conferences/1211ssha/images/maddisonregpoplevels1900.png')

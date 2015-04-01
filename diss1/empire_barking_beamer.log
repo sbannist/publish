@@ -1,0 +1,1468 @@
+This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2012.7.1)  21 DEC 2012 14:16
+entering extended mode
+**empire_barking_beamer.tex
+
+(C:\Users\Steve\SyncFolder\VAT\Projects\Research\Conferences\1211ssha\empire_ba
+rking_beamer.tex
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, dumylang, nohyphenation, ge
+rman, ngerman, german-x-2009-06-19, ngerman-x-2009-06-19, french, loaded.
+(D:\LaTeX-Portable\miktex-portable\tex\latex\beamer\base\beamer.cls
+(D:\LaTeX-Portable\miktex-portable\tex\latex\beamer\base\beamerbasercs.sty
+Package: beamerbasercs 2012/04/15 (rcs-revision ec47c34b914b)
+)
+Document Class: beamer 2011/09/12 development version 3.17 A class for typesett
+ing presentations (rcs-revision 70f9d8411e54)
+(D:\LaTeX-Portable\miktex-portable\tex\latex\beamer\base\beamerbasemodes.sty
+Package: beamerbasemodes 2010/05/01 (rcs-revision efa082c6111d)
+\beamer@tempbox=\box26
+\beamer@tempcount=\count79
+\c@beamerpauses=\count80
+
+(D:\LaTeX-Portable\miktex-portable\tex\latex\beamer\base\beamerbasedecode.sty
+Package: beamerbasedecode 2010/05/01 (rcs-revision efa082c6111d)
+\beamer@slideinframe=\count81
+\beamer@minimum=\count82
+)
+\beamer@commentbox=\box27
+\beamer@modecount=\count83
+) (D:\LaTeX-Portable\miktex-portable\tex\generic\oberdiek\ifpdf.sty
+Package: ifpdf 2010/01/28 v2.1 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in pdf mode detected.
+)
+\headheight=\dimen102
+\headdp=\dimen103
+\footheight=\dimen104
+\sidebarheight=\dimen105
+\beamer@tempdim=\dimen106
+\beamer@finalheight=\dimen107
+\beamer@animht=\dimen108
+\beamer@animdp=\dimen109
+\beamer@animwd=\dimen110
+\beamer@leftmargin=\dimen111
+\beamer@rightmargin=\dimen112
+\beamer@leftsidebar=\dimen113
+\beamer@rightsidebar=\dimen114
+\beamer@boxsize=\dimen115
+\beamer@vboxoffset=\dimen116
+\beamer@descdefault=\dimen117
+\beamer@descriptionwidth=\dimen118
+\beamer@lastskip=\skip41
+\beamer@areabox=\box28
+\beamer@animcurrent=\box29
+\beamer@animshowbox=\box30
+\beamer@sectionbox=\box31
+\beamer@logobox=\box32
+\beamer@linebox=\box33
+\beamer@sectioncount=\count84
+\beamer@subsubsectionmax=\count85
+\beamer@subsectionmax=\count86
+\beamer@sectionmax=\count87
+\beamer@totalheads=\count88
+\beamer@headcounter=\count89
+\beamer@partstartpage=\count90
+\beamer@sectionstartpage=\count91
+\beamer@subsectionstartpage=\count92
+\beamer@animationtempa=\count93
+\beamer@animationtempb=\count94
+\beamer@xpos=\count95
+\beamer@ypos=\count96
+\beamer@showpartnumber=\count97
+\beamer@currentsubsection=\count98
+\beamer@coveringdepth=\count99
+\beamer@sectionadjust=\count100
+\beamer@tocsectionnumber=\count101
+
+(D:\LaTeX-Portable\miktex-portable\tex\latex\beamer\base\beamerbaseoptions.sty
+Package: beamerbaseoptions 2010/04/27 (rcs-revision 982469101dd6)
+
+(D:\LaTeX-Portable\miktex-portable\tex\latex\graphics\keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+))
+\beamer@paperwidth=\skip42
+\beamer@paperheight=\skip43
+
+(D:\LaTeX-Portable\miktex-portable\tex\latex\geometry\geometry.sty
+Package: geometry 2010/03/13 v5.3 Page Geometry
+
+(D:\LaTeX-Portable\miktex-portable\tex\generic\oberdiek\ifvtex.sty
+Package: ifvtex 2010/03/01 v1.5 Switches for detecting VTeX and its modes (HO)
+Package ifvtex Info: VTeX not detected.
+)
+\Gm@cnth=\count102
+\Gm@cntv=\count103
+\c@Gm@tempcnt=\count104
+\Gm@bindingoffset=\dimen119
+\Gm@wd@mp=\dimen120
+\Gm@odd@mp=\dimen121
+\Gm@even@mp=\dimen122
+\Gm@layoutwidth=\dimen123
+\Gm@layoutheight=\dimen124
+\Gm@layouthoffset=\dimen125
+\Gm@layoutvoffset=\dimen126
+\Gm@dimlist=\toks15
+
+(D:\LaTeX-Portable\miktex-portable\tex\latex\geometry\geometry.cfg))
+(D:\LaTeX-Portable\miktex-portable\tex\latex\base\size11.clo
+File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+(D:\LaTeX-Portable\miktex-portable\tex\latex\pgf\basiclayer\pgfcore.sty
+(D:\LaTeX-Portable\miktex-portable\tex\latex\graphics\graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(D:\LaTeX-Portable\miktex-portable\tex\latex\graphics\graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(D:\LaTeX-Portable\miktex-portable\tex\latex\graphics\trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(D:\LaTeX-Portable\miktex-portable\tex\latex\00miktex\graphics.cfg
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(D:\LaTeX-Portable\miktex-portable\tex\latex\pdftex-def\pdftex.def
+File: pdftex.def 2010/02/14 v0.04n Graphics/color for pdfTeX
+\Gread@gobject=\count105
+))
+\Gin@req@height=\dimen127
+\Gin@req@width=\dimen128
+)
+(D:\LaTeX-Portable\miktex-portable\tex\latex\pgf\systemlayer\pgfsys.sty
+(D:\LaTeX-Portable\miktex-portable\tex\latex\pgf\utilities\pgfrcs.sty
+(D:\LaTeX-Portable\miktex-portable\tex\generic\pgf\utilities\pgfutil-common.tex
+\pgfutil@everybye=\toks16
+)
+(D:\LaTeX-Portable\miktex-portable\tex\generic\pgf\utilities\pgfutil-latex.def)
+(D:\LaTeX-Portable\miktex-portable\tex\generic\pgf\utilities\pgfrcs.code.tex
+Package: pgfrcs 2008/02/20 v2.00 (rcs-revision 1.21)
+))
+(D:\LaTeX-Portable\miktex-portable\tex\generic\pgf\systemlayer\pgfsys.code.tex
+Package: pgfsys 2008/02/07 v2.00 (rcs-revision 1.31)
+
+(D:\LaTeX-Portable\miktex-portable\tex\generic\pgf\utilities\pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks17
+\pgfkeys@temptoks=\toks18
+)
+\pgf@x=\dimen129
+\pgf@y=\dimen130
+\pgf@xa=\dimen131
+\pgf@ya=\dimen132
+\pgf@xb=\dimen133
+\pgf@yb=\dimen134
+\pgf@xc=\dimen135
+\pgf@yc=\dimen136
+\c@pgf@counta=\count106
+\c@pgf@countb=\count107
+\c@pgf@countc=\count108
+\c@pgf@countd=\count109
+
+(D:\LaTeX-Portable\miktex-portable\tex\generic\pgf\systemlayer\pgf.cfg
+File: pgf.cfg 2008/01/13  (rcs-revision 1.6)
+)
+Package pgfsys Info: Driver file for pgf: pgfsys-pdftex.def on input line 885.
+
+(D:\LaTeX-Portable\miktex-portable\tex\generic\pgf\systemlayer\pgfsys-pdftex.de
+f
+File: pgfsys-pdftex.def 2007/12/20  (rcs-revision 1.20)
+
+(D:\LaTeX-Portable\miktex-portable\tex\generic\pgf\systemlayer\pgfsys-common-pd
+f.def
+File: pgfsys-common-pdf.def 2007/12/17  (rcs-revision 1.8)
+)))
+(D:\LaTeX-Portable\miktex-portable\tex\generic\pgf\systemlayer\pgfsyssoftpath.c
+ode.tex
+File: pgfsyssoftpath.code.tex 2008/01/23  (rcs-revision 1.6)
+\pgfsyssoftpath@smallbuffer@items=\count110
+\pgfsyssoftpath@bigbuffer@items=\count111
+)
+(D:\LaTeX-Portable\miktex-portable\tex\generic\pgf\systemlayer\pgfsysprotocol.c
+ode.tex
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+)) (D:\LaTeX-Portable\miktex-portable\tex\latex\xcolor\xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(D:\LaTeX-Portable\miktex-portable\tex\latex\00miktex\color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
+(D:\LaTeX-Portable\miktex-portable\tex\generic\pgf\basiclayer\pgfcore.code.tex
+Package: pgfcore 2008/01/15 v2.00 (rcs-revision 1.6)
+
+(D:\LaTeX-Portable\miktex-portable\tex\generic\pgf\math\pgfmath.code.tex
+(D:\LaTeX-Portable\miktex-portable\tex\generic\pgf\math\pgfmathcalc.code.tex
+(D:\LaTeX-Portable\miktex-portable\tex\generic\pgf\math\pgfmathutil.code.tex
+\pgfmath@box=\box34
+)
+(D:\LaTeX-Portable\miktex-portable\tex\generic\pgf\math\pgfmathparser.code.tex
+\pgfmath@stack=\toks19
+\c@pgfmath@parsecounta=\count112
+\c@pgfmath@parsecountb=\count113
+\c@pgfmath@parsecountc=\count114
+\pgfmath@parsex=\dimen137
+)
+(D:\LaTeX-Portable\miktex-portable\tex\generic\pgf\math\pgfmathoperations.code.
+tex
+(D:\LaTeX-Portable\miktex-portable\tex\generic\pgf\math\pgfmathtrig.code.tex)
+(D:\LaTeX-Portable\miktex-portable\tex\generic\pgf\math\pgfmathrnd.code.tex))
+(D:\LaTeX-Portable\miktex-portable\tex\generic\pgf\math\pgfmathbase.code.tex)))
+
+(D:\LaTeX-Portable\miktex-portable\tex\generic\pgf\basiclayer\pgfcorepoints.cod
+e.tex
+File: pgfcorepoints.code.tex 2008/02/03  (rcs-revision 1.13)
+\pgf@picminx=\dimen138
+\pgf@picmaxx=\dimen139
+\pgf@picminy=\dimen140
+\pgf@picmaxy=\dimen141
+\pgf@pathminx=\dimen142
+\pgf@pathmaxx=\dimen143
+\pgf@pathminy=\dimen144
+\pgf@pathmaxy=\dimen145
+\pgf@xx=\dimen146
+\pgf@xy=\dimen147
+\pgf@yx=\dimen148
+\pgf@yy=\dimen149
+\pgf@zx=\dimen150
+\pgf@zy=\dimen151
+)
+(D:\LaTeX-Portable\miktex-portable\tex\generic\pgf\basiclayer\pgfcorepathconstr
+uct.code.tex
+File: pgfcorepathconstruct.code.tex 2008/02/13  (rcs-revision 1.14)
+\pgf@path@lastx=\dimen152
+\pgf@path@lasty=\dimen153
+)
+(D:\LaTeX-Portable\miktex-portable\tex\generic\pgf\basiclayer\pgfcorepathusage.
+code.tex
+File: pgfcorepathusage.code.tex 2008/01/23  (rcs-revision 1.11)
+\pgf@shorten@end@additional=\dimen154
+\pgf@shorten@start@additional=\dimen155
+)
+(D:\LaTeX-Portable\miktex-portable\tex\generic\pgf\basiclayer\pgfcorescopes.cod
+e.tex
+File: pgfcorescopes.code.tex 2008/01/15  (rcs-revision 1.26)
+\pgfpic=\box35
+\pgf@hbox=\box36
+\pgf@layerbox@main=\box37
+\pgf@picture@serial@count=\count115
+)
+(D:\LaTeX-Portable\miktex-portable\tex\generic\pgf\basiclayer\pgfcoregraphicsta
+te.code.tex
+File: pgfcoregraphicstate.code.tex 2007/12/12  (rcs-revision 1.8)
+\pgflinewidth=\dimen156
+)
+(D:\LaTeX-Portable\miktex-portable\tex\generic\pgf\basiclayer\pgfcoretransforma
+tions.code.tex
+File: pgfcoretransformations.code.tex 2008/02/04  (rcs-revision 1.10)
+\pgf@pt@x=\dimen157
+\pgf@pt@y=\dimen158
+\pgf@pt@temp=\dimen159
+)
+(D:\LaTeX-Portable\miktex-portable\tex\generic\pgf\basiclayer\pgfcorequick.code
+.tex
+File: pgfcorequick.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+(D:\LaTeX-Portable\miktex-portable\tex\generic\pgf\basiclayer\pgfcoreobjects.co
+de.tex
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+(D:\LaTeX-Portable\miktex-portable\tex\generic\pgf\basiclayer\pgfcorepathproces
+sing.code.tex
+File: pgfcorepathprocessing.code.tex 2008/01/23  (rcs-revision 1.7)
+)
+(D:\LaTeX-Portable\miktex-portable\tex\generic\pgf\basiclayer\pgfcorearrows.cod
+e.tex
+File: pgfcorearrows.code.tex 2007/06/07  (rcs-revision 1.8)
+)
+(D:\LaTeX-Portable\miktex-portable\tex\generic\pgf\basiclayer\pgfcoreshade.code
+.tex
+File: pgfcoreshade.code.tex 2007/12/10  (rcs-revision 1.9)
+\pgf@max=\dimen160
+\pgf@sys@shading@range@num=\count116
+)
+(D:\LaTeX-Portable\miktex-portable\tex\generic\pgf\basiclayer\pgfcoreimage.code
+.tex
+File: pgfcoreimage.code.tex 2008/01/15  (rcs-revision 1.1)
+\pgfexternal@startupbox=\box38
+)
+(D:\LaTeX-Portable\miktex-portable\tex\generic\pgf\basiclayer\pgfcorelayers.cod
+e.tex
+File: pgfcorelayers.code.tex 2008/01/15  (rcs-revision 1.1)
+)
+(D:\LaTeX-Portable\miktex-portable\tex\generic\pgf\basiclayer\pgfcoretransparen
+cy.code.tex
+File: pgfcoretransparency.code.tex 2008/01/17  (rcs-revision 1.2)
+)
+(D:\LaTeX-Portable\miktex-portable\tex\generic\pgf\basiclayer\pgfcorepatterns.c
+ode.tex
+File: pgfcorepatterns.code.tex 2008/01/15  (rcs-revision 1.1)
+)))
+(D:\LaTeX-Portable\miktex-portable\tex\latex\pgf\utilities\xxcolor.sty
+Package: xxcolor 2003/10/24 ver 0.1
+\XC@nummixins=\count117
+\XC@countmixins=\count118
+)
+(D:\LaTeX-Portable\miktex-portable\tex\latex\hyperref\hyperref.sty
+Package: hyperref 2010/03/30 v6.80u Hypertext links for LaTeX
+
+(D:\LaTeX-Portable\miktex-portable\tex\generic\oberdiek\ltxcmds.sty
+Package: ltxcmds 2010/04/08 v1.5 LaTeX kernel commands for general use (HO)
+)
+(D:\LaTeX-Portable\miktex-portable\tex\generic\oberdiek\kvsetkeys.sty
+Package: kvsetkeys 2010/03/01 v1.9 Key value parser (HO)
+
+(D:\LaTeX-Portable\miktex-portable\tex\generic\oberdiek\infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/message (HO)
+)
+(D:\LaTeX-Portable\miktex-portable\tex\generic\oberdiek\etexcmds.sty
+Package: etexcmds 2010/01/28 v1.3 Prefix for e-TeX command names (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+))
+(D:\LaTeX-Portable\miktex-portable\tex\generic\oberdiek\pdfescape.sty
+Package: pdfescape 2010/03/01 v1.9 Provides hex, PDF name and string conversion
+s (HO)
+
+(D:\LaTeX-Portable\miktex-portable\tex\generic\oberdiek\pdftexcmds.sty
+Package: pdftexcmds 2010/04/01 v0.9 Utility functions of pdfTeX for LuaTeX (HO)
+
+
+(D:\LaTeX-Portable\miktex-portable\tex\generic\oberdiek\ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+))
+(D:\LaTeX-Portable\miktex-portable\tex\latex\ifxetex\ifxetex.sty
+Package: ifxetex 2009/01/23 v0.5 Provides ifxetex conditional
+)
+(D:\LaTeX-Portable\miktex-portable\tex\latex\oberdiek\hycolor.sty
+Package: hycolor 2009/12/12 v1.6 Color options of hyperref/bookmark (HO)
+
+(D:\LaTeX-Portable\miktex-portable\tex\latex\oberdiek\xcolor-patch.sty
+Package: xcolor-patch 2009/12/12 xcolor patch
+))
+(D:\LaTeX-Portable\miktex-portable\tex\latex\oberdiek\letltxmacro.sty
+Package: letltxmacro 2008/06/24 v1.3 Let assignment for LaTeX macros (HO)
+)
+\@linkdim=\dimen161
+\Hy@linkcounter=\count119
+\Hy@pagecounter=\count120
+
+(D:\LaTeX-Portable\miktex-portable\tex\latex\hyperref\pd1enc.def
+File: pd1enc.def 2010/03/30 v6.80u Hyperref: PDFDocEncoding definition (HO)
+)
+(D:\LaTeX-Portable\miktex-portable\tex\generic\oberdiek\intcalc.sty
+Package: intcalc 2007/09/27 v1.1 Expandable integer calculations (HO)
+)
+(D:\LaTeX-Portable\miktex-portable\tex\latex\00miktex\hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+(D:\LaTeX-Portable\miktex-portable\tex\latex\oberdiek\kvoptions.sty
+Package: kvoptions 2010/02/22 v3.7 Keyval support for LaTeX options (HO)
+)
+Package hyperref Info: Option `final' set `true' on input line 3528.
+Package hyperref Info: Option `bookmarks' set `true' on input line 3528.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 3528.
+Package hyperref Info: Option `implicit' set `false' on input line 3528.
+Package hyperref Info: Hyper figures OFF on input line 3609.
+Package hyperref Info: Link nesting OFF on input line 3614.
+Package hyperref Info: Hyper index ON on input line 3617.
+Package hyperref Info: Plain pages OFF on input line 3624.
+Package hyperref Info: Backreferencing OFF on input line 3629.
+
+Implicit mode OFF; no redefinition of LaTeX internals
+Package hyperref Info: Bookmarks ON on input line 3825.
+(D:\LaTeX-Portable\miktex-portable\tex\latex\ltxmisc\url.sty
+\Urlmuskip=\muskip10
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4105.
+
+(D:\LaTeX-Portable\miktex-portable\tex\generic\oberdiek\bitset.sty
+Package: bitset 2007/09/28 v1.0 Data type bit set (HO)
+
+(D:\LaTeX-Portable\miktex-portable\tex\generic\oberdiek\bigintcalc.sty
+Package: bigintcalc 2007/11/11 v1.1 Expandable big integer calculations (HO)
+))
+\Fld@menulength=\count121
+\Field@Width=\dimen162
+\Fld@charsize=\dimen163
+\Field@toks=\toks20
+Package hyperref Info: Hyper figures OFF on input line 5083.
+Package hyperref Info: Link nesting OFF on input line 5088.
+Package hyperref Info: Hyper index ON on input line 5091.
+Package hyperref Info: backreferencing OFF on input line 5098.
+Package hyperref Info: Link coloring OFF on input line 5103.
+Package hyperref Info: Link coloring with OCG OFF on input line 5108.
+Package hyperref Info: PDF/A mode OFF on input line 5113.
+LaTeX Info: Redefining \ref on input line 5153.
+LaTeX Info: Redefining \pageref on input line 5157.
+
+(D:\LaTeX-Portable\miktex-portable\tex\generic\oberdiek\atbegshi.sty
+Package: atbegshi 2010/03/25 v1.12 At begin shipout hook (HO)
+)
+\Hy@abspage=\count122
+
+Hyperref stopped early
+)
+* hyperref using default driver hpdftex *
+(D:\LaTeX-Portable\miktex-portable\tex\latex\hyperref\hpdftex.def
+File: hpdftex.def 2010/03/30 v6.80u Hyperref driver for pdfTeX
+
+(D:\LaTeX-Portable\miktex-portable\tex\latex\oberdiek\atveryend.sty
+Package: atveryend 2010/03/24 v1.5 Hooks at very end of document (HO)
+Package atveryend Info: \enddocument detected (standard).
+)
+\Fld@listcount=\count123
+\c@bookmark@seq@number=\count124
+
+(D:\LaTeX-Portable\miktex-portable\tex\latex\oberdiek\rerunfilecheck.sty
+Package: rerunfilecheck 2010/03/16 v1.6 Rerun checks for auxiliary files (HO)
+
+(D:\LaTeX-Portable\miktex-portable\tex\generic\oberdiek\uniquecounter.sty
+Package: uniquecounter 2009/12/18 v1.1 Provides unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+71.
+))
+(D:\LaTeX-Portable\miktex-portable\tex\latex\beamer\base\beamerbaserequires.sty
+Package: beamerbaserequires 2010/05/01  (rcs-revision efa082c6111d)
+
+(D:\LaTeX-Portable\miktex-portable\tex\latex\beamer\base\beamerbasecompatibilit
+y.sty
+Package: beamerbasecompatibility 2011/09/24  (rcs-revision 17e820568435)
+)
+(D:\LaTeX-Portable\miktex-portable\tex\latex\beamer\base\beamerbasefont.sty
+Package: beamerbasefont 2010/10/26  (rcs-revision f39336aafb3c)
+
+(D:\LaTeX-Portable\miktex-portable\tex\latex\amsfonts\amssymb.sty
+Package: amssymb 2009/06/22 v3.00
+
+(D:\LaTeX-Portable\miktex-portable\tex\latex\amsfonts\amsfonts.sty
+Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+\@emptytoks=\toks21
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
+)))
+(D:\LaTeX-Portable\miktex-portable\tex\latex\beamer\base\beamerbasetranslator.s
+ty
+Package: beamerbasetranslator 2010/06/11  (rcs-revision 85fd1cc7fc42)
+
+(D:\LaTeX-Portable\miktex-portable\tex\latex\beamer\base\translator\translator.
+sty
+Package: translator 2010/06/12 ver 1.10
+
+(D:\LaTeX-Portable\miktex-portable\tex\latex\beamer\base\translator\translator-
+language-mappings.tex)))
+(D:\LaTeX-Portable\miktex-portable\tex\latex\beamer\base\beamerbasemisc.sty
+Package: beamerbasemisc 2012/02/24  (rcs-revision 2ff5461be705)
+)
+(D:\LaTeX-Portable\miktex-portable\tex\latex\beamer\base\beamerbasetwoscreens.s
+ty
+Package: beamerbasetwoscreens 2010/05/01  (rcs-revision efa082c6111d)
+)
+(D:\LaTeX-Portable\miktex-portable\tex\latex\beamer\base\beamerbaseoverlay.sty
+Package: beamerbaseoverlay 2012/04/03  (rcs-revision 45744d9ae88b)
+\beamer@argscount=\count125
+\beamer@lastskipcover=\skip44
+\beamer@trivlistdepth=\count126
+) (D:\LaTeX-Portable\miktex-portable\tex\latex\beamer\base\beamerbasetitle.sty
+Package: beamerbasetitle 2010/09/21  (rcs-revision f0446ed0b6ae)
+)
+(D:\LaTeX-Portable\miktex-portable\tex\latex\beamer\base\beamerbasesection.sty
+Package: beamerbasesection 2012/02/22  (rcs-revision 9a2581f9efb6)
+\c@lecture=\count127
+\c@part=\count128
+\c@section=\count129
+\c@subsection=\count130
+\c@subsubsection=\count131
+) (D:\LaTeX-Portable\miktex-portable\tex\latex\beamer\base\beamerbaseframe.sty
+Package: beamerbaseframe 2011/09/12  (rcs-revision 70f9d8411e54)
+\beamer@framebox=\box39
+\beamer@frametitlebox=\box40
+\beamer@zoombox=\box41
+\beamer@zoomcount=\count132
+\beamer@zoomframecount=\count133
+\beamer@frametextheight=\dimen164
+\c@subsectionslide=\count134
+\beamer@frametopskip=\skip45
+\beamer@framebottomskip=\skip46
+\beamer@frametopskipautobreak=\skip47
+\beamer@framebottomskipautobreak=\skip48
+\beamer@envbody=\toks22
+\c@framenumber=\count135
+)
+(D:\LaTeX-Portable\miktex-portable\tex\latex\beamer\base\beamerbaseverbatim.sty
+Package: beamerbaseverbatim 2011/09/12  (rcs-revision 70f9d8411e54)
+\beamer@verbatimfileout=\write3
+)
+(D:\LaTeX-Portable\miktex-portable\tex\latex\beamer\base\beamerbaseframesize.st
+y
+Package: beamerbaseframesize 2011/09/12  (rcs-revision 70f9d8411e54)
+\beamer@splitbox=\box42
+\beamer@autobreakcount=\count136
+\beamer@autobreaklastheight=\dimen165
+\beamer@frametitletoks=\toks23
+\beamer@framesubtitletoks=\toks24
+)
+(D:\LaTeX-Portable\miktex-portable\tex\latex\beamer\base\beamerbaseframecompone
+nts.sty
+Package: beamerbaseframecomponents 2012/03/07  (rcs-revision 9f094699ce15)
+\beamer@footins=\box43
+)
+(D:\LaTeX-Portable\miktex-portable\tex\latex\beamer\base\beamerbasecolor.sty
+Package: beamerbasecolor 2010/06/06  (rcs-revision d1a9b48be06d)
+)
+(D:\LaTeX-Portable\miktex-portable\tex\latex\beamer\base\beamerbasenotes.sty
+Package: beamerbasenotes 2010/05/01  (rcs-revision efa082c6111d)
+\beamer@frameboxcopy=\box44
+)
+(D:\LaTeX-Portable\miktex-portable\tex\latex\beamer\base\beamerbasetoc.sty
+Package: beamerbasetoc 2012/02/28  (rcs-revision 138681b92320)
+)
+(D:\LaTeX-Portable\miktex-portable\tex\latex\beamer\base\beamerbasetemplates.st
+y
+Package: beamerbasetemplates 2010/05/01  (rcs-revision efa082c6111d)
+\beamer@sbttoks=\toks25
+
+(D:\LaTeX-Portable\miktex-portable\tex\latex\beamer\base\beamerbaseauxtemplates
+.sty
+Package: beamerbaseauxtemplates 2012/04/01  (rcs-revision e6a26ac54db6)
+
+(D:\LaTeX-Portable\miktex-portable\tex\latex\beamer\base\beamerbaseboxes.sty
+Package: beamerbaseboxes 2010/05/01  (rcs-revision efa082c6111d)
+\bmb@box=\box45
+\bmb@colorbox=\box46
+\bmb@boxshadow=\box47
+\bmb@boxshadowball=\box48
+\bmb@boxshadowballlarge=\box49
+\bmb@temp=\dimen166
+\bmb@dima=\dimen167
+\bmb@dimb=\dimen168
+\bmb@prevheight=\dimen169
+)
+\beamer@blockheadheight=\dimen170
+))
+(D:\LaTeX-Portable\miktex-portable\tex\latex\beamer\base\beamerbaselocalstructu
+re.sty
+Package: beamerbaselocalstructure 2012/03/11  (rcs-revision 96ee3b332f84)
+ (D:\LaTeX-Portable\miktex-portable\tex\latex\tools\enumerate.sty
+Package: enumerate 1999/03/05 v3.00 enumerate extensions (DPC)
+\@enLab=\toks26
+)
+\c@figure=\count137
+\c@table=\count138
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+)
+(D:\LaTeX-Portable\miktex-portable\tex\latex\beamer\base\beamerbasenavigation.s
+ty
+Package: beamerbasenavigation 2012/04/03  (rcs-revision 42a0f21a412d)
+\beamer@section@min@dim=\dimen171
+)
+(D:\LaTeX-Portable\miktex-portable\tex\latex\beamer\base\beamerbasetheorems.sty
+Package: beamerbasetheorems 2010/06/06  (rcs-revision 7e7cc5e53e9d)
+(D:\LaTeX-Portable\miktex-portable\tex\latex\ams\math\amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip51
+
+For additional information on amsmath, use the `?' option.
+(D:\LaTeX-Portable\miktex-portable\tex\latex\ams\math\amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(D:\LaTeX-Portable\miktex-portable\tex\latex\ams\math\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks27
+\ex@=\dimen172
+))
+(D:\LaTeX-Portable\miktex-portable\tex\latex\ams\math\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen173
+)
+(D:\LaTeX-Portable\miktex-portable\tex\latex\ams\math\amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count139
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count140
+\leftroot@=\count141
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count142
+\DOTSCASE@=\count143
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box50
+\strutbox@=\box51
+\big@size=\dimen174
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count144
+\c@MaxMatrixCols=\count145
+\dotsspace@=\muskip11
+\c@parentequation=\count146
+\dspbrk@lvl=\count147
+\tag@help=\toks28
+\row@=\count148
+\column@=\count149
+\maxfields@=\count150
+\andhelp@=\toks29
+\eqnshift@=\dimen175
+\alignsep@=\dimen176
+\tagshift@=\dimen177
+\tagwidth@=\dimen178
+\totwidth@=\dimen179
+\lineht@=\dimen180
+\@envbody=\toks30
+\multlinegap=\skip52
+\multlinetaggap=\skip53
+\mathdisplay@stack=\toks31
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+(D:\LaTeX-Portable\miktex-portable\tex\latex\ams\classes\amsthm.sty
+Package: amsthm 2004/08/06 v2.20
+\thm@style=\toks32
+\thm@bodyfont=\toks33
+\thm@headfont=\toks34
+\thm@notefont=\toks35
+\thm@headpunct=\toks36
+\thm@preskip=\skip54
+\thm@postskip=\skip55
+\thm@headsep=\skip56
+\dth@everypar=\toks37
+)
+\c@theorem=\count151
+)
+(D:\LaTeX-Portable\miktex-portable\tex\latex\beamer\base\beamerbasethemes.sty
+Package: beamerbasethemes 2010/05/01  (rcs-revision efa082c6111d)
+))
+(D:\LaTeX-Portable\miktex-portable\tex\latex\beamer\base\themes\theme\beamerthe
+medefault.sty
+Package: beamerthemedefault 2010/06/17  (rcs-revision d02a7cf4d8ae)
+
+(D:\LaTeX-Portable\miktex-portable\tex\latex\beamer\base\themes\font\beamerfont
+themedefault.sty
+Package: beamerfontthemedefault 2010/06/17  (rcs-revision d02a7cf4d8ae)
+)
+(D:\LaTeX-Portable\miktex-portable\tex\latex\beamer\base\themes\color\beamercol
+orthemedefault.sty
+Package: beamercolorthemedefault 2010/06/17  (rcs-revision d02a7cf4d8ae)
+)
+(D:\LaTeX-Portable\miktex-portable\tex\latex\beamer\base\themes\inner\beamerinn
+erthemedefault.sty
+Package: beamerinnerthemedefault 2012/03/13  (rcs-revision e172a8ead951)
+\beamer@dima=\dimen181
+\beamer@dimb=\dimen182
+)
+(D:\LaTeX-Portable\miktex-portable\tex\latex\beamer\base\themes\outer\beamerout
+erthemedefault.sty
+Package: beamerouterthemedefault 2010/06/17  (rcs-revision d02a7cf4d8ae)
+)))
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\\' on input line 13.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\\' on input line 13.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\\' on input line 13.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\\' on input line 13.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\\' on input line 13.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\\' on input line 13.
+
+(D:\LaTeX-Portable\miktex-portable\tex\latex\base\inputenc.sty
+Package: inputenc 2008/03/30 v1.1d Input encoding file
+\inpenc@prehook=\toks38
+\inpenc@posthook=\toks39
+
+(D:\LaTeX-Portable\miktex-portable\tex\latex\base\latin1.def
+File: latin1.def 2008/03/30 v1.1d Input encoding file
+))
+(D:\LaTeX-Portable\miktex-portable\tex\latex\txfonts\txfonts.sty
+Package: txfonts 2008/01/22 v3.2.1
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 21.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/txr/m/n on input line 21.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/txr/m/n on input line 21.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/txr/m/n --> OT1/txr/bx/n on input line 22.
+\symitalic=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `italic' in version `bold'
+(Font)                  OT1/txr/m/it --> OT1/txr/bx/it on input line 26.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/txr/bx/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/txr/bx/n on input line 29.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 30.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/txr/m/it on input line 30.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/txr/m/it on input line 30.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/txr/m/it --> OT1/txr/bx/it on input line 31.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/txss/m/n on input line 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/txss/m/n on input line 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/txss/m/n --> OT1/txss/b/n on input line 41.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 50.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/txtt/m/n on input line 50.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/txtt/m/n on input line 50.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/txtt/m/n --> OT1/txtt/b/n on input line 51.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 58.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/txmi/m/it on input line 58.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/txmi/m/it on input line 58.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/txmi/m/it --> OML/txmi/bx/it on input line 59.
+\symlettersA=\mathgroup7
+LaTeX Font Info:    Overwriting symbol font `lettersA' in version `bold'
+(Font)                  U/txmia/m/it --> U/txmia/bx/it on input line 67.
+LaTeX Font Info:    Redeclaring math alphabet \mathfrak on input line 70.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 77.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/txsy/m/n on input line 77.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/txsy/m/n on input line 77.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/txsy/m/n --> OMS/txsy/bx/n on input line 78.
+LaTeX Font Info:    Redeclaring symbol font `AMSa' on input line 93.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `normal'
+(Font)                  U/msa/m/n --> U/txsya/m/n on input line 93.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `bold'
+(Font)                  U/msa/m/n --> U/txsya/m/n on input line 93.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `bold'
+(Font)                  U/txsya/m/n --> U/txsya/bx/n on input line 94.
+LaTeX Font Info:    Redeclaring symbol font `AMSb' on input line 102.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `normal'
+(Font)                  U/msb/m/n --> U/txsyb/m/n on input line 102.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `bold'
+(Font)                  U/msb/m/n --> U/txsyb/m/n on input line 102.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `bold'
+(Font)                  U/txsyb/m/n --> U/txsyb/bx/n on input line 103.
+\symsymbolsC=\mathgroup8
+LaTeX Font Info:    Overwriting symbol font `symbolsC' in version `bold'
+(Font)                  U/txsyc/m/n --> U/txsyc/bx/n on input line 113.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 120.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/txex/m/n on input line 120.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/txex/m/n on input line 120.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/txex/m/n --> OMX/txex/bx/n on input line 121.
+\symlargesymbolsA=\mathgroup9
+LaTeX Font Info:    Overwriting symbol font `largesymbolsA' in version `bold'
+(Font)                  U/txexa/m/n --> U/txexa/bx/n on input line 129.
+LaTeX Info: Redefining \not on input line 1043.
+LaTeX Info: Redefining \textsquare on input line 1063.
+LaTeX Info: Redefining \openbox on input line 1064.
+)
+(D:\LaTeX-Portable\miktex-portable\tex\latex\pgf\utilities\pgfpages.sty
+Package: pgfpages 2004/11/05 ver 0.01
+
+(D:\LaTeX-Portable\miktex-portable\tex\latex\tools\calc.sty
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count152
+\calc@Bcount=\count153
+\calc@Adimen=\dimen183
+\calc@Bdimen=\dimen184
+\calc@Askip=\skip57
+\calc@Bskip=\skip58
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count154
+\calc@Cskip=\skip59
+)
+\pgf@logicalpages=\count155
+\pgf@firstshipout=\count156
+\pgf@lastshipout=\count157
+\pgf@currentshipout=\count158
+\pgf@cpn=\count159
+\pgf@shipoutnextto=\count160
+\pgfphysicalheight=\dimen185
+\pgfphysicalwidth=\dimen186
+\pgfpages@shipoutbox=\box52
+)
+(D:\LaTeX-Portable\miktex-portable\tex\latex\booktabs\booktabs.sty
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen187
+\lightrulewidth=\dimen188
+\cmidrulewidth=\dimen189
+\belowrulesep=\dimen190
+\belowbottomsep=\dimen191
+\aboverulesep=\dimen192
+\abovetopsep=\dimen193
+\cmidrulesep=\dimen194
+\cmidrulekern=\dimen195
+\defaultaddspace=\dimen196
+\@cmidla=\count161
+\@cmidlb=\count162
+\@aboverulesep=\dimen197
+\@belowrulesep=\dimen198
+\@thisruleclass=\count163
+\@lastruleclass=\count164
+\@thisrulewidth=\dimen199
+)
+(D:\LaTeX-Portable\miktex-portable\tex\latex\listings\listings.sty
+\lst@mode=\count165
+\lst@gtempboxa=\box53
+\lst@token=\toks40
+\lst@length=\count166
+\lst@currlwidth=\dimen200
+\lst@column=\count167
+\lst@pos=\count168
+\lst@lostspace=\dimen201
+\lst@width=\dimen202
+\lst@newlines=\count169
+\lst@lineno=\count170
+\lst@maxwidth=\dimen203
+
+(D:\LaTeX-Portable\miktex-portable\tex\latex\listings\lstmisc.sty
+File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
+\c@lstnumber=\count171
+\lst@skipnumbers=\count172
+\lst@framebox=\box54
+)
+(D:\LaTeX-Portable\miktex-portable\tex\latex\listings\listings.cfg
+File: listings.cfg 2007/02/22 1.4 listings configuration
+))
+Package: listings 2007/02/22 1.4 (Carsten Heinz)
+
+(D:\LaTeX-Portable\miktex-portable\tex\latex\yhmath\yhmath.sty
+Package: yhmath 
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 12.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/txex/m/n --> OMX/yhex/m/n on input line 12.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/txex/bx/n --> OMX/yhex/m/n on input line 12.
+LaTeX Font Info:    Redeclaring math accent \widetilde on input line 13.
+LaTeX Font Info:    Redeclaring math accent \widehat on input line 14.
+)
+(D:\LaTeX-Portable\miktex-portable\tex\latex\tools\verbatim.sty
+Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks41
+\verbatim@line=\toks42
+\verbatim@in@stream=\read1
+)
+(D:\LaTeX-Portable\miktex-portable\tex\latex\pdfpages\pdfpages.sty
+Package: pdfpages 2010/12/18 v0.4m Insert pages of external PDF documents (AM)
+
+(D:\LaTeX-Portable\miktex-portable\tex\latex\base\ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(D:\LaTeX-Portable\miktex-portable\tex\latex\eso-pic\eso-pic.sty
+Package: eso-pic 2010/10/06 v2.0c eso-pic (RN)
+)
+(D:\LaTeX-Portable\miktex-portable\tex\latex\pdfpages\pppdftex.def
+File: pppdftex.def 2010/12/18 v0.4m Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box55
+\AM@toc@title=\toks43
+\c@AM@survey=\count173
+\AM@templatesizebox=\box56
+)
+(D:\LaTeX-Portable\miktex-portable\tex\latex\cancel\cancel.sty
+Package: cancel 2000/03/12 v2.1 Cancel math terms
+)
+(D:\LaTeX-Portable\miktex-portable\tex\latex\glossaries\base\glossaries.sty
+Package: glossaries 2010/07/10 v2.07 (NLCT)
+
+(D:\LaTeX-Portable\miktex-portable\tex\latex\xkeyval\xkeyval.sty
+Package: xkeyval 2008/08/13 v2.6a package option processing (HA)
+
+(D:\LaTeX-Portable\miktex-portable\tex\generic\xkeyval\xkeyval.tex
+\XKV@toks=\toks44
+\XKV@tempa@toks=\toks45
+\XKV@depth=\count174
+File: xkeyval.tex 2008/08/13 v2.6a key=value parser (HA)
+))
+(D:\LaTeX-Portable\miktex-portable\tex\latex\glossaries\base\mfirstuc.sty
+Package: mfirstuc 2009/11/03 v1.04 (NLCT)
+\@glsmfirst=\toks46
+\@glsmrest=\toks47
+)
+(D:\LaTeX-Portable\miktex-portable\tex\latex\xfor\xfor.sty
+Package: xfor 2009/02/05 v1.05 (NLCT)
+)
+\gls@level=\count175
+\@gls@tmpb=\toks48
+\gls@tmplen=\skip60
+\istfile=\write4
+\glskeylisttok=\toks49
+\glslabeltok=\toks50
+\glsshorttok=\toks51
+\glslongtok=\toks52
+
+(D:\LaTeX-Portable\miktex-portable\tex\latex\glossaries\styles\glossary-hyperna
+v.sty
+Package: glossary-hypernav 2007/07/04 v1.01 (NLCT)
+)
+(D:\LaTeX-Portable\miktex-portable\tex\latex\glossaries\styles\glossary-list.st
+y
+Package: glossary-list 2009/05/30 v2.01 (NLCT)
+\glslistdottedwidth=\skip61
+)
+(D:\LaTeX-Portable\miktex-portable\tex\latex\glossaries\styles\glossary-long.st
+y
+Package: glossary-long 2009/05/30 v2.01 (NLCT)
+ (D:\LaTeX-Portable\miktex-portable\tex\latex\tools\longtable.sty
+Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip62
+\LTright=\skip63
+\LTpre=\skip64
+\LTpost=\skip65
+\LTchunksize=\count176
+\LTcapwidth=\dimen204
+\LT@head=\box57
+\LT@firsthead=\box58
+\LT@foot=\box59
+\LT@lastfoot=\box60
+\LT@cols=\count177
+\LT@rows=\count178
+\c@LT@tables=\count179
+\c@LT@chunks=\count180
+\LT@p@ftn=\toks53
+)
+\glsdescwidth=\skip66
+\glspagelistwidth=\skip67
+)
+(D:\LaTeX-Portable\miktex-portable\tex\latex\glossaries\styles\glossary-super.s
+ty
+Package: glossary-super 2009/05/30 v2.01 (NLCT)
+ (D:\LaTeX-Portable\miktex-portable\tex\latex\supertabular\supertabular.sty
+Package: supertabular 2004/02/20 v4.1e the supertabular environment
+\c@tracingst=\count181
+\ST@wd=\dimen205
+\ST@rightskip=\skip68
+\ST@leftskip=\skip69
+\ST@parfillskip=\skip70
+\ST@pageleft=\dimen206
+\ST@headht=\dimen207
+\ST@tailht=\dimen208
+\ST@pagesofar=\dimen209
+\ST@pboxht=\dimen210
+\ST@lineht=\dimen211
+\ST@stretchht=\dimen212
+\ST@prevht=\dimen213
+\ST@toadd=\dimen214
+\ST@dimen=\dimen215
+\ST@pbox=\box61
+))
+(D:\LaTeX-Portable\miktex-portable\tex\latex\glossaries\styles\glossary-tree.st
+y
+Package: glossary-tree 2009/01/14 v1.01 (NLCT)
+\glstreeindent=\skip71
+))
+(D:\LaTeX-Portable\miktex-portable\tex\latex\beamer\base\themes\theme\beamerthe
+meDarmstadt.sty
+Package: beamerthemeDarmstadt 2010/06/17  (rcs-revision d02a7cf4d8ae)
+
+(D:\LaTeX-Portable\miktex-portable\tex\latex\beamer\base\themes\outer\beamerout
+erthemesmoothbars.sty
+Package: beamerouterthemesmoothbars 2010/06/17  (rcs-revision d02a7cf4d8ae)
+)
+(D:\LaTeX-Portable\miktex-portable\tex\latex\beamer\base\themes\inner\beamerinn
+erthemerounded.sty
+Package: beamerinnerthemerounded 2010/06/17  (rcs-revision d02a7cf4d8ae)
+)
+(D:\LaTeX-Portable\miktex-portable\tex\latex\beamer\base\themes\color\beamercol
+orthemeorchid.sty
+Package: beamercolorthemeorchid 2010/06/17  (rcs-revision d02a7cf4d8ae)
+)
+(D:\LaTeX-Portable\miktex-portable\tex\latex\beamer\base\themes\color\beamercol
+orthemewhale.sty
+Package: beamercolorthemewhale 2010/06/17  (rcs-revision d02a7cf4d8ae)
+))
+(D:\LaTeX-Portable\miktex-portable\tex\latex\beamer\base\themes\color\beamercol
+orthemebeaver.sty
+Package: beamercolorthemebeaver 2010/06/17  (rcs-revision d02a7cf4d8ae)
+)
+(C:\Users\Steve\SyncFolder\VAT\Projects\Research\Conferences\1211ssha\empire_ba
+rking_beamer.aux)
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 52.
+LaTeX Font Info:    Try loading font information for OML+txmi on input line 52.
+
+
+(D:\LaTeX-Portable\miktex-portable\tex\latex\txfonts\omltxmi.fd
+File: omltxmi.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 52.
+LaTeX Font Info:    Try loading font information for OMS+txsy on input line 52.
+
+
+(D:\LaTeX-Portable\miktex-portable\tex\latex\txfonts\omstxsy.fd
+File: omstxsy.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 52.
+LaTeX Font Info:    Try loading font information for OMX+txex on input line 52.
+
+
+(D:\LaTeX-Portable\miktex-portable\tex\latex\txfonts\omxtxex.fd
+File: omxtxex.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 52.
+LaTeX Font Info:    Try loading font information for U+txexa on input line 52.
+
+(D:\LaTeX-Portable\miktex-portable\tex\latex\txfonts\utxexa.fd
+File: utxexa.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Try loading font information for OT1+txss on input line 52.
+
+
+(D:\LaTeX-Portable\miktex-portable\tex\latex\txfonts\ot1txss.fd
+File: ot1txss.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
+(Font)              scaled to size 10.40245pt on input line 52.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: 364.19536pt, 273.14662pt (class default)
+* layout: 364.19536pt, 273.14662pt
+* switch(es): includehead includefoot 
+* h-part:(L,W,R)=(28.45274pt, 307.28987pt, 28.45274pt)
+* v-part:(T,H,B)=(0.0pt, 273.14662pt, 0.0pt)
+* \paperwidth=364.19536pt
+* \paperheight=273.14662pt
+* \textwidth=307.28987pt
+* \textheight=244.6939pt
+* \oddsidemargin=-43.81725pt
+* \evensidemargin=-43.81725pt
+* \topmargin=-72.26999pt
+* \headheight=14.22636pt
+* \headsep=0.0pt
+* \footskip=14.22636pt
+* \marginparwidth=4.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt, 1cm=28.453pt)
+
+(D:\LaTeX-Portable\miktex-portable\tex\context\base\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count182
+\scratchdimen=\dimen216
+\scratchbox=\box62
+\nofMPsegments=\count183
+\nofMParguments=\count184
+\everyMPshowfont=\toks54
+\MPscratchCnt=\count185
+\MPscratchDim=\dimen217
+\MPnumerator=\count186
+\everyMPtoPDFconversion=\toks55
+)
+\AtBeginShipoutBox=\box63
+Package hyperref Info: Link coloring OFF on input line 52.
+ (D:\LaTeX-Portable\miktex-portable\tex\latex\hyperref\nameref.sty
+Package: nameref 2010/01/25 v2.36 Cross-referencing by name of section
+
+(D:\LaTeX-Portable\miktex-portable\tex\latex\oberdiek\refcount.sty
+Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
+)
+(D:\LaTeX-Portable\miktex-portable\tex\generic\oberdiek\gettitlestring.sty
+Package: gettitlestring 2009/12/18 v1.3 Cleanup title references (HO)
+)
+\c@section@level=\count187
+)
+LaTeX Info: Redefining \ref on input line 52.
+LaTeX Info: Redefining \pageref on input line 52.
+
+(C:\Users\Steve\SyncFolder\VAT\Projects\Research\Conferences\1211ssha\empire_ba
+rking_beamer.out)
+(C:\Users\Steve\SyncFolder\VAT\Projects\Research\Conferences\1211ssha\empire_ba
+rking_beamer.out)
+\@outlinefile=\write5
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/txr/m/n --> OT1/cmss/m/n on input line 52.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/txr/bx/n --> OT1/cmss/bx/n on input line 52.
+\symnumbers=\mathgroup10
+\sympureletters=\mathgroup11
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/txr/m/n on input line 52.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 52.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/txr/bx/n --> OT1/txss/bx/n on input line 52.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/txr/bx/n --> OT1/txss/bx/n on input line 52.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 52.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/txss/m/n --> OT1/txss/m/n on input line 52.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/txss/b/n --> OT1/txss/m/n on input line 52.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 52.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/txr/m/it --> OT1/txss/m/it on input line 52.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/txr/bx/it --> OT1/txss/m/it on input line 52.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 52.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/txtt/m/n --> OT1/txtt/m/n on input line 52.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/txtt/b/n --> OT1/txtt/m/n on input line 52.
+LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
+(Font)                  OT1/txss/m/n --> OT1/txss/bx/n on input line 52.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
+(Font)                  OT1/txss/m/it --> OT1/txss/bx/it on input line 52.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/txr/bx/n on input line 52.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/txss/bx/n --> OT1/txss/bx/n on input line 52.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/txss/m/n --> OT1/txss/bx/n on input line 52.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/txss/m/it --> OT1/txss/bx/it on input line 52.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/txtt/m/n --> OT1/txtt/bx/n on input line 52.
+
+(D:\LaTeX-Portable\miktex-portable\tex\latex\beamer\base\translator\dicts\trans
+lator-basic-dictionary\translator-basic-dictionary-English.dict
+Dictionary: translator-basic-dictionary, Language: English 
+)
+(D:\LaTeX-Portable\miktex-portable\tex\latex\beamer\base\translator\dicts\trans
+lator-bibliography-dictionary\translator-bibliography-dictionary-English.dict
+Dictionary: translator-bibliography-dictionary, Language: English 
+)
+(D:\LaTeX-Portable\miktex-portable\tex\latex\beamer\base\translator\dicts\trans
+lator-environment-dictionary\translator-environment-dictionary-English.dict
+Dictionary: translator-environment-dictionary, Language: English 
+)
+(D:\LaTeX-Portable\miktex-portable\tex\latex\beamer\base\translator\dicts\trans
+lator-months-dictionary\translator-months-dictionary-English.dict
+Dictionary: translator-months-dictionary, Language: English 
+)
+(D:\LaTeX-Portable\miktex-portable\tex\latex\beamer\base\translator\dicts\trans
+lator-numbers-dictionary\translator-numbers-dictionary-English.dict
+Dictionary: translator-numbers-dictionary, Language: English 
+)
+(D:\LaTeX-Portable\miktex-portable\tex\latex\beamer\base\translator\dicts\trans
+lator-theorem-dictionary\translator-theorem-dictionary-English.dict
+Dictionary: translator-theorem-dictionary, Language: English 
+)
+(D:\LaTeX-Portable\miktex-portable\tex\latex\glossaries\dict\glossaries-diction
+ary-English.dict
+Dictionary: glossaries-dictionary, Language: English 
+)
+LaTeX Info: Redefining \includegraphics on input line 52.
+\c@lstlisting=\count188
+LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
+(Font)              scaled to size 5.69998pt on input line 52.
+
+(C:\Users\Steve\SyncFolder\VAT\Projects\Research\Conferences\1211ssha\empire_ba
+rking_beamer.nav)
+LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
+(Font)              scaled to size 13.67995pt on input line 56.
+LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
+(Font)              scaled to size 7.59998pt on input line 56.
+
+Overfull \vbox (27.37045pt too high) detected at line 56
+ []
+
+LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
+(Font)              scaled to size 3.79999pt on input line 56.
+[1{D:/LaTeX-Portable/miktex-portable/pdftex/config/pdftex.map}
+
+] [2
+
+]
+<./images/maddisonregpoppct.png, id=134, 491.436pt x 491.436pt>
+File: ./images/maddisonregpoppct.png Graphic file (type png)
+
+<use ./images/maddisonregpoppct.png>
+<./images/maddisonreggdppct.png, id=135, 491.436pt x 491.436pt>
+File: ./images/maddisonreggdppct.png Graphic file (type png)
+
+<use ./images/maddisonreggdppct.png>
+LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
+(Font)              scaled to size 9.49997pt on input line 103.
+ [3
+
+ <C:/Users/Steve/SyncFolder/VAT/Projects/Research/Conferences/1211ssha/images/m
+addisonregpoppct.png (PNG copy)> <C:/Users/Steve/SyncFolder/VAT/Projects/Resear
+ch/Conferences/1211ssha/images/maddisonreggdppct.png (PNG copy)>]
+<./images/maddisonregpoplevels.png, id=157, 491.436pt x 491.436pt>
+File: ./images/maddisonregpoplevels.png Graphic file (type png)
+
+<use ./images/maddisonregpoplevels.png>
+<./images/maddisonreggdplevels.png, id=158, 491.436pt x 491.436pt>
+File: ./images/maddisonreggdplevels.png Graphic file (type png)
+
+<use ./images/maddisonreggdplevels.png>
+LaTeX Font Info:    Try loading font information for OMX+yhex on input line 116
+.
+
+(D:\LaTeX-Portable\miktex-portable\tex\latex\yhmath\omxyhex.fd
+File: OMXyhex.fd 
+File: OMXyhex.fd 1996/01/04 v1.0 YH's humble contribution to TeX maths
+)
+LaTeX Font Info:    External font `yhcmex10' loaded for size
+(Font)              <10.95> on input line 116.
+LaTeX Font Info:    External font `yhcmex10' loaded for size
+(Font)              <8> on input line 116.
+LaTeX Font Info:    External font `yhcmex10' loaded for size
+(Font)              <6> on input line 116.
+LaTeX Font Info:    Try loading font information for U+txsya on input line 116.
+
+
+(D:\LaTeX-Portable\miktex-portable\tex\latex\txfonts\utxsya.fd
+File: utxsya.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Try loading font information for U+txsyb on input line 116.
+
+
+(D:\LaTeX-Portable\miktex-portable\tex\latex\txfonts\utxsyb.fd
+File: utxsyb.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Try loading font information for OT1+txr on input line 116.
+
+
+(D:\LaTeX-Portable\miktex-portable\tex\latex\txfonts\ot1txr.fd
+File: ot1txr.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Try loading font information for U+txmia on input line 116.
+
+
+(D:\LaTeX-Portable\miktex-portable\tex\latex\txfonts\utxmia.fd
+File: utxmia.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Try loading font information for U+txsyc on input line 116.
+
+
+(D:\LaTeX-Portable\miktex-portable\tex\latex\txfonts\utxsyc.fd
+File: utxsyc.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Font shape `OT1/txss/m/it' in size <10.95> not available
+(Font)              Font shape `OT1/txss/m/sl' tried instead on input line 116.
+
+LaTeX Font Info:    Font shape `OT1/txss/m/sl' will be
+(Font)              scaled to size 10.40245pt on input line 116.
+LaTeX Font Info:    Font shape `OT1/txss/m/it' in size <8> not available
+(Font)              Font shape `OT1/txss/m/sl' tried instead on input line 116.
+
+LaTeX Font Info:    Font shape `OT1/txss/m/sl' will be
+(Font)              scaled to size 7.59998pt on input line 116.
+LaTeX Font Info:    Font shape `OT1/txss/m/it' in size <6> not available
+(Font)              Font shape `OT1/txss/m/sl' tried instead on input line 116.
+
+LaTeX Font Info:    Font shape `OT1/txss/m/sl' will be
+(Font)              scaled to size 5.69998pt on input line 116.
+LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
+(Font)              scaled to size 8.54997pt on input line 116.
+LaTeX Font Info:    External font `yhcmex10' loaded for size
+(Font)              <9> on input line 116.
+LaTeX Font Info:    External font `yhcmex10' loaded for size
+(Font)              <5> on input line 116.
+LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
+(Font)              scaled to size 4.74998pt on input line 116.
+LaTeX Font Info:    Font shape `OT1/txss/m/it' in size <9> not available
+(Font)              Font shape `OT1/txss/m/sl' tried instead on input line 116.
+
+LaTeX Font Info:    Font shape `OT1/txss/m/sl' will be
+(Font)              scaled to size 8.54997pt on input line 116.
+LaTeX Font Info:    Font shape `OT1/txss/m/it' in size <5> not available
+(Font)              Font shape `OT1/txss/m/sl' tried instead on input line 116.
+
+LaTeX Font Info:    Font shape `OT1/txss/m/sl' will be
+(Font)              scaled to size 4.74998pt on input line 116.
+
+Overfull \vbox (33.70471pt too high) detected at line 116
+ []
+
+[4
+
+ <C:/Users/Steve/SyncFolder/VAT/Projects/Research/Conferences/1211ssha/images/m
+addisonregpoplevels.png (PNG copy)> <C:/Users/Steve/SyncFolder/VAT/Projects/Res
+earch/Conferences/1211ssha/images/maddisonreggdplevels.png (PNG copy)>]
+[5
+
+] [6
+
+] <./images/gworldwages.png, id=216, 491.436pt x 491.436pt>
+File: ./images/gworldwages.png Graphic file (type png)
+
+<use ./images/gworldwages.png>
+<./images//gworldenergycost.png, id=217, 491.436pt x 491.436pt>
+File: ./images//gworldenergycost.png Graphic file (type png)
+
+<use ./images//gworldenergycost.png>
+<./images/wage-energy.png, id=218, 491.436pt x 491.436pt>
+File: ./images/wage-energy.png Graphic file (type png)
+
+<use ./images/wage-energy.png> [7
+
+ <C:/Users/Steve/SyncFolder/VAT/Projects/Research/Conferences/1211ssha/images/g
+worldwages.png (PNG copy)> <C:/Users/Steve/SyncFolder/VAT/Projects/Research/Con
+ferences/1211ssha/images/gworldenergycost.png (PNG copy)> <C:/Users/Steve/SyncF
+older/VAT/Projects/Research/Conferences/1211ssha/images/wage-energy.png (PNG co
+py)>]
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 170.
+
+LaTeX Font Info:    External font `yhcmex10' loaded for size
+(Font)              <10> on input line 170.
+LaTeX Font Info:    External font `yhcmex10' loaded for size
+(Font)              <7> on input line 170.
+LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
+(Font)              scaled to size 6.64998pt on input line 170.
+LaTeX Font Info:    Font shape `OT1/txss/m/it' in size <10> not available
+(Font)              Font shape `OT1/txss/m/sl' tried instead on input line 170.
+
+LaTeX Font Info:    Font shape `OT1/txss/m/sl' will be
+(Font)              scaled to size 9.49997pt on input line 170.
+LaTeX Font Info:    Font shape `OT1/txss/m/it' in size <7> not available
+(Font)              Font shape `OT1/txss/m/sl' tried instead on input line 170.
+
+LaTeX Font Info:    Font shape `OT1/txss/m/sl' will be
+(Font)              scaled to size 6.64998pt on input line 170.
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 170.
+
+
+LaTeX Font Warning: Command \tiny invalid in math mode on input line 170.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 170.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 170.
+
+
+LaTeX Font Warning: Command \tiny invalid in math mode on input line 170.
+
+
+Overfull \hbox (13.2194pt too wide) detected at line 170
+[][] \OT1/cmss/m/n/10.95 = [][]
+ []
+
+[8
+
+] <./images/gbpmtoelog.png, id=261, 491.436pt x 491.436pt>
+File: ./images/gbpmtoelog.png Graphic file (type png)
+
+<use ./images/gbpmtoelog.png>
+<./images/allen_coal.png, id=262, 655.44875pt x 655.44875pt>
+File: ./images/allen_coal.png Graphic file (type png)
+
+<use ./images/allen_coal.png>
+<./images//ggdppop.png, id=263, 491.436pt x 491.436pt>
+File: ./images//ggdppop.png Graphic file (type png)
+
+<use ./images//ggdppop.png> [9
+
+ <C:/Users/Steve/SyncFolder/VAT/Projects/Research/Conferences/1211ssha/images/g
+bpmtoelog.png (PNG copy)> <C:/Users/Steve/SyncFolder/VAT/Projects/Research/Conf
+erences/1211ssha/images/allen_coal.png (PNG copy)> <C:/Users/Steve/SyncFolder/V
+AT/Projects/Research/Conferences/1211ssha/images/ggdppop.png (PNG copy)>] [10
+
+]
+<./images/wood.png, id=305, 491.436pt x 491.436pt>
+File: ./images/wood.png Graphic file (type png)
+ <use ./images/wood.png>
+<./images/chinawood.png, id=306, 491.436pt x 491.436pt>
+File: ./images/chinawood.png Graphic file (type png)
+
+<use ./images/chinawood.png> [11
+
+ <C:/Users/Steve/SyncFolder/VAT/Projects/Research/Conferences/1211ssha/images/w
+ood.png (PNG copy)> <C:/Users/Steve/SyncFolder/VAT/Projects/Research/Conference
+s/1211ssha/images/chinawood.png (PNG copy)>]
+[12
+
+]
+\tf@nav=\write6
+\tf@toc=\write7
+\tf@snm=\write8
+
+
+Package glossaries Warning: \makeglossaries hasn't been used,
+the glossaries will not be updated.
+
+
+Package glossaries Warning: No \printglossary or \printglossaries found.
+This document will not have a glossary.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 269.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 269.
+
+(C:\Users\Steve\SyncFolder\VAT\Projects\Research\Conferences\1211ssha\empire_ba
+rking_beamer.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 269.
+Package rerunfilecheck Info: File `empire_barking_beamer.out' has not changed.
+(rerunfilecheck)             Checksum: BF977D6A123AE3330F791A34A6B4DAA5;1008.
+ ) 
+Here is how much of TeX's memory you used:
+ 18068 strings out of 495289
+ 317814 string characters out of 3180136
+ 423972 words of memory out of 3000000
+ 20685 multiletter control sequences out of 15000+200000
+ 47718 words of font info for 113 fonts, out of 3000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 48i,20n,57p,1202b,796s stack positions out of 5000i,500n,10000p,200000b,50000s
+{D:/LaTeX-Portable/miktex-portable/fonts/enc/dvips/fontname/8r.enc} <D:\LaTeX
+-Portable\miktex-portable\fonts\pk\ljfour\public\yhmath\dpi600\yhcmex10.pk><D:/
+LaTeX-Portable/miktex-portable/fonts/type1/public/amsfonts/cm/cmss10.pfb><D:/La
+TeX-Portable/miktex-portable/fonts/type1/urw/helvetic/uhvr8a.pfb><D:/LaTeX-Port
+able/miktex-portable/fonts/type1/urw/helvetic/uhvr8a.pfb>
+Output written on empire_barking_beamer.pdf (12 pages, 835617 bytes).
+PDF statistics:
+ 374 PDF objects out of 1000 (max. 8388607)
+ 40 named destinations out of 1000 (max. 500000)
+ 231 words of extra memory for PDF output out of 10000 (max. 10000000)
+

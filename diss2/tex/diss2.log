@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.5.26)  28 DEC 2014 06:30
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.5.26)  26 MAR 2015 07:04
 entering extended mode
 **diss2.tex
 (C:\Users\Steve\Documents\GitHub\publish\diss2\tex\diss2.tex
@@ -1204,41 +1204,40 @@ op-ment for de-vel-op-ment economists,
 
 [1
 
-{D:/LaTeX-Portable/miktex-portable/pdftex/config/pdftex.map}] [2]
+{D:/LaTeX-Portable/miktex-portable/pdftex/config/pdftex.map}] [2] [3]
 Overfull \hbox (8.40672pt too wide) in paragraph at lines 131--132
 []\OT1/txr/m/n/10.95 The gross do-mes-tic prod-uct data is com-posed from data 
 se-ries from Graeme Snooks and Lawrence
  []
 
-[3] [4] [5] [6] [7] [8] [9]
+[4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17]
 (C:\Users\Steve\Documents\GitHub\publish\diss2\tex\diss2.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 4--8
 \OT1/txr/bx/n/10.95 URL: \OT1/txr/m/it/10.95 http://hip.library.utah.edu/ipac20
 /ipac.jsp?uri=full=3100001 !3004774 !2&pro-
  []
 
-[10]
 LaTeX Font Info:    Try loading font information for OMS+txr on input line 20.
- (D:\LaTeX-Portable\miktex-portable\tex\latex\txfonts\omstxr.fd
+(D:\LaTeX-Portable\miktex-portable\tex\latex\txfonts\omstxr.fd
 File: omstxr.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/txsy/m/n' tried instead on input line 20.
-
+ [18]
 Overfull \hbox (71.81221pt too wide) in paragraph at lines 62--65
 \OT1/txr/bx/n/10.95 URL: \OT1/txr/m/it/10.95 http://www.nature.com.ezproxy.lib.
 utah.edu/scientificamerican/journal/v237/n5/pdf/scientificamerican1177-
  []
 
-[11]) (C:\Users\Steve\Documents\GitHub\publish\diss2\tex\diss2.lot)
+) [19] (C:\Users\Steve\Documents\GitHub\publish\diss2\tex\diss2.lot)
 \tf@lot=\write7
 
-(C:\Users\Steve\Documents\GitHub\publish\diss2\tex\diss2.lof)
+(C:\Users\Steve\Documents\GitHub\publish\diss2\tex\diss2.lof [20])
 \tf@lof=\write8
 
 (C:\Users\Steve\Documents\GitHub\publish\diss2\tex\diss2.equ)
 \tf@equ=\write9
- [12]
+ [21]
 Overfull \hbox (76.65273pt too wide) in paragraph at lines 456--471
 [][] 
  []
@@ -1248,69 +1247,70 @@ Overfull \hbox (11.29819pt too wide) in paragraph at lines 494--504
 [][] 
  []
 
-[13] [14] [15] [16] <../images/overallLevels.png, id=330, 481.8pt x 481.8pt>
+[22] [23] [24] [25] [26] [27] [28]
+<../images/overallLevels.png, id=380, 481.8pt x 481.8pt>
 File: ../images/overallLevels.png Graphic file (type png)
 
 <use ../images/overallLevels.png>
 Package pdftex.def Info: ../images/overallLevels.png used on input line 562.
 (pdftex.def)             Requested size: 389.04034pt x 389.05019pt.
 
-<../images/ggdp.png, id=331, 505.6491pt x 505.6491pt>
+<../images/ggdp.png, id=381, 505.6491pt x 505.6491pt>
 File: ../images/ggdp.png Graphic file (type png)
  <use ../images/ggdp.png>
 Package pdftex.def Info: ../images/ggdp.png used on input line 572.
 (pdftex.def)             Requested size: 237.7498pt x 237.74768pt.
 
-<../images/ggdppop.png, id=332, 505.6491pt x 505.6491pt>
+<../images/ggdppop.png, id=382, 505.6491pt x 505.6491pt>
 File: ../images/ggdppop.png Graphic file (type png)
 
 <use ../images/ggdppop.png>
 Package pdftex.def Info: ../images/ggdppop.png used on input line 572.
 (pdftex.def)             Requested size: 237.7498pt x 237.74768pt.
 
-<../images/gdpLog.png, id=333, 505.6491pt x 505.6491pt>
+<../images/gdpLog.png, id=383, 505.6491pt x 505.6491pt>
 File: ../images/gdpLog.png Graphic file (type png)
 
 <use ../images/gdpLog.png>
 Package pdftex.def Info: ../images/gdpLog.png used on input line 582.
 (pdftex.def)             Requested size: 237.7498pt x 237.74768pt.
 
-<../images/gdpPopLog.png, id=334, 505.6491pt x 505.6491pt>
+<../images/gdpPopLog.png, id=384, 505.6491pt x 505.6491pt>
 File: ../images/gdpPopLog.png Graphic file (type png)
 
 <use ../images/gdpPopLog.png>
 Package pdftex.def Info: ../images/gdpPopLog.png used on input line 582.
 (pdftex.def)             Requested size: 237.7498pt x 237.74768pt.
 
-<../images/popLog.png, id=335, 491.436pt x 491.436pt>
+<../images/popLog.png, id=385, 491.436pt x 491.436pt>
 File: ../images/popLog.png Graphic file (type png)
 
 <use ../images/popLog.png>
 Package pdftex.def Info: ../images/popLog.png used on input line 589.
 (pdftex.def)             Requested size: 389.04034pt x 389.06255pt.
 
-<../images/energyLog1.png, id=336, 505.6491pt x 505.6491pt>
+<../images/energyLog1.png, id=386, 505.6491pt x 505.6491pt>
 File: ../images/energyLog1.png Graphic file (type png)
 
 <use ../images/energyLog1.png>
 Package pdftex.def Info: ../images/energyLog1.png used on input line 596.
 (pdftex.def)             Requested size: 389.04034pt x 389.0578pt.
 
-<../images/energyVsGdp.png, id=337, 481.8pt x 481.8pt>
+<../images/energyVsGdp.png, id=387, 481.8pt x 481.8pt>
 File: ../images/energyVsGdp.png Graphic file (type png)
 
 <use ../images/energyVsGdp.png>
 Package pdftex.def Info: ../images/energyVsGdp.png used on input line 603.
 (pdftex.def)             Requested size: 389.04034pt x 389.05019pt.
 
-<../images/energyVsGdpDiff.png, id=338, 722.7pt x 722.7pt>
+<../images/energyVsGdpDiff.png, id=388, 722.7pt x 722.7pt>
 File: ../images/energyVsGdpDiff.png Graphic file (type png)
 
 <use ../images/energyVsGdpDiff.png>
 Package pdftex.def Info: ../images/energyVsGdpDiff.png used on input line 610.
 (pdftex.def)             Requested size: 389.04034pt x 389.03915pt.
 
-<../images/scatterplot.png, id=339, 674.52pt x 674.52pt>
+<../images/scatterplot.png, id=389, 674.52pt x 674.52pt>
 File: ../images/scatterplot.png Graphic file (type png)
 
 <use ../images/scatterplot.png>
@@ -1321,7 +1321,7 @@ File: ../images/energyLog1.png Graphic file (type png)
 Package pdftex.def Info: ../images/energyLog1.png used on input line 627.
 (pdftex.def)             Requested size: 142.64989pt x 142.64552pt.
 
-<../images/gbpgdplog.png, id=340, 491.436pt x 491.436pt>
+<../images/gbpgdplog.png, id=390, 491.436pt x 491.436pt>
 File: ../images/gbpgdplog.png Graphic file (type png)
 
 <use ../images/gbpgdplog.png>
@@ -1332,7 +1332,7 @@ File: ../images/popLog.png Graphic file (type png)
 Package pdftex.def Info: ../images/popLog.png used on input line 627.
 (pdftex.def)             Requested size: 142.64989pt x 142.64777pt.
 
-<../images/2000_Year_Temperature_Comparison.png, id=341, 602.25pt x 444.66125pt
+<../images/2000_Year_Temperature_Comparison.png, id=391, 602.25pt x 444.66125pt
 >
 File: ../images/2000_Year_Temperature_Comparison.png Graphic file (type png)
  <use ../images/2000_Year_Temperature_Comparison.png>
@@ -1340,7 +1340,7 @@ Package pdftex.def Info: ../images/2000_Year_Temperature_Comparison.png used on
  input line 634.
 (pdftex.def)             Requested size: 389.04034pt x 287.25551pt.
 
-<../images/woodCoal.png, id=342, 390.258pt x 325.215pt>
+<../images/woodCoal.png, id=392, 390.258pt x 325.215pt>
 File: ../images/woodCoal.png Graphic file (type png)
 
 <use ../images/woodCoal.png>
@@ -1350,25 +1350,25 @@ Package pdftex.def Info: ../images/woodCoal.png used on input line 641.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<../images/era1.png, id=343, 505.6491pt x 505.6491pt>
+<../images/era1.png, id=393, 505.6491pt x 505.6491pt>
 File: ../images/era1.png Graphic file (type png)
  <use ../images/era1.png>
 Package pdftex.def Info: ../images/era1.png used on input line 652.
 (pdftex.def)             Requested size: 108.06749pt x 108.06432pt.
 
-<../images/era2.png, id=344, 505.6491pt x 505.6491pt>
+<../images/era2.png, id=394, 505.6491pt x 505.6491pt>
 File: ../images/era2.png Graphic file (type png)
  <use ../images/era2.png>
 Package pdftex.def Info: ../images/era2.png used on input line 652.
 (pdftex.def)             Requested size: 108.06749pt x 108.06432pt.
 
-<../images/era3.png, id=345, 505.6491pt x 505.6491pt>
+<../images/era3.png, id=395, 505.6491pt x 505.6491pt>
 File: ../images/era3.png Graphic file (type png)
  <use ../images/era3.png>
 Package pdftex.def Info: ../images/era3.png used on input line 652.
 (pdftex.def)             Requested size: 108.06749pt x 108.06432pt.
 
-<../images/era4.png, id=346, 505.6491pt x 505.6491pt>
+<../images/era4.png, id=396, 505.6491pt x 505.6491pt>
 File: ../images/era4.png Graphic file (type png)
  <use ../images/era4.png>
 Package pdftex.def Info: ../images/era4.png used on input line 652.
@@ -1377,14 +1377,14 @@ Package pdftex.def Info: ../images/era4.png used on input line 652.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<../images/desagulier1.png, id=347, 633.11531pt x 161.10187pt>
+<../images/desagulier1.png, id=397, 633.11531pt x 161.10187pt>
 File: ../images/desagulier1.png Graphic file (type png)
 
 <use ../images/desagulier1.png>
 Package pdftex.def Info: ../images/desagulier1.png used on input line 661.
 (pdftex.def)             Requested size: 410.65517pt x 104.49619pt.
 
-<../images/desagulier2.png, id=348, 728.7225pt x 327.47343pt>
+<../images/desagulier2.png, id=398, 728.7225pt x 327.47343pt>
 File: ../images/desagulier2.png Graphic file (type png)
 
 <use ../images/desagulier2.png>
@@ -1398,7 +1398,7 @@ Overfull \hbox (21.6148pt too wide) in paragraph at lines 662--664
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<../images/wage-energy.png, id=349, 505.6491pt x 505.6491pt>
+<../images/wage-energy.png, id=399, 505.6491pt x 505.6491pt>
 File: ../images/wage-energy.png Graphic file (type png)
 
 <use ../images/wage-energy.png>
@@ -1408,7 +1408,7 @@ Package pdftex.def Info: ../images/wage-energy.png used on input line 670.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<../images/energyIntensity.png, id=350, 674.52pt x 674.52pt>
+<../images/energyIntensity.png, id=400, 674.52pt x 674.52pt>
 File: ../images/energyIntensity.png Graphic file (type png)
 
 <use ../images/energyIntensity.png>
@@ -1426,26 +1426,26 @@ Package pdftex.def Info: ../images/gbpgdplog.png used on input line 684.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[17 <C:/Users/Steve/Documents/GitHub/publish/diss2/images/2000_Year_Temperature
-_Comparison.png>] [18 <C:/Users/Steve/Documents/GitHub/publish/diss2/images/ove
-rallLevels.png>] [19 <C:/Users/Steve/Documents/GitHub/publish/diss2/images/ggdp
+[29 <C:/Users/Steve/Documents/GitHub/publish/diss2/images/2000_Year_Temperature
+_Comparison.png>] [30 <C:/Users/Steve/Documents/GitHub/publish/diss2/images/ove
+rallLevels.png>] [31 <C:/Users/Steve/Documents/GitHub/publish/diss2/images/ggdp
 .png> <C:/Users/Steve/Documents/GitHub/publish/diss2/images/ggdppop.png> <C:/Us
 ers/Steve/Documents/GitHub/publish/diss2/images/gdpLog.png> <C:/Users/Steve/Doc
-uments/GitHub/publish/diss2/images/gdpPopLog.png>] [20 <C:/Users/Steve/Document
-s/GitHub/publish/diss2/images/popLog.png>] [21 <C:/Users/Steve/Documents/GitHub
-/publish/diss2/images/energyLog1.png>] [22 <C:/Users/Steve/Documents/GitHub/pub
-lish/diss2/images/energyVsGdp.png>] [23 <C:/Users/Steve/Documents/GitHub/publis
-h/diss2/images/energyVsGdpDiff.png>] [24 <C:/Users/Steve/Documents/GitHub/publi
+uments/GitHub/publish/diss2/images/gdpPopLog.png>] [32 <C:/Users/Steve/Document
+s/GitHub/publish/diss2/images/popLog.png>] [33 <C:/Users/Steve/Documents/GitHub
+/publish/diss2/images/energyLog1.png>] [34 <C:/Users/Steve/Documents/GitHub/pub
+lish/diss2/images/energyVsGdp.png>] [35 <C:/Users/Steve/Documents/GitHub/publis
+h/diss2/images/energyVsGdpDiff.png>] [36 <C:/Users/Steve/Documents/GitHub/publi
 sh/diss2/images/scatterplot.png> <C:/Users/Steve/Documents/GitHub/publish/diss2
-/images/gbpgdplog.png>] [25 <C:/Users/Steve/Documents/GitHub/publish/diss2/imag
+/images/gbpgdplog.png>] [37 <C:/Users/Steve/Documents/GitHub/publish/diss2/imag
 es/woodCoal.png> <C:/Users/Steve/Documents/GitHub/publish/diss2/images/era1.png
 > <C:/Users/Steve/Documents/GitHub/publish/diss2/images/era2.png> <C:/Users/Ste
 ve/Documents/GitHub/publish/diss2/images/era3.png> <C:/Users/Steve/Documents/Gi
-tHub/publish/diss2/images/era4.png>] [26 <C:/Users/Steve/Documents/GitHub/publi
+tHub/publish/diss2/images/era4.png>] [38 <C:/Users/Steve/Documents/GitHub/publi
 sh/diss2/images/desagulier1.png> <C:/Users/Steve/Documents/GitHub/publish/diss2
-/images/desagulier2.png>] [27 <C:/Users/Steve/Documents/GitHub/publish/diss2/im
-ages/wage-energy.png>] [28 <C:/Users/Steve/Documents/GitHub/publish/diss2/image
-s/energyIntensity.png>] [29]
+/images/desagulier2.png>] [39 <C:/Users/Steve/Documents/GitHub/publish/diss2/im
+ages/wage-energy.png>] [40 <C:/Users/Steve/Documents/GitHub/publish/diss2/image
+s/energyIntensity.png>] [41]
 
 Package glossaries Warning: No \printglossary or \printglossaries found.
 (Remove \makeglossaries if you don't want any glossaries.)
@@ -1460,13 +1460,13 @@ Package rerunfilecheck Info: File `diss2.out' has not changed.
 (rerunfilecheck)             Checksum: 457C6E946FADD52E0B3C4D383EB4C762;1179.
  ) 
 Here is how much of TeX's memory you used:
- 20268 strings out of 493921
- 344972 string characters out of 3144900
- 472737 words of memory out of 3000000
+ 20280 strings out of 493921
+ 345056 string characters out of 3144900
+ 472740 words of memory out of 3000000
  23022 multiletter control sequences out of 15000+200000
  51995 words of font info for 119 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 48i,9n,75p,1738b,462s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 48i,9n,75p,1738b,442s stack positions out of 5000i,500n,10000p,200000b,50000s
 {D:/LaTeX-Portable/miktex-portable/fonts/enc/dvips/fontname/8r.enc}<D:/LaTeX-
 Portable/miktex-portable/fonts/type1/public/txfonts/rtxi.pfb><D:/LaTeX-Portable
 /miktex-portable/fonts/type1/public/txfonts/rtxmi.pfb><D:/LaTeX-Portable/miktex
@@ -1475,9 +1475,9 @@ e/fonts/type1/public/txfonts/txsy.pfb><D:/LaTeX-Portable/miktex-portable/fonts/
 type1/urw/times/utmb8a.pfb><D:/LaTeX-Portable/miktex-portable/fonts/type1/urw/t
 imes/utmr8a.pfb><D:/LaTeX-Portable/miktex-portable/fonts/type1/urw/times/utmri8
 a.pfb>
-Output written on diss2.pdf (29 pages, 1269885 bytes).
+Output written on diss2.pdf (41 pages, 1279755 bytes).
 PDF statistics:
- 470 PDF objects out of 1000 (max. 8388607)
- 97 named destinations out of 1000 (max. 500000)
+ 525 PDF objects out of 1000 (max. 8388607)
+ 109 named destinations out of 1000 (max. 500000)
  286 words of extra memory for PDF output out of 10000 (max. 10000000)
 
