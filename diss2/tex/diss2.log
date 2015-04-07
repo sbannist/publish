@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.5.26)  26 MAR 2015 07:04
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.5.26)  1 APR 2015 10:46
 entering extended mode
 **diss2.tex
 (C:\Users\Steve\Documents\GitHub\publish\diss2\tex\diss2.tex
@@ -1445,24 +1445,26 @@ tHub/publish/diss2/images/era4.png>] [38 <C:/Users/Steve/Documents/GitHub/publi
 sh/diss2/images/desagulier1.png> <C:/Users/Steve/Documents/GitHub/publish/diss2
 /images/desagulier2.png>] [39 <C:/Users/Steve/Documents/GitHub/publish/diss2/im
 ages/wage-energy.png>] [40 <C:/Users/Steve/Documents/GitHub/publish/diss2/image
-s/energyIntensity.png>] [41]
+s/energyIntensity.png>] [41] [42
+
+]
 
 Package glossaries Warning: No \printglossary or \printglossaries found.
 (Remove \makeglossaries if you don't want any glossaries.)
 This document will not have a glossary.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 792.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 792.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 796.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 796.
 (C:\Users\Steve\Documents\GitHub\publish\diss2\tex\diss2.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 792.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 792.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 796.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 796.
 Package rerunfilecheck Info: File `diss2.out' has not changed.
 (rerunfilecheck)             Checksum: 457C6E946FADD52E0B3C4D383EB4C762;1179.
  ) 
 Here is how much of TeX's memory you used:
- 20280 strings out of 493921
- 345056 string characters out of 3144900
- 472740 words of memory out of 3000000
+ 20281 strings out of 493921
+ 345063 string characters out of 3144900
+ 472741 words of memory out of 3000000
  23022 multiletter control sequences out of 15000+200000
  51995 words of font info for 119 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
@@ -1475,9 +1477,9 @@ e/fonts/type1/public/txfonts/txsy.pfb><D:/LaTeX-Portable/miktex-portable/fonts/
 type1/urw/times/utmb8a.pfb><D:/LaTeX-Portable/miktex-portable/fonts/type1/urw/t
 imes/utmr8a.pfb><D:/LaTeX-Portable/miktex-portable/fonts/type1/urw/times/utmri8
 a.pfb>
-Output written on diss2.pdf (41 pages, 1279755 bytes).
+Output written on diss2.pdf (42 pages, 1280305 bytes).
 PDF statistics:
- 525 PDF objects out of 1000 (max. 8388607)
- 109 named destinations out of 1000 (max. 500000)
+ 529 PDF objects out of 1000 (max. 8388607)
+ 110 named destinations out of 1000 (max. 500000)
  286 words of extra memory for PDF output out of 10000 (max. 10000000)
 

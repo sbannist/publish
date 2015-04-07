@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.5.26)  1 APR 2015 08:49
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.5.26)  1 APR 2015 21:44
 entering extended mode
-**diss4.tex
-(C:\Users\Steve\Documents\GitHub\publish\diss4\tex\diss4.tex
+**1504AFITBannister.tex
+(C:\Users\Steve\Documents\GitHub\publish\diss3\tex\1504AFITBannister.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -756,18 +756,17 @@ Package: ltcaption 2013/02/03 v1.3-62 longtable captions (AR)
 \sf@top=\skip56
 \sf@bottom=\skip57
 )
-(D:\LaTeX-Portable\miktex-portable\tex\latex\float\float.sty
-Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count138
-\float@exts=\toks33
-\float@box=\box39
-\@float@everytoks=\toks34
-\@floatcapt=\box40
+(D:\LaTeX-Portable\miktex-portable\tex\latex\natbib\natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip58
+\bibsep=\skip59
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count138
 )
 (D:\LaTeX-Portable\miktex-portable\tex\latex\tools\verbatim.sty
 Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks35
-\verbatim@line=\toks36
+\every@verbatim=\toks33
+\verbatim@line=\toks34
 \verbatim@in@stream=\read2
 )
 (D:\LaTeX-Portable\miktex-portable\tex\latex\glossaries\base\glossaries.sty
@@ -780,8 +779,8 @@ Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 Package: xkeyval 2012/10/14 v2.6b package option processing (HA)
 
 (D:\LaTeX-Portable\miktex-portable\tex\generic\xkeyval\xkeyval.tex
-\XKV@toks=\toks37
-\XKV@tempa@toks=\toks38
+\XKV@toks=\toks35
+\XKV@tempa@toks=\toks36
 \XKV@depth=\count139
 File: xkeyval.tex 2012/10/14 v2.6b key=value parser (HA)
 ))
@@ -797,8 +796,8 @@ Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
 )
 \etb@tempcnta=\count141
 )
-\@glsmfirst=\toks39
-\@glsmrest=\toks40
+\@glsmfirst=\toks37
+\@glsmrest=\toks38
 )
 (D:\LaTeX-Portable\miktex-portable\tex\latex\textcase\textcase.sty
 Package: textcase 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
@@ -864,9 +863,9 @@ Package: fp-upn 1996/10/21
 (D:\LaTeX-Portable\miktex-portable\tex\latex\fp\fp-eval.sty
 Package: fp-eval 1995/04/03
 )))
-\@dtl@toks=\toks41
+\@dtl@toks=\toks39
 \@dtl@tmpcount=\count154
-\dtl@tmplength=\skip58
+\dtl@tmplength=\skip60
 \dtl@sortresult=\count155
 \@dtl@numgrpsepcount=\count156
 \@dtl@datatype=\count157
@@ -879,12 +878,12 @@ ble-307.sty
 Package: glossaries-compatible-307 2013/11/14 v4.0 (NLCT)
 )
 \gls@level=\count161
-\@gls@tmpb=\toks42
-\gls@tmplen=\skip59
-\glskeylisttok=\toks43
-\glslabeltok=\toks44
-\glsshorttok=\toks45
-\glslongtok=\toks46
+\@gls@tmpb=\toks40
+\gls@tmplen=\skip61
+\glskeylisttok=\toks41
+\glslabeltok=\toks42
+\glsshorttok=\toks43
+\glslongtok=\toks44
 
 (D:\LaTeX-Portable\miktex-portable\tex\latex\glossaries\styles\glossary-hyperna
 v.sty
@@ -893,13 +892,13 @@ Package: glossary-hypernav 2013/11/14 v4.0 (NLCT)
 (D:\LaTeX-Portable\miktex-portable\tex\latex\glossaries\styles\glossary-list.st
 y
 Package: glossary-list 2013/11/14 v4.0 (NLCT)
-\glslistdottedwidth=\skip60
+\glslistdottedwidth=\skip62
 )
 (D:\LaTeX-Portable\miktex-portable\tex\latex\glossaries\styles\glossary-long.st
 y
 Package: glossary-long 2013/11/14 v4.0 (NLCT)
-\glsdescwidth=\skip61
-\glspagelistwidth=\skip62
+\glsdescwidth=\skip63
+\glspagelistwidth=\skip64
 )
 (D:\LaTeX-Portable\miktex-portable\tex\latex\glossaries\styles\glossary-super.s
 ty
@@ -908,9 +907,9 @@ Package: glossary-super 2013/11/14 v4.0 (NLCT)
 Package: supertabular 2004/02/20 v4.1e the supertabular environment
 \c@tracingst=\count162
 \ST@wd=\dimen175
-\ST@rightskip=\skip63
-\ST@leftskip=\skip64
-\ST@parfillskip=\skip65
+\ST@rightskip=\skip65
+\ST@leftskip=\skip66
+\ST@parfillskip=\skip67
 \ST@pageleft=\dimen176
 \ST@headht=\dimen177
 \ST@tailht=\dimen178
@@ -921,53 +920,46 @@ Package: supertabular 2004/02/20 v4.1e the supertabular environment
 \ST@prevht=\dimen183
 \ST@toadd=\dimen184
 \ST@dimen=\dimen185
-\ST@pbox=\box41
+\ST@pbox=\box39
 ))
 (D:\LaTeX-Portable\miktex-portable\tex\latex\glossaries\styles\glossary-tree.st
 y
 Package: glossary-tree 2014/03/06 v4.04 (NLCT)
-\glstreeindent=\skip66
+\glstreeindent=\skip68
 )) (D:\LaTeX-Portable\miktex-portable\tex\latex\tocloft\tocloft.sty
 Package: tocloft 2013/05/02 v2.3f parameterised ToC, etc., typesetting
 Package tocloft Info: The document has section divisions on input line 44.
-\cftparskip=\skip67
-\cftbeforetoctitleskip=\skip68
-\cftaftertoctitleskip=\skip69
-\cftbeforepartskip=\skip70
-\cftpartnumwidth=\skip71
-\cftpartindent=\skip72
-\cftbeforesecskip=\skip73
-\cftsecindent=\skip74
-\cftsecnumwidth=\skip75
-\cftbeforesubsecskip=\skip76
-\cftsubsecindent=\skip77
-\cftsubsecnumwidth=\skip78
-\cftbeforesubsubsecskip=\skip79
-\cftsubsubsecindent=\skip80
-\cftsubsubsecnumwidth=\skip81
-\cftbeforeparaskip=\skip82
-\cftparaindent=\skip83
-\cftparanumwidth=\skip84
-\cftbeforesubparaskip=\skip85
-\cftsubparaindent=\skip86
-\cftsubparanumwidth=\skip87
-\cftbeforeloftitleskip=\skip88
-\cftafterloftitleskip=\skip89
-\cftbeforefigskip=\skip90
-\cftfigindent=\skip91
-\cftfignumwidth=\skip92
-\cftbeforelottitleskip=\skip93
-\cftafterlottitleskip=\skip94
-\cftbeforetabskip=\skip95
-\cfttabindent=\skip96
-\cfttabnumwidth=\skip97
-)
-(D:\LaTeX-Portable\miktex-portable\tex\latex\natbib\natbib.sty
-Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip98
-\bibsep=\skip99
-LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count163
+\cftparskip=\skip69
+\cftbeforetoctitleskip=\skip70
+\cftaftertoctitleskip=\skip71
+\cftbeforepartskip=\skip72
+\cftpartnumwidth=\skip73
+\cftpartindent=\skip74
+\cftbeforesecskip=\skip75
+\cftsecindent=\skip76
+\cftsecnumwidth=\skip77
+\cftbeforesubsecskip=\skip78
+\cftsubsecindent=\skip79
+\cftsubsecnumwidth=\skip80
+\cftbeforesubsubsecskip=\skip81
+\cftsubsubsecindent=\skip82
+\cftsubsubsecnumwidth=\skip83
+\cftbeforeparaskip=\skip84
+\cftparaindent=\skip85
+\cftparanumwidth=\skip86
+\cftbeforesubparaskip=\skip87
+\cftsubparaindent=\skip88
+\cftsubparanumwidth=\skip89
+\cftbeforeloftitleskip=\skip90
+\cftafterloftitleskip=\skip91
+\cftbeforefigskip=\skip92
+\cftfigindent=\skip93
+\cftfignumwidth=\skip94
+\cftbeforelottitleskip=\skip95
+\cftafterlottitleskip=\skip96
+\cftbeforetabskip=\skip97
+\cfttabindent=\skip98
+\cfttabnumwidth=\skip99
 )
 (D:\LaTeX-Portable\miktex-portable\tex\latex\hyperref\hyperref.sty
 Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
@@ -1026,13 +1018,13 @@ Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
 \@linkdim=\dimen186
-\Hy@linkcounter=\count164
-\Hy@pagecounter=\count165
+\Hy@linkcounter=\count163
+\Hy@pagecounter=\count164
 
 (D:\LaTeX-Portable\miktex-portable\tex\latex\hyperref\pd1enc.def
 File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count166
+\Hy@SavedSpaceFactor=\count165
 
 (D:\LaTeX-Portable\miktex-portable\tex\latex\00miktex\hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -1044,7 +1036,7 @@ Package hyperref Info: Plain pages OFF on input line 4458.
 Package hyperref Info: Backreferencing OFF on input line 4463.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
-\c@Hy@tempcnt=\count167
+\c@Hy@tempcnt=\count166
 
 (D:\LaTeX-Portable\miktex-portable\tex\latex\url\url.sty
 \Urlmuskip=\muskip11
@@ -1052,7 +1044,7 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5041.
 \XeTeXLinkMargin=\dimen187
-\Fld@menulength=\count168
+\Fld@menulength=\count167
 \Field@Width=\dimen188
 \Fld@charsize=\dimen189
 Package hyperref Info: Hyper figures OFF on input line 6295.
@@ -1064,17 +1056,17 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6320.
 Package hyperref Info: PDF/A mode OFF on input line 6325.
 LaTeX Info: Redefining \ref on input line 6365.
 LaTeX Info: Redefining \pageref on input line 6369.
-\Hy@abspage=\count169
-\c@Item=\count170
-\c@Hfootnote=\count171
+\Hy@abspage=\count168
+\c@Item=\count169
+\c@Hfootnote=\count170
 )
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
 (D:\LaTeX-Portable\miktex-portable\tex\latex\hyperref\hpdftex.def
 File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
-\Fld@listcount=\count172
-\c@bookmark@seq@number=\count173
+\Fld@listcount=\count171
+\c@bookmark@seq@number=\count172
 
 (D:\LaTeX-Portable\miktex-portable\tex\latex\oberdiek\rerunfilecheck.sty
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
@@ -1083,71 +1075,76 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip100
 )
-(C:\Users\Steve\Documents\GitHub\publish\diss4\tex\diss4.aux)
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 66.
-LaTeX Font Info:    Try loading font information for OML+txmi on input line 66.
+\glswrite=\write4
+\glo@main@file=\write5
+Package glossaries Info: Writing glossary file 1504AFITBannister.glo on input l
+ine 76.
+
+(C:\Users\Steve\Documents\GitHub\publish\diss3\tex\glossary.tex)
+(C:\Users\Steve\Documents\GitHub\publish\diss3\tex\1504AFITBannister.aux)
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 82.
+LaTeX Font Info:    Try loading font information for OML+txmi on input line 82.
 
 
 (D:\LaTeX-Portable\miktex-portable\tex\latex\txfonts\omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 66.
-LaTeX Font Info:    Try loading font information for OMS+txsy on input line 66.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 82.
+LaTeX Font Info:    Try loading font information for OMS+txsy on input line 82.
 
 
 (D:\LaTeX-Portable\miktex-portable\tex\latex\txfonts\omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 66.
-LaTeX Font Info:    Try loading font information for OMX+txex on input line 66.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 82.
+LaTeX Font Info:    Try loading font information for OMX+txex on input line 82.
 
 
 (D:\LaTeX-Portable\miktex-portable\tex\latex\txfonts\omxtxex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 66.
-LaTeX Font Info:    Try loading font information for U+txexa on input line 66.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 82.
+LaTeX Font Info:    Try loading font information for U+txexa on input line 82.
 
 (D:\LaTeX-Portable\miktex-portable\tex\latex\txfonts\utxexa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Try loading font information for OT1+txr on input line 66.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Try loading font information for OT1+txr on input line 82.
 
 (D:\LaTeX-Portable\miktex-portable\tex\latex\txfonts\ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
 )
 (D:\LaTeX-Portable\miktex-portable\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count174
+\scratchcounter=\count173
 \scratchdimen=\dimen190
-\scratchbox=\box42
-\nofMPsegments=\count175
-\nofMParguments=\count176
-\everyMPshowfont=\toks47
-\MPscratchCnt=\count177
+\scratchbox=\box40
+\nofMPsegments=\count174
+\nofMParguments=\count175
+\everyMPshowfont=\toks45
+\MPscratchCnt=\count176
 \MPscratchDim=\dimen191
-\MPnumerator=\count178
-\makeMPintoPDFobject=\count179
-\everyMPtoPDFconversion=\toks48
+\MPnumerator=\count177
+\makeMPintoPDFobject=\count178
+\everyMPtoPDFconversion=\toks46
 ) ABD: EveryShipout initializing macros
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
-Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: supertabular package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\AtBeginShipoutBox=\box43
-Package hyperref Info: Link coloring OFF on input line 66.
+\AtBeginShipoutBox=\box41
+Package hyperref Info: Link coloring OFF on input line 82.
 
 (D:\LaTeX-Portable\miktex-portable\tex\latex\hyperref\nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1155,89 +1152,301 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (D:\LaTeX-Portable\miktex-portable\tex\generic\oberdiek\gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count180
+\c@section@level=\count179
 )
-LaTeX Info: Redefining \ref on input line 66.
-LaTeX Info: Redefining \pageref on input line 66.
-LaTeX Info: Redefining \nameref on input line 66.
+LaTeX Info: Redefining \ref on input line 82.
+LaTeX Info: Redefining \pageref on input line 82.
+LaTeX Info: Redefining \nameref on input line 82.
 
-(C:\Users\Steve\Documents\GitHub\publish\diss4\tex\diss4.out)
-(C:\Users\Steve\Documents\GitHub\publish\diss4\tex\diss4.out)
-\@outlinefile=\write4
-LaTeX Font Info:    Try loading font information for U+txsya on input line 69.
+(C:\Users\Steve\Documents\GitHub\publish\diss3\tex\1504AFITBannister.out)
+(C:\Users\Steve\Documents\GitHub\publish\diss3\tex\1504AFITBannister.out)
+\@outlinefile=\write6
+LaTeX Font Info:    Try loading font information for U+txsya on input line 90.
 
 (D:\LaTeX-Portable\miktex-portable\tex\latex\txfonts\utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyb on input line 69.
+LaTeX Font Info:    Try loading font information for U+txsyb on input line 90.
 
 (D:\LaTeX-Portable\miktex-portable\tex\latex\txfonts\utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txmia on input line 69.
+LaTeX Font Info:    Try loading font information for U+txmia on input line 90.
 
 (D:\LaTeX-Portable\miktex-portable\tex\latex\txfonts\utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyc on input line 69.
+LaTeX Font Info:    Try loading font information for U+txsyc on input line 90.
 
 (D:\LaTeX-Portable\miktex-portable\tex\latex\txfonts\utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
-) [1
+)
+\c@myequations=\count180
+\cftbeforemyequationsskip=\skip101
+\cftmyequationsindent=\skip102
+\cftmyequationsnumwidth=\skip103
+\c@equdepth=\count181
+\cftbeforeequtitleskip=\skip104
+\cftafterequtitleskip=\skip105
+ [1
 
-{D:/LaTeX-Portable/miktex-portable/pdftex/config/pdftex.map}] [2] [3] [4] [5] [
-6] [7]
-[8] [9]
-<C:/Users/Steve/Documents/GitHub/publish/diss3/images/logPop1-2014.jpg, id=71, 
-505.6491pt x 505.6491pt>
-File: C:/Users/Steve/Documents/GitHub/publish/diss3/images/logPop1-2014.jpg Gra
-phic file (type jpg)
+{D:/LaTeX-Portable/miktex-portable/pdftex/config/pdftex.map}]
 
-<use C:/Users/Steve/Documents/GitHub/publish/diss3/images/logPop1-2014.jpg>
-Package pdftex.def Info: C:/Users/Steve/Documents/GitHub/publish/diss3/images/l
-ogPop1-2014.jpg used on input line 176.
+Package natbib Warning: Citation `bokus_institutional_2014' on page 2 undefined
+ on input line 106.
+
+[2]
+
+Package natbib Warning: Citation `brenner_agrarian_1976' on page 3 undefined on
+ input line 139.
+
+
+Package natbib Warning: Citation `wrigley_continuity_1988' on page 3 undefined 
+on input line 139.
+
+
+Package natbib Warning: Citation `marx_contribution_1904' on page 3 undefined o
+n input line 147.
+
+[3]
+
+Package natbib Warning: Citation `ruttan_toward_1984' on page 4 undefined on in
+put line 165.
+
+
+Package natbib Warning: Citation `prak_economic_2001' on page 4 undefined on in
+put line 173.
+
+[4]
+
+Package natbib Warning: Citation `prak_economic_2001' on page 5 undefined on in
+put line 179.
+
+
+Package natbib Warning: Citation `prak_economic_2001' on page 5 undefined on in
+put line 181.
+
+
+Package natbib Warning: Citation `mokyr_editors_1993' on page 5 undefined on in
+put line 186.
+
+
+Package natbib Warning: Citation `jones_growth_1988' on page 5 undefined on inp
+ut line 186.
+
+
+Package natbib Warning: Citation `crafts_output_1992' on page 5 undefined on in
+put line 186.
+
+[5]
+
+Package natbib Warning: Citation `prak_economic_2001' on page 6 undefined on in
+put line 192.
+
+[6]
+
+Package natbib Warning: Citation `wrigley_people_1987' on page 7 undefined on i
+nput line 196.
+
+[7]
+
+Package natbib Warning: Citation `wrigley_people_1987' on page 8 undefined on i
+nput line 227.
+
+
+Package natbib Warning: Citation `prak_economic_2001' on page 8 undefined on in
+put line 235.
+
+[8]
+
+Package natbib Warning: Citation `mokyr_fable_1993' on page 9 undefined on inpu
+t line 239.
+
+
+Package natbib Warning: Citation `prak_economic_2001' on page 9 undefined on in
+put line 241.
+
+
+Package natbib Warning: Citation `wrigley_continuity_1988' on page 9 undefined 
+on input line 243.
+
+
+Package natbib Warning: Citation `kaldor_case_1970' on page 9 undefined on inpu
+t line 246.
+
+[9] [10]
+
+Package natbib Warning: Citation `nef_rise_1932' on page 11 undefined on input 
+line 275.
+
+[11]
+
+Package natbib Warning: Citation `nef_rise_1932' on page 12 undefined on input 
+line 278.
+
+
+Package natbib Warning: Citation `nef_rise_1932' on page 12 undefined on input 
+line 281.
+
+[12]
+
+Package natbib Warning: Citation `mielants_origins_2007' on page 13 undefined o
+n input line 292.
+
+
+Package natbib Warning: Citation `hartwell_markets_1966' on page 13 undefined o
+n input line 303.
+
+[13]
+
+Package natbib Warning: Citation `hartwell_markets_1966' on page 14 undefined o
+n input line 306.
+
+
+Package natbib Warning: Citation `hartwell_markets_1966' on page 14 undefined o
+n input line 308.
+
+
+Package natbib Warning: Citation `hartwell_markets_1966' on page 14 undefined o
+n input line 310.
+
+[14]
+
+Package natbib Warning: Citation `hsien-chun_wang_discovering_2009' on page 15 
+undefined on input line 318.
+
+
+Package natbib Warning: Citation `allen_british_2009' on page 15 undefined on i
+nput line 322.
+
+[15]
+
+Package natbib Warning: Citation `mantoux_industrial_1961' on page 16 undefined
+ on input line 330.
+
+
+Package natbib Warning: Citation `mantoux_industrial_1961' on page 16 undefined
+ on input line 332.
+
+
+Package natbib Warning: Citation `mantoux_industrial_1961' on page 16 undefined
+ on input line 334.
+
+[16]
+
+Package natbib Warning: Citation `mantoux_industrial_1961' on page 17 undefined
+ on input line 336.
+
+
+Package natbib Warning: Citation `mantoux_industrial_1961' on page 17 undefined
+ on input line 336.
+
+<../images/logPop1-2014.jpg, id=187, 505.6491pt x 505.6491pt>
+File: ../images/logPop1-2014.jpg Graphic file (type jpg)
+
+<use ../images/logPop1-2014.jpg>
+Package pdftex.def Info: ../images/logPop1-2014.jpg used on input line 351.
 (pdftex.def)             Requested size: 277.3648pt x 277.37486pt.
 
-<C:/Users/Steve/Documents/GitHub/publish/diss3/images/logDiffPop1750-2014.jpg, 
-id=72, 505.6491pt x 505.6491pt>
-File: C:/Users/Steve/Documents/GitHub/publish/diss3/images/logDiffPop1750-2014.
-jpg Graphic file (type jpg)
+<../images/logDiffPop1750-2014.jpg, id=188, 505.6491pt x 505.6491pt>
+File: ../images/logDiffPop1750-2014.jpg Graphic file (type jpg)
 
-<use C:/Users/Steve/Documents/GitHub/publish/diss3/images/logDiffPop1750-2014.j
-pg>
-Package pdftex.def Info: C:/Users/Steve/Documents/GitHub/publish/diss3/images/l
-ogDiffPop1750-2014.jpg used on input line 176.
+<use ../images/logDiffPop1750-2014.jpg>
+Package pdftex.def Info: ../images/logDiffPop1750-2014.jpg used on input line 3
+51.
 (pdftex.def)             Requested size: 277.3648pt x 277.37486pt.
- [10 <C:/Users/Steve/Documents/GitHub/publish/diss3/images/logPop1-2014.jpg> <C
-:/Users/Steve/Documents/GitHub/publish/diss3/images/logDiffPop1750-2014.jpg>] [
-11] [12] [13] [14] [15] [16]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 235.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 235.
 
-(C:\Users\Steve\Documents\GitHub\publish\diss4\tex\diss4.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 235.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 235.
-Package rerunfilecheck Info: File `diss4.out' has not changed.
-(rerunfilecheck)             Checksum: E2396A2A02EED9EF1AE5A00AEFE513F8;493.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[17] [18 <C:/Users/Steve/Documents/GitHub/publish/diss3/images/logPop1-2014.jpg
+> <C:/Users/Steve/Documents/GitHub/publish/diss3/images/logDiffPop1750-2014.jpg
+>]
+
+Package natbib Warning: Citation `mantoux_industrial_1961' on page 19 undefined
+ on input line 372.
+
+
+Package natbib Warning: Citation `mantoux_industrial_1961' on page 19 undefined
+ on input line 374.
+
+[19]
+
+Package natbib Warning: Citation `williamson_why_1984' on page 20 undefined on 
+input line 382.
+
+
+Package natbib Warning: Citation `williamson_why_1984' on page 20 undefined on 
+input line 386.
+
+
+Package natbib Warning: Citation `williamson_why_1984' on page 20 undefined on 
+input line 386.
+
+[20]
+
+Package natbib Warning: Citation `nef_rise_1932' on page 21 undefined on input 
+line 408.
+
+
+Package natbib Warning: Citation `mantoux_industrial_1961' on page 21 undefined
+ on input line 414.
+
+
+Package natbib Warning: Citation `temin_roman_2012' on page 21 undefined on inp
+ut line 417.
+
+[21]
+
+Package natbib Warning: Citation `cottrell_energy_1955' on page 22 undefined on
+ input line 422.
+
+[22] [23]
+LaTeX Font Info:    Try loading font information for OMS+txr on input line 447.
+
+ (D:\LaTeX-Portable\miktex-portable\tex\latex\txfonts\omstxr.fd
+File: omstxr.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <12> not available
+(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 447.
+
+[24] [25] [26]
+No file 1504AFITBannister.bbl.
+[27]
+
+Package natbib Warning: There were undefined citations.
+
+
+Package glossaries Warning: No \printglossary or \printglossaries found.
+(Remove \makeglossaries if you don't want any glossaries.)
+This document will not have a glossary.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 537.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 537.
+(C:\Users\Steve\Documents\GitHub\publish\diss3\tex\1504AFITBannister.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 537.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 537.
+Package rerunfilecheck Info: File `1504AFITBannister.out' has not changed.
+(rerunfilecheck)             Checksum: F3673E8B2984A432BB9DA6C800060ADF;2149.
  ) 
 Here is how much of TeX's memory you used:
- 19098 strings out of 493921
- 324192 string characters out of 3144900
- 438692 words of memory out of 3000000
- 21977 multiletter control sequences out of 15000+200000
- 39805 words of font info for 110 fonts, out of 3000000 for 9000
+ 20026 strings out of 493921
+ 339854 string characters out of 3144900
+ 454953 words of memory out of 3000000
+ 22859 multiletter control sequences out of 15000+200000
+ 42612 words of font info for 104 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 48i,8n,75p,1738b,390s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 48i,9n,75p,1750b,428s stack positions out of 5000i,500n,10000p,200000b,50000s
 {D:/LaTeX-Portable/miktex-portable/fonts/enc/dvips/fontname/8r.enc}<D:/LaTeX-
-Portable/miktex-portable/fonts/type1/public/txfonts/rtxmi.pfb><D:/LaTeX-Portabl
-e/miktex-portable/fonts/type1/public/txfonts/rtxr.pfb><D:/LaTeX-Portable/miktex
--portable/fonts/type1/public/txfonts/txsy.pfb><D:/LaTeX-Portable/miktex-portabl
-e/fonts/type1/urw/times/utmb8a.pfb><D:/LaTeX-Portable/miktex-portable/fonts/typ
-e1/urw/times/utmr8a.pfb><D:/LaTeX-Portable/miktex-portable/fonts/type1/urw/time
-s/utmri8a.pfb>
-Output written on diss4.pdf (16 pages, 525247 bytes).
+Portable/miktex-portable/fonts/type1/public/txfonts/rtxb.pfb><D:/LaTeX-Portable
+/miktex-portable/fonts/type1/public/txfonts/rtxr.pfb><D:/LaTeX-Portable/miktex-
+portable/fonts/type1/public/txfonts/txsy.pfb><D:/LaTeX-Portable/miktex-portable
+/fonts/type1/urw/times/utmb8a.pfb><D:/LaTeX-Portable/miktex-portable/fonts/type
+1/urw/times/utmr8a.pfb><D:/LaTeX-Portable/miktex-portable/fonts/type1/urw/times
+/utmri8a.pfb>
+Output written on 1504AFITBannister.pdf (27 pages, 571034 bytes).
 PDF statistics:
- 139 PDF objects out of 1000 (max. 8388607)
- 29 named destinations out of 1000 (max. 500000)
- 63 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 283 PDF objects out of 1000 (max. 8388607)
+ 62 named destinations out of 1000 (max. 500000)
+ 231 words of extra memory for PDF output out of 10000 (max. 10000000)
 

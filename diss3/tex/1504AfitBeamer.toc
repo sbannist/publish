@@ -1,0 +1,4 @@
+\beamer@endinputifotherversion {3.33pt}
+\beamer@sectionintoc {1}{Importance of energy for growth and development}{2}{0}{1}
+\beamer@subsectionintoc {1}{1}{Cross-country history of energy consumption}{3}{0}{1}
+\beamer@subsectionintoc {1}{2}{Theory of industrial revolutions}{4}{0}{1}
