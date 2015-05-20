@@ -1,0 +1,9 @@
+\beamer@endinputifotherversion {3.33pt}
+\beamer@sectionintoc {1}{Acknowledgements:}{2}{0}{1}
+\beamer@sectionintoc {2}{Paper one -- ``What really happened in the English Industrial Revolution?''}{5}{0}{2}
+\beamer@subsectionintoc {2}{1}{Cross-country history of energy consumption}{7}{0}{2}
+\beamer@subsectionintoc {2}{2}{Theory of industrial revolutions}{8}{0}{2}
+\beamer@sectionintoc {3}{Paper two -- ``China -- The empire that did not bark''}{10}{0}{3}
+\beamer@subsectionintoc {3}{1}{The institutional case: China's sufficiency (Peer Vries)}{11}{0}{3}
+\beamer@sectionintoc {4}{Paper three -- ``The rise and fall of industrial capitalism''}{14}{0}{4}
+\beamer@sectionintoc {5}{Whence demand support?}{16}{0}{5}
