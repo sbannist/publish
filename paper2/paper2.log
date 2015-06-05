@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.5.26)  31 MAY 2015 12:42
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.5.26)  4 JUN 2015 15:59
 entering extended mode
-**paper1.tex
-(C:\Users\Steve\Documents\GitHub\publish\paper1\paper1.tex
+**paper2.tex
+(C:\Users\Steve\Documents\GitHub\publish\paper2\paper2.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -15,8 +15,8 @@ an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
 ishmax, welsh, loaded.
 (D:\LaTeX-Portable\miktex-portable\tex\latex\base\article.cls
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
-(D:\LaTeX-Portable\miktex-portable\tex\latex\base\size11.clo
-File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+(D:\LaTeX-Portable\miktex-portable\tex\latex\base\size12.clo
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@section=\count80
@@ -756,20 +756,17 @@ Package: ltcaption 2013/02/03 v1.3-62 longtable captions (AR)
 \sf@top=\skip56
 \sf@bottom=\skip57
 )
-(D:\LaTeX-Portable\miktex-portable\tex\latex\float\float.sty
-Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count138
-\float@exts=\toks33
-\float@box=\box39
-\@float@everytoks=\toks34
-\@floatcapt=\box40
+(D:\LaTeX-Portable\miktex-portable\tex\latex\natbib\natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip58
+\bibsep=\skip59
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count138
 )
-\c@mydef=\count139
-
 (D:\LaTeX-Portable\miktex-portable\tex\latex\tools\verbatim.sty
 Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks35
-\verbatim@line=\toks36
+\every@verbatim=\toks33
+\verbatim@line=\toks34
 \verbatim@in@stream=\read2
 )
 (D:\LaTeX-Portable\miktex-portable\tex\latex\glossaries\base\glossaries.sty
@@ -782,9 +779,9 @@ Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 Package: xkeyval 2012/10/14 v2.6b package option processing (HA)
 
 (D:\LaTeX-Portable\miktex-portable\tex\generic\xkeyval\xkeyval.tex
-\XKV@toks=\toks37
-\XKV@tempa@toks=\toks38
-\XKV@depth=\count140
+\XKV@toks=\toks35
+\XKV@tempa@toks=\toks36
+\XKV@depth=\count139
 File: xkeyval.tex 2012/10/14 v2.6b key=value parser (HA)
 ))
 (D:\LaTeX-Portable\miktex-portable\tex\latex\glossaries\base\mfirstuc.sty
@@ -795,12 +792,12 @@ Package: etoolbox 2011/01/03 v2.1 e-TeX tools for LaTeX
 
 (D:\LaTeX-Portable\miktex-portable\tex\latex\misc\etex.sty
 Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
-\et@xins=\count141
+\et@xins=\count140
 )
-\etb@tempcnta=\count142
+\etb@tempcnta=\count141
 )
-\@glsmfirst=\toks39
-\@glsmrest=\toks40
+\@glsmfirst=\toks37
+\@glsmrest=\toks38
 )
 (D:\LaTeX-Portable\miktex-portable\tex\latex\textcase\textcase.sty
 Package: textcase 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
@@ -813,7 +810,7 @@ Package: datatool-base 2013/09/06 v2.18 (NLCT)
 
 (D:\LaTeX-Portable\miktex-portable\tex\latex\substr\substr.sty
 Package: substr 2009/10/20 v1.2 Handle substrings
-\c@su@anzahl=\count143
+\c@su@anzahl=\count142
 )
 (D:\LaTeX-Portable\miktex-portable\tex\latex\datatool\datatool-fp.sty
 Package: datatool-fp 2013/08/29 v2.17 (NLCT)
@@ -824,19 +821,19 @@ Package: fp 1995/04/02
 `Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
 (D:\LaTeX-Portable\miktex-portable\tex\latex\fp\defpattern.sty
 Package: defpattern 1994/10/12
-\actioncount=\count144
+\actioncount=\count143
 )
 (D:\LaTeX-Portable\miktex-portable\tex\latex\fp\fp-basic.sty
 Package: fp-basic 1996/05/13
-\FP@xs=\count145
-\FP@xia=\count146
-\FP@xib=\count147
-\FP@xfa=\count148
-\FP@xfb=\count149
-\FP@rega=\count150
-\FP@regb=\count151
-\FP@regs=\count152
-\FP@times=\count153
+\FP@xs=\count144
+\FP@xia=\count145
+\FP@xib=\count146
+\FP@xfa=\count147
+\FP@xfb=\count148
+\FP@rega=\count149
+\FP@regb=\count150
+\FP@regs=\count151
+\FP@times=\count152
 )
 (D:\LaTeX-Portable\miktex-portable\tex\latex\fp\fp-addons.sty
 Package: fp-addons 1995/03/15
@@ -855,7 +852,7 @@ Package: fp-pas 1994/08/29
 )
 (D:\LaTeX-Portable\miktex-portable\tex\latex\fp\fp-random.sty
 Package: fp-random 1995/02/23
-\FPseed=\count154
+\FPseed=\count153
 )
 (D:\LaTeX-Portable\miktex-portable\tex\latex\fp\fp-eqn.sty
 Package: fp-eqn 1995/04/03
@@ -866,27 +863,27 @@ Package: fp-upn 1996/10/21
 (D:\LaTeX-Portable\miktex-portable\tex\latex\fp\fp-eval.sty
 Package: fp-eval 1995/04/03
 )))
-\@dtl@toks=\toks41
-\@dtl@tmpcount=\count155
-\dtl@tmplength=\skip58
-\dtl@sortresult=\count156
-\@dtl@numgrpsepcount=\count157
-\@dtl@datatype=\count158
-\dtl@codeA=\count159
-\dtl@codeB=\count160
-\@dtl@foreach@level=\count161
+\@dtl@toks=\toks39
+\@dtl@tmpcount=\count154
+\dtl@tmplength=\skip60
+\dtl@sortresult=\count155
+\@dtl@numgrpsepcount=\count156
+\@dtl@datatype=\count157
+\dtl@codeA=\count158
+\dtl@codeB=\count159
+\@dtl@foreach@level=\count160
 )
 (D:\LaTeX-Portable\miktex-portable\tex\latex\glossaries\base\glossaries-compati
 ble-307.sty
 Package: glossaries-compatible-307 2013/11/14 v4.0 (NLCT)
 )
-\gls@level=\count162
-\@gls@tmpb=\toks42
-\gls@tmplen=\skip59
-\glskeylisttok=\toks43
-\glslabeltok=\toks44
-\glsshorttok=\toks45
-\glslongtok=\toks46
+\gls@level=\count161
+\@gls@tmpb=\toks40
+\gls@tmplen=\skip61
+\glskeylisttok=\toks41
+\glslabeltok=\toks42
+\glsshorttok=\toks43
+\glslongtok=\toks44
 
 (D:\LaTeX-Portable\miktex-portable\tex\latex\glossaries\styles\glossary-hyperna
 v.sty
@@ -895,24 +892,24 @@ Package: glossary-hypernav 2013/11/14 v4.0 (NLCT)
 (D:\LaTeX-Portable\miktex-portable\tex\latex\glossaries\styles\glossary-list.st
 y
 Package: glossary-list 2013/11/14 v4.0 (NLCT)
-\glslistdottedwidth=\skip60
+\glslistdottedwidth=\skip62
 )
 (D:\LaTeX-Portable\miktex-portable\tex\latex\glossaries\styles\glossary-long.st
 y
 Package: glossary-long 2013/11/14 v4.0 (NLCT)
-\glsdescwidth=\skip61
-\glspagelistwidth=\skip62
+\glsdescwidth=\skip63
+\glspagelistwidth=\skip64
 )
 (D:\LaTeX-Portable\miktex-portable\tex\latex\glossaries\styles\glossary-super.s
 ty
 Package: glossary-super 2013/11/14 v4.0 (NLCT)
  (D:\LaTeX-Portable\miktex-portable\tex\latex\supertabular\supertabular.sty
 Package: supertabular 2004/02/20 v4.1e the supertabular environment
-\c@tracingst=\count163
+\c@tracingst=\count162
 \ST@wd=\dimen175
-\ST@rightskip=\skip63
-\ST@leftskip=\skip64
-\ST@parfillskip=\skip65
+\ST@rightskip=\skip65
+\ST@leftskip=\skip66
+\ST@parfillskip=\skip67
 \ST@pageleft=\dimen176
 \ST@headht=\dimen177
 \ST@tailht=\dimen178
@@ -923,53 +920,58 @@ Package: supertabular 2004/02/20 v4.1e the supertabular environment
 \ST@prevht=\dimen183
 \ST@toadd=\dimen184
 \ST@dimen=\dimen185
-\ST@pbox=\box41
+\ST@pbox=\box39
 ))
 (D:\LaTeX-Portable\miktex-portable\tex\latex\glossaries\styles\glossary-tree.st
 y
 Package: glossary-tree 2014/03/06 v4.04 (NLCT)
-\glstreeindent=\skip66
+\glstreeindent=\skip68
 )) (D:\LaTeX-Portable\miktex-portable\tex\latex\tocloft\tocloft.sty
 Package: tocloft 2013/05/02 v2.3f parameterised ToC, etc., typesetting
 Package tocloft Info: The document has section divisions on input line 44.
-\cftparskip=\skip67
-\cftbeforetoctitleskip=\skip68
-\cftaftertoctitleskip=\skip69
-\cftbeforepartskip=\skip70
-\cftpartnumwidth=\skip71
-\cftpartindent=\skip72
-\cftbeforesecskip=\skip73
-\cftsecindent=\skip74
-\cftsecnumwidth=\skip75
-\cftbeforesubsecskip=\skip76
-\cftsubsecindent=\skip77
-\cftsubsecnumwidth=\skip78
-\cftbeforesubsubsecskip=\skip79
-\cftsubsubsecindent=\skip80
-\cftsubsubsecnumwidth=\skip81
-\cftbeforeparaskip=\skip82
-\cftparaindent=\skip83
-\cftparanumwidth=\skip84
-\cftbeforesubparaskip=\skip85
-\cftsubparaindent=\skip86
-\cftsubparanumwidth=\skip87
-\cftbeforeloftitleskip=\skip88
-\cftafterloftitleskip=\skip89
-\cftbeforefigskip=\skip90
-\cftfigindent=\skip91
-\cftfignumwidth=\skip92
-\cftbeforelottitleskip=\skip93
-\cftafterlottitleskip=\skip94
-\cftbeforetabskip=\skip95
-\cfttabindent=\skip96
-\cfttabnumwidth=\skip97
+\cftparskip=\skip69
+\cftbeforetoctitleskip=\skip70
+\cftaftertoctitleskip=\skip71
+\cftbeforepartskip=\skip72
+\cftpartnumwidth=\skip73
+\cftpartindent=\skip74
+\cftbeforesecskip=\skip75
+\cftsecindent=\skip76
+\cftsecnumwidth=\skip77
+\cftbeforesubsecskip=\skip78
+\cftsubsecindent=\skip79
+\cftsubsecnumwidth=\skip80
+\cftbeforesubsubsecskip=\skip81
+\cftsubsubsecindent=\skip82
+\cftsubsubsecnumwidth=\skip83
+\cftbeforeparaskip=\skip84
+\cftparaindent=\skip85
+\cftparanumwidth=\skip86
+\cftbeforesubparaskip=\skip87
+\cftsubparaindent=\skip88
+\cftsubparanumwidth=\skip89
+\cftbeforeloftitleskip=\skip90
+\cftafterloftitleskip=\skip91
+\cftbeforefigskip=\skip92
+\cftfigindent=\skip93
+\cftfignumwidth=\skip94
+\cftbeforelottitleskip=\skip95
+\cftafterlottitleskip=\skip96
+\cftbeforetabskip=\skip97
+\cfttabindent=\skip98
+\cfttabnumwidth=\skip99
 )
-(D:\LaTeX-Portable\miktex-portable\tex\latex\natbib\natbib.sty
-Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip98
-\bibsep=\skip99
-LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count164
+(D:\LaTeX-Portable\miktex-portable\tex\latex\ulem\ulem.sty
+\UL@box=\box40
+\UL@hyphenbox=\box41
+\UL@skip=\skip100
+\UL@hook=\toks45
+\UL@height=\dimen186
+\UL@pe=\count163
+\UL@pixel=\dimen187
+\ULC@box=\box42
+Package: ulem 2012/05/18
+\ULdepth=\dimen188
 )
 (D:\LaTeX-Portable\miktex-portable\tex\latex\hyperref\hyperref.sty
 Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
@@ -1027,14 +1029,14 @@ Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 (D:\LaTeX-Portable\miktex-portable\tex\latex\oberdiek\kvoptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
-\@linkdim=\dimen186
-\Hy@linkcounter=\count165
-\Hy@pagecounter=\count166
+\@linkdim=\dimen189
+\Hy@linkcounter=\count164
+\Hy@pagecounter=\count165
 
 (D:\LaTeX-Portable\miktex-portable\tex\latex\hyperref\pd1enc.def
 File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count167
+\Hy@SavedSpaceFactor=\count166
 
 (D:\LaTeX-Portable\miktex-portable\tex\latex\00miktex\hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -1046,17 +1048,17 @@ Package hyperref Info: Plain pages OFF on input line 4458.
 Package hyperref Info: Backreferencing OFF on input line 4463.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
-\c@Hy@tempcnt=\count168
+\c@Hy@tempcnt=\count167
 
 (D:\LaTeX-Portable\miktex-portable\tex\latex\url\url.sty
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5041.
-\XeTeXLinkMargin=\dimen187
-\Fld@menulength=\count169
-\Field@Width=\dimen188
-\Fld@charsize=\dimen189
+\XeTeXLinkMargin=\dimen190
+\Fld@menulength=\count168
+\Field@Width=\dimen191
+\Fld@charsize=\dimen192
 Package hyperref Info: Hyper figures OFF on input line 6295.
 Package hyperref Info: Link nesting OFF on input line 6300.
 Package hyperref Info: Hyper index ON on input line 6303.
@@ -1066,97 +1068,96 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6320.
 Package hyperref Info: PDF/A mode OFF on input line 6325.
 LaTeX Info: Redefining \ref on input line 6365.
 LaTeX Info: Redefining \pageref on input line 6369.
-\Hy@abspage=\count170
-\c@Item=\count171
-\c@Hfootnote=\count172
+\Hy@abspage=\count169
+\c@Item=\count170
+\c@Hfootnote=\count171
 )
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
 (D:\LaTeX-Portable\miktex-portable\tex\latex\hyperref\hpdftex.def
 File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
-\Fld@listcount=\count173
-\c@bookmark@seq@number=\count174
+\Fld@listcount=\count172
+\c@bookmark@seq@number=\count173
 
 (D:\LaTeX-Portable\miktex-portable\tex\latex\oberdiek\rerunfilecheck.sty
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
-\Hy@SectionHShift=\skip100
+\Hy@SectionHShift=\skip101
 )
 \glswrite=\write4
 \glo@main@file=\write5
-Package glossaries Info: Writing glossary file paper1.glo on input line 59.
+Package glossaries Info: Writing glossary file paper2.glo on input line 62.
 
-(C:\Users\Steve\Documents\GitHub\publish\paper1\paper1.aux
+(C:\Users\Steve\Documents\GitHub\publish\paper2\paper2.aux
 
 LaTeX Warning: Label `eq:mrp1' multiply defined.
 
 )
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 65.
-LaTeX Font Info:    Try loading font information for OML+txmi on input line 65.
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 68.
+LaTeX Font Info:    Try loading font information for OML+txmi on input line 68.
 
  (D:\LaTeX-Portable\miktex-portable\tex\latex\txfonts\omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 65.
-LaTeX Font Info:    Try loading font information for OMS+txsy on input line 65.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 68.
+LaTeX Font Info:    Try loading font information for OMS+txsy on input line 68.
 
 
 (D:\LaTeX-Portable\miktex-portable\tex\latex\txfonts\omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 65.
-LaTeX Font Info:    Try loading font information for OMX+txex on input line 65.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 68.
+LaTeX Font Info:    Try loading font information for OMX+txex on input line 68.
 
 
 (D:\LaTeX-Portable\miktex-portable\tex\latex\txfonts\omxtxex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 65.
-LaTeX Font Info:    Try loading font information for U+txexa on input line 65.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 68.
+LaTeX Font Info:    Try loading font information for U+txexa on input line 68.
 
 (D:\LaTeX-Portable\miktex-portable\tex\latex\txfonts\utxexa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Try loading font information for OT1+txr on input line 65.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Try loading font information for OT1+txr on input line 68.
 
 (D:\LaTeX-Portable\miktex-portable\tex\latex\txfonts\ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
 )
 (D:\LaTeX-Portable\miktex-portable\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count175
-\scratchdimen=\dimen190
-\scratchbox=\box42
-\nofMPsegments=\count176
-\nofMParguments=\count177
-\everyMPshowfont=\toks47
-\MPscratchCnt=\count178
-\MPscratchDim=\dimen191
-\MPnumerator=\count179
-\makeMPintoPDFobject=\count180
-\everyMPtoPDFconversion=\toks48
+\scratchcounter=\count174
+\scratchdimen=\dimen193
+\scratchbox=\box43
+\nofMPsegments=\count175
+\nofMParguments=\count176
+\everyMPshowfont=\toks46
+\MPscratchCnt=\count177
+\MPscratchDim=\dimen194
+\MPnumerator=\count178
+\makeMPintoPDFobject=\count179
+\everyMPtoPDFconversion=\toks47
 ) ABD: EveryShipout initializing macros
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
-Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: supertabular package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\AtBeginShipoutBox=\box43
-Package hyperref Info: Link coloring OFF on input line 65.
+\AtBeginShipoutBox=\box44
+Package hyperref Info: Link coloring OFF on input line 68.
 
 (D:\LaTeX-Portable\miktex-portable\tex\latex\hyperref\nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1164,598 +1165,178 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (D:\LaTeX-Portable\miktex-portable\tex\generic\oberdiek\gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count181
+\c@section@level=\count180
 )
-LaTeX Info: Redefining \ref on input line 65.
-LaTeX Info: Redefining \pageref on input line 65.
-LaTeX Info: Redefining \nameref on input line 65.
+LaTeX Info: Redefining \ref on input line 68.
+LaTeX Info: Redefining \pageref on input line 68.
+LaTeX Info: Redefining \nameref on input line 68.
 
-(C:\Users\Steve\Documents\GitHub\publish\paper1\paper1.out)
-(C:\Users\Steve\Documents\GitHub\publish\paper1\paper1.out)
+(C:\Users\Steve\Documents\GitHub\publish\paper2\paper2.out)
+(C:\Users\Steve\Documents\GitHub\publish\paper2\paper2.out)
 \@outlinefile=\write6
-LaTeX Font Info:    Try loading font information for U+txsya on input line 73.
+LaTeX Font Info:    Try loading font information for U+txsya on input line 76.
 
 (D:\LaTeX-Portable\miktex-portable\tex\latex\txfonts\utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyb on input line 73.
+LaTeX Font Info:    Try loading font information for U+txsyb on input line 76.
 
 (D:\LaTeX-Portable\miktex-portable\tex\latex\txfonts\utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txmia on input line 73.
+LaTeX Font Info:    Try loading font information for U+txmia on input line 76.
 
 (D:\LaTeX-Portable\miktex-portable\tex\latex\txfonts\utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyc on input line 73.
+LaTeX Font Info:    Try loading font information for U+txsyc on input line 76.
 
 (D:\LaTeX-Portable\miktex-portable\tex\latex\txfonts\utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
-\c@myequations=\count182
-\cftbeforemyequationsskip=\skip101
-\cftmyequationsindent=\skip102
-\cftmyequationsnumwidth=\skip103
-\c@equdepth=\count183
-\cftbeforeequtitleskip=\skip104
-\cftafterequtitleskip=\skip105
+\c@myequations=\count181
+\cftbeforemyequationsskip=\skip102
+\cftmyequationsindent=\skip103
+\cftmyequationsnumwidth=\skip104
+\c@equdepth=\count182
+\cftbeforeequtitleskip=\skip105
+\cftafterequtitleskip=\skip106
  [1
 
-{D:/LaTeX-Portable/miktex-portable/pdftex/config/pdftex.map}] [2]
-Overfull \hbox (1.92406pt too wide) in paragraph at lines 110--111
-[]\OT1/txr/m/n/10.95 Phyllis Deane in writ-ing of the En-glish In-dus-trial Rev
--o-lu-tion notes ``The most im-por-tant achieve-
+{D:/LaTeX-Portable/miktex-portable/pdftex/config/pdftex.map}] [2] [3] [4] [5] [
+6]
+Overfull \hbox (24.67804pt too wide) in paragraph at lines 166--167
+\OT1/txr/m/n/12 tech-nol-ogy ma-tures in the eigh-teenth cen-tury; the fun-da-m
+en-tal ground-work is al-ready laid. Economists
  []
 
-[3] [4] [5] [6] [7]
-Overfull \hbox (11.0345pt too wide) in paragraph at lines 142--143
-[]\OT1/txr/m/n/10.95 Daron Ace-moglu's work rep-re-sents a mod-ern quan-ti-ta-t
-ive ver-sion of institutionally--driven growth;
+[7] [8] [9]
+Overfull \hbox (20.86203pt too wide) in paragraph at lines 200--201
+\OT1/txr/m/n/12 dom-i-nance of eco-nomic systems---may lead us to an un-der-sta
+nd-ing of its pos-si-ble fu-tures. Economists
  []
 
-[8] [9] [10] [11] [12] [13] [14] [15] [16] [17]
-<C:/Users/Steve/Documents/GitHub/publish/diss2/images/overallLevels.png, id=177
-, 481.8pt x 481.8pt>
-File: C:/Users/Steve/Documents/GitHub/publish/diss2/images/overallLevels.png Gr
-aphic file (type png)
+[10] [11]
+<C:/Users/Steve/Documents/GitHub/publish/diss3/images/logPop1-2014.jpg, id=175,
+ 505.6491pt x 505.6491pt>
+File: C:/Users/Steve/Documents/GitHub/publish/diss3/images/logPop1-2014.jpg Gra
+phic file (type jpg)
 
-<use C:/Users/Steve/Documents/GitHub/publish/diss2/images/overallLevels.png>
-Package pdftex.def Info: C:/Users/Steve/Documents/GitHub/publish/diss2/images/o
-verallLevels.png used on input line 273.
-(pdftex.def)             Requested size: 389.04034pt x 389.05019pt.
+<use C:/Users/Steve/Documents/GitHub/publish/diss3/images/logPop1-2014.jpg>
+Package pdftex.def Info: C:/Users/Steve/Documents/GitHub/publish/diss3/images/l
+ogPop1-2014.jpg used on input line 229.
+(pdftex.def)             Requested size: 277.3648pt x 277.37486pt.
 
-[18 <C:/Users/Steve/Documents/GitHub/publish/diss2/images/overallLevels.png>]
-<C:/Users/Steve/Documents/GitHub/publish/diss2/images/ggdp.png, id=188, 505.649
-1pt x 505.6491pt>
-File: C:/Users/Steve/Documents/GitHub/publish/diss2/images/ggdp.png Graphic fil
-e (type png)
+<C:/Users/Steve/Documents/GitHub/publish/diss3/images/logDiffPop1-2014.jpg, id=
+176, 505.6491pt x 505.6491pt>
+File: C:/Users/Steve/Documents/GitHub/publish/diss3/images/logDiffPop1-2014.jpg
+ Graphic file (type jpg)
 
-<use C:/Users/Steve/Documents/GitHub/publish/diss2/images/ggdp.png>
-Package pdftex.def Info: C:/Users/Steve/Documents/GitHub/publish/diss2/images/g
-gdp.png used on input line 291.
-(pdftex.def)             Requested size: 237.7498pt x 237.74768pt.
-
-<C:/Users/Steve/Documents/GitHub/publish/diss2/images/ggdppop.png, id=189, 505.
-6491pt x 505.6491pt>
-File: C:/Users/Steve/Documents/GitHub/publish/diss2/images/ggdppop.png Graphic 
-file (type png)
-
-<use C:/Users/Steve/Documents/GitHub/publish/diss2/images/ggdppop.png>
-Package pdftex.def Info: C:/Users/Steve/Documents/GitHub/publish/diss2/images/g
-gdppop.png used on input line 291.
-(pdftex.def)             Requested size: 237.7498pt x 237.74768pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-<C:/Users/Steve/Documents/GitHub/publish/diss2/images/gdpLog.png, id=190, 505.6
-491pt x 505.6491pt>
-File: C:/Users/Steve/Documents/GitHub/publish/diss2/images/gdpLog.png Graphic f
-ile (type png)
-
-<use C:/Users/Steve/Documents/GitHub/publish/diss2/images/gdpLog.png>
-Package pdftex.def Info: C:/Users/Steve/Documents/GitHub/publish/diss2/images/g
-dpLog.png used on input line 301.
-(pdftex.def)             Requested size: 237.7498pt x 237.74768pt.
-
-<C:/Users/Steve/Documents/GitHub/publish/diss2/images/gdpPopLog.png, id=191, 50
-5.6491pt x 505.6491pt>
-File: C:/Users/Steve/Documents/GitHub/publish/diss2/images/gdpPopLog.png Graphi
-c file (type png)
-
-<use C:/Users/Steve/Documents/GitHub/publish/diss2/images/gdpPopLog.png>
-Package pdftex.def Info: C:/Users/Steve/Documents/GitHub/publish/diss2/images/g
-dpPopLog.png used on input line 301.
-(pdftex.def)             Requested size: 237.7498pt x 237.74768pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[19] [20 <C:/Users/Steve/Documents/GitHub/publish/diss2/images/ggdp.png> <C:/Us
-ers/Steve/Documents/GitHub/publish/diss2/images/ggdppop.png> <C:/Users/Steve/Do
-cuments/GitHub/publish/diss2/images/gdpLog.png> <C:/Users/Steve/Documents/GitHu
-b/publish/diss2/images/gdpPopLog.png>]
-Overfull \hbox (2.7294pt too wide) in paragraph at lines 316--333
-[][] 
+<use C:/Users/Steve/Documents/GitHub/publish/diss3/images/logDiffPop1-2014.jpg>
+Package pdftex.def Info: C:/Users/Steve/Documents/GitHub/publish/diss3/images/l
+ogDiffPop1-2014.jpg used on input line 229.
+(pdftex.def)             Requested size: 277.3648pt x 277.37486pt.
+[12 <C:/Users/Steve/Documents/GitHub/publish/diss3/images/logPop1-2014.jpg> <C:
+/Users/Steve/Documents/GitHub/publish/diss3/images/logDiffPop1-2014.jpg>]
+Overfull \hbox (28.67403pt too wide) in paragraph at lines 240--241
+\OT1/txr/m/n/12 Jan de Vries writ-ing in a chap-ter in Maarten Prak's edited vo
+l-ume |   []   |   []   |   []
  []
 
+[13] [14] [15] [16] [17
 
-<C:/Users/Steve/Documents/GitHub/publish/diss2/images/popLog.png, id=212, 491.4
-36pt x 491.436pt>
-File: C:/Users/Steve/Documents/GitHub/publish/diss2/images/popLog.png Graphic f
-ile (type png)
+] [18] [19] [20] [21] [22] [23] [24] [25] [26]
 
-<use C:/Users/Steve/Documents/GitHub/publish/diss2/images/popLog.png>
-Package pdftex.def Info: C:/Users/Steve/Documents/GitHub/publish/diss2/images/p
-opLog.png used on input line 342.
-(pdftex.def)             Requested size: 389.04034pt x 389.06255pt.
+Package natbib Warning: Citation `williamson_why_1984' on page 27 undefined on 
+input line 412.
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+Package natbib Warning: Citation `williamson_why_1984' on page 27 undefined on 
+input line 412.
 
-[21] [22 <C:/Users/Steve/Documents/GitHub/publish/diss2/images/popLog.png>]
-<C:/Users/Steve/Documents/GitHub/publish/diss2/images/energyLog1.png, id=228, 5
-05.6491pt x 505.6491pt>
-File: C:/Users/Steve/Documents/GitHub/publish/diss2/images/energyLog1.png Graph
-ic file (type png)
-
-<use C:/Users/Steve/Documents/GitHub/publish/diss2/images/energyLog1.png>
-Package pdftex.def Info: C:/Users/Steve/Documents/GitHub/publish/diss2/images/e
-nergyLog1.png used on input line 359.
-(pdftex.def)             Requested size: 237.7498pt x 237.74768pt.
-
+[27] [28] [29] [30]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[23]
-<C:/Users/Steve/Documents/GitHub/publish/diss2/images/energyVsGdp.png, id=237, 
-481.8pt x 481.8pt>
-File: C:/Users/Steve/Documents/GitHub/publish/diss2/images/energyVsGdp.png Grap
-hic file (type png)
-
-<use C:/Users/Steve/Documents/GitHub/publish/diss2/images/energyVsGdp.png>
-Package pdftex.def Info: C:/Users/Steve/Documents/GitHub/publish/diss2/images/e
-nergyVsGdp.png used on input line 373.
-(pdftex.def)             Requested size: 237.7498pt x 237.74553pt.
-
-<C:/Users/Steve/Documents/GitHub/publish/diss2/images/energyVsGdpDiff.png, id=2
-38, 722.7pt x 722.7pt>
-File: C:/Users/Steve/Documents/GitHub/publish/diss2/images/energyVsGdpDiff.png 
-Graphic file (type png)
-
-<use C:/Users/Steve/Documents/GitHub/publish/diss2/images/energyVsGdpDiff.png>
-Package pdftex.def Info: C:/Users/Steve/Documents/GitHub/publish/diss2/images/e
-nergyVsGdpDiff.png used on input line 373.
-(pdftex.def)             Requested size: 237.7498pt x 237.75288pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[24 <C:/Users/Steve/Documents/GitHub/publish/diss2/images/energyLog1.png>]
-[25 <C:/Users/Steve/Documents/GitHub/publish/diss2/images/energyVsGdp.png> <C:/
-Users/Steve/Documents/GitHub/publish/diss2/images/energyVsGdpDiff.png>]
-[26]
-<C:/Users/Steve/Documents/GitHub/publish/diss2/images/scatterplot.png, id=262, 
-674.52pt x 674.52pt>
-File: C:/Users/Steve/Documents/GitHub/publish/diss2/images/scatterplot.png Grap
-hic file (type png)
-
-<use C:/Users/Steve/Documents/GitHub/publish/diss2/images/scatterplot.png>
-Package pdftex.def Info: C:/Users/Steve/Documents/GitHub/publish/diss2/images/s
-catterplot.png used on input line 426.
-(pdftex.def)             Requested size: 389.04034pt x 389.05019pt.
-
-[27 <C:/Users/Steve/Documents/GitHub/publish/diss2/images/scatterplot.png>]
-Overfull \hbox (5.82321pt too wide) in paragraph at lines 442--453
-[][] 
+[31] [32]
+Overfull \hbox (14.38203pt too wide) in paragraph at lines 515--516
+\OT1/txr/m/n/12 dropped from 632:100 to 177:100 (Hartwell 1966:33). Ex-am-ples 
+of Chi-nese productivity--enhancing
  []
 
-[28]
-File: C:/Users/Steve/Documents/GitHub/publish/diss2/images/energyLog1.png Graph
-ic file (type png)
- <use C:/Users/Steve/Documents/GitHub/publish/diss2/images/energyLog1.png>
-Package pdftex.def Info: C:/Users/Steve/Documents/GitHub/publish/diss2/images/e
-nergyLog1.png used on input line 480.
-(pdftex.def)             Requested size: 142.64989pt x 142.64552pt.
-
-<C:/Users/Steve/Documents/GitHub/publish/diss2/images/gbpgdplog.png, id=277, 49
-1.436pt x 491.436pt>
-File: C:/Users/Steve/Documents/GitHub/publish/diss2/images/gbpgdplog.png Graphi
-c file (type png)
-
-<use C:/Users/Steve/Documents/GitHub/publish/diss2/images/gbpgdplog.png>
-Package pdftex.def Info: C:/Users/Steve/Documents/GitHub/publish/diss2/images/g
-bpgdplog.png used on input line 480.
-(pdftex.def)             Requested size: 142.64989pt x 142.64777pt.
-File: C:/Users/Steve/Documents/GitHub/publish/diss2/images/popLog.png Graphic f
-ile (type png)
-
-<use C:/Users/Steve/Documents/GitHub/publish/diss2/images/popLog.png>
-Package pdftex.def Info: C:/Users/Steve/Documents/GitHub/publish/diss2/images/p
-opLog.png used on input line 480.
-(pdftex.def)             Requested size: 142.64989pt x 142.64777pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[29]
-<C:/Users/Steve/Documents/GitHub/publish/diss2/images/2000_Year_Temperature_Com
-parison.png, id=285, 602.25pt x 444.66125pt>
-File: C:/Users/Steve/Documents/GitHub/publish/diss2/images/2000_Year_Temperatur
-e_Comparison.png Graphic file (type png)
-
-<use C:/Users/Steve/Documents/GitHub/publish/diss2/images/2000_Year_Temperature
-_Comparison.png>
-Package pdftex.def Info: C:/Users/Steve/Documents/GitHub/publish/diss2/images/2
-000_Year_Temperature_Comparison.png used on input line 495.
-(pdftex.def)             Requested size: 389.04034pt x 287.25551pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[30 <C:/Users/Steve/Documents/GitHub/publish/diss2/images/gbpgdplog.png>]
-[31 <C:/Users/Steve/Documents/GitHub/publish/diss2/images/2000_Year_Temperature
-_Comparison.png>]
-<C:/Users/Steve/Documents/GitHub/publish/diss2/images/woodCoal.png, id=305, 390
-.258pt x 325.215pt>
-File: C:/Users/Steve/Documents/GitHub/publish/diss2/images/woodCoal.png Graphic
- file (type png)
-
-<use C:/Users/Steve/Documents/GitHub/publish/diss2/images/woodCoal.png>
-Package pdftex.def Info: C:/Users/Steve/Documents/GitHub/publish/diss2/images/w
-oodCoal.png used on input line 513.
-(pdftex.def)             Requested size: 389.04034pt x 324.20187pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[32] [33 <C:/Users/Steve/Documents/GitHub/publish/diss2/images/woodCoal.png>]
-Overfull \hbox (28.6451pt too wide) in paragraph at lines 536--578
-[][] 
+[33] [34] [35]
+Overfull \hbox (1.32285pt too wide) in paragraph at lines 540--541
+[]\OT1/txr/m/n/12 These are mark-ers of capitalism---labor mar-kets pop-u-lated
+ by wage--laborers, in-te-grated long--
  []
 
-
-LaTeX Warning: Float too large for page by 17.54016pt on input line 578.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[34] [35] [36] [37
-
-] [38] [39]
-<C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/maddisonregpoplevel
-s1900.png, id=344, 505.6491pt x 505.6491pt>
-File: C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/maddisonregpop
-levels1900.png Graphic file (type png)
-
-<use C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/maddisonregpopl
-evels1900.png>
-Package pdftex.def Info: C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/im
-ages/maddisonregpoplevels1900.png used on input line 716.
-(pdftex.def)             Requested size: 216.135pt x 216.13637pt.
-
-<C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/maddisonreggdplevel
-s1900.png, id=345, 505.6491pt x 505.6491pt>
-File: C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/maddisonreggdp
-levels1900.png Graphic file (type png)
-
-<use C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/maddisonreggdpl
-evels1900.png>
-Package pdftex.def Info: C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/im
-ages/maddisonreggdplevels1900.png used on input line 717.
-(pdftex.def)             Requested size: 216.135pt x 216.13637pt.
-
-<C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/maddisonregpoppct.p
-ng, id=346, 505.6491pt x 505.6491pt>
-File: C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/maddisonregpop
-pct.png Graphic file (type png)
-
-<use C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/maddisonregpopp
-ct.png>
-Package pdftex.def Info: C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/im
-ages/maddisonregpoppct.png used on input line 718.
-(pdftex.def)             Requested size: 216.135pt x 216.13637pt.
-
-<C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/maddisonreggdppct.p
-ng, id=347, 505.6491pt x 505.6491pt>
-File: C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/maddisonreggdp
-pct.png Graphic file (type png)
-
-<use C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/maddisonreggdpp
-ct.png>
-Package pdftex.def Info: C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/im
-ages/maddisonreggdppct.png used on input line 719.
-(pdftex.def)             Requested size: 216.135pt x 216.13637pt.
-
-Overfull \hbox (2.08049pt too wide) in paragraph at lines 716--720
-[][] [] 
- []
-
-
-Overfull \hbox (2.08049pt too wide) in paragraph at lines 716--720
-[] [] 
- []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[40] [41 <C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/maddisonre
-gpoplevels1900.png> <C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images
-/maddisonreggdplevels1900.png> <C:/Users/Steve/Documents/GitHub/publish/1310uta
-hSoc/images/maddisonregpoppct.png> <C:/Users/Steve/Documents/GitHub/publish/131
-0utahSoc/images/maddisonreggdppct.png>]
-<C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/ggdpcapitadodge.png
-, id=367, 505.6491pt x 505.6491pt>
-File: C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/ggdpcapitadodg
-e.png Graphic file (type png)
-
-<use C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/ggdpcapitadodge
-.png>
-Package pdftex.def Info: C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/im
-ages/ggdpcapitadodge.png used on input line 735.
-(pdftex.def)             Requested size: 345.8173pt x 345.82744pt.
- [42 <C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/ggdpcapitadodg
-e.png>]
-<C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/1500pop.png, id=378
-, 457.71pt x 265.99374pt>
-File: C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/1500pop.png Gr
-aphic file (type png)
-
-<use C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/1500pop.png>
-Package pdftex.def Info: C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/im
-ages/1500pop.png used on input line 752.
-(pdftex.def)             Requested size: 345.8173pt x 200.97624pt.
-
-<C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/1820pop.png, id=379
-, 457.71pt x 265.99374pt>
-File: C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/1820pop.png Gr
-aphic file (type png)
-
-<use C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/1820pop.png>
-Package pdftex.def Info: C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/im
-ages/1820pop.png used on input line 760.
-(pdftex.def)             Requested size: 345.8173pt x 200.97624pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-<C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/1900pop.png, id=380
-, 457.71pt x 265.99374pt>
-File: C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/1900pop.png Gr
-aphic file (type png)
-
-<use C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/1900pop.png>
-Package pdftex.def Info: C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/im
-ages/1900pop.png used on input line 768.
-(pdftex.def)             Requested size: 345.8173pt x 200.97624pt.
-
-[43 <C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/1500pop.png>]
-<C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/1500gdp.png, id=392
-, 457.71pt x 265.99374pt>
-File: C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/1500gdp.png Gr
-aphic file (type png)
-
-<use C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/1500gdp.png>
-Package pdftex.def Info: C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/im
-ages/1500gdp.png used on input line 777.
-(pdftex.def)             Requested size: 345.8173pt x 200.97624pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-<C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/1820gdp.png, id=393
-, 457.71pt x 268.00125pt>
-File: C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/1820gdp.png Gr
-aphic file (type png)
-
-<use C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/1820gdp.png>
-Package pdftex.def Info: C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/im
-ages/1820gdp.png used on input line 784.
-(pdftex.def)             Requested size: 345.8173pt x 202.49304pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-<C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/1900gdp.png, id=394
-, 438.63875pt x 245.91875pt>
-File: C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/1900gdp.png Gr
-aphic file (type png)
-
-<use C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/1900gdp.png>
-Package pdftex.def Info: C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/im
-ages/1900gdp.png used on input line 791.
-(pdftex.def)             Requested size: 345.8173pt x 193.88342pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[44 <C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/1820pop.png> <C
-:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/1900pop.png>]
-[45 <C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/1500gdp.png> <C
-:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/1820gdp.png>]
-[46 <C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/1900gdp.png>]
-[47] [48]
-<C:/Users/Steve/Documents/GitHub/publish/diss2/images/era1.png, id=420, 505.649
-1pt x 505.6491pt>
-File: C:/Users/Steve/Documents/GitHub/publish/diss2/images/era1.png Graphic fil
-e (type png)
-
-<use C:/Users/Steve/Documents/GitHub/publish/diss2/images/era1.png>
-Package pdftex.def Info: C:/Users/Steve/Documents/GitHub/publish/diss2/images/e
-ra1.png used on input line 849.
-(pdftex.def)             Requested size: 216.135pt x 216.13637pt.
-
-<C:/Users/Steve/Documents/GitHub/publish/diss2/images/era2.png, id=421, 505.649
-1pt x 505.6491pt>
-File: C:/Users/Steve/Documents/GitHub/publish/diss2/images/era2.png Graphic fil
-e (type png)
-
-<use C:/Users/Steve/Documents/GitHub/publish/diss2/images/era2.png>
-Package pdftex.def Info: C:/Users/Steve/Documents/GitHub/publish/diss2/images/e
-ra2.png used on input line 849.
-(pdftex.def)             Requested size: 216.135pt x 216.13637pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-<C:/Users/Steve/Documents/GitHub/publish/diss2/images/era3.png, id=422, 505.649
-1pt x 505.6491pt>
-File: C:/Users/Steve/Documents/GitHub/publish/diss2/images/era3.png Graphic fil
-e (type png)
-
-<use C:/Users/Steve/Documents/GitHub/publish/diss2/images/era3.png>
-Package pdftex.def Info: C:/Users/Steve/Documents/GitHub/publish/diss2/images/e
-ra3.png used on input line 858.
-(pdftex.def)             Requested size: 216.135pt x 216.13637pt.
-
-<C:/Users/Steve/Documents/GitHub/publish/diss2/images/era4.png, id=423, 505.649
-1pt x 505.6491pt>
-File: C:/Users/Steve/Documents/GitHub/publish/diss2/images/era4.png Graphic fil
-e (type png)
-
-<use C:/Users/Steve/Documents/GitHub/publish/diss2/images/era4.png>
-Package pdftex.def Info: C:/Users/Steve/Documents/GitHub/publish/diss2/images/e
-ra4.png used on input line 858.
-(pdftex.def)             Requested size: 216.135pt x 216.13637pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[49] [50 <C:/Users/Steve/Documents/GitHub/publish/diss2/images/era1.png> <C:/Us
-ers/Steve/Documents/GitHub/publish/diss2/images/era2.png> <C:/Users/Steve/Docum
-ents/GitHub/publish/diss2/images/era3.png> <C:/Users/Steve/Documents/GitHub/pub
-lish/diss2/images/era4.png>]
-<C:/Users/Steve/Documents/GitHub/publish/diss2/images/woodprice.png, id=445, 50
-5.6491pt x 505.6491pt>
-File: C:/Users/Steve/Documents/GitHub/publish/diss2/images/woodprice.png Graphi
-c file (type png)
-
-<use C:/Users/Steve/Documents/GitHub/publish/diss2/images/woodprice.png>
-Package pdftex.def Info: C:/Users/Steve/Documents/GitHub/publish/diss2/images/w
-oodprice.png used on input line 880.
-(pdftex.def)             Requested size: 302.58766pt x 302.59708pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[51] [52 <C:/Users/Steve/Documents/GitHub/publish/diss2/images/woodprice.png>]
-[53
-
-]
-<C:/Users/Steve/Documents/GitHub/publish/diss2/images/desagulier1.png, id=466, 
-633.11531pt x 161.10187pt>
-File: C:/Users/Steve/Documents/GitHub/publish/diss2/images/desagulier1.png Grap
-hic file (type png)
-
-<use C:/Users/Steve/Documents/GitHub/publish/diss2/images/desagulier1.png>
-Package pdftex.def Info: C:/Users/Steve/Documents/GitHub/publish/diss2/images/d
-esagulier1.png used on input line 917.
-(pdftex.def)             Requested size: 410.65517pt x 104.49619pt.
-
-<C:/Users/Steve/Documents/GitHub/publish/diss2/images/desagulier2.png, id=467, 
-728.7225pt x 327.47343pt>
-File: C:/Users/Steve/Documents/GitHub/publish/diss2/images/desagulier2.png Grap
-hic file (type png)
-
-<use C:/Users/Steve/Documents/GitHub/publish/diss2/images/desagulier2.png>
-Package pdftex.def Info: C:/Users/Steve/Documents/GitHub/publish/diss2/images/d
-esagulier2.png used on input line 918.
-(pdftex.def)             Requested size: 453.8848pt x 203.96584pt.
-
-Overfull \hbox (21.6148pt too wide) in paragraph at lines 918--919
- [][] 
- []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-<C:/Users/Steve/Documents/GitHub/publish/diss2/images/wage-energy.png, id=469, 
-505.6491pt x 505.6491pt>
-File: C:/Users/Steve/Documents/GitHub/publish/diss2/images/wage-energy.png Grap
-hic file (type png)
-
-<use C:/Users/Steve/Documents/GitHub/publish/diss2/images/wage-energy.png>
-Package pdftex.def Info: C:/Users/Steve/Documents/GitHub/publish/diss2/images/w
-age-energy.png used on input line 931.
-(pdftex.def)             Requested size: 302.58766pt x 302.59708pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[54] [55 <C:/Users/Steve/Documents/GitHub/publish/diss2/images/desagulier1.png>
- <C:/Users/Steve/Documents/GitHub/publish/diss2/images/desagulier2.png>]
-[56 <C:/Users/Steve/Documents/GitHub/publish/diss2/images/wage-energy.png>]
-[57
-
-]
+[36]
 <C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/gworldwages.png, id
-=496, 505.6491pt x 505.6491pt>
+=298, 505.6491pt x 505.6491pt>
 File: C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/gworldwages.pn
 g Graphic file (type png)
 
 <use C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/gworldwages.png
 >
 Package pdftex.def Info: C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/im
-ages/gworldwages.png used on input line 966.
-(pdftex.def)             Requested size: 259.36462pt x 259.37444pt.
+ages/gworldwages.png used on input line 552.
+(pdftex.def)             Requested size: 277.3648pt x 277.37486pt.
+
+<C:/Users/Steve/Documents/GitHub/publish/diss2/images/wage-energy.png, id=300, 
+505.6491pt x 505.6491pt>
+File: C:/Users/Steve/Documents/GitHub/publish/diss2/images/wage-energy.png Grap
+hic file (type png)
+
+<use C:/Users/Steve/Documents/GitHub/publish/diss2/images/wage-energy.png>
+Package pdftex.def Info: C:/Users/Steve/Documents/GitHub/publish/diss2/images/w
+age-energy.png used on input line 563.
+(pdftex.def)             Requested size: 277.3648pt x 277.37486pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+[37 <C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/gworldwages.png
+>] [38 <C:/Users/Steve/Documents/GitHub/publish/diss2/images/wage-energy.png>]
+[39
 
-<C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/allen_energy.png, i
-d=498, 655.44875pt x 655.44875pt>
-File: C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/allen_energy.p
-ng Graphic file (type png)
-
-<use C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/allen_energy.pn
-g>
-Package pdftex.def Info: C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/im
-ages/allen_energy.png used on input line 976.
-(pdftex.def)             Requested size: 259.36462pt x 259.36447pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[58]
-
-LaTeX Warning: Text page 59 contains only floats.
-
-[59 <C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/gworldwages.png
-> <C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/allen_energy.png>
 ]
-Overfull \hbox (7.08162pt too wide) in paragraph at lines 987--988
-[]\OT1/txr/m/n/10.95 But if you are per-suaded that it is en-ergy in-puts that 
-fun-da-men-tally determine---in fact constrain---
- []
+<C:/Users/Steve/Documents/GitHub/publish/diss3/images/logDiffPop1750-2014.jpg, 
+id=320, 505.6491pt x 505.6491pt>
+File: C:/Users/Steve/Documents/GitHub/publish/diss3/images/logDiffPop1750-2014.
+jpg Graphic file (type jpg)
 
-[60] [61] [62]
+<use C:/Users/Steve/Documents/GitHub/publish/diss3/images/logDiffPop1750-2014.j
+pg>
+Package pdftex.def Info: C:/Users/Steve/Documents/GitHub/publish/diss3/images/l
+ogDiffPop1750-2014.jpg used on input line 589.
+(pdftex.def)             Requested size: 277.3648pt x 277.37486pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[40] [41 <C:/Users/Steve/Documents/GitHub/publish/diss3/images/logDiffPop1750-2
+014.jpg>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[42
+
+] [43] [44]
+
+Package natbib Warning: There were undefined citations.
+
 
 Package glossaries Warning: No \printglossary or \printglossaries found.
 (Remove \makeglossaries if you don't want any glossaries.)
 This document will not have a glossary.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1027.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1027.
-(C:\Users\Steve\Documents\GitHub\publish\paper1\paper1.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1027.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1027.
-
-Package rerunfilecheck Info: File `paper1.out' has not changed.
-(rerunfilecheck)             Checksum: 342A096FB53BF4EFD78587B675C19C3B;1737.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 700.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 700.
+(C:\Users\Steve\Documents\GitHub\publish\paper2\paper2.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 700.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 700.
+Package rerunfilecheck Info: File `paper2.out' has not changed.
+(rerunfilecheck)             Checksum: 55C64D297B7E2726AAC1C557E0C6B1CC;2562.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -1763,28 +1344,29 @@ LaTeX Warning: There were multiply-defined labels.
  )
 (\end occurred inside a group at level 2)
 
-### simple group (level 2) entered at line 1027 ({)
-### semi simple group (level 1) entered at line 1027 (\begingroup)
+### simple group (level 2) entered at line 700 ({)
+### semi simple group (level 1) entered at line 700 (\begingroup)
 ### bottom level
-(\end occurred when \ifdim on line 1027 was incomplete) 
+(\end occurred when \ifdim on line 700 was incomplete) 
 Here is how much of TeX's memory you used:
- 19461 strings out of 493921
- 336824 string characters out of 3144900
- 445886 words of memory out of 3000000
- 22187 multiletter control sequences out of 15000+200000
- 50854 words of font info for 117 fonts, out of 3000000 for 9000
+ 19282 strings out of 493921
+ 327215 string characters out of 3144900
+ 439305 words of memory out of 3000000
+ 22081 multiletter control sequences out of 15000+200000
+ 42958 words of font info for 106 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 48i,9n,75p,1739b,434s stack positions out of 5000i,500n,10000p,200000b,50000s
-{D:/LaTeX-Portable/mikte
-x-portable/fonts/enc/dvips/fontname/8r.enc}<D:/LaTeX-Portable/miktex-portable/f
-onts/type1/public/txfonts/rtxmi.pfb><D:/LaTeX-Portable/miktex-portable/fonts/ty
-pe1/public/txfonts/rtxr.pfb><D:/LaTeX-Portable/miktex-portable/fonts/type1/publ
-ic/txfonts/txsy.pfb><D:/LaTeX-Portable/miktex-portable/fonts/type1/urw/times/ut
-mb8a.pfb><D:/LaTeX-Portable/miktex-portable/fonts/type1/urw/times/utmr8a.pfb><D
-:/LaTeX-Portable/miktex-portable/fonts/type1/urw/times/utmri8a.pfb>
-Output written on paper1.pdf (62 pages, 1669027 bytes).
+ 48i,9n,75p,1739b,428s stack positions out of 5000i,500n,10000p,200000b,50000s
+{D:/LaTeX-Portable/miktex
+-portable/fonts/enc/dvips/fontname/8r.enc}<D:/LaTeX-Portable/miktex-portable/fo
+nts/type1/public/txfonts/rtxb.pfb><D:/LaTeX-Portable/miktex-portable/fonts/type
+1/public/txfonts/rtxmi.pfb><D:/LaTeX-Portable/miktex-portable/fonts/type1/publi
+c/txfonts/rtxr.pfb><D:/LaTeX-Portable/miktex-portable/fonts/type1/public/txfont
+s/txsy.pfb><D:/LaTeX-Portable/miktex-portable/fonts/type1/urw/times/utmb8a.pfb>
+<D:/LaTeX-Portable/miktex-portable/fonts/type1/urw/times/utmr8a.pfb><D:/LaTeX-P
+ortable/miktex-portable/fonts/type1/urw/times/utmri8a.pfb>
+Output written on paper2.pdf (44 pages, 994446 bytes).
 PDF statistics:
- 582 PDF objects out of 1000 (max. 8388607)
- 128 named destinations out of 1000 (max. 500000)
- 367 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 400 PDF objects out of 1000 (max. 8388607)
+ 90 named destinations out of 1000 (max. 500000)
+ 270 words of extra memory for PDF output out of 10000 (max. 10000000)
 
