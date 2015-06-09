@@ -1,0 +1,720 @@
+\begin{thebibliography}{96}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Acemoglu(2005)]{acemoglu_politics_2005}
+Daron Acemoglu.
+\newblock Politics and economics in weak and strong states.
+\newblock \emph{Journal of Monetary Economics}, 52\penalty0 (7):\penalty0
+  1199--1226, October 2005.
+\newblock ISSN 0304-3932.
+\newblock \doi{10.1016/j.jmoneco.2005.05.001}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0304393205000838}.
+
+\bibitem[Acemoglu(2012)]{acemoglu_introduction_2012}
+Daron Acemoglu.
+\newblock Introduction to economic growth.
+\newblock \emph{Journal of Economic Theory}, 147\penalty0 (2):\penalty0
+  545--550, March 2012.
+\newblock ISSN 0022-0531.
+\newblock \doi{10.1016/j.jet.2012.01.023}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0022053112000245}.
+
+\bibitem[Acemoglu et~al.(2005)Acemoglu, Johnson, and
+  Robinson]{acemoglu_chapter_2005}
+Daron Acemoglu, Simon Johnson, and James~A. Robinson.
+\newblock Chapter 6 {Institutions} as a {Fundamental} {Cause} of {Long}-{Run}
+  {Growth}.
+\newblock In Philippe Aghion {and} Steven~N. Durlauf, editor, \emph{Handbook of
+  {Economic} {Growth}}, volume 1, Part A, pages 385--472. Elsevier, 2005.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S1574068405010063}.
+
+\bibitem[Administration()]{u.s._energy_information_administration_energy_????}
+U.S. Energy~Information Administration.
+\newblock Energy {Information} {Administration} - {International} {Total}
+  {Primary} {Energy} {Consumption} and {Energy} {Intensity} {Data}.
+\newblock URL
+  \url{http://www.eia.doe.gov/emeu/international/energyconsumption.html}.
+
+\bibitem[Allen et~al.(2007)Allen, Bassino, Ma, Moll-Murata, and
+  Zanden]{allen_wages_2007}
+Robert Allen, Jean-Pascal Bassino, Debin Ma, Christine Moll-Murata, and Jan
+  Luiten~van Zanden.
+\newblock Wages, {Prices}, and {Living} {Standards} in {China},1738-1925: in
+  comparison with {Europe}, {Japan}, and {India}.
+\newblock Economics {Series} {Working} {Paper} 316, University of Oxford,
+  Department of Economics, 2007.
+\newblock URL \url{http://ideas.repec.org/p/oxf/wpaper/316.html}.
+
+\bibitem[Allen(2001)]{allen_great_2001}
+Robert~C. Allen.
+\newblock The {Great} {Divergence} in {European} {Wages} and {Prices} from the
+  {Middle} {Ages} to the {First} {World} {War}.
+\newblock \emph{Explorations in Economic History}, 38\penalty0 (4):\penalty0
+  411--447, October 2001.
+\newblock ISSN 0014-4983.
+\newblock \doi{doi: DOI: 10.1006/exeh.2001.0775}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/B6WFJ-4582KHW-1/2/e9d2b82326d7e685a0acc4d089f5266e}.
+
+\bibitem[Allen(2009{\natexlab{a}})]{allen_agricultural_2009}
+Robert~C Allen.
+\newblock Agricultural productivity and rural incomes in {England} and the
+  {Yangtze} {Delta}, c.1620-c.1820.
+\newblock \emph{The Economic History Review}, 62\penalty0 (3):\penalty0
+  525--550, August 2009{\natexlab{a}}.
+\newblock ISSN 1468-0289.
+\newblock \doi{10.1111/j.1468-0289.2008.00443.x}.
+\newblock URL
+  \url{http://onlinelibrary.wiley.com.ezproxy.lib.utah.edu/doi/10.1111/j.1468-0289.2008.00443.x/abstract}.
+
+\bibitem[Allen(2009{\natexlab{b}})]{allen_british_2009}
+Robert~C. Allen.
+\newblock \emph{The {British} {Industrial} {Revolution} in {Global}
+  {Perspective}}.
+\newblock Cambridge University Press, 1 edition, April 2009{\natexlab{b}}.
+\newblock ISBN 0521868270.
+
+\bibitem[Ayres et~al.(2013)Ayres, van~den Bergh, Lindenberger, and
+  Warr]{ayres_underestimated_2013}
+Robert~U. Ayres, Jeroen~C.J.M. van~den Bergh, Dietmar Lindenberger, and
+  Benjamin Warr.
+\newblock The {Underestimated} {Contribution} of {Energy} to {Economic}
+  {Growth}.
+\newblock \emph{Structural Change and Economic Dynamics}, 2013.
+\newblock ISSN 0954-349X.
+\newblock \doi{10.1016/j.strueco.2013.07.004}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0954349X13000593}.
+
+\bibitem[Bentley(1941)]{bentley_murder_1941}
+Thomas Bentley.
+\newblock Murder at the {Baskervilles}, January 1941.
+\newblock IMDB ID: tt0029565; IMDB Rating: 5.8 (275 votes); Rotten Tomatoes:
+  N/A (N/A reviews N/A fresh, N/A rotten), Tomato Meter: N/A.
+
+\bibitem[Bjornsson and Grothendieck(2012)]{bjornsson_stinepack:_2012}
+Tomas Johannesson \&~Halldor Bjornsson and Icelandic Met Office;~Gabor
+  Grothendieck.
+\newblock stinepack: {Stineman}, a consistently well behaved method of
+  interpolation, 2012.
+\newblock URL \url{http://CRAN.R-project.org/package=stinepack}.
+\newblock R package version 1.3.
+
+\bibitem[Cipolla(1966)]{cipolla_guns_1966}
+C.~M Cipolla.
+\newblock \emph{Guns, {Sails} and {Empire}: {Technological} {Innovation} and
+  the {Early} {Phases} of {European} {Expansion}}.
+\newblock New York: Pantheon Books, 1966.
+
+\bibitem[Cipolla(1983)]{cipolla_before_1983}
+C.~M Cipolla.
+\newblock \emph{Before the industrial revolution}.
+\newblock Methuen, 1983.
+\newblock ISBN 0416749305.
+
+\bibitem[Cipolla(1961)]{cipolla_sources_1961}
+Carlo~M Cipolla.
+\newblock Sources d'énergie et histoire de l'humanité.
+\newblock In \emph{Annales. {Histoire}, {Sciences} {Sociales}}, volume~16,
+  pages 521--534. JSTOR, 1961.
+
+\bibitem[Cipolla(1962)]{cipolla_economic_1962}
+Carlo~M Cipolla.
+\newblock Economic history of world population.
+\newblock 1962.
+
+\bibitem[Cottrell(1955)]{cottrell_energy_1955}
+W.~Fred Cottrell.
+\newblock \emph{Energy and society}.
+\newblock McGraw-Hill, 1955.
+
+\bibitem[Crosby(1972)]{crosby_columbian_1972}
+Alfred~W. Crosby.
+\newblock \emph{The {Columbian} exchange; biological and cultural consequences
+  of 1492}.
+\newblock Contributions in {American} studies, no. 2. Greenwood Pub. Co,
+  Westport, Conn, 1972.
+\newblock ISBN 0837158214.
+
+\bibitem[de~Vries(1976)]{de_vries_economy_1976}
+Jan de~Vries.
+\newblock \emph{The economy of {Europe} in an age of crisis, 1600-1750}.
+\newblock Cambridge,[Eng.]; New York: Cambridge University Press, 1976.
+
+\bibitem[de~Vries(1980)]{de_vries_measuring_1980}
+Jan de~Vries.
+\newblock Measuring the {Impact} of {Climate} on {History}: {The} {Search} for
+  {Appropriate} {Methodologies}.
+\newblock \emph{The Journal of Interdisciplinary History}, 10\penalty0
+  (4):\penalty0 599--630, April 1980.
+\newblock ISSN 0022-1953.
+\newblock \doi{10.2307/203061}.
+\newblock URL \url{http://www.jstor.org/stable/203061}.
+\newblock ArticleType: research-article / Issue Title: History and Climate:
+  Interdisciplinary Explorations / Full publication date: Spring, 1980 /
+  Copyright © 1980 the Massachusetts Institute of Technology and the editors
+  of The Journal of Interdisciplinary History.
+
+\bibitem[Deane(1979)]{deane_first_1979}
+P.~M. Deane.
+\newblock \emph{The {First} {Industrial} {Revolution}}.
+\newblock Cambridge University Press, 1979.
+\newblock ISBN 9780521296090.
+
+\bibitem[Desaguliers(1734)]{desaguliers_course_1734}
+Jean~Theophilus Desaguliers.
+\newblock \emph{A {Course} of {Experimental} {Philosophy}}.
+\newblock Printed for John Senex, W. Innys and Richard Manby, and John Osborne
+  and Thomas Longman, London, 1734.
+
+\bibitem[Duchesne(2004)]{duchesne_rise_2004}
+Ricardo Duchesne.
+\newblock On the {Rise} of the {West}: {Researching} {Kenneth} {Pomeranz}'s
+  {Great} {Divergence}.
+\newblock \emph{Review of Radical Political Economics}, 36\penalty0
+  (1):\penalty0 52--81, March 2004.
+\newblock ISSN 0486-6134, 1552-8502.
+\newblock \doi{10.1177/0486613403261110}.
+\newblock URL
+  \url{http://rrp.sagepub.com.ezproxy.lib.utah.edu/content/36/1/52}.
+
+\bibitem[Duchesne(2011)]{duchesne_uniqueness_2011}
+Ricardo Duchesne.
+\newblock \emph{The {Uniqueness} of {Western} {Civilization}}, volume~28.
+\newblock Brill, 2011.
+
+\bibitem[Eckel(1921)]{eckel_coal_1921}
+Edwin~Clarence Eckel.
+\newblock \emph{Coal, {Iron} and {War} - {A} {Study} in {Industrialism} {Past}
+  and {Future}}.
+\newblock London : George G. Harrap, 1st edition. edition, 1921.
+
+\bibitem[Elvin(1973)]{elvin_pattern_1973}
+Mark Elvin.
+\newblock \emph{The {Pattern} of the {Chinese} {Past}}.
+\newblock Stanford University Press, Stanford, Calif., 1 edition edition, June
+  1973.
+\newblock ISBN 9780804708760.
+
+\bibitem[Engels(1892)]{engels_condition_1892}
+Friedrich Engels.
+\newblock \emph{The condition of the working-class in {England} in 1844,}.
+\newblock S. Sonnenschein \& Co., London, 1892.
+
+\bibitem[Fouquet(2008)]{fouquet_heat_2008}
+Roger Fouquet.
+\newblock \emph{Heat, power and light : revolutions in energy services}.
+\newblock Edward Elgar, Cheltenham ; Northampton, MA, 2008.
+\newblock ISBN 9781849800075.
+
+\bibitem[Fouquet and Pearson(1998)]{fouquet_thousand_1998}
+Roger Fouquet and Peter J.~G. Pearson.
+\newblock A {Thousand} {Years} of {Energy} {Use} in the {United} {Kingdom}.
+\newblock \emph{Energy Journal}, 19\penalty0 (4):\penalty0 1, October 1998.
+\newblock ISSN 01956574.
+\newblock \doi{Article}.
+\newblock URL
+  \url{http://search.ebscohost.com.tproxy01.lib.utah.edu/login.aspx?direct=true&db=aph&AN=1136524&site=ehost-live}.
+
+\bibitem[Garrett(2015)]{garrett_long-run_2015}
+T.~J. Garrett.
+\newblock Long-run evolution of the global economy: 2. {Hindcasts} of
+  innovation and growth.
+\newblock \emph{Earth Syst. Dynam. Discuss.}, 6\penalty0 (1):\penalty0
+  655--698, March 2015.
+\newblock ISSN 2190-4995.
+\newblock \doi{10.5194/esdd-6-655-2015}.
+\newblock URL \url{http://www.earth-syst-dynam-discuss.net/6/655/2015/}.
+
+\bibitem[Garrett(2009)]{garrett_are_2009}
+Timothy Garrett.
+\newblock Are there basic physical constraints on future anthropogenic
+  emissions of carbon dioxide?
+\newblock \emph{Climatic Change}, November 2009.
+\newblock \doi{10.1007/s10584-009-9717-9}.
+\newblock URL \url{http://dx.doi.org/10.1007/s10584-009-9717-9}.
+
+\bibitem[Garrett(2012)]{garrett_modes_2012}
+Timothy~J. Garrett.
+\newblock Modes of growth in dynamic systems.
+\newblock \emph{Proceedings of the Royal Society A: Mathematical, Physical and
+  Engineering Science}, 468\penalty0 (2145):\penalty0 2532--2549, September
+  2012.
+\newblock ISSN 1364-5021, 1471-2946.
+\newblock \doi{10.1098/rspa.2012.0039}.
+\newblock URL
+  \url{http://rspa.royalsocietypublishing.org/content/468/2145/2532}.
+
+\bibitem[Georgescu-Roegen(1971)]{georgescu-roegen_entropy_1971}
+Nicolas Georgescu-Roegen.
+\newblock \emph{The {Entropy} {Law} and the {Economic} {Process}}.
+\newblock Harvard University Press, Cambridge, Mass, February 1971.
+\newblock ISBN 9780674281646.
+
+\bibitem[Goldstone(2008)]{goldstone_why_2008}
+Jack Goldstone.
+\newblock \emph{Why {Europe}? {The} {Rise} of the {West} in {World} {History}
+  1500-1850}.
+\newblock McGraw-Hill Humanities/Social Sciences/Languages, 1 edition, June
+  2008.
+\newblock ISBN 0072848014.
+
+\bibitem[Goldstone(1987)]{goldstone_cultural_1987}
+Jack~A. Goldstone.
+\newblock Cultural {Orthodoxy}, {Risk}, and {Innovation}: {The} {Divergence} of
+  {East} and {West} in the {Early} {Modern} {World}.
+\newblock \emph{Sociological Theory}, 5\penalty0 (2):\penalty0 119--135, 1987.
+\newblock ISSN 07352751.
+\newblock \doi{10.2307/201934}.
+\newblock URL \url{http://www.jstor.org.tproxy01.lib.utah.edu/stable/201934}.
+\newblock ArticleType: primary\_article / Full publication date: Autumn, 1987 /
+  Copyright © 1987 John Wiley \& Sons.
+
+\bibitem[Goldstone(2000)]{goldstone_rise_2000}
+Jack~A. Goldstone.
+\newblock The {Rise} of the {West}-{Or} {Not}? {A} {Revision} to
+  {Socio}-{Economic} {History}.
+\newblock \emph{Sociological Theory}, 18\penalty0 (2):\penalty0 175--194, July
+  2000.
+\newblock ISSN 07352751.
+\newblock \doi{10.2307/223311}.
+\newblock URL \url{http://www.jstor.org.tproxy01.lib.utah.edu/stable/223311}.
+\newblock ArticleType: primary\_article / Full publication date: Jul., 2000 /
+  Copyright © 2000 American Sociological Association.
+
+\bibitem[Granger(1969)]{granger_investigating_1969}
+C.~W.~J. Granger.
+\newblock Investigating {Causal} {Relations} by {Econometric} {Models} and
+  {Cross}-spectral {Methods}.
+\newblock \emph{Econometrica}, 37\penalty0 (3):\penalty0 424--438, August 1969.
+\newblock ISSN 0012-9682.
+\newblock \doi{10.2307/1912791}.
+\newblock URL \url{http://www.jstor.org/stable/1912791}.
+
+\bibitem[Grove(2003)]{grove_little_2003}
+Jean~M. Grove.
+\newblock \emph{The {Little} {Ice} {Age}}.
+\newblock Psychology Press, October 2003.
+\newblock ISBN 9780203402863.
+
+\bibitem[Hajnal(1965)]{hajnal_european_1965}
+John Hajnal.
+\newblock \emph{European marriage patterns in perspective}.
+\newblock 1965.
+
+\bibitem[Harrod(1939)]{harrod_essay_1939}
+R.~F. Harrod.
+\newblock An {Essay} in {Dynamic} {Theory}.
+\newblock \emph{The Economic Journal}, 49\penalty0 (193):\penalty0 14--33,
+  March 1939.
+\newblock ISSN 00130133.
+\newblock URL \url{http://www.jstor.org.tproxy01.lib.utah.edu/stable/2225181}.
+\newblock ArticleType: primary\_article / Full publication date: Mar., 1939 /
+  Copyright © 1939 Royal Economic Society.
+
+\bibitem[Hartwell(1962)]{hartwell_revolution_1962}
+Robert Hartwell.
+\newblock A {Revolution} in the {Chinese} {Iron} and {Coal} {Industries}
+  {During} the {Northern} {Sung}, 960-1126 {A}.{D}.
+\newblock \emph{The Journal of Asian Studies}, 21\penalty0 (2):\penalty0
+  153--162, February 1962.
+\newblock ISSN 0021-9118.
+\newblock \doi{10.2307/2050519}.
+\newblock URL \url{http://www.jstor.org/stable/2050519}.
+\newblock ArticleType: research-article / Full publication date: Feb., 1962 /
+  Copyright 1962 Association for Asian Studies.
+
+\bibitem[Hartwell(1966)]{hartwell_markets_1966}
+Robert Hartwell.
+\newblock Markets, {Technology}, and the {Structure} of {Enterprise} in the
+  {Development} of the {Eleventh}-{Century} {Chinese} {Iron} and {Steel}
+  {Industry}.
+\newblock \emph{The Journal of Economic History}, 26\penalty0 (1):\penalty0
+  29--58, March 1966.
+\newblock ISSN 0022-0507.
+\newblock URL \url{http://www.jstor.org/stable/2116001}.
+\newblock ArticleType: research-article / Full publication date: Mar., 1966 /
+  Copyright 1966 Economic History Association.
+
+\bibitem[Hartwell(1967)]{hartwell_cycle_1967}
+Robert Hartwell.
+\newblock A {Cycle} of {Economic} {Change} in {Imperial} {China}: {Coal} and
+  {Iron} in {Northeast} {China}, 750-1350.
+\newblock \emph{Journal of the Economic and Social History of the Orient},
+  10\penalty0 (1):\penalty0 102--159, July 1967.
+\newblock ISSN 00224995.
+\newblock \doi{10.2307/3596361}.
+\newblock URL \url{http://www.jstor.org/stable/3596361}.
+\newblock ArticleType: research-article / Full publication date: Jul., 1967 /
+  Copyright 1967 BRILL.
+
+\bibitem[Hartwell(1982)]{hartwell_demographic_1982}
+Robert~M. Hartwell.
+\newblock Demographic, {Political}, and {Social} {Transformations} of {China},
+  750-1550.
+\newblock \emph{Harvard Journal of Asiatic Studies}, 42\penalty0 (2):\penalty0
+  365--442, December 1982.
+\newblock ISSN 0073-0548.
+\newblock \doi{10.2307/2718941}.
+\newblock URL \url{http://www.jstor.org/stable/2718941}.
+\newblock ArticleType: research-article / Full publication date: Dec., 1982 /
+  Copyright 1982 Harvard-Yenching Institute.
+
+\bibitem[Hobson(2004)]{hobson_eastern_2004}
+John~M Hobson.
+\newblock \emph{The {Eastern} origins of {Western} civilisation}.
+\newblock Cambridge university press Cambridge, 2004.
+
+\bibitem[{J. W. de Zeeuw}(1978)]{j._w._de_zeeuw_peat_1978}
+{J. W. de Zeeuw}.
+\newblock Peat and the {Dutch} {Golden} {Age}.
+\newblock \emph{The historical meaning of energy-attainability. AAG Bijdragen},
+  21:\penalty0 3--33, 1978.
+
+\bibitem[Jevons(1965)]{jevons_coal_1965}
+William~Stanley Jevons.
+\newblock \emph{The coal question;: {An} inquiry concerning the progress of the
+  {Nation}, and the probable exhaustion of our coal-mines,}.
+\newblock A.M. Kelley, 3rd edition, 1965.
+
+\bibitem[Jones(1988)]{jones_growth_1988}
+Eric~Lionel Jones.
+\newblock \emph{Growth recurring: economic change in world history}.
+\newblock University of Michigan Press, 1988.
+
+\bibitem[Jones(1996)]{jones_recurrent_1996}
+Eric~Lionel Jones.
+\newblock Recurrent transitions to intensive growth.
+\newblock \emph{Goudsblom J., Jones E., Mennell S. The course of Human History.
+  ME Sharpe, London}, 1996.
+
+\bibitem[Kuznets(1966)]{kuznets_modern_1966}
+Simon~Smith Kuznets.
+\newblock \emph{Modern economic growth: rate, structure, and spread,}.
+\newblock Yale University Press, 1966.
+
+\bibitem[Lamb(1980)]{lamb_aspects_1980}
+Hubert~H Lamb.
+\newblock Some aspects of the cold, disturbed climate of recent centuries, the
+  ``little ice age,'' and similar occurrences.
+\newblock \emph{Pure and Applied Geophysics}, 119\penalty0 (3):\penalty0
+  628--639, 1980.
+
+\bibitem[Landes(1969)]{landes_unbound_1969}
+D.~S. Landes.
+\newblock \emph{The {Unbound} {Prometheus}: {Technical} {Change} and
+  {Industrial} {Development} in {Western} {Europe} from 1750 to {Present}}.
+\newblock Cambridge University Press, 1 edition, July 1969.
+\newblock ISBN 052107200X.
+
+\bibitem[Landes(1999)]{landes_wealth_1999}
+David~S. Landes.
+\newblock \emph{The {Wealth} and {Poverty} of {Nations}}.
+\newblock W W Norton \& Co Inc, May 1999.
+
+\bibitem[Maddison(2007)]{maddison_world_2007}
+Angus Maddison.
+\newblock \emph{The {World} {Economy}: {A} {Millennial} {Perspective}/
+  {Historical} {Statistics}}.
+\newblock Organization for Economic Cooperation \& Devel, December 2007.
+\newblock ISBN 9264022619.
+
+\bibitem[Malanima(2010)]{malanima_path_2010}
+Paolo Malanima.
+\newblock The {Path} {Towards} the {Modern} {Economy}. {The} {Role} of
+  {Energy}.
+\newblock \emph{Rivista di Politica Economica}, aprile-giugno 2010-11:\penalty0
+  1--30, 2010.
+\newblock URL
+  \url{http://www.paolomalanima.it/DEFAULT_files/Papers/ENERGY_AND_GROWTH.pdf}.
+
+\bibitem[Mantoux(1961)]{mantoux_industrial_1961}
+Paul Mantoux.
+\newblock \emph{The {Industrial} {Revolution} in the {Eighteenth} {Century}}.
+\newblock Jonathan Cape Ltd, London, revised edition edition, December 1961.
+\newblock ISBN 9780224604697.
+
+\bibitem[Marx(1904)]{marx_contribution_1904}
+Karl Marx.
+\newblock \emph{A {Contribution} to the {Critique} of {Political} {Economy}}.
+\newblock Charles H. Kerr, 1904.
+
+\bibitem[McCloskey(2007)]{mccloskey_bourgeois_2007}
+Deirdre~N. McCloskey.
+\newblock \emph{The {Bourgeois} {Virtues}: {Ethics} for an {Age} of
+  {Commerce}}.
+\newblock University Of Chicago Press, 1 edition, October 2007.
+\newblock ISBN 0226556646.
+
+\bibitem[McCloskey(2010)]{mccloskey_bourgeois_2010}
+Deirdre~N. McCloskey.
+\newblock \emph{Bourgeois {Dignity}: {Why} {Economics} {Can}'t {Explain} the
+  {Modern} {World}}.
+\newblock University Of Chicago Press, November 2010.
+\newblock ISBN 0226556654.
+
+\bibitem[McNeill(1982)]{mcneill_pursuit_1982}
+William~H McNeill.
+\newblock The {Pursuit} of {Power}: {Technology}.
+\newblock \emph{Armed Force, and Society since AD}, 1000\penalty0
+  (47):\penalty0 20--74, 1982.
+
+\bibitem[Mitchell(1988)]{mitchell_british_1988}
+B.~R. Mitchell.
+\newblock \emph{British {Historical} {Statistics}}.
+\newblock Cambridge University Press, September 1988.
+\newblock ISBN 0521330084.
+
+\bibitem[Mokyr(1992)]{mokyr_lever_1992}
+Joel Mokyr.
+\newblock \emph{The {Lever} of {Riches}: {Technological} {Creativity} and
+  {Economic} {Progress}}.
+\newblock Oxford University Press, USA, April 1992.
+\newblock ISBN 0195074777.
+
+\bibitem[Mote(1999)]{mote_imperial_1999}
+Frederick Mote.
+\newblock \emph{Imperial {China}, 900-1800}.
+\newblock Cambridge, Harvard University Press, 1999.
+
+\bibitem[Needham(1954)]{needham_science_1954}
+Joseph Needham.
+\newblock \emph{Science and {Civilisation} in {China}}.
+\newblock University Press, Cambridge [Eng.], 1954.
+
+\bibitem[Nef(1977)]{nef_early_1977}
+John~U. Nef.
+\newblock An {Early} {Energy} {Crisis} and its {Consequences}.
+\newblock \emph{Scientific American}, 237\penalty0 (5):\penalty0 140--151,
+  November 1977.
+\newblock ISSN 0036-8733.
+\newblock \doi{10.1038/scientificamerican1177-140}.
+\newblock URL
+  \url{http://www.nature.com.ezproxy.lib.utah.edu/scientificamerican/journal/v237/n5/pdf/scientificamerican1177-140.pdf}.
+
+\bibitem[Nef(1932)]{nef_rise_1932}
+John~Ulric Nef.
+\newblock \emph{The {Rise} of the {British} {Coal} {Industry}}.
+\newblock George Routledge \& Sons, 1st edition edition, January 1932.
+
+\bibitem[North(1990)]{north_institutions_1990}
+Douglass~C North.
+\newblock \emph{Institutions, institutional change and economic performance}.
+\newblock Cambridge university press, 1990.
+
+\bibitem[North and Thomas(1973)]{north_rise_1973}
+Douglass~C. North and Robert~Paul Thomas.
+\newblock \emph{The {Rise} of the {Western} {World}: {A} {New} {Economic}
+  {History}}.
+\newblock Cambridge University Press, Cambridge Eng., 1 edition edition,
+  September 1973.
+\newblock ISBN 9780521201711.
+
+\bibitem[Officer(2009)]{officer_what_2009}
+Lawrence~H. Officer.
+\newblock What {Was} the {U}.{K}. {GDP} {Then}?, 2009.
+\newblock URL \url{http://www.measuringworth.org/ukgdp/index.php#}.
+
+\bibitem[Parker(2014)]{parker_global_2014}
+Geoffrey Parker.
+\newblock \emph{Global {Crisis}: {War}, {Climate} {Change} and {Catastrophe} in
+  the {Seventeenth} {Century}}.
+\newblock Yale University Press, New Haven, October 2014.
+\newblock ISBN 9780300208634.
+
+\bibitem[{Peter C Perdue}(2009)]{peter_c_perdue_china_2009}
+{Peter C Perdue}.
+\newblock \emph{China marches west: the {Qing} conquest of {Central}
+  {Eurasia}}.
+\newblock Harvard University Press, 2009.
+
+\bibitem[Pomeranz(2001)]{pomeranz_great_2001}
+Kenneth Pomeranz.
+\newblock \emph{The {Great} {Divergence}: {China}, {Europe}, and the {Making}
+  of the {Modern} {World} {Economy}.}
+\newblock Princeton University Press, revised edition, December 2001.
+\newblock ISBN 0691090106.
+
+\bibitem[Pomeranz(2002)]{pomeranz_beyond_2002}
+Kenneth Pomeranz.
+\newblock Beyond the {East}-{West} {Binary}: {Resituating} {Development}
+  {Paths} in the {Eighteenth}-{Century} {World}.
+\newblock \emph{The Journal of Asian Studies}, 61\penalty0 (2):\penalty0
+  539--590, May 2002.
+\newblock ISSN 00219118.
+\newblock \doi{10.2307/2700300}.
+\newblock URL \url{http://www.jstor.org.tproxy01.lib.utah.edu/stable/2700300}.
+\newblock ArticleType: primary\_article / Full publication date: May, 2002 /
+  Copyright © 2002 Association for Asian Studies.
+
+\bibitem[Pomeranz(2004)]{pomeranz_via_2004}
+Kenneth Pomeranz.
+\newblock Via {Peking} {Back} to {Manchester}: {Britain}, the {Industrial}
+  {Revolution}, and {China}. {By} {Peer} {Vries}. {Leiden}: {Research} {School}
+  of {Asian}, {African}, and {Amerindian} {Studies}, {Leiden} {University},
+  2003. ii, 109 pp. 17 (paper).
+\newblock \emph{The Journal of Asian Studies}, 63\penalty0 (01):\penalty0
+  149--150, February 2004.
+\newblock ISSN 1752-0401.
+\newblock \doi{10.1017/S0021911804000221}.
+\newblock URL \url{http://journals.cambridge.org/article_S0021911804000221}.
+
+\bibitem[{R Core Team}(2014)]{r_core_team_r:_2014}
+{R Core Team}.
+\newblock R: {A} {Language} and {Environment} for {Statistical} {Computing},
+  2014.
+\newblock URL \url{http://www.R-project.org/}.
+
+\bibitem[Romer(1994)]{romer_origins_1994}
+Paul~M Romer.
+\newblock The origins of endogenous growth.
+\newblock \emph{The journal of economic perspectives}, pages 3--22, 1994.
+
+\bibitem[Smil(1994)]{smil_energy_1994}
+Vaclav Smil.
+\newblock \emph{Energy {In} {World} {History}}.
+\newblock Westview Press, November 1994.
+\newblock ISBN 0813319013.
+
+\bibitem[Smil(2008)]{smil_energy_2008}
+Vaclav Smil.
+\newblock \emph{Energy in {Nature} and {Society}: {General} {Energetics} of
+  {Complex} {Systems}}.
+\newblock The MIT Press, January 2008.
+\newblock ISBN 0262693569.
+
+\bibitem[Smith and Stigler(1977)]{smith_inquiry_1977}
+Adam Smith and George~J. Stigler.
+\newblock \emph{An {Inquiry} into the {Nature} and {Causes} of the {Wealth} of
+  {Nations}}.
+\newblock University of Chicago Press, Chicago, facsimile of 1904 ed edition
+  edition, February 1977.
+\newblock ISBN 9780226763743.
+
+\bibitem[Snooks(1994)]{snooks_was_1994}
+Graeme Snooks, editor.
+\newblock \emph{Was the {Industrial} {Revolution} {Necessary}?}
+\newblock Routledge, September 1994.
+\newblock ISBN 0415108683.
+
+\bibitem[Soddy(1911)]{soddy_matter_1911}
+Frederick Soddy.
+\newblock \emph{Matter and energy}.
+\newblock H. Holt, 1911.
+
+\bibitem[Soddy(1921)]{soddy_cartesian_1921}
+Frederick Soddy.
+\newblock \emph{Cartesian economics}.
+\newblock School of Economics, 1921.
+
+\bibitem[Soddy(1931)]{soddy_money_1931}
+Frederick Soddy.
+\newblock \emph{{MONEY} {Versus} {MAN} a {Statement} of the {World} {Problem}
+  from the {Standpoint} of the {New} {Economics}}.
+\newblock Elkin Matthews \& Marrot, 1st edition edition edition, 1931.
+
+\bibitem[Soddy(1934)]{soddy_role_1934}
+Frederick Soddy.
+\newblock \emph{The role of money}.
+\newblock Lulu. com, 1934.
+
+\bibitem[Soddy and {others}(1933)]{soddy_wealth_1933}
+Frederick Soddy and {others}.
+\newblock \emph{Wealth, virtual wealth and debt}.
+\newblock Allen \& Unwin, 1933.
+
+\bibitem[Solow(1957)]{solow_technical_1957}
+Robert~M. Solow.
+\newblock Technical {Change} and the {Aggregate} {Production} {Function}.
+\newblock \emph{The Review of Economics and Statistics}, 39\penalty0
+  (3):\penalty0 312--320, August 1957.
+\newblock ISSN 00346535.
+\newblock URL \url{http://www.jstor.org/stable/1926047}.
+\newblock ArticleType: primary\_article / Full publication date: Aug., 1957 /
+  Copyright © 1957 The MIT Press.
+
+\bibitem[Thirsk(1978)]{thirsk_economic_1978}
+Joan Thirsk.
+\newblock \emph{Economic policy and projects: the development of a consumer
+  society in early modern {England}}.
+\newblock Clarendon Press, Oxford, 1978.
+\newblock ISBN 0198282745 9780198282747.
+
+\bibitem[{Tim Wright}(2007)]{tim_wright_economic_2007}
+{Tim Wright}.
+\newblock An {Economic} {Cycle} in {Imperial} {China}? {Revisiting} {Robert}
+  {Hartwell} on {Iron} and {Coal}.
+\newblock \emph{Journal of the Economic \& Social History of the Orient},
+  50\penalty0 (4):\penalty0 398--423, December 2007.
+\newblock ISSN 00224995.
+\newblock \doi{10.1163/156852007783244963}.
+\newblock URL
+  \url{http://search.ebscohost.com/login.aspx?direct=true&db=rlh&AN=27921692&site=ehost-live}.
+
+\bibitem[Veblen(2009)]{veblen_theory_2009}
+Thorstein Veblen.
+\newblock \emph{The {Theory} of the {Leisure} {Class}}.
+\newblock Oxford University Press, Oxford, reissue edition edition, July 2009.
+\newblock ISBN 9780199552580.
+
+\bibitem[Vries(2003)]{vries_via_2003}
+Peter Hubertus~Henricus Vries.
+\newblock \emph{Via {Peking} back to {Manchester}: {Britain}, the industrial
+  revolution, and {China}}.
+\newblock Number 121. Research School CNWS, Leiden University, 2003.
+
+\bibitem[Warr and Ayres(2006)]{warr_rexs:_2006}
+Benjamin Warr and Robert~U. Ayres.
+\newblock {REXS}: {A} forecasting model for assessing the impact of natural
+  resource consumption and technological change on economic growth.
+\newblock \emph{Structural Change and Economic Dynamics}, 17\penalty0
+  (3):\penalty0 329--378, September 2006.
+\newblock \doi{10.1016/j.strueco.2005.04.004}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science?_ob=ArticleURL&_udi=B6VFN-4HTCTG6-1&_user=722937&_rdoc=1&_fmt=&_orig=search&_sort=d&view=c&_acct=C000040378&_version=1&_urlVersion=0&_userid=722937&md5=7bf9d8e8df561f30402da5d49ff1d597}.
+
+\bibitem[Weber(1964)]{weber_religion_1964}
+Max Weber.
+\newblock \emph{The {Religion} of {China}}.
+\newblock The Free Press, 1st edition thus edition edition, 1964.
+
+\bibitem[Weber(2002)]{weber_protestant_2002}
+Max Weber.
+\newblock \emph{The {Protestant} {Ethic} and the {Spirit} of {Capitalism}}.
+\newblock Roxbury Pub. Co, Los Angeles, Calif, 3rd roxbury ed edition, 2002.
+\newblock ISBN 1891487434.
+
+\bibitem[Wong(1997)]{wong_china_1997}
+R.~B Wong.
+\newblock \emph{China transformed: historical change and the limits of
+  {European} experience}.
+\newblock Cornell Univ Pr, 1997.
+
+\bibitem[Wrigley(1988)]{wrigley_continuity_1988}
+E.~A. Wrigley.
+\newblock \emph{Continuity, chance and change : the character of the industrial
+  revolution in {England}}.
+\newblock Cambridge University Press, Cambridge Cambridgeshire ; New York,
+  1988.
+
+\bibitem[Wrigley(2010)]{wrigley_energy_2010}
+E.~A. Wrigley.
+\newblock \emph{Energy and the {English} {Industrial} {Revolution}}.
+\newblock Cambridge University Press, September 2010.
+\newblock ISBN 0521766931.
+
+\bibitem[Zeileis et~al.(2003)Zeileis, Kleiber, Kramer, and
+  Hornik]{zeileis_testing_2003}
+Achim Zeileis, Christian Kleiber, Walter Kramer, and Kurt Hornik.
+\newblock Testing and {Dating} of {Structural} {Changes} in {Practice}.
+\newblock \emph{Computational Statistics \& Data Analysis}, 44:\penalty0
+  109--123, 2003.
+
+\end{thebibliography}
