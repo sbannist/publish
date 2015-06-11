@@ -1,0 +1,421 @@
+This is TeX, Version 3.141592 (MiKTeX 2.2) (preloaded format=latex 2000.11.28)  16 JUN 2007 14:21
+**thesis.tex
+(thesis.tex
+LaTeX2e <2001/06/01>
+Babel <v3.7h> and hyphenation patterns for english, french, german, ngerman, du
+mylang, nohyphenation, loaded.
+(uuthesis2e.cls
+Document Class: uuthesis2e 1998/04/01 v1.3 University of Utah Thesis Class
+Document Style `uuthesis2e'. Version 1.8d - 6 Apr 1996
+
+! LaTeX Error: File `Chicago.clo' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: clo)
+
+Enter file name: 
+(C:\texmf\tex\latex\base\size12.clo
+File: size12.clo 2001/04/21 v1.4e Standard LaTeX file (size option)
+)
+Using 12pt option
+\footheight=\dimen102
+\numberofappendices=\count79
+\c@part=\count80
+\c@chapter=\count81
+\@titlesize=\dimen103
+\@maxsize=\dimen104
+\c@figure=\count82
+\c@table=\count83
+\descriptionmargin=\dimen105
+\minilength=\skip41
+\c@oldchapter=\count84
+\c@oldtocdepth=\count85
+) (C:\texmf\tex\latex\amsfonts\amssymb.sty
+Package: amssymb 2002/01/22 v2.2d
+
+(C:\texmf\tex\latex\amsfonts\amsfonts.sty
+Package: amsfonts 2001/10/25 v2.2f
+\@emptytoks=\toks14
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 132.
+)) (thesis.sty
+\c@thrm=\count86
+) (diagram.sty
+(auxdefs.sty
+\c@keepoptional=\count87
+\c@optnestctr=\count88
+)
+\dgARROWLENGTH=\skip42
+\dgHORIZPAD=\skip43
+\dgVERTPAD=\skip44
+\dgLABELOFFSET=\skip45
+\dgARROWPARTS=\count89
+\dgDOTSPACING=\skip46
+\dgDOTSIZE=\skip47
+\dgMAXSQUARE=\count90
+\dgMINDBLSQ=\count91
+\dgCOLUMNWIDTH=\skip48
+\dg@HORIZ=\count92
+\dg@VERT=\count93
+\dg@XLPAD=\count94
+\dg@YBPAD=\count95
+\dg@XRPAD=\count96
+\dg@YTPAD=\count97
+\dg@X=\count98
+\dg@Y=\count99
+\dg@XGRID=\count100
+\dg@YGRID=\count101
+\dg@SIZE=\count102
+\dg@USERSIZE=\count103
+\dg@DX=\count104
+\dg@DY=\count105
+\dg@XLBL=\count106
+\dg@YLBL=\count107
+\dg@XOFFSET=\count108
+\dg@YOFFSET=\count109
+\dg@LBLOFF=\count110
+\dg@XLBLOFF=\count111
+\dg@YLBLOFF=\count112
+\dg@LBLPOS=\count113
+\dg@XTEMP=\count114
+\dg@YTEMP=\count115
+\dg@ZTEMP=\count116
+\dg@XNODE=\count117
+\dg@YNODE=\count118
+\dg@XEND=\count119
+\dg@YEND=\count120
+\dg@WEND=\count121
+\dg@HEND=\count122
+\dg@COUNT=\count123
+\dg@NODEBOX=\box26
+) (tgrind.sty
+tgrind version 1.00 <07 July 1993>
+) (C:\texmf\tex\latex\apacite\apacite.sty
+Package: apacite 1994/11/30 APA citation
+\c@BibCnt=\count124
+\bibleftmargin=\skip49
+)
+\c@section=\count125
+\c@subsection=\count126
+\c@paragraph=\count127
+\c@subsubsection=\count128
+ (thesis.aux (chap1.aux) (chap2.aux)
+(chap3.aux) (appendix.aux))
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Try loading font information for U+msa on input line 66.
+ (C:\texmf\tex\latex\amsfonts\umsa.fd
+File: umsa.fd 2002/01/19 v2.2g AMS font definitions
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 66.
+
+(C:\texmf\tex\latex\amsfonts\umsb.fd
+File: umsb.fd 2002/01/19 v2.2g AMS font definitions
+)
+Title.
+[-1
+
+]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 67.
+ (C:\texmf\tex\latex\base\omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 67.
+
+Copyright.
+[-1]
+Committee Approval.
+[0]
+Reading Approval.
+[1] (abstract.tex)
+Abstract.
+[2]
+Dedication.
+[3] (thesis.toc)
+\tf@toc=\write3
+
+Contents.
+[4]
+List of Figures.
+(thesis.lof)
+\tf@lof=\write4
+ [5]
+List of Tables.
+(thesis.lot)
+\tf@lot=\write5
+ [6]
+Notation and Symbols.
+(notation.tex
+
+Package amsfonts Warning: Obsolete command \Bbb; \mathbb should be used instead
+ on input line 7.
+
+) [7] (acknowledge.tex)
+Acknowledgements.
+[8] (chap1.tex
+CHAPTER 1.
+[1
+
+
+] [2] [3] [4]
+Overfull \hbox (8.71242pt too wide) in paragraph at lines 338--341
+[][]\OT1/cmr/m/it/12 Boundary value
+ []
+
+[5]) [6] (chap2.tex
+CHAPTER 2.
+! Undefined control sequence.
+\@caption ...nipage \fi \normalsize \@makecaption 
+                                                  {\csname fnum@#1\endcsname...
+l.38 equations.\label{pde.tab1}}
+                                
+? 
+[7
+
+
+
+]
+! Undefined control sequence.
+\@caption ...nipage \fi \normalsize \@makecaption 
+                                                  {\csname fnum@#1\endcsname...
+l.55 ...rgence properties of RQI.\label{pde.tab2}}
+                                                  
+? 
+(fig1.tex
+\plotpoint=\box27
+)
+! Undefined control sequence.
+\@caption ...nipage \fi \normalsize \@makecaption 
+                                                  {\csname fnum@#1\endcsname...
+l.101 \label{gelfand.fig1}}
+                               % Use \ref{gelfand.fig1} for references
+? 
+(fig2.tex)
+! Undefined control sequence.
+\@caption ...nipage \fi \normalsize \@makecaption 
+                                                  {\csname fnum@#1\endcsname...
+l.109 \label{gelfand.fig2}}
+                               % If not, then change [t] to [p]
+? 
+(fig3.tex)
+! Undefined control sequence.
+\@caption ...nipage \fi \normalsize \@makecaption 
+                                                  {\csname fnum@#1\endcsname...
+l.117 \label{gelfand.fig3}}
+                           
+? 
+[8] [9]) (chap3.tex
+CHAPTER 3.
+[diagram 1]
+! Undefined control sequence.
+\@caption ...nipage \fi \normalsize \@makecaption 
+                                                  {\csname fnum@#1\endcsname...
+l.19 \caption{Diagram example\label{diagram.fig1}}
+                                                  
+? 
+[diagram 2]
+! Undefined control sequence.
+\@caption ...nipage \fi \normalsize \@makecaption 
+                                                  {\csname fnum@#1\endcsname...
+l.41 \label{file.fig1}}
+                       
+? 
+[diagram 3]
+! Undefined control sequence.
+\@caption ...nipage \fi \normalsize \@makecaption 
+                                                  {\csname fnum@#1\endcsname...
+l.53 \label{file.fig2}}
+                       
+? 
+[diagram 4]
+! Undefined control sequence.
+\@caption ...nipage \fi \normalsize \@makecaption 
+                                                  {\csname fnum@#1\endcsname...
+l.65 12.0em \label{file.fig3}}
+                              
+? 
+[diagram 5]
+! Undefined control sequence.
+\@caption ...nipage \fi \normalsize \@makecaption 
+                                                  {\csname fnum@#1\endcsname...
+l.77 \label{file.fig4}}
+                       
+? 
+[10
+
+
+
+
+
+] [11]
+[diagram 6]
+! Undefined control sequence.
+\@caption ...nipage \fi \normalsize \@makecaption 
+                                                  {\csname fnum@#1\endcsname...
+l.90 hspace 6.0em. \label{file.fig5}}
+                                     
+? 
+[diagram 7]
+! Undefined control sequence.
+\@caption ...nipage \fi \normalsize \@makecaption 
+                                                  {\csname fnum@#1\endcsname...
+l.102 hspace 12.0em \label{file.fig6}}
+                                      
+? 
+[diagram 8]
+! Undefined control sequence.
+\@caption ...nipage \fi \normalsize \@makecaption 
+                                                  {\csname fnum@#1\endcsname...
+l.120 \label{file.fig7}}
+                        
+? 
+[diagram 9]
+! Undefined control sequence.
+\@caption ...nipage \fi \normalsize \@makecaption 
+                                                  {\csname fnum@#1\endcsname...
+l.137 ... from manual, rescaled.\label{file.fig8}}
+                                                  
+? 
+\frakfam=\mathgroup6
+[diagram 10]
+! Undefined control sequence.
+\@caption ...nipage \fi \normalsize \@makecaption 
+                                                  {\csname fnum@#1\endcsname...
+l.198 ... Richter, first diagram\label{file.fig9}}
+                                                  
+? 
+[diagram 11]
+! Undefined control sequence.
+\@caption ...nipage \fi \normalsize \@makecaption 
+                                                  {\csname fnum@#1\endcsname...
+l.224 ...ichter, second diagram\label{file.fig10}}
+                                                  
+? 
+[12
+
+] [13]
+[diagram 12]
+
+LaTeX Warning: Command \i invalid in math mode on input line 239.
+
+
+LaTeX Warning: Command \i invalid in math mode on input line 248.
+
+
+LaTeX Warning: Command \i invalid in math mode on input line 258.
+
+
+LaTeX Warning: Command \i invalid in math mode on input line 262.
+
+
+LaTeX Warning: Command \i invalid in math mode on input line 264.
+
+
+LaTeX Warning: Command \i invalid in math mode on input line 264.
+
+
+LaTeX Warning: Command \i invalid in math mode on input line 264.
+
+
+LaTeX Warning: Command \i invalid in math mode on input line 264.
+
+
+LaTeX Warning: Command \i invalid in math mode on input line 264.
+
+
+LaTeX Warning: Command \i invalid in math mode on input line 264.
+
+
+LaTeX Warning: Command \i invalid in math mode on input line 264.
+
+
+LaTeX Warning: Command \i invalid in math mode on input line 264.
+
+! Undefined control sequence.
+\@caption ...nipage \fi \normalsize \@makecaption 
+                                                  {\csname fnum@#1\endcsname...
+l.266 ...Richter, third diagram\label{file.fig11}}
+                                                  
+? 
+[diagram 13]
+! Undefined control sequence.
+\@caption ...nipage \fi \normalsize \@makecaption 
+                                                  {\csname fnum@#1\endcsname...
+l.288 ...{Anders Thorup diagram\label{file.fig12}}
+                                                  
+? 
+[14]) (appendix.tex
+APPENDIX:
+[15
+
+
+
+
+
+] (rhs_mod.tex (tgrindmac.tex (tgrindex.tex (multicol.tex
+This is multicol.tex, version 2.00 [14-Jun-1998]
+\ATcode=\count129
+\NumberOfColumns=\count130
+\@NumberOfColumns=\count131
+\@FirstBox=\count132
+\@NextBox=\count133
+\@MaxColumns=\count134
+\@dummy=\box28
+\@dummy=\box29
+\@dummy=\box30
+\@dummy=\box31
+\@dummy=\box32
+\@dummy=\box33
+\@dummy=\box34
+\@dummy=\box35
+\PageWidth=\dimen106
+\PageHeight=\dimen107
+\@ColumnWidth=\dimen108
+\InterColumnSpace=\dimen109
+\@partialpage=\box36
+)
+This is tgrindex.tex, version 1.00 [18-Feb-1995]
+\dbox=\box37
+\rrskipb=\skip50
+\rrskipa=\skip51
+\rlskipa=\skip52
+\rlskipb=\skip53
+\lskip=\skip54
+\lskipa=\skip55
+)
+\procbox=\box38
+\linecount=\count135
+\linenext=\count136
+\linesofar=\box39
+\TBwid=\dimen110
+\ts=\dimen111
+\tbox=\box40
+) [16] [17] [18] [19])) (thesis.bbl
+APPENDIX:
+) [20
+
+
+] (thesis.aux (chap1.aux) (chap2.aux) (chap3.aux) (appendix.aux)) ) 
+Here is how much of TeX's memory you used:
+ 1470 strings out of 96042
+ 13918 string characters out of 1197058
+ 93631 words of memory out of 1066089
+ 4228 multiletter control sequences out of 35000
+ 19161 words of font info for 73 fonts, out of 500000 for 1000
+ 14 hyphenation exceptions out of 607
+ 28i,32n,38p,274b,581s stack positions out of 1500i,500n,5000p,200000b,32768s
+
+Output written on thesis.dvi (31 pages, 104556 bytes).

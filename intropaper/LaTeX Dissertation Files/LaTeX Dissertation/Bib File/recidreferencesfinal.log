@@ -1,0 +1,153 @@
+This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=latex 2015.2.19)  19 APR 2015 14:31
+entering extended mode
+**recidreferencesfinal.tex
+
+("C:\Users\Krantonio\Documents\LaTeX Dissertation\Bib File\recidreferencesfinal
+.tex"
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2009-06-19, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, lao, latin, lat
+vian, lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerm
+an, ngerman-x-2009-06-19, nynorsk, oriya, panjabi, pinyin, polish, portuguese, 
+romanian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swis
+sgerman, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, u
+senglishmax, welsh, loaded.
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\size12.clo"
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\apacite\apacite.sty"
+Package: apacite 2009/03/01 v4.05 APA citation
+\c@BibCnt=\count87
+\bibleftmargin=\skip43
+\bibindent=\skip44
+\bibparsep=\skip45
+\bibitemsep=\skip46
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\natbib\natbib.sty"
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip47
+\bibsep=\skip48
+LaTeX Info: Redefining \cite on input line 694.
+LaTeX Info: Redefining \citeauthor on input line 712.
+LaTeX Info: Redefining \citeyear on input line 735.
+\c@NAT@ctr=\count88
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
+\fancy@headwidth=\skip49
+\f@ncyO@elh=\skip50
+\f@ncyO@erh=\skip51
+\f@ncyO@olh=\skip52
+\f@ncyO@orh=\skip53
+\f@ncyO@elf=\skip54
+\f@ncyO@erf=\skip55
+\f@ncyO@olf=\skip56
+\f@ncyO@orf=\skip57
+)
+("C:\Users\Krantonio\Documents\LaTeX Dissertation\Bib File\recidreferencesfinal
+.aux")
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\apacite\english.apc"
+File: english.apc 2009/03/01 v4.05 apacite language file
+LaTeX Info: Redefining \BPBI on input line 119.
+LaTeX Info: Redefining \BHBI on input line 120.
+
+NOT AUSTRALIAN!!!
+)
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 35.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 35.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 35.
+
+("C:\Users\Krantonio\Documents\LaTeX Dissertation\Bib File\recidreferencesfinal
+.bbl"
+Underfull \hbox (badness 2617) in paragraph at lines 251--262
+\OT1/cmr/m/n/12 Re-trieved Septem-ber 17, 2009, from \OT1/cmtt/m/n/12 http://ww
+w.msnbc.msn.com/id/
+ []
+
+[88
+
+]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[89]
+Underfull \hbox (badness 10000) in paragraph at lines 762--777
+\OT1/cmtt/m/n/12 www.psychologytoday.com/blog/the-scientific-fundamentalist/
+ []
+
+[90]
+Underfull \hbox (badness 1460) in paragraph at lines 1058--1074
+\OT1/cmr/m/n/12 July 7, 2009, from \OT1/cmtt/m/n/12 http://www.corrections.govt
+.nz/[][]data/assets/
+ []
+
+
+Underfull \hbox (badness 1460) in paragraph at lines 1085--1101
+\OT1/cmr/m/n/12 July 7, 2009, from \OT1/cmtt/m/n/12 http://www.corrections.govt
+.nz/[][]data/assets/
+ []
+
+
+Underfull \hbox (badness 1460) in paragraph at lines 1112--1128
+\OT1/cmr/m/n/12 July 7, 2009, from \OT1/cmtt/m/n/12 http://www.corrections.govt
+.nz/[][]data/assets/
+ []
+
+[91] [92]
+Underfull \hbox (badness 5637) in paragraph at lines 1588--1604
+\OT1/cmr/m/n/12 from \OT1/cmtt/m/n/12 http://governor.utah.gov/budget/Budget/Bu
+dget%20Summaries/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1615--1631
+\OT1/cmtt/m/n/12 http://www.statistik.at/web[]de/dynamic/statistiken/soziales/
+ []
+
+[93]) [94]
+("C:\Users\Krantonio\Documents\LaTeX Dissertation\Bib File\recidreferencesfinal
+.aux") ) 
+Here is how much of TeX's memory you used:
+ 1324 strings out of 494054
+ 16294 string characters out of 3148614
+ 72418 words of memory out of 3000000
+ 4667 multiletter control sequences out of 15000+200000
+ 7497 words of font info for 27 fonts, out of 3000000 for 9000
+ 715 hyphenation exceptions out of 8191
+ 23i,10n,43p,213b,508s stack positions out of 5000i,500n,10000p,200000b,50000s
+
+Output written on recidreferencesfinal.dvi (7 pages, 30200 bytes).

@@ -1,0 +1,85 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: recidreferencesfinal.aux
+The style file: apacite.bst
+Database file #1: recidfinal.bib
+You're missing a field name---line 24 of file recidfinal.bib
+ : 
+ : %  month =        {August},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 46 of file recidfinal.bib
+ : 
+ : %  month =        {April},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 150 of file recidfinal.bib
+ : 
+ : %  month =        {August},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 193 of file recidfinal.bib
+ : 
+ : %  month =        {November},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 228 of file recidfinal.bib
+ : 
+ : %  month =        {March},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 350 of file recidfinal.bib
+ : 
+ : %  month =        {July},    Note: First author's name is Il-Joong Kim
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 362 of file recidfinal.bib
+ : 
+ : %  month =        {June},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 373 of file recidfinal.bib
+ : 
+ : %  month =        {June},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 545 of file recidfinal.bib
+ : 
+ : %  month =        {May},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 556 of file recidfinal.bib
+ : 
+ : %  month =        {March},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 568 of file recidfinal.bib
+ : 
+ : %  month =        {April},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 704 of file recidfinal.bib
+ : 
+ : %  month =        {June},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 784 of file recidfinal.bib
+ : 
+ : %  month =        {March},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+apacite.bst [2009/03/01 v4.05 APA bibliography style]
+Warning--No journal in Cal09a
+ptr=1, stack=
+
+---the literal stack isn't empty for entry Cal09a
+while executing---line 5225 of file apacite.bst
+Warning--No journal in Cal09b
+ptr=1, stack=
+
+---the literal stack isn't empty for entry Cal09b
+while executing---line 5225 of file apacite.bst
+Warning--No journal in Cal09c
+ptr=1, stack=
+
+---the literal stack isn't empty for entry Cal09c
+while executing---line 5225 of file apacite.bst
+(There were 16 error messages)

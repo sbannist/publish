@@ -1,0 +1,290 @@
+\chapter{Systems}\label{systems}
+\fixchapterheading
+\section{Diagrams made with diagram.sty}
+% \captionstyleparagraph
+
+%% The full documentation is in the file: diagram.sty
+
+An example diagram appears below in Figure \ref{diagram.fig1}. This is
+typical of what can made with the diagram package.
+
+\begin{figure}[b]               % Place at bottom of this page
+$$
+\begin{diagram}
+\node{U} \arrow{e,t}{i_1} \arrow{s}
+\node{X} \arrow{s,r}{\pi} \\
+\node{Y-\partial Q} \arrow{e,t}{j_1} \node{Y}
+\end{diagram}
+$$
+\caption{Diagram example\label{diagram.fig1}}
+\end{figure}
+
+\section{Sample diagrams from diagram.tex}
+
+Example diagrams reproduced here were taken from various sources.
+Compare the three diagrams of increasing sizes in
+Figure \ref{file.fig1}, Figure \ref{file.fig2}, Figure \ref{file.fig3}
+with the three diagrams in Figure \ref{file.fig4}, Figure
+\ref{file.fig5},
+Figure \ref{file.fig6}.
+
+
+\begin{figure}[b]
+$$
+\setlength{\dgARROWLENGTH}{3.0em}
+\begin{diagram}[\strut A]
+\node{A} \arrow{e} \arrow{s} \arrow{se} \node{B} \arrow{s} \\
+\node{C} \arrow{e}                      \node{D}
+\end{diagram}
+$$
+\caption{Base diagram, Arrowlength = 3.0em
+\label{file.fig1}}
+\end{figure}
+
+\begin{figure}[p]
+$$
+\setlength{\dgARROWLENGTH}{6.0em}
+\begin{diagram}[\strut A]
+\node{A} \arrow{e} \arrow{s} \arrow{se} \node{B} \arrow{s} \\
+\node{C} \arrow{e}                      \node{D}
+\end{diagram}
+$$
+\caption{Same as Figure \protect\ref{file.fig1}, but Arrowlength = 6.0em
+\label{file.fig2}}
+\end{figure}
+
+\begin{figure}[p]
+$$
+\setlength{\dgARROWLENGTH}{12.0em}
+\begin{diagram}[\strut A]
+\node{A} \arrow{e} \arrow{s} \arrow{se} \node{B} \arrow{s} \\
+\node{C} \arrow{e}                      \node{D}
+\end{diagram}
+$$
+\caption{Same as Figure \protect\ref{file.fig1}, but Arrowlength =
+12.0em \label{file.fig3}}
+\end{figure}
+
+\begin{figure}[p]
+$$
+\setlength{\dgARROWLENGTH}{3.0em}
+\begin{diagram}[\strut A]
+\node{A} \arrow{e} \arrow{s} \arrow{se} \node{B} \arrow{s} \\
+\node{C} \arrow{e}                      \node{D}
+\end{diagram}
+$$
+\caption{Base figure, same as Figure \protect\ref{file.fig1}.
+\label{file.fig4}}
+\end{figure}
+\clearpage % make page of floats
+
+\begin{figure}[t]
+$$
+\setlength{\dgARROWLENGTH}{3.0em}
+\begin{diagram}[\strut\hspace{6.0em}]
+\node{A} \arrow{e} \arrow{s} \arrow{se} \node{B} \arrow{s} \\
+\node{C} \arrow{e}                      \node{D}
+\end{diagram}
+$$
+\caption{Same as Figure \protect\ref{file.fig4}, but Bignode = strut
+hspace 6.0em. \label{file.fig5}}
+\end{figure}
+
+\begin{figure}[t]
+$$
+\setlength{\dgARROWLENGTH}{3.0em}
+\begin{diagram}[\strut\hspace{12.0em}]
+\node{A} \arrow{e} \arrow{s} \arrow{se} \node{B} \arrow{s} \\
+\node{C} \arrow{e}                      \node{D}
+\end{diagram}
+$$
+\caption{Same as Figure \protect\ref{file.fig1}, but Bignode = strut
+hspace 12.0em \label{file.fig6}}
+\end{figure}
+
+Below we show diagrams from the manual with a few modifications. The
+first in Figure \ref{file.fig7} is essentially as it appears in the
+manual, whereas the second, Figure \ref{file.fig8} has been
+rescaled to a larger size.
+\begin{figure}[p]
+$$
+\begin{diagram}[B^*]
+\node{A} \arrow{e,t}{a} \arrow{s,l}{c} \arrow{ese,b,1}{u}
+   \node{B^*} \arrow{e,t}{b^*}
+      \node{C} \arrow{s,r}{d} \arrow{wsw,b,1}{v} \\
+\node{D} \arrow[2]{e,b}{e}
+   \node[2]{E}
+\end{diagram}
+$$
+\caption{First diagram from manual
+\label{file.fig7}}
+\end{figure}
+
+\begin{figure}[p]
+$$
+\setlength{\dgARROWLENGTH}{.75em}
+\begin{diagram}[B^*]
+\node{A} \arrow[2]{e,t}{a} \arrow[2]{s,l}{c} \arrow[2]{ese,b,1}{u}
+   \node[2]{B^*} \arrow[2]{e,t}{b^*}
+      \node[2]{C} \arrow[2]{s,r}{d} \arrow{wsw,b,-}{v}
+\\
+        \node[3]{} \arrow{wsw}
+\\
+\node{D} \arrow[4]{e,b}{e}
+   \node[4]{E}
+\end{diagram}
+$$
+\caption{First diagram from manual, rescaled.\label{file.fig8}}
+\end{figure}
+
+Below are several diagrams created by Bill Richter. The first, Figure
+\ref{file.fig9} is modified slightly to produce Figure
+\ref{file.fig10}. Both use fractur fonts. The last one, Figure
+\ref{file.fig11}, is a complicated example illustrating the limits of
+what can be done with diagrams.
+
+The diagram below in Figure \ref{file.fig12}, the last of our series of
+illustrations, is by Anders Thorup (\verb"thorup@math.ku.dk"),
+originally done with a package developed by himself and Steven Kleiman
+(\verb"kleiman@math.mit.edu"):
+
+
+%%%%
+%%%% If you're missing fractur fonts, then comment out these next 5
+%%%% lines and type instead;
+%%%% \let\frak=\bf
+%%%%
+\font\tenfrak=eufm10 scaled \magstep1
+\font\sevenfrak=eufm7 scaled \magstep1
+\font\fivefrak=eufm5 scaled \magstep1
+\newfam\frakfam \def\frak{\fam\frakfam\tenfrak} \textfont\frakfam=\tenfrak
+\scriptfont\frakfam=\sevenfrak  \scriptscriptfont\frakfam=\fivefrak
+%%%%
+%%%%
+\def\a{ \alpha }
+\def\d{ \delta }
+\def\s{ \sigma }
+\def\l{ \lambda }
+\def\p{ \partial }
+\def\st{{\tilde\s}}
+\def\O{ \Omega }
+\def\S{\Sigma}
+\def\Z{{   \Bbb Z }}
+\def\@{ \otimes }
+\def\^{ \wedge }
+\def\({ \left( }
+\def\){ \right) }
+\def\K#1{{ K\(\Z/2,#1\) }}
+\def\KZ#1{{K\(\Z/4,#1\) }}
+\def\id{ \mathop{id}\nolimits }
+\def\h{ {\frak h} }
+\def\e{ {\frak e} }
+\def\G{ G }
+\def\pinch{{ \mathop{{\rm pinch}} }}
+\def\tuber{{ \bar\tau }}
+\begin{figure}[p]
+$$
+\setlength{\dgARROWLENGTH}{1.5em}
+\begin{diagram}[ \KZ{8n-1}  ]
+\node[4]{ \K{8n+1} } \\
+\node[2]{ \KZ{8n-1}  } \arrow{e} \arrow{ene,t}{Sq^2}
+   \node{E} \arrow{ne,b}{\Theta} \arrow{s,l}{\pi} \\
+\node{ \S\O X \^ \O X  } \arrow{e,t}{H_\mu} \arrow{ne,t}{\s(\a\@\a)}
+   \node{ \Sigma \O X } \arrow{e,t}{\sigma} \arrow{ne,t}{\st}
+       \node{ X }  \arrow{e,t}{\a^2}
+           \node{ \KZ{8n}. }
+\end{diagram}
+$$
+\caption{Bill Richter, first diagram\label{file.fig9}}
+\end{figure}
+
+\begin{figure}[p]
+$$
+\setlength{\dgARROWLENGTH}{-2.75em}
+\begin{diagram}[ \O^2 \( \S A \^ \S A \) ]
+\node[3]{\O\S A} \arrow[2]{e,t}{\l_2}
+  \node[2]{\O^2 \( \S A \^ \S A \)}
+\\
+\node[4]{\#}
+\\
+% Note: the next two lines are like
+% \node{\O B}  \arrow[2]{e,t,1}{\d}     \arrow[2]{ne,t}{\O\(\p\)}
+% but put a gap in first arrow to make room for crossing arrow
+\node{\O B}  \arrow{e,t,-}{\d}  \arrow[2]{ne,t}{\O\(\p\)}
+  \node{} \arrow{e}
+    \node{F} \arrow[2]{e,t}{\h}  \arrow[2]{s,r}{\pi} \arrow[2]{n,r}{J}
+      \node[2]{\O^2 \( B \^ \S A \)} \arrow[2]{n,r}{\O^2\(\p\^\id\)}
+\\
+\\
+\node{A} \arrow[2]{ne,t}{\e} \arrow[2]{e,t}{f}  \arrow[2]{nne,t,1}{E}
+  \node[2]{X}  \arrow[2]{e,t}{h}
+    \node[2]{B.}
+\end{diagram}
+$$
+\caption{Bill Richter, second diagram\label{file.fig10}}
+\end{figure}
+\clearpage % Expunge all figures
+
+
+\begin{figure}[p]
+$$
+\setlength{\dgARROWLENGTH}{-3.9em}
+\begin{diagram}[ J\(S^4\^S^4\) ]
+\node[9]{\O S^5}
+\\
+\\
+\\
+\node[8]{\beth}
+\\
+\node{\O\( M^5_{2\i}\)} \arrow[4]{e,t}{\O\(\pinch\)}
+        \node[4]{\O S^5} \arrow[2]{e,t,-}{\d}
+                                \arrow[4]{ne,t}{\O\(2\i\)}
+                \node[2]{} \arrow[2]{e}
+                        \node[2]{\G}    \arrow[4]{e,t}{\h_2}
+                                        \arrow[2]{s,r,-}{\pi} \arrow[4]{n,r}{J}
+                                \node[4]{J\(S^4\^S^4\)}
+\\
+\\
+\node[3]{J_2\( M^4_{2\i}\)} \arrow[3]{e,t,3,-}{\d_2}
+                                \arrow[2]{ne,t}{\i}
+        \node[3]{}      \arrow{e}
+                \node{\G_2} \arrow[4]{e,t,3}{\h_2}
+                                \arrow[2]{ne,t}{\i}
+                        \node[2]{}      \arrow[2]{s}
+                                \node[2]{S^8} \arrow[2]{ne,b}{E}
+\\
+\node[4]{\aleph}
+\\
+\node{M^{12}_{2\i}} \arrow[4]{e,t}{\tuber} \arrow[2]{ne,t}{\tau}
+        \node[4]{S^4} \arrow[4]{e,t}{\i}
+                                \arrow[2]{ne,t}{\e}
+                                        \arrow[4]{nne,t,3}{E}
+                \node[4]{M^5_{2\i}} \arrow[4]{e,t}{\pinch}
+                        \node[4]{S^5}
+\end{diagram}
+$$
+\caption{Bill Richter, third diagram\label{file.fig11}}
+\end{figure}
+
+\begin{figure}[p]
+$$
+\setlength{\dgARROWLENGTH}{-6em}
+\begin{diagram}[H^k(B_G\times N;Q)=H^k_G(N;Q)]
+\node{H^k(B_G\times N;Q)=H^k_G(N;Q)}
+      \arrow[2]{e,t}{f^*_j} \arrow[2]{s,l}{p^*} \arrow{se,t}{\tilde f^*}
+   \node[2]{H^k_G(F_j;Q)}
+      \arrow[2]{s,r}{q^*_j} \\
+\node[2]{H^k_G(M;Q)}
+      \arrow{ne,t}{i^*_j} \arrow[2]{s,l,1}{i^*} \\
+\node{H^k(N;Q)}
+      \arrow{e,t,-}{\tilde f^*_j=f^*_j} \arrow{se,b}{\tilde f^*=f^*}
+   \node{}
+      \arrow{e}
+   \node{H^k(F_j;Q)} \\
+\node[2]{H^k(M;Q)}
+      \arrow{ne,b}{i^*_j}
+\end{diagram}
+$$
+\caption{Anders Thorup diagram\label{file.fig12}}
+\end{figure}
+\clearpage

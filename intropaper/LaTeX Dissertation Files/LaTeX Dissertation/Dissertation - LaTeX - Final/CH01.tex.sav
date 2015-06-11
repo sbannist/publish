@@ -1,0 +1,74 @@
+\chapter{Introduction}
+
+Corrections spending is placing an ever-growing burden on state and local budgets across the United States.  Historically, approximately 90 percent of corrections costs are covered by state and local expenditures with federal expenditures covering the remaining 10 percent.  Table 1.1 lists the percentage change in expenditures for various budgetary categories for all state and local expenditures in the United States from 1977 to 2007 (U.S. Census Bureau, 1980, 2009).  Direct general expenditure represents the growth of total state and local spending from general funds and is used as a basis of comparison for the other expenditure categories.  Not all of the categories of state and local expenditure are included in Table 1.1 because the limited decomposition of the 1977 data created some comparability problems. However, the categories listed represent more than 80 percent of all state and local direct general expenditures for 2007.  While some categories of expenditure have increased faster than the rate of total expenditure increase, none has grown faster than corrections spending.  Corrections spending has increased at nearly twice the rate of the increase in state and local direct general expenditure.
+
+\begin{table}[t]
+\begin{center}
+\caption{U.S. State and Local Expenditures 1977-2007}
+\vspace{0.1cm}
+\begin{tabular}{lrr}
+  \hline
+  Expenditure Category & \multicolumn{2}{c}{Percent Change}  \\ \hline
+  Total Direct General Expenditure & \hspace{1cm} 722 & \\
+  Corrections & 1369 & \\
+  Housing and Community Development & 1256 & \\
+  Health & 1180 & \\
+  Public Welfare & 993 & \\
+  Fire Protection & 735 & \\
+  Police Protection & 733 & \\
+  Interest on General Debt & 728 \\
+  Education & 656 & \\
+  \hspace{0.5cm} Higher Education & 687 & \\
+  \hspace{0.5cm} Elementary and Secondary Education & 648 & \\
+  Hospitals & 576 & \\
+  Highways & 528 & \\
+  \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+With corrections spending increasing at such a rapid pace, its burden is felt primarily through the squeeze it places on other important budgetary categories.  State governments cover roughly 60 percent of all corrections costs, which implies that the burden rests mostly upon state budgets.  State governments are also provide the majority of higher education funding.  The impact of corrections spending on state budgets can be appreciated by considering the ratio of corrections spending to higher education spending over time.  From 1987 to 2007, the ratio of corrections spending to higher education spending increased from .32 to .6 for all state government general expenditure.
+
+ 
+
+
+few statistics about state spending
+
+From 1977 to 2003, total State and local spending increased by 567 percent.  Education increased 505 percent, hospitals and health care increased 572 percent, police protection increased 545 percent, corrections increased 1,173 percent and judicial and legal increased 1,974 percent (Hughes, 2006)
+
+
+\emph{California}
+
+
+
+\emph{Utah}
+
+corrections/higher ed = .41 in 2007 from .23 in 1987
+
+
+
+\emph{Econ costs}
+
+Anderson (1999)
+
+
+
+\textbf{Segue to importance of recidivism}
+
+Lowering the costs associated with corrections spending
+
+The incarceration rate can be lowered in many ways, such as eliminating mandatory sentencing laws, finding alternative punishments for low-risk offenders, allowing certain offender groups to earn reduced sentences through meeting certain objectives, and giving parole boards more flexibility in reducing time in prison for low-risk offenders.  This dissertation focuses solely upon one important way in which to reduce the incarceration rate, recidivism.
+
+\textbf{Focus on economic variables and need for research}
+
+\textbf{Why research not done or costs reduced? Political issues}
+
+\textbf{Outline of dissertation}
+
+
+The following is an overview of the dissertation.  Chapters 2 through 4 cover issues that are preliminary to the analysis of the recidivism in Utah.  Chapter 2 contains a discussion of the various ways in which recidivism is defined and measured.  Recidivism rates may be appropriate for measuring the effectiveness of some programs and policies, but not others.  A few issues concerning on the proper use and misuse of recidivism rates are addressed.  In order to develop a perspective on the magnitudes of the recidivism rates for the United States and Utah, Chapter 3 is devoted to the international comparisons of recidivism rates between the U.S. and 16 other relatively similar countries.  In addition, international statistics are used to examine the relationship between the crime and incarceration rates and the recidivism and crime rates.  Chapter 4 reviews the literature on predictors of recidivism.  The content is organized around the distinction between economic and non-economic predictors of recidivism in order to determine the relative importance of economic predictors of recidivism in past studies.
+
+The analysis of recidivism among Utah parolees is undertaken in Chapter 5.  After discussing the survey and the descriptive statistics of the Utah parolees, attention focuses on three types of models used to analyze the data.  Emphasis is placed on the results of two Bayesian modeling techniques:  Bayesian Model Averaging and Classification and Regression Trees.  A classical linear probability model is included for the purpose of comparisons.  The three models are compared with respect to variable selection within each model, the prediction of the recidivism rate, and the overall model fit of the data.  The results demonstrate the importance of economic variables in predicting recidivism.  Chapter 6 concludes with discussions of the policy implications of the analysis and proposals for future recidivism research in Utah.  Using the Utah parolee data along with cost information, the costs and benefits of criminal justice and corrections policies with respect to economic variables are analyzed.  Even though certain policy recommendations will appear rationally justified on a cost basis, resistance to these recommendations is anticipated.  The political issues involving the incentives and organization of special interest groups are discussed along with compensation schemes that could potentially benefit all parties.  The final chapter closes with proposals for future research into recidivism in Utah.  With the importance that economic factors play in recidivism and the potential for huge cost savings implied by reducing recidivism, there is an urgent need for future research into other economic factors that affect parolees and probationers.
+
+
+

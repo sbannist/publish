@@ -1,0 +1,3297 @@
+% Updated Nov-1993 by GBG. Version 1.8 of the guide.
+%================================================================
+% LaTeX file
+% revised May 1988 by Grant B. Gustafson for April 1988 uuthesis style
+% revised Feb 1990 by Grant B. Gustafson for Feb 1990 uuthesis style
+% revised Feb 1992 by Grant B. Gustafson. References. Addresses.
+% Revised Apr 1992 by Grant B. Gustafson. \qed, \proof, \ulabel.
+% Revised Nov 1992 by Grant B. Gustafson. \chapter, \titlepage, etc.
+% 581-6879, 113 JWB, Math Dept.
+% Revised Nov 1993 by Grant B. Gustafson. Major revision.
+% Revised Feb 1994 by Grant B. Gustafson.
+% Revised Dec 1994 by Grant B. Gustafson.
+% Revised Jan 1995 by Grant B. Gustafson.
+% Revised Apr 1996 by Grant B. Gustafson.
+% Revised Apr 1998 by Grant B. Gustafson.
+% See account at end of document.
+%
+
+\documentstyle{article}
+\setlength{\oddsidemargin}{0in}
+\setlength{\evensidemargin}{0in}
+\setlength{\textwidth}{6.4in}
+\setlength{\parskip}{5pt}
+\setlength{\parindent}{0pt}
+\date{1 April 1998}
+
+\title{Using \LaTeX{} for University of Utah Theses \\
+       {\large \tt uuthesis2e.cls Version 1.8d, April 1998}}
+\author{Stan Shebs
+\footnote{Updated by Grant Gustafson, 1988-1998.}
+}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+This document\footnote{Updated by Grant Gustafson, 1988-1998.}
+tells how to format a University of Utah thesis or
+dissertation using the computer typesetting system \LaTeX. Formatting
+standards are
+under the control of a document class called \verb|uuthesis|.
+
+This guide is made to be used in conjunction with
+{\bf A Handbook for Theses and Dissertations}, which is
+published by the graduate school of the University of Utah. It is
+recommended that you obtain a recent copy of the above handbook during a
+personal visit to the thesis office. Make this first visit {\em before}
+starting on a thesis or dissertation. The number of contacts with the
+thesis office averages five: one initial visit, one after chapter 1 is
+finished, some question and answer sessions followed by a reading before
+the thesis defense and a final reading after all revisions.
+
+The thesis office, like professional journals in science and engineering,
+has their own set of publication standards. If you want to publish your
+work, then you have to meet the standards. In the case of the thesis
+office, the standards and requirements are printed in the {\em
+Handbook}.
+
+For mathematics theses,
+the editors request that you and your thesis advisor decide on a style
+guide. This does not mean that you have settled upon {\em A Manual for
+Authors of Mathematical Papers} published by the American Mathematical
+Society. The latter is {\em not a style guide}. You are expected to
+choose {\em The ACS Style Guide} or {\em The Chicago Manual of Style}.
+Hybrids adopted from standard journals may also be acceptable.
+
+Presently, only the {\tt Chicago style} exists. Nevertheless, this option
+must be manually selected.
+
+For computer science theses, the same question will be asked: will it be
+the Chicago Manual or the ACS Guide? More manuals of style are listed in
+the references of the {\em Handbook}.
+
+The basic problem for everyone who writes a thesis or dissertation is
+the arrangement of topics and results into parts and chapters, sections
+and subsections, appendices, tables and figures. The {\em rule book} for
+this process is the graduate school's {\em Handbook}.
+The {\tt uuthesis} style was created to ease the job of meeting the
+requirements. It is part of the solution to the problem, but not the
+entire solution, and it is certainly not the {\em Handbook}.
+
+Some knowledge of \TeX\ and \LaTeX{} is assumed. If you haven't used
+either before, then format a simpler and shorter document before
+tackling a thesis. One document that will be useful is the test file in
+item 4 below.
+
+After a review session with \LaTeX{} features, begin a serious study of
+the sample thesis prepared by Jeff McGough, Grant Gustafson and Nelson
+Beebe, 1993. See item 5 below.
+
+Beginners with \LaTeX{} should obtain the following documents and
+sources:
+
+\begin{enumerate}
+\item Leslie Lamport, {\em \LaTeX{} User's Guide and Reference Manual},
+Addison-Wesley Publishing Company, Reading, Massachusetts (1986). ISBN
+0-201-15790X (\LaTeX{} version 2.09 released 19 April 1986).
+
+\item Grant B. Gustafson, {\em \LaTeX{} Article Style}, Department of
+Mathematics, University of Utah, SLC, UT 84112 (801--581--6851), 1988,
+1992, 50 pages. Copy from {\tt /u/ma/gustafson/tex/art.tex}, or request
+via email:
+{\tt gustafson@math.utah.edu}
+
+\item The University of Utah thesis style files:
+\begin{quote}
+UUGUIDE.TEX    --- source for this guide. \\
+UUTHESIS.STY   --- Thesis style file version 1.8
+\end{quote}
+These are installed and maintained on computer systems in Computer
+Science and The Department of Mathematics. Previous versions use sources
+{\tt uut11.sty} and {\tt uut12.sty}. These last sources are not used now
+since they are included in {\tt uuthesis.sty}.
+
+\item Small sample thesis test file available on mathematics department
+unix machines as the single source
+
+\verb"  /usr/local/lib/tex/uuthesis/latex2e/test2e.tex"
+
+The source uses {\tt uuthesis2e.cls} and {\tt Chicago.clo}. Copy these sources
+also, if it is not
+available at your computer site. This source is small but contains
+figures and tables, bibliography, table of contents, list of figures,
+list of tables, all the front matter, acknowledgements, abstract, and
+uses all the sectioning commands. It is useful as an initial test file
+when setting up your thesis and also as a debugging source when you have
+problems. Use it to understand figure placement and basic format of a
+thesis. This source can be obtained by email. Send your request to Beebe
+or Gustafson at the address listed at the end of this guide.
+
+\item Sample thesis file available on mathematics department unix
+machines as sources in root file
+
+\verb"  /usr/local/lib/tex/uuthesis/samplethesis/thesis.tex"
+
+There are many parts to this sample thesis. Copy the entire directory
+and examine it closely to understand how a thesis is managed. If you
+cannot access this directory, then request email copies or copies on
+diskette. Send your request to Beebe or Gustafson at the address listed
+at the end of this guide.
+
+\item Sample Computer Science and Mathematics theses, by Stan Shebs
+(CS), David Eyre (Math), Paul Joyce (Math) and Jeff McGough (Math).
+These documents are available through the University Library and serve
+as specific examples of how to organize a thesis. The sources to these
+may also be available; contact the people listed at the end of this
+guide.
+
+\item Documentation for {\tt xfig}, {\tt fig2dev}, {\tt gnuplot}, {\tt
+maple}. These unix programs are invaluable for making figures and
+drawings in \LaTeX{} using {\tt latex} or {\tt pictex} macros. Also
+learn about {\tt graph} and {\tt x79} for manipulation of plots, and
+{\tt pltde} and {\tt phase} for solving and plotting differential
+equations.
+
+\end{enumerate}
+
+Some additional references are available, related to thesis production,
+although not in so direct a manner:
+
+\begin{enumerate}
+\item Nelson H.\ F.\ Beebe, {\em A Bibliography of Publications about
+\TeX{}}, 1993. {\footnotesize Available by anonymous FTP from site {\tt
+science.utah.edu} in directory {\tt pub/tex/bib}, files {\tt
+texbook1.bib} and {texbook1.ltx}} .
+
+\item David J.\ Buerger, {\em {\LaTeX{}} for Engineers and Scientists},
+McGraw-Hill, New York (1990), ISBN 0-07-008845-4.\footnote{ Some basic
+ideas about spacing control in this book make poor advice for a thesis.
+It is a useful reference that is perhaps easier to read than Lamport's
+{\em Manual}, since it is not as energetic and does not qualify at all
+as a reference manual.}
+
+\item Jane Hahn, {\em {\LaTeX{}} for Everyone}, PTI, 1991.\footnote{
+Recommended for beginners in \LaTeX{}.}
+
+\item Michael D. Spivak, {\em The Joy of {\TeX} --- A Gourmet Guide to
+Typesetting with the {AmsTeX} macro package}, AMS, 2nd revised edition,
+1990, ISBN 0-8218-2997-1.
+
+\end{enumerate}
+
+\section{The Document Style}
+
+The \verb|uuthesis| document style is largely adapted from the
+\verb|report| style with {\em doublespace} option. \verb|Uuthesis|
+shares many of the characteristics of the \verb|report| style. For
+instance, double-sided formatting is available (for convenience), but
+double columns are not. The 12-point font happens by default.
+An 11-point is available by specifying the \verb|11pt| option, which can
+cut many pages off a long thesis. No other type sizes are available.
+Remarks hereafter are about the 12pt option. The main text of the thesis
+will be double-spaced automatically, which results in {\tt baselineskip}
+of about 21pt (72.27pt per inch). If you need to insert single-spaced
+text, then use the {\tt singlespace} environment, which results in a
+baselineskip of 13.5pt. Certain pre-defined options in the {\tt
+uuthesis} format already use the {\tt singlespace} environment and
+therefore only wizards should change the basic baselineskip dimensions.
+
+In cases where the Thesis Manual is not explicit, the style follows
+the {\em Chicago Manual}. This is because only the class {\tt Chicago.clo}
+is currently supported.
+
+\subsection{Document Style Options}
+
+There are several options that may be supplied:
+\begin{description}
+
+\item[11pt] Set the text in 11pt type.
+This size uses 5pt fonts for {\tt tiny}, which is less than the required
+2mm font height for University Microfilms. Consequently, do not use {\tt
+tiny} with the 11pt option (this can happen in math mode).
+
+\item[12pt] Set the text in 12pt type (this is the default).
+
+\item[twoside] Format the pages for two-sided printing.
+
+\item[draft] Relax the requirements on box overflow. Do {\em not\/} use
+this for what the thesis editor will see!
+
+\item[report] Format things appropriately for a technical report. It
+sets the default to single spacing, omits the two signature pages, and
+generates the title page from the contents of the definition
+\verb|reporttitlepage|. This control sequence is defined in the format
+to be a warning message. It is expected that users will redefine the
+control sequence for their own purpose. Otherwise, it produces a
+harmless but useless title page.
+
+\item[honors] Sets the title page generation from the contents of the
+control sequence \verb|HONORSTITLE|, which is pre-defined in the format,
+using the following definitions:
+\begin{quote}
+{\tt honorsdepartment} --- e.g., English \\
+{\tt honorsadvisor} --- e.g., Charles D.\ Smith \\
+{\tt honorssupervisor} --- e.g., Alta V.\ Wilcox \\
+{\tt honorsdirector} --- e.g., Richard Cummings
+\end{quote}
+The thesis approval pages are not generated.
+
+\item[csreport] Sets the title page generation from the contents of the
+control sequence \verb|CSREPORTTITLE|, which is pre-defined in the
+uuthesis format to satisfy the Computer Science Department, for
+production of technical reports. The approval pages are not generated.
+CS technical reports are single-spaced, which can be accomplished by
+using in addition the \verb|report| option above.
+
+\item[Chicago] Sets the default style to the Chicago manual of style.
+No other manual options currently exist.
+\end{description}
+
+
+\section{What the Style Defines}
+
+This section lists all the control sequences defined or modified by the
+style. Later sections will describe these in more detail.
+
+\noindent The following standard \LaTeX{} environments are modified by
+this style:
+
+\begin{quote}
+\verb|description| environment \\
+\verb|equation| environment \\
+\verb|figure| environment \\
+\verb|quotation| environment \\
+\verb|quote| environment \\
+\verb|verse| environment \\
+\verb|table| environment \\
+\verb|thebibliography| environment
+\end{quote}
+
+\noindent Although these environments are generally similar to those in
+other \LaTeX{} style, it is prudent to experiment with the thesis style
+before assuming anything about the output.
+\bigskip
+
+\noindent In addition, there are some declarations for new environments,
+some of which are in common use in mathematics papers. The details may
+be found in a later section.
+
+\begin{quote}
+\verb|Proof|  environment\\
+\verb|singlespace|  environment\\
+\verb|doublespace|  environment\\
+\verb|normalspace|  environment\\
+\verb|index| environment \\
+\verb|epigraph|  environment \\
+\verb|topics|  environment
+\end{quote}
+
+The following optional environments are enabled by the control string
+\verb"\theoremsetup" in the preamble. They are undefined if the control
+string does not appear in the preamble.
+
+\begin{quote}
+\verb|theorem|  environment\\
+\verb|proposition|  environment\\
+\verb|corollary|  environment
+\end{quote}
+
+\noindent
+Many new control sequences are defined, and a number of standard ones
+modified. None of those listed here should be modified unless you know
+what you are doing and are willing to experiment. Arguments to the
+control sequences below are indicated as \verb|#1|, \verb|#2|, and so
+forth. These arguments are usually ordinary text, but in a few special
+cases there are extreme limitations on content.
+
+\noindent Modified standard \LaTeX{} commands:
+
+\begin{quote}
+\verb|\appendix| \\
+\verb|\author{#1}| \\
+\verb|\part{#1}| \\
+\verb|\chapter{#1}| ~ {\bf Warning}: Read about this one!\\
+\verb|\section{#1}| \\
+\verb|\subsection{#1}| \\
+\verb|\subsubsection{#1}| \\
+\verb|\subsubsubsection{#1}| \\
+\verb|\paragraph{#1}| \\
+\verb|\index| \\
+\verb|\subitem| \\
+\verb|\subsubitem| \\
+\verb|\titlepage| \\
+\verb|\thebibliography{#1}| \\
+\verb|\listoffigures| \\
+\verb|\listoftables| \\
+\verb|\tableofcontents|
+\end{quote}
+
+\noindent New commands (the arguments are never optional):
+
+\begin{quote}
+\verb|\abstracttitlepage| \\
+\verb|\chairtitle{#1}| \\
+\verb|\captionONfalse| \\
+\verb|\captionONtrue| \\
+\verb|\captionlineskip| \\
+\verb|\committeeapproval| \\
+\verb|\committeechair{#1}| \\
+\verb|\copyrightpage| \\
+\verb|\copyrightyear{#1}| \\
+\verb|\dedicationpage| \\
+\verb|\dedication{#1}| \\
+\verb|\degree{#1}| \\
+\verb|\departmentchair{#1}| \\
+\verb|\department{#1}| \\
+\verb|\firstreader{#1}| \\
+\verb|\fivelevels| \\
+\verb|\fixchapterheading| \\
+\verb|\fourlevels| \\
+\verb|\fourthreader{#1}| \\
+\verb|\frontmatter{#1}{#2}{#3}| \\
+\verb|\frontmatterformat| \\
+\verb|\graduatedean{#1}| \\
+\verb|\honorsadvisor{#1}| \\
+\verb|\honorsdepartment{#1}| \\
+\verb|\honorsdirector{#1}| \\
+\verb|\honorssupervisor{#1}| \\
+\verb|\listoffiguresfalse| \\
+\verb|\listoffigures| \\
+\verb|\listoftablesfalse| \\
+\verb|\listoftables| \\
+\verb|\mainheader{#1}| \\
+\verb|\mainheadingwidth| \\
+\verb|\maintext| \\
+\verb|\minusfourthline| \\
+\verb|\minushalfline| \\
+\verb|\minusline| \\
+\verb|\noisyfalse| \\
+\verb|\noisytrue| \\
+\verb|\normalspace| \\
+\verb|\optionalfront{#1}{#2}| \\
+\verb|\plusfourthline| \\
+\verb|\plushalfline| \\
+\verb|\plusline| \\
+\verb|\prefacesection{#1}| \\
+\verb|\preface{#1}{#2}| \\
+\verb|\pf|\\
+\verb|\proof{#1}|\\
+\verb|\proofline{#1}|\\
+\verb|\qed| \\
+\verb|\rawbibliographytrue| \\
+\verb|\rawbibliographyfalse| \\
+\verb|\readingapproval| \\
+\verb|\reportitlepage| \\
+\verb|\secondreader{#1}| \\
+\verb|\singlespace| \\
+\verb|\submitdate{#1}| \\
+\verb|\tableofcontents| \\
+\verb|\thesistype{#1}| \\
+\verb|\thirdreader{#1}| \\
+\verb|\threelevels| \\
+\verb|\titlepage| \\
+\verb|\twopagefigure{#1}{#2}| \\
+\verb|\ulabel{#1}{#2}|\\
+\verb|\vita|
+\end{quote}
+
+\section{Front Matter}
+
+\noindent The Front Matter consists of the extra pages at the front of
+the thesis, such as the title page and reading approval pages. In
+particular, the chapters of the thesis are specifically excluded from
+the front matter. In the initial stages of writing, the front matter is
+unimportant, and you can just start with the \verb|\maintext| command
+described in the next section.
+
+Almost all of the front matter pages can be generated automatically,
+including the signature pages. A number of declarations must be supplied
+in the preamble, so that the appropriate places get filled in with the
+right information (all declarations have one argument \#1, which is
+ordinary text). Declarations must appear in the preamble, that is, {\em
+after} \verb|\documentstyle{uuthesis}| and {\em before} the control
+\verb|\begin{document}|.
+
+\begin{description}
+
+\item \verb|\thesistype{type}|
+is the type of thesis. {\em Type\/} is either \verb|thesis| for Master's
+theses, or \verb|dissertation| for doctorates. The word goes through
+directly, so be sure of the spelling!
+
+\item \verb|\title{text}|
+declares the full title of your thesis. If it is too long to fit on one
+line, then designate line breaks (using \verb|\\|) at appropriate
+locations.
+
+\item \verb|\author{names}| declares your full legal name (as the Thesis
+Manual says). Multiple authors will have to use explicit line breaks.
+
+\item \verb|\degree{name}| is the name of the degree. Sometimes the
+standard phrases are insufficient, such as when getting a specific
+degree from an omnibus department.
+
+\item \verb|\department{name}| is the full name of the department, for
+example, {\em Department of Mathematics}.
+
+\item \verb|\departmentchair{name}| is the name of the department
+chairperson.
+
+\item \verb|\submitdate{month year}| is the date of submission, which
+must be the end of a quarter, as specified in the manual.
+
+\item \verb|\copyrightyear{year}| is the year that should appear in the
+copyright notice.
+
+\item \verb|\committeechair{name}| is the name of your advisor or
+committee chairperson. Multiple names are unexpected and may not be
+processed correctly.
+
+\item \verb|\chairtitle{name}| is the title of your advisor or
+committee chairperson, usually {\em professor}.
+
+\item \verb|\firstreader{name}|
+\item \verb|\secondreader{name}|
+\item \verb|\thirdreader{name}|
+\item \verb|\fourthreader{name}|
+declares the names of committee members. The committee approval page
+will end up with the appropriate number of lines for signatures.
+The command \verb|fifthreader| emits an error message and defaults back
+to four readers.
+
+\item \verb|\graduatedean{name}| is the name of the graduate dean (B.
+Gale Dick, as of this writing).
+
+\item \verb|\dedication{words}| declares a dedication.
+No special formatting, but you can use \verb|\\| to get multiple lines
+at least.  A multi-paragraph dedication is unlikely to work.
+The dedication page will be omitted if this declaration is not supplied.
+
+\item \verb|\honorsadvisor{name}| is the name of the Honors
+advisor in the candidate's home department. Used only for Honors theses.
+
+\item \verb|\honorsdepartment{name}| is the name of the department,
+e.g., English. Used only for Honors theses.
+
+\item \verb|\honorsdirector{name}| is the name of the director of the
+Honors Program, e.g., Richard Cummings. Only for Honors theses.
+
+\item \verb|\honorssupervisor{name}| is the name of the person who
+supervised the Honors thesis. Used only for Honors theses.
+
+\end{description}
+
+You have two ways to format the front matter; the easy way and the hard way.
+The easy way is automatic, somewhat restrictive, but sufficient for 99\%
+of all theses.  The hard way gives more control, but takes more work to
+get right.
+
+\subsection{Automatic Front Matter}
+
+The ``one command to do it all'' is
+
+\hspace{4em} \verb|\frontmatter{abstract}{acknowledge}{acktitle}|
+
+\noindent
+where \verb|abstract| is the name of the \LaTeX{} source file
+containing the abstract's text,
+\verb|acknowledge| is the name of the \LaTeX{} source file for the
+preface, and \verb|acktitle| is the heading that will be used for the
+preface (``Preface'' and ``Acknowledgments'' are the two most common
+choices).  The \verb|\frontmatter|
+command will generate all pages up to the beginning of the text proper.
+The abstract may not contain citations. Further, the University of Utah
+requires the total length of the abstract to be less than 350 words.
+
+The lists of figures and tables will appear by default. To disable them,
+use the commands below:
+\begin{quote}
+\verb|\listoffiguresfalse|\\
+\verb|\listoftablesfalse|
+\end{quote}
+These commands eliminate the lists and any possible reference to the
+lists that might have appeared in the table of contents.
+
+Lists are followed by the acknowledgments or preface, which are at the
+end of the front matter.  The title is one of the arguments to the
+\verb|\frontmatter| command. The title will always be capitalized.
+
+\subsection{Manual Front Matter}
+
+This method requires that you specify each front matter page
+individually. It is the most versatile. For example, it allows your
+thesis to include things like a glossary, if it needs one. The
+declarations are to be typed in the order below, just {\em after}
+\verb|\begin{document}|:
+
+\begin{description}
+
+\item \verb|\frontmatterformat|
+This is required in order to set up spacing and page numbering for the
+front matter. Note that the page numbers are Roman in the front matter
+and arabic in the main thesis. If you get a strangely numbered table of
+contents, then suspect this control sequence was somehow omitted.
+
+\item \verb|\titlepage|
+Uses text set up by preamble commands {\em title, author, thesistype,
+department, degree}. Creates a separate
+title page with empty page style. Automatically ejects the page.
+
+\item \verb|\copyrightpage|
+Uses preamble commands {\em author, copy\-right\-year}.
+Creates a special copy\-right page required by the Thesis Office.
+Automatically ejects the page.
+
+\item \verb|\committeeapproval|
+Uses text set up by preamble commands. The commands are {\em
+thesistype}, {\em author}, {\em committeechair}, {\em firstreader}, {\em
+secondreader}, {\em thirdreader}, {\em fourthreader}.
+Produces a {\bf Supervisory Committee Approval} form
+including signature lines. This form certifies that each member of the
+committee has read the thesis and that the thesis has been approved by
+majority vote. Signatures on this form are absolute: refusal
+to sign at the thesis defense is not unknown, because the form
+can be used as a weapon to procure manuscript revisions.
+
+\item \verb|\readingapproval|
+Uses text set up by preamble commands {\em thesistype, author,
+committeechair, departmentchair, graduatedean}.
+Produces a {\bf Final Reading Approval} form
+including signature lines. This form is addressed to the Graduate
+Council and certifies that the thesis has been read and approved.
+Signatures are generally postponed until all revisions have been made
+and the committee approval form is completed.
+
+\item \verb|\prefacesection{Abstract}|
+Creates a separate abstract. The abstract in this case is set up with
+the command \verb|\prefacesection{Abstract}|, then your abstract text
+follows normally.  Figures, references, and such are not allowed.
+Don't use this one {\em and} the next one: use only one or the other.
+
+\item \verb|\preface{Abstract}{filename}| Creates the abstract, getting
+the contents from the file \verb|filename|.
+This is useful if the abstract file is to be used by something else
+at the same time.
+
+\item \verb|\dedicationpage|
+Uses the text set up by the preamble command \verb|\dedication|
+to create a dedication page.
+
+\item \verb|\tableofcontents|
+Uses text set up by sectioning commands. Part, Chapter and Section
+commands cause automatic entries in the \verb|toc| file. This
+file is made by a pass through \LaTeX{}. It will take two passes to get
+it right (with no intervening aborts). On each pass, the last table of
+contents is inserted into the output, and a revised table of contents is
+written onto the \verb|toc| file.
+
+The table of contents might need extra blank lines and additional text.
+The command which does this is called
+\begin{quote}
+\verb|\addcontentsline{#1}{#2}{#3}|
+\end{quote}
+For this purpose, \#1 always equals \verb|toc|. The allowed values of
+\#2 are: {\em part, chapter, section, subsection, groupheader}. The {\em
+appendix} uses {\em chapter}, so {\bf appendix} is not an allowed keyword.
+
+Use \#2 equal to {\em groupheader} to insert text without page
+references and dot leaders. The value of \#3 is any text you want to put
+on the line. For
+example,
+
+\verb|\addcontentsline{toc}{groupheader}{\protect\newline}|
+
+adds a blank line into the TOC (vertical space).
+Another useful idea:
+
+\verb|  \addcontentsline{toc}{groupheader}{\vspace{-1pc}}|
+
+which subtracts 12pts of vertical white space from the \verb|toc| file.
+A macro {\tt oneline} written for this purpose is:
+
+\verb|  \def\oneline{\addcontentsline{toc}{groupheader}{\vspace{-1pc}}}|
+
+See page 159 of the \LaTeX{} manual.
+
+\item \verb|\listoftables|
+Uses text set up by table environment captions. The list is
+single-spaced with double-spacing between entries. Table titles are
+supposed to agree with the first sentence used in the caption,
+regardless of the complexity of the table caption. The formatting of TOC
+entry and title may be different. The \LaTeX{} manual suggests 100
+characters maximum for the list of tables entry and 300 characters
+maximum for the table title. See the section below on figure and table
+placement for details about captions.
+
+An entry in the list of tables is created by the \verb"\caption"
+control, provided the control \verb"\captionONtrue" is set (the
+default). The setting of \verb"\captionONfalse" caused the
+\verb"\caption" control to abort incrementing any counters and no entry
+is made in the list of tables.
+
+
+{\bf Figure and table captions}.
+Please do not confuse figure captions and table captions. They are
+different. A figure caption might be a narrative, but a table caption is
+usually restricted to one or two lines, in general. Anything to be said
+about the table and its data is either in the text or else is a
+paragraph {\em below} the table. The SIAM journals tend to have table
+captions in paragraphs.  So, it is {\em allowed} to follow a SIAM
+paragraph style for tables. How you set the style of tables depends a
+lot upon the journal where you hope to publish. See journals in your
+specialty and the standard style guides for examples.
+
+\item \verb|\listoffigures|
+Uses text set up by figure environments.
+List is single-spaced with double-spacing
+between entries. The best titles are one line long or less. Follow the
+recommendations above for table titles and list of tables entries.
+In particular, read above about the {\tt caption} control and the two
+boolean controls {\tt captionONtrue} and {\tt captionONfalse}.
+
+\item \verb|\preface{Acknowledgments}{filename}|
+Generates a preface page, using the text written in the file called
+\verb|filename|. The contents of this \LaTeX{} source file is up to the
+author. A {\em prefacesection} command can do the same job, if the
+text is included directly.
+
+\item  \verb|\optionalfront{name}|
+Additional sections may be added using this command.  The \verb|name| is
+the name of the section, such as ``Glossary'', ``List of Symbols'', or
+``List of Abbreviations''. This command just sets up the page heading
+and adds an entry into the table of contents.  The format of the section
+is up to you, and it is advisable first to follow the general format of
+the other front matter sections, and then to check with the thesis
+editor before trying to get Format Approval.
+
+\end{description}
+
+\section{Vertical space controls}
+
+A common problem in a thesis is to control the vertical white space in a
+way that can be easily undone. It is a mistake to use the common
+controls of \LaTeX{}, because they cannot be turned off without
+affecting the internal workings of the typesetter.
+
+Below are control sequences that can be inserted into the document to
+add and subtract vertical white space. If the document is later used to
+produce a journal article, then the controls can be disabled by a few
+lines of definitions in the preamble. For example, a relevant control
+\verb"\foo" can be easily turned off with \verb"\def\foo{}". Not so with
+\verb"\vspace{...}" commands, because they are used internally also, and
+cannot safely be turned off.
+
+
+\begin{description}
+\item \verb|\minusfourthline|
+Subtracts vertical space equal to one fourth of a blank line.
+The
+definition:
+\begin{quote}
+\verb|\def\minushalfline{\vspace{-0.25\normalbaselineskip}}|
+\end{quote}
+
+\item \verb|\minushalfline|
+Subtracts vertical space equal to one half of a blank line. The
+definition:
+\begin{quote}
+\verb|\def\minushalfline{\vspace{-0.5\normalbaselineskip}}|
+\end{quote}
+
+\item \verb|\minusline|
+Subtracts vertical space equal to one blank line. The definition:
+\begin{quote}
+\verb|\def\minusline{\vspace{-\normalbaselineskip}}|
+\end{quote}
+
+\item \verb|\plusfourthline|
+Adds vertical space equal to one fourth of a blank line. The definition:
+\begin{quote}
+\verb|\def\plushalfline{\vspace{0.25\normalbaselineskip}}|
+\end{quote}
+
+\item \verb|\plushalfline|
+Adds vertical space equal to one half of a blank line. The definition:
+\begin{quote}
+\verb|\def\plushalfline{\vspace{0.5\normalbaselineskip}}|
+\end{quote}
+
+\item \verb|\plusline|
+Adds vertical space equal to one blank line. The definition:
+\begin{quote}
+\verb|\def\plusline{\vspace{\normalbaselineskip}}|
+\end{quote}
+
+\item \verb|\captionONfalse|
+This boolean causes the {\tt caption} macro to turn off incrementing of
+the table and figure counters and it causes each use of {\tt caption} to
+abort producing an entry in the list of figures or the list of tables.
+Generally used before a continuation table.
+
+\item \verb|\captionONtrue|
+The default.
+This boolean causes the {\tt caption} macro to turn on incrementing of
+the table and figure counters and it causes each use of {\tt caption} to
+produce an entry in the list of figures or the list of tables, as
+appropriate.
+
+\item \verb|\captionlineskip|
+The spacing of lines in table and figure captions is controlled
+by
+the dimension definition
+\begin{quote}
+\verb|\def\captionlineskip{13.5pt}|
+\end{quote}
+\noindent
+which is the standard for single spacing.
+To change the spacing, specify the dimension, for example
+\begin{quote}
+\verb|\def\captionlineskip{14.5pt}|
+\end{quote}
+\noindent
+could be used to control spacing in a caption that contains many
+uppercase keywords.
+The control can be set and reset many times, once for
+each caption, if needed. Be aware that consistency is required in
+captions: any major change is expected to be uniform throughout the
+thesis.
+
+\item \verb|\mainheadingwidth|
+The horizontal width in a heading for {\tt part}, {\tt chapter}, {\tt
+section} commands is controlled by the dimension definition
+\begin{quote}
+\verb|\def\mainheadingwidth{4.25in}|
+\end{quote}
+\noindent
+To change the spacing increase or decrease the value 4.25, for example:
+\begin{quote}
+\verb|\def\mainheadingwidth{4.5in}|
+\end{quote}
+\noindent
+The control can be set and reset many times, once for each main heading,
+if needed. This may happen if the title contains a large math symbol or
+the breaking of a title into inverted pyramids fails to work properly.
+
+This dimension is also used for headings in the front matter. It is
+suggested that you change the dimension only after \verb"\maintext" in
+the \LaTeX{} source. After this point, it can be reset at will.
+
+
+\item \verb|\EMX|
+Controls displayed math formulas that have depth, forcing them to have
+the same vertical space before and after the display, as is used on
+other displays. The acronym ``EMX'' comes from EXtra Math space. It can also
+be used on inline formulas to keep them from encroaching upon nearby
+lines. Usage:
+\begin{quote}
+        \verb|$$\EMX math-formula $$| \\
+        \verb|$$\EMX math-formula \eqno{(1.1)}$$| \\
+        \verb|$$\EMX math-formula \leqno{(1.2)}$$| \\
+        \verb|\begin{equation}\EMX math-formula \end{equation}| \\
+        \verb|\begin{eqnarray}\EMX math-formula \\| \\
+                        \verb|\EMX math-formula \\ ...| \\
+        \verb|\end{eqnarray}|
+\end{quote}
+Jose Burillo used \verb|\EMX| throughout his thesis. To turn off this
+effect, after the thesis is all full of \verb|\EMX|'s, make the
+following definition at any point before the disablement is desired.
+\begin{quote}
+\verb|\def\EMX{}|
+\end{quote}
+The intent of the macro is to invoke it once for each time the action
+is to be taken. However, if executed outside a math environment, then
+the action taken is global, for all following math environments.
+The definition of \verb|\EMX|:
+\begin{verbatim}
+\def\EMX{%
+\ifx\@optionONE\@ptsize
+  \abovedisplayskip 24pt plus 3pt minus 7pt
+\else
+  \abovedisplayskip 22pt plus 2pt minus 5pt
+\fi
+\belowdisplayskip \abovedisplayskip
+\abovedisplayshortskip  \abovedisplayskip
+\belowdisplayshortskip  \belowdisplayskip
+}
+\end{verbatim}
+Micrometer adjustment of the display spacing after a short
+line can be done by replacing \verb|\abovedisplayskip| in the above
+definition by a percentage, e.g., \verb|0.9\abovedisplayskip|.
+
+{\bf Fixing errors in sectional titles}.
+Long titles for all sectional commands except {\tt part}, {\tt chapter}
+and {\tt paragraph} produce an error message if the title exceeds the
+width limit:
+
+\narrower{\tt
+Title Error: (62.04767pt too wide)\\
+Page 1, Title="Second section: consequences of the first section"
+}
+
+This can be
+turned off by \verb"\noisyfalse". Titles are
+checked for dimension \verb"\mainheadingwidth" less half an inch for the
+section number. The maximum title size is 4.5in including the numbering.
+A little more space (4.8 or 4.9) can be used for a particular title in
+order to make it look good.
+
+Part and Chapter titles are set in a box of width defined by the control
+\verb"\mainheadingwidth". Error messages are automatically emitted for
+exceeding the box width. The setting of \verb"\noisyfalse" does not
+affect these error messages.
+
+Long title problems can be fixed individually. To produce 5pt
+more vertical space on the second line of a long title, the line break
+can be coded \verb"\protect\\[5pt]". All line breaks should be coded
+\verb"\protect\\" and not simply as \verb"\\". It is good practice to
+define a control  \verb"\def\BR{\protect\\}" and then use \verb"\BR" in
+all titles to insert a break.
+
+{\bf Fixing errors in the table of contents}.
+Table of contents entries sometimes have to be supplied with breaks and
+separate entries for the TOC and the title in the text. Normally, the
+TOC is set with entries up to 4.5in wide, with breaks supplied by
+\LaTeX{}. For example:
+
+\narrower{
+\verb"\chapter[The Longest Day of the War]" \\
+\verb"        {The Longest Day \protect\\ of the War}"
+}
+
+The errors in title lengths for table of content entries are emitted by
+\LaTeX{} during the input of the {\tt toc} file. These are {\em serious
+messages} which direct you to fix the {\tt toc} entry that originates
+from a sectioning command. For example, the \LaTeX{} error message
+
+\narrower{
+\verb"[5] (thesis.toc"\\
+\verb"Overfull \hbox (6.62102pt too wide) in paragraph at lines 16--16"\\
+\verb" \twlrm sec-tion, first sub-sub-sub-sec-tion, first para-graph:"\\
+\verb")"
+}
+
+means that some sectioning command title had a bad break in the TOC.
+Furthermore, the bad break was on the word {\tt paragraph}.
+Insert a manual break to get it right. Find the title in the source and
+do something like this (\verb"\BR" is defined by
+\verb"\def\BR{\protect\\}"):
+
+\narrower{
+\verb"\paragraph[Third section, third subsection, first subsubsection,"\\
+\verb"first subsubsubsection, first \BR paragraph: must be a sentence.]"\\
+\verb"{Third section, third subsection, first subsubsection, first"\\
+\verb"subsubsubsection, first paragraph: must be a sentence.}"
+}
+
+\item \verb|\doublespacedheadings|
+The thesis format requires every other line to be blank throughout the
+thesis. Chapter titles are included, they must have every other line
+blank. Titles of sections, subsections and subsubsections must have a
+single style.
+The {\em first style}
+is every other line blank (double-spaced titles). It is an option that
+can be specifically selected with the above control sequence.
+
+\item \verb|\singlespacedheadings|
+The {\em second style} is text on every line and no
+interleaved blank lines (single-spaced titles). This is used only for
+the {\tt subsection}, {\tt subsubsection}, {\tt subsubsubsection}
+commands. The others remain the same as in the {\tt
+doublespacedheadings} format. This option is the default as a result of
+consultation with the thesis office (1993).
+
+\item \verb|\fixchapterheading|
+The space after a main heading is too large if a chapter command
+is followed by a section command with no text between. Use
+\verb"\fixchapterheading" to remove the extra space. Place this command
+after the {\tt chapter} command and before the {\tt section} command.
+This command applies also to an appendix section that directly follows
+an appendix heading (chapter followed by section in an appendix).
+The default definitions for single and double spaced headings:
+
+\verb|    \def\fixchapterheading{\vspace{-24pt}}|\\
+\verb|    \def\fixchapterheading{\vspace{-19pt}}|
+
+\end{description}
+
+\section{Main Text}
+
+The chapters are to follow the above special page-generating commands,
+but to set the counters correctly, the command
+\begin{quote}
+    \verb|\maintext|
+\end{quote}
+must precede the \verb|\include{...}| or \verb|\input{...}| commands for
+the chapters.
+
+The spacing after a chapter command is considered to be a critical
+parameter by the thesis editor. A thesis should be coded in \LaTeX{} as
+follows:
+
+\begin{verbatim}
+\chapter{Preliminaries}
+\fixchapterheading              % Used when no text appears
+\section{Introduction}
+\end{verbatim}
+
+There is no way to predict the contents of the first line of text
+following a chapter command. It could be a sectional command or it could
+be a paragraph of text.
+
+If you want a draft  without the front matter pages, then comment out
+the front matter command or commands, and leave just the command
+\verb|\maintext| instead.  The draft
+will begin unceremoniously with the first page of the first chapter.  It will
+still include all the back matter. If your thesis has a {\tt part}
+command, then it should follow {\tt maintext} so that the page numbering
+begins correctly (PART I is on page 1).
+
+Each chapter or part should be in its own file, and included into the thesis
+using the \LaTeX{} command \verb|\include|.  The command \verb|\input|
+may also be used, but it is more suitable for direct textual inclusion,
+while \verb|\include| has some additional capabilities that are useful
+while working on drafts.
+In particular, the \verb|\includeonly| command is very useful to restrict
+processing to selected \verb|\include| files---important when the whole
+thesis may take 30 minutes to format!
+A disadvantage of the \verb|\include{...}| command is that each use
+clears the page. If the chapters are broken due to length problems, then
+extra white space may appear (so break on section or chapter
+headings only).
+
+Part and chapter headings are defined by the thesis format and never
+change, but the exact format of section headings depends
+on how many levels of subheading you use.
+Since it would be pretty hard to decide by looking
+directly at the text, you will need a command \verb|\threelevels|,
+\verb|\fourlevels| or \verb"\fivelevels" in the preamble (before the
+\verb|begin{document}|).
+
+\section{Font sizes and styles for sectional commands}
+
+Section headings can be {\tt part}, {\tt chapter}, {\tt section}, {\tt
+subsection}, {\tt subsubsection}, {\tt subsubsubsection} or {\tt
+paragraph}.
+
+The {\tt part} and {\tt chapter} headings are the largest fonts used.
+The format of these headings is: maximum 4.5 inches wide, centered,
+every other line blank. The default size is 4.25in, changed with the
+control \verb"\mainheadingwidth".
+
+The test for blank line height is made by placing two duplicate pages
+together in registration back lit by a strong light source. The two pages
+together must make a full page of text without collision of characters
+from adjacent lines. This test implies that blank line height depends
+upon the font height of adjacent lines, generally measured by
+uppercase {\tt M}. This format is called {\em double-spaced}. Normal
+\LaTeX{} spacing is called {\em single-spaced}.
+
+The sectional commands {\tt part} and {\tt chapter} are always produce a
+double-spaced heading.
+
+The commands {\tt section}, {\tt subsection}, {\tt subsubsection} and
+{\tt subsubsubsection} may be all single-spaced or all double-spaced
+(but not mixed). See the command \verb"\doublespacedheadings" to select
+the non-default style.
+
+The {\tt section} command produce a number which is part of the first
+centered title line. Additional lines are also centered. Specific line
+breaks must be supplied by the author to achieve inverted pyramid
+format.
+
+In {\tt threelevels},
+the {\tt subsection} commands produces a number
+in its own box and the title is set in the selected font in a paragraph
+of width 4.25 inches. It is up to the author to set specific line breaks
+so that the title is left-justified and forms an inverted pyramid on the
+right (maximum width is 4.5in).
+
+In {\tt fourlevels}, the {\tt subsection} is centered like {\tt
+section}. The {\tt subsubsection} appears as outlined above for the {\tt
+subsection} control in {\tt threelevels}.
+
+In {\tt fivelevels}, the {\tt section} and {\tt subsection} are
+centered.
+The {\tt subsubsection} and{\tt subsubsubsection} are essentially the
+same, with {\tt subsubsection} being the same as {\tt threelevels}.
+
+In {\tt threelevels}, {\tt fourlevels} and {\tt fivelevels}, the command
+{\tt paragraph} produces a boldface sentence at the start of a
+paragraph. The text should always end in a period and form a sentence. A
+number is generated at the beginning of the line. The paragraph always
+appears in double-spaced text. Generally the first sentence should be
+less than 4.5in long (it will appear in the TOC).
+
+A sectional command must be followed by two lines of text. That means a
+sectional command cannot end a page and clearly it should not split on a
+page boundary. There is no uuthesis intervention on placement, it is up
+to the author. The placement can be forced by writing \verb"\vbox{...}"
+around the sectional command and the paragraph that follows.
+
+The following scheme is used for assignment of font sizes and styles for
+double-spaced titles in sectional commands.
+
+\begin{center}
+\def\sm{\footnotesize}
+\begin{tabular}{@{}p{1.2in}p{1.55in}p{3.2in}@{}}
+Command & Font size and style  &  Details \\
+\hline
+\\
+\tt part         &\sm \verb"\HFpart\bf"  & uppercase title, inverted
+                                          pyramid, doublespaced.\par
+                                          Use whole page, centered
+                                          horizontally and vertically.\\
+\tt chapter      &\sm  \verb"\HFchapter\bf"  & Centered uppercase title in
+                                          4.25in box, double-spaced,
+                                          inverted pyramid. Box can be
+                                          up to 4.5in wide. Chapters are
+                                          expected to start a page. \\
+\tt section     &\sm \verb"\HFsection\bf"   & Centered, dual-case title,
+                                          doublespaced.\par Inverted
+                                          pyramid up to
+                                          4.5in wide. \\
+\tt subsection &\sm \verb"\HFsubsection\bf" &Dual-case title,
+                                             doublespaced, inverted
+                                             pyramid up to 4.5in wide.
+                                             For {\tt fourlevels} and
+                                             {\tt fivelevels} the text
+                                             is centered. For {\tt
+                                             threelevels} it is
+                                             left-justified.
+                                             \\
+\tt subsubsection&\sm\verb"\HFsubsubsection\bf" & Left justified, dual-case
+                                             title. The subsubsection
+                                             number uses 7 characters
+                                             and the title is a
+                                             doublespaced paragraph
+                                             left-justified 10
+                                             characters from the edge.
+                                             The number is separated
+                                             from the title by 2 spaces.
+                                             One blank line follows the
+                                             title. \\
+\tt subsubsubsection&\sm\verb"\HFsubsubsubsection\bf" & Left justified,
+                                             dual-case title. The
+                                             subsubsubsection
+                                             number uses 9 characters
+                                             and the title is a
+                                             doublespaced paragraph
+                                             left-justified 13
+                                             characters from the edge.
+                                             The number is separated
+                                             from the title by 2 spaces.
+                                             One blank line follows the
+                                             title. \\
+\tt paragraph   &\sm\verb"\HFparagraph\bf" & Standard paragraph indent,
+                                             dual-case title. The
+                                             paragraph number uses 9
+                                             characters. After 2 spaces
+                                             the title is run into the
+                                             doublespaced paragraph.
+                                             Without the paragraph
+                                             number this amounts to
+                                             bold-facing the title at the
+                                             start of a paragraph.
+                                             \\
+\\
+\hline
+\end{tabular}
+\end{center}
+
+The 12pt font sizes are listed below. All titles are set in bold-face
+style. The sizes and styles can be changed with special permission from
+the thesis office.
+
+\begin{tabular}{ll}
+\verb"\HFmainhead"           & Uppercase \verb"\large" \\
+\verb"\HFpartHT"             & Uppercase \verb"\large" \\
+\verb"\HFchapterHT"          & Uppercase \verb"\large" \\
+\verb"\HFsectionHT"          & Mixed case \verb"\large" \\
+\verb"\HFsubsectionHT"       & Mixed case \verb"\normalsize" \\
+\verb"\HFsubsubsectionHT"    & Mixed case \verb"\normalsize" \\
+\verb"\HFsubsubsubsectionHT" & Mixed case \verb"\normalsize" \\
+\verb"\HFparagraphHT"        & Mixed case \verb"\normalsize" \\
+\end{tabular}
+
+The baseline skips for double-spaced headings are invoked by the control
+\verb"\doublespacedheadings":
+
+\begin{quote}
+\verb"\def\HFmainheadHT{24pt}" \\
+\verb"\def\HFpartHT{24pt}" \\
+\verb"\def\HFchapterHT{24pt}" \\
+\verb"\def\HFsectionHT{20pt}" \\
+\verb"\def\HFsubsectionHT{20pt}" \\
+\verb"\def\HFsubsubsectionHT{20pt}" \\
+\verb"\def\HFsubsubsubsectionHT{20pt}" \\
+\verb"\def\HFparagraphHT{14.5pt}"
+\end{quote}
+
+For 12pt single-spaced headings, the current {\em default}, the
+following changes are made by the control sequence
+\verb"\singlespacedheadings":
+
+\begin{quote}
+\verb"\def\HFsectionHT{15.5pt}" \\
+\verb"\def\HFsubsectionHT{13.5pt}" \\
+\verb"\def\HFsubsubsectionHT{13.5pt}" \\
+\verb"\def\HFsubsubsubsectionHT{13.5pt}"
+\end{quote}
+
+A typical sectional font definition is as follows:
+
+\verb"\def\HFchapter{\@setsize\HFchapter{\HFchapterHT}\xivpt\@xivpt}"
+
+This command defines {\tt HFchapter} as a heading font size using 14pt
+pre-loaded \LaTeX{} fonts. For example, \verb"\HTchapter\bf" is used by
+the \verb"\chapter" command to switch fonts for a chapter heading.
+
+If you want something other than the two defaults supplied in uuthesis,
+then it is up to you to learn about the sectioning commands and the
+above font definitions. Install changes in your own private file called
+{\tt thesis.sty} by copying the appropriate code from uuthesis.sty and
+entering the modifications. The file {\tt thesis.sty} is read {\em
+after} the file {\tt uuthesis.sty} and hence new definitions replace the
+standard definitions. Simple changes like \verb"\bf" to \verb"\rm"
+should be easy. For font size changes, be prepared to show sample output
+and be able to justify why your thesis should be different.
+
+
+\section{Back Matter}
+
+The back matter of a thesis consists of the pages that follow the
+chapters. These pages consist of one or more appendices,
+a bibliography, perhaps an index and vita.
+
+{\bf Appendices}.
+The control \verb|\appendix| applies in the usual way, as documented in
+the \LaTeX{} manual. To get the formatting right for the number of
+appendices, set the variable \verb|\numberofappendices=n|, where
+\verb|n| can range from 0 up to any value. The style of the table of
+contents and the chapter headings will be different for 1 appendix than
+for 2 appendices.
+
+Appendices can have sections and subsections.
+These will not appear in the table of contents.
+\begin{quote}
+\begin{verbatim}
+\numberofappendices=2           % "Appendices" appears in TOC
+\appendix                       % Switch into appendix mode
+\chapter{Fortran code}          % appendix "A.1 Fortran code" in TOC
+\fixchapterheading              % Fix spacing
+\section{Common variables}      % Not written to TOC.
+\section{Subroutine init}       % Not in TOC
+\chapter{Numerics}              % appendix "A.2 Numerics" in TOC
+\end{verbatim}
+\end{quote}
+The lower order sectional commands like {\tt section} will not generate
+entries in the TOC. Larger subheadings in the appendix that need no TOC
+entry can use \verb"\chapter*{...}".
+
+Presently there can be only one set of appendices by the rules of the
+graduate school. To make the controls complete, there is
+\verb"\noappendix" to shut off the appendix mechanism and start chapters
+again where the numbering left off. The control records how to shut off
+the appendix mechanism, in case that documentation is required. This
+could become necessary for a thesis that has several parts, because the
+appendices in that case have a slightly different structure.
+
+{\bf Bibliographies}. There are at least two ways to do bibliographies
+--- manually, or using Bib\TeX{}. The latter is a far superior
+alternative, especially if you intend to use the same references in
+several places (such as the papers you're going to extract from the
+thesis). Significant bibliographies may already exist for the references
+you want.  For instance, the PASS group in Computer Science has a file
+with about 1000 bib entries, mostly in programming languages. Another
+advantage of Bib\TeX\ is that it will format the entries according to a
+predefined style declared by the command \verb|\bibliographystyle|.
+
+To date, there is no universal mathematics database. Bib\TeX{} use by
+mathematicians has been enthusiastic. Most theses in mathematics now do
+Bib\TeX{} bibliographies. Most researchers have access to large
+databases of bibliographic data for their specialty, largely compiled by
+individual effort.
+
+Many bibliography styles have been defined.  Computer Science people
+should use the \verb|acm| style, which follows the ACM journal style.
+There is no universal style file for mathematics theses. A number of
+mathematics theses have used the {\tt plain} and {\tt SIAM} styles.
+Several Computer Science theses have successfully used the ACM style
+file. The ACM style uses lowercase article titles. Proper names are
+protected by using braces in the title.
+
+\verb|\rawbibliographytrue| \\
+This control defines the bibliography environment suitable for placing
+references after a section title, as is done in the Chemistry
+Department. The section used is the last of a chapter and each chapter
+collects its own set of references, appearing in a numbered section,
+which also appears in the Table of Contents. Place this control in the
+preamble of the \LaTeX{} document to enable the feature. When enabled,
+the {\tt bibliography} environment only creates a list of references, no
+headers or table of contents entries are generated (the section heading
+does this already).
+
+\verb|\rawbibliographyfalse| \\
+This control defines the bibliography environment suitable for placing
+references at the end of the thesis, as is done in mathematics. The
+Table of Contents has the word ``REFERENCES''. The references appear on
+a new page with 2-inch main heading. This is the default. The control
+can be used many times within the thesis to control the output of a page
+of references.
+
+
+{\bf Index}. The thesis format allows for an index.  Its format should
+be like that in the {\em Handbook} from the thesis office, which is
+basically the same as the standard \LaTeX{} behavior.
+
+An index is a separate \LaTeX{} source file which produces a typical
+index with page references, not different from an index found in a
+textbook.
+The \LaTeX{} source for the index might reside in a file
+\verb|thesis.ind|. The index is inserted into the thesis root file
+by the
+following code (the end of the root file):
+
+\verb|    \input{thesis.ind}|
+
+One mystery is how to select the items to index. A second mystery is how
+to automate the matching of the page numbers to insure that the index is
+always correct. The mysteries are solved below.
+
+Support within \LaTeX{} for an index is restricted to {\em earmarking
+words and phrases} for output to a low-level file with extension
+\verb|idx|. For example, {\tt thesis.idx} is made from root file {\tt
+thesis.tex} by placing \verb"\makeindex" in the preamble and running
+\LaTeX{}. The file {\tt thesis.idx} contains all the earmarked words and
+phrases plus their page number in the text. This is a major service,
+because it solves the problem of matching page numbers to index items.
+It also insures that page number references to the index are correct.
+Unfortunately, the contents of {\tt thesis.idx} are unsuitable for
+use as an index {\em directly}, because the list is unsorted and
+unformatted.
+
+\begin{quote}
+Words and phrases are earmarked in the document using the control
+\verb"\index{#1}". Nelson Beebe recommends using a control \verb"\X{#1}"
+defined by
+
+\verb"\def\X#1{{#1}\index{{#1}}}"
+
+because it is easier to tag the words and phrases. The
+\verb"\index{...}" command produces itself no text in the document, only
+in the {\tt idx} file. Actual entries in the {\tt idx} file depend upon
+definitions of \verb"\item", \verb"\subitem" and \verb"\subsubitem"
+given in {\tt uuthesis.sty}.
+
+The low-level {\tt thesis.idx} source file is as primitive as an {\tt
+aux} file. It is made by inserting the control \verb"\makeindex" into
+the preamble (and only there) of the \TeX{} document.
+\end{quote}
+
+The second mystery, that of sorting and formatting the index, will now
+be discussed. The creation of the sorted and formatted {\tt thesis.ind}
+from the \LaTeX{} low-level file {\tt thesis.idx} is done in a terminal
+window outside of \LaTeX{} (and also outside of {\tt emacs}). We run a
+special unix command {\tt makeindex} or {\tt makeidx} to create the
+source {\tt thesis.ind} from {\tt thesis.idx}. The syntax for the
+command is given in a manual page: {\tt man makeindex}. The 1993 version
+runs like this:
+
+\verb"    makeindex thesis.idx"
+
+It produces \verb"thesis.ind" which is the sorted and formatted version
+of the index.
+
+The formatting of the index itself for uuthesis style is two-column
+newspaper format with header {\bf Index} and normal numbering. If you
+are going to insert an index, it must be before the {\em vita} and after
+the {\em appendices}. Because of numbering problems it may be necessary
+to turn off the appendix switch with \verb"\noappendix".
+
+The special separate executable system program called {\tt makeindex} or
+{\tt makeidx} exists on SUN and DEC unix systems. It is also available
+for microcomputers and other operating systems. Contact Nelson Beebe
+for details about other operating systems, or look in the
+directories {\tt pub/tex/pub/makeindex}, {\tt pub/ibmpc} and {\tt
+pub/macintosh} via anonymous ftp to site {\tt science.utah.edu}
+
+{\bf Vita}. The vita is optional, but the absolute last thing if it
+appears. It is set up by the \verb|\vita| command, which starts a new
+page and titles it. The text for your vita is to immediately follow the
+\verb|\vita| command. It must follow \LaTeX{} rules, but it is otherwise
+totally up to you. The Thesis {\em Handbook} makes some suggestions.
+
+\section{Figure and Table Placement}
+
+There is deep problem with figures and tables. They trouble most persons
+who use \LaTeX{}. The placement seems sometimes out of control, with the
+figure or table ending up on the wrong page. The purpose of this section
+is to discuss how to adjust the placement and tweak various parameters
+to make everything happen according to plan.
+
+The thesis format dictates that figures {\em should be placed so they
+look balanced on the page}. Defined limits: If text appears, then it
+makes a block of six or more lines mid-page. Pages of floats are not
+constrained. Figures and tables are separated by triple spacing (2ex).
+The counting of figures and tables refers to large boxes that take the
+full text width. A figure that itself consists of three small
+horizontally placed graphs is considered one figure.
+
+The basic setup for figures and tables is to define them as floating
+boxes of text that take up the full text width. As such, a box can be
+placed at the top \verb"[t]", at the bottom \verb"[b]" or in the middle
+of the page \verb"[h]". Figures and tables can appear by themselves on a
+page of floats. This is a page on which no text appears. The option
+\verb"[p]" selects this placement.
+
+The graduate school style disallows a figure mid-page, that is, text
+cannot appear both before and after a figure on the same page.
+A chapter can end with a figure. If too little of the page is used it
+may look better placed with \verb"[h]" option as the last item on the
+page.
+
+Further, a figure must appear {\em after} it is referenced, that is, the
+figure is physically below the reference, and no later than the next
+page, or the one after that, in case there is a page of floats
+generated. In summary, the thesis office allows options \verb"[b]",
+\verb"[t]", \verb"[p]". However, \verb"[b]" and \verb"[t]" have
+restrictions: \verb"[t]" cannot generate a figure before the figure is
+referenced, and \verb"[b]" cannot generate a figure on the following
+pages after the reference. The \verb"[h]" option is used rarely to force
+a figure placement at the end of a chapter. It should be mentioned that
+at chapter end this is the {\em only way} to get the figure in the
+right place on the page!
+
+The figure and table counters are reset in each chapter. Default
+placement is \verb"[p]". Figure and table numbers look like {\tt 2.5},
+where {\tt 2} is the chapter number and {\tt 5} is the figure number in
+that chapter. The figure captions use {\bf Figure 2.5} followed by the
+{\bf Title} which is in the normal Roman 12pt font. The numbers and
+titles are inserted by the \verb"\caption" control using a special
+syntax to generate cross reference labels. If the {\tt caption} control
+is not used, then no counters are incremented and all labeling and
+numbering is up to you.
+
+\footnotesize\begin{verbatim}
+\newcounter{figure}[chapter]                    figure counter
+\def\fps@figure{p}                              Default placement [p]
+\def\thefigure{\thechapter.\@arabic\c@figure}   Number is "2.5"
+\def\fnum@figure{\bf Figure \thefigure}         Label is "Figure 2.5"
+
+\newcounter{table}[chapter]                     table counter
+\def\fps@table{p}                               Default placement [p]
+\def\thetable{\thechapter.\@arabic\c@table}     Number is "2.5"
+\def\fnum@table{\bf Table \thetable}            Label is "Table 2.5"
+\end{verbatim}\normalsize
+
+For example, if you don't like the bold label, then insert this into
+your private {\tt thesis.sty}:
+\footnotesize\begin{verbatim}
+\def\fnum@figure{Figure \thefigure}         Label is "Figure 2.5"
+\def\fnum@table{Table \thetable}            Label is "Table 2.5"
+\end{verbatim}\normalsize
+
+The secret to getting figures and tables to dump in the right place is a
+function of several delicate parameters. They are described more fully
+in the \LaTeX{} manual. There is no discussion of the effect of change
+of {\em two} parameters at once. To understand the full effect requires
+a deep knowledge of the float algorithm in {\tt latex.tex}. Suffice it
+to say that the parameters below, set as indicated, cause the figures to
+be dumped in a predictable way. Still, it may not produce what you want,
+and hence you have license to change them locally mid-document to handle
+a particular positioning problem. {\em Exercise great caution} in
+changing these parameters. After they produce the desired change, {\em
+reset them to the defaults below}.
+
+\footnotesize\begin{verbatim}
+\def\topfraction{1}             % Option [t] can use the whole page
+\def\bottomfraction{1}          % Option [b] can use the whole page
+\def\textfraction{0}            % Page can be all figures
+\def\floatpagefraction{.5}      % Float page dump if half full
+\end{verbatim}\normalsize
+
+
+The maximum number of figures on a page is controlled by some variables
+that you will likely never have to reset. Option \verb"[t]" and option
+\verb"[b]" can be used together to generate 20 figures on one page.
+The thesis office has no rule about the number of figures per page.
+Manual intervention is required. The variables and default values (don't
+change):
+
+\footnotesize\begin{verbatim}
+\setcounter{topnumber}{10}      % Option [t] can place 10 figures max
+\setcounter{bottomnumber}{10}   % Option [b] can place 10 figures max
+\setcounter{totalnumber}{20}    % Up to 20 figures per page
+\end{verbatim}\normalsize
+
+The distance between figures and text and tables is set by a number of
+glue variables. It is possible to change them locally within the thesis
+to solve fitting problems with figures and tables. Always reset the
+values after use!
+
+\footnotesize\begin{verbatim}
+\floatsep 2em plus 2pt minus 4pt        % vertical space between floats
+\textfloatsep 2em plus 2pt minus 4pt    % vertical space between text and floats
+\intextsep 2em plus 4pt minus 4pt       % vertical space around mid-page float
+\end{verbatim}\normalsize
+
+
+{\bf Figure captions}.
+Captions for tables and figures are centered in the current text width.
+A figure caption is {\em below} the figure. A table caption is {\em
+above} the table. The captions are to be consistent and follow a
+recognized style guide. If a style guide is not followed, then the
+thesis office asks that a caption not extend beyond the table or figure
+edges and that the title be set in a centered inverted pyramid style.
+Rules for tables are different than rules for figures. See your style
+guide or find journal samples that support your style.
+
+The captions in figures may be of a different style than found in style
+manuals such as the {\em ACS Manual} or the {\em Chicago Manual}. In
+this style, the caption is a paragraph set in block format across the
+text width. The title can be set in boldface font, followed by a
+paragraph of table notes.
+
+The {\em Journal of Computational Physics}, Vol 108, No 1, September
+1993, p 173, shows a non-pyramid form table with a paragraph of text
+instead of a short title. The {\em SIAM Journal of Scientific Computing}
+shows similar formats for tables in the July 1993 issue, Vol 14, pages
+930-931. The {\em SIAM Journal of Numerical Analysis} Volume 30, No 3,
+June, 1993, page 625, shows very long table captions in block format.
+
+A common style borrowed from many style manuals is in use by journals
+such as {\em Applied Numerical Mathematics}, {\em Journal of
+Combinatorial Theory}, {\em Journal of Number theory} and {\em Journal
+of Multivariate Analysis}. In this style, the title is above the table
+in a centered inverted pyramid format. The title is brief. If notes
+about the table are needed, then they appear below the table in a text
+paragraph or else in the main text near the reference to the figure.
+
+The control
+
+\verb"    \captionstyleparagraph"
+
+sets the caption in a text width paragraph. The size can be changed with
+a {\tt parbox} construct or a {\tt minipage} environment wrapped around
+the caption.
+
+The control
+
+\verb"    \captionstylecentered"
+
+sets the caption in a centering environment using the current text
+width. Again, the width can be changed by {\tt parbox} and {\tt
+minipage} constructions.
+
+The text below a table, or table notes, as they are sometimes called, is
+set in a text width paragraph. This takes no special command inside a
+{\tt table} environment, except possibly a \verb"\par" command to insert
+space after the last line of the table. In particular, this text is {\em
+not} defined by a {\tt caption} command!
+
+The title used in a caption must also appear in the {\bf List of Tables}
+or the {\bf List of Figures} with the same words. The breaking of long
+titles will be different in the {\em List}. For example, in the Robert
+Dillon thesis, table entries and figure entries in the {\em Lists} were
+the first sentence in the paragraph that made up the caption. Caption
+placement is {\em below} the figure and {\em above} the table.
+
+The controls {\tt captionONtrue} and {\tt captionONfalse} turn on and
+off, respectively, incrementing of counters and list of tables of list
+of figures entries, for usage of the {\tt caption} macro. The best use
+of this feature is to create a continuation table on the next page which
+has the same table number and title {\em Continued}. All the features of
+\LaTeX{} floats are available to place the table on the next page.
+
+A figure caption may be a paragraph of text describing the table. The
+caption is expected to be in paragraph format or else in centered
+inverted pyramid format. Titles wider than the text width are
+unacceptable. The entry in the list of figures is expected to be in a
+different format, namely a plain text paragraph, and one line is best.
+
+A table caption is usually not a paragraph, but in certain styles that
+also is possible. In paragraph style, the first sentence is kept short
+so it can be the same in the {\em List}. Explanation of the table is to
+appear {\em below} the table in a text width paragraph, or in the main
+text, or if you use the style of the {\em SIAM Journal of Numerical
+Analysis}, as a paragraph or less continuing the title. The keynote here
+is consistency: don't mix styles, use one style. Exceptions to this rule
+for tables are an agreement between the thesis office, the student and
+the thesis advisor. A style guide is the best way to procure agreement.
+
+An example follows showing how to control the effects for a table of
+unspecified width of about 3in having a two-line title that is to be set
+in centered inverted pyramid format (ACS style). The attempt here is to
+constrain all formatting to the table width. It is more common to use
+the entire text width for the table with horizontal line across the page
+following the table. If that style is preferred, then replace
+\verb"\TMPsize" by \verb"\textwidth" in the example (so that footnotes
+appear below the table).
+
+In this example, {\em Table 2.15.\ Principal Coordinates for the
+Fundamental
+Dynamical System} will appear in the list of tables, while an inverted
+pyramid title will appear above the table, as follows:
+
+
+\def\topfraction{1}
+\def\bottomfraction{1}
+\def\textfraction{0}
+\def\TMP{\begin{tabular}{|c|c|c|c|c|c|c|c|} \hline
+ $x$ & 0.00 & 0.25 & 0.50 & 0.75 & 1.00 & 1.50 & 2.00 \\ \hline
+ $y$ & 1.10 & 1.08 & 1.00 & 0.86 & 0.66 & 0.35 & 0.27 \\ \hline
+\end{tabular}}
+\newdimen\TMPsize
+\settowidth{\TMPsize}{\TMP}
+
+\begin{table}[h]
+\begin{center}
+\begin{minipage}{\TMPsize}
+\def\Makecaption#1#2{\begin{center}{\bf Figure 2.15}. #2\end{center}}
+\makeatletter\let\@makecaption\Makecaption\makeatother
+\caption{ Principal Coordinates for the \protect\\ Fundamental Dynamical
+System }
+\TMP\medskip
+\par\rule{\hsize}{1pt}\par
+\leftline{\footnotesize The value $x$ is the position coordinate.}
+\leftline{\footnotesize The value $y$ is the velocity coordinate.}
+\end{minipage}
+\end{center}
+\end{table}
+%\clearpage
+
+\begin{quote}\footnotesize
+\verb"\captionstylecentered" \\
+\verb"\def\TMP{\begin{tabular}{|c|c|c|c|c|c|c|c|} \hline" \\
+\verb" $x$ & 0.00 & 0.25 & 0.50 & 0.75 & 1.00 & 1.50 & 2.00 \\ \hline" \\
+\verb" $y$ & 1.10 & 1.08 & 1.00 & 0.86 & 0.66 & 0.35 & 0.27 \\ \hline" \\
+\verb"\end{tabular}}" \\
+\verb"\newdimen\TMPsize\settowidth{\TMPsize}{\TMP}"
+\par
+\verb"\begin{table}[b]" \\
+\verb"\begin{center}" \\
+\verb"\begin{minipage}{\TMPsize}" \\
+\verb"\caption{Principal Coordinates for the \protect\\ Fundamental" \\
+\verb"Dynamical System}" \\
+\verb"\TMP\medskip" \\
+\verb"\par\rule{\hsize}{1pt}\par" \\
+\verb"\leftline{\footnotesize The value $x$ is the position coordinate.}" \\
+\verb"\leftline{\footnotesize The value $y$ is the velocity coordinate.}" \\
+\verb"\end{minipage}" \\
+\verb"\end{center}" \\
+\verb"\end{table}"
+\end{quote}
+
+The {\bf minipage} construct is used to restrain the footnote width and
+the caption width to the table width. The full text width is used by
+default for the caption. Explicit line breaks were needed to produce an
+inverse pyramid.
+
+The best style uses the caption macro with a short title so that no
+engineering needs to take place in the list of tables.
+
+
+\begin{center}\large\bf Check list for figures and tables\end{center}
+\begin{itemize}
+\item[1.] A figure must follow its reference, at the bottom of the
+          current page or immediately on the top of the next page.
+          Start with \verb"[b]" and change to \verb"[t]" if it doesn't
+          fit.
+
+\item[2.] An option of \verb"[t]", which causes proper figure
+          placement after the reference on the preceding page, can be
+          followed by a figure with [\verb"[b]" option. Both figures can
+          be used on the same page. Warning: Three usually won't fit and
+          still have six lines of text mid-page.
+
+\item[3.] Three figures in a row should generate one figure at the
+          bottom and two figures on the next page. This means one
+          \verb"[b]" option followed by two \verb"[t]" options. The
+          deferred figures may have to be physically moved in the source
+          to cause the dumping onto the next page. Often the text looks
+          best if the two deferred figures are on a page of floats by
+          themselves. Use \verb"[p]" on the last two figures to make it
+          happen. The decision is based on six lines of text. If six
+          lines won't fit on the same page as the two figures (at the
+          bottom), then make a page of floats for the two figures.
+
+\item[4.] If a page of floats has a widow figure at the end, then it
+          is to appear as a \verb"[t]" option on the next page of text.
+
+\item[5.] A \verb"\clearpage" command is sometimes needed to empty pages
+          of floats before the next paragraph is read. The required
+          \verb"\clearpage" is inserted after the final figure.
+
+\item[6.] At the end of a chapter it is sometimes desired to place a
+          figure as the last addition to the last page. The  last
+          \verb"\begin{figure}[b]" \ldots \verb"\end{figure}" will
+          mysteriously appear on the next page.
+          The required \verb"\clearpage" is inserted after the figure to
+          fix the problem, and \verb"[b]" and \verb"[t]" usually have to
+          be changed to \verb"[h]" if the page is not full.
+
+          If a good portion of the last page is blank, then the final
+          page might look better with a ragged lower edge, which can be
+          obtained by using \verb"[h]" instead of \verb"[b]". The thesis
+          office endorses this exception to the mid-page figure rule.
+
+\item[7.] Expect the thesis editor to move the figures and tables
+          around to make the document look balanced. Expect that you
+          will move figures also, as more text is added or subtracted.
+          The flux ends when the thesis is approved and the final copies
+          are delivered. A healthy attitude of expected change is more
+          useful than an attitude of permanent location.
+
+\item[8.] Check all figure pages for rule violations: caption,
+          numbering, at least six lines of text or zero lines of text
+          per figure page. Tables have one style, figures another.
+          The style must be consistent: a violation is inverted pyramid
+          title on one table and paragraph format title on another.
+
+\end{itemize}
+
+
+\section{Making Figures}
+
+There are a number of methods for creating diagrams and figures for use
+in a \LaTeX{} document. The choice of method depends upon the type of
+figure and the method of generation.
+
+{\bf Photographs}. If these are to be inserted into a thesis, then the
+photos must be approved well in advance of publication by the thesis
+office. There are copyright restrictions that may apply, which could
+prevent acceptance of the thesis.
+
+A number of theses have used color photos. The photos are pasted onto
+the master copy and the page is copied on special bond paper in a color
+xerox machine. Bring your own paper and ask that it be used --- if they
+won't, go somewhere else. It is important to understand the mechanics,
+because it simplifies the preparation of the paste-up master. Also, it
+is easier to plan the photo reproduction, knowing that only one copy
+will be lost to pasting. Color xerox copies cost less than an archival
+photographic print. The necessary bound copies are about 10. In some
+cases, too much detail is lost by xerographic methods and only the
+paste-up technique can be used.
+
+Mounting of monochrome photos requires dry mount tissue. Rubber cement
+cannot be used in a library copy. Cibachrome color uses a special
+mounting adhesive and neither dry mount tissue nor rubber cement can be
+applied. In short, seek technical advice on photographs.
+
+Discussed below is the method for paste-up of photographs with final
+copies produced by color xerography. It must be emphasized that this
+method applies only in limited cases where resolution loss is not
+important to the photograph.
+
+The basic method for photos is to create a framed box smaller than the
+photo and write into the box important information about the photo, such
+as where it came from, the size, the negative number, the date it was
+taken, and other data. The boxed area will be pasted over and the
+information lost, but not to you: it remains in the \LaTeX{} source.
+Suggestion: use rubber cement or special cement for color plus alignment
+tools to position the photo. A drafting table with T-square is helpful.
+
+The framed box is placed into the text by a figure environment. In
+Nelson Beebe's Postscript macros there is feature for doing what appears
+below. After you fight the basic methods in \LaTeX{}, as done below,
+Nelson's macros will make sense and you will be able to use them
+effectively. An example to illustrate what is possible directly from
+\LaTeX{}:
+\def\Xsize{4.5} \def\Ysize{3.5} % Photo size by ruler is 4.25 by 3.25
+\def\Msize{3in} % Message size 3inches
+\def\Xp{0.75}   % Put at X=0.75in = (\Xsize - \Msize)/2
+\def\Yp{2.5}    % Put at Y=2.5in = \Ysize - \Xp
+\def\PHOTO{
+ \parbox{3in}{
+   \small\rm\medskip
+   Taken 5-19-1981 at LBL. Nikon with strobe.
+   f2.8 on Royal Pan. Negative 11 in 'LBL Trip'
+   dated May 1981. I own it, no copyright troubles.
+   \par\bigskip\par
+   \centerline{\large\rm PHOTO 10a}
+ }
+}
+
+\begin{figure}[hb]
+\begin{center}
+\fbox{
+\setlength{\unitlength}{1in}
+\begin{picture}(\Xsize,\Ysize)
+\put(\Xp,\Yp){\PHOTO}
+\end{picture}
+}
+\caption{High-Speed photograph of a bullet.}
+\end{center}
+\end{figure}
+
+\footnotesize\begin{verbatim}
+\documentstyle[12pt]{article}
+\setlength{\textwidth}{6.4in}
+\begin{document}
+\def\Xsize{4.5} \def\Ysize{3.5} % Photo size by ruler is 4.25 by 3.25
+\def\Msize{3in} % Message size 3inches
+\def\Xp{0.75}    % Put at X=0.75in = (\Xsize - \Msize)/2
+\def\Yp{2.5}    % Put at Y=2.5in = \Ysize - \Xp
+\def\PHOTO{
+ \parbox{3in}{ \small\rm\medskip
+   Taken 5-19-1981 at LBL. Nikon with strobe. f2.8 on Royal Pan.
+   Negative 11 in 'LBL Trip' dated May 1981. I own it, no copyright
+   troubles. \par\bigskip\par \centerline{\large\rm PHOTO 10a} }
+}
+\begin{figure}[b]
+\begin{center}\fbox{\setlength{\unitlength}{1in}
+\begin{picture}(\Xsize,\Ysize)\put(\Xp,\Yp){\PHOTO}\end{picture}}
+\caption{High-Speed photograph of a bullet.}
+\end{center}
+\end{figure}
+\end{document}
+\end{verbatim}\normalsize
+\clearpage
+
+{\bf Paste-up Figures}. Figures can be pasted up to make the final copy
+of a thesis. Still, it is handy to have \LaTeX{} decide the figure
+positions, numbering and captions. The ideas used above for photographs
+can be applied to paste-up figures.
+
+
+{\bf Computer-drawn Figures}. The best unix tool is called {\tt xfig}.
+It is a drawing program for X-windows that emits source code for
+\LaTeX{}, PostScript or Pic\TeX{}. The output can be inserted into \LaTeX{}
+documents by an \verb"\input{filename}" command or
+\verb"\inputgraphics{filename}".
+
+The program {\tt xfig} is maintained by Brian Smith at Lawrence Berkeley
+Laboratory. The 1993 version is {\tt xfig 2.1.6}, available on {\tt
+export.lcs.mit.edu} in {\tt /contrib/R5fixes/xfig-patches/}. It exists
+for unix machines, in particular, it runs on newer SUN hardware.
+
+The newest 1998 versions of {\tt xfig 3.1}, also available for linux, have
+the advantage of being able to load PS files. Complex figures can be
+imported for the purpose of adding text, axes, labels.  The most useful
+export is PS/LaTeX, which splits the PS and TEXT portions. The main advantage
+of this method is the automatic use (and control) of figure fonts, which
+change automatically with any change of main font in the LaTeX source file.
+In particular, the size and style of figure fonts can be universally selected
+by macro definition, independently of the rest of the text.
+
+Simple PS figures, such as 2D graphs, can be imported into {\tt xfig}
+and traced using spline curves (click once for each desired node), hence
+producing a smaller source file that can be edited directly in {\tt xfig}.
+The PS file is used only for the tracing, then discarded. The saved file
+is an {\tt xfig} source, which is plain text. This is recommended for
+PS 2D graphics that have inconsistencies with other figures, eg, different
+axes or labels or text fonts.
+
+Text input in {\tt xfig} for PS/LaTeX must obey the usual rules for
+\LaTeX{} sources. For example, axes labels can be entered in math mode,
+typing the dollar signs as part of the {\tt xfig} input.
+
+
+{\bf Commutative Diagrams}. There are two packages that can be used to
+produce commutative diagrams and box-style diagrams involving lines and
+arrows and text. The first is called {\tt diagram}. See the sample
+theses below for syntax. The second is called {\tt xypic}, by Kris Rose,
+Copenhagen, Denmark. Both packages use special fonts to create the
+diagrams and they can be used in various flavors of \TeX. This method of
+producing diagrams is preferred over using {\tt xfig} because of
+versatility and ease of use. Unfortunately, there is a steep learning
+curve. A large investment of time is required to produce the first
+diagram.
+
+{\bf Maple Graphs}. Plots that can be generated by equations or
+differential equations or by easily programmed algorithms can be
+produced in {\tt maple}. The plot output can be chosen to be {\tt
+unixplot} or {\tt Postscript}.
+
+Postscript output can be used by the methods outlined by Nelson Beebe.
+See below for a reference to his long article on the subject of
+insertion of postscript figures into \LaTeX{} documents.
+
+The {\tt unixplot} output has the advantage of being editable in {\tt
+xfig}. The output file, usually called {\tt plotoutfile}, is filtered
+twice and passed into {\tt xfig} for editing of labels, axes and extra
+things like shading and captioning.
+
+In the 1998 and later versions of {\tt xfig}, ghostscript is invoked to
+display a postscript insertion. Therefore, the insert can be seen on the
+screen, but unfortunately not edited. Most 2D postscript figures can be
+traced in {\tt xfig}, using splines, and then the PS figure can be discarded,
+keeping the {\tt xfig} replica, which is of course editable. For 3D figures,
+the PS graphic should be stripped of all fonts and axes, then imported
+into {\tt xfig}. Axes and text are then added, as \LaTeX{} constructs,
+which insures consistent fonts and font sizes throughout the thesis.
+
+
+To make a maple figure with the unixplot standard, proceed as follows.
+First, plot a curve like
+$y=\sin(x)$. The maple V.3 command is {\tt plot(sin(x),x=0..Pi)}. Save
+it as a {\tt unixplot} file called {\tt plotoutfile}.
+Translate from {\tt unixplot} format to {\tt pic} format with the shell
+script {\tt unixplot2pic.sh}.
+Then apply the filter \verb"xfig2pictex" to
+\verb"plotoutfile" (.xfig extension assumed) to produce file
+\verb"plotoutfile.pictex". \footnote{In you don't have access to these
+tools send mail to {\tt gustafson@math.utah.edu}. Sources are in the
+directory {\tt /u/ma/gustafson/xfig??}. The files are {\tt
+xfig2pictex.sh} and {\tt unixplot2pic.sh}. }
+
+The output is a coded source in \LaTeX{} macros that is suited for use
+with a macro package called {\tt pictex}, made for generating figures in
+\LaTeX{} by drawing a pixel at a time. It is slow but accurate and
+produces figures directly into the DVI file, hence the figures can be
+viewed in any good DVI screen viewer. The use of {\tt pictex} macros is
+free. The manual costs money, but with {\tt xfig} no programming ability
+in {\tt pictex} is required.
+
+The resulting pictex file is inserted into a \LaTeX{} document as
+follows:
+\footnotesize\begin{verbatim}
+Preamble:   \input{pictex.sty} % also works as a style file option
+
+\begin{figure}[b]
+  \Figure {The function $y=\sin(x)$.} {plotoutfile.pictex}
+\end{figure}
+\end{verbatim}\normalsize
+
+The command {\tt Figure} itself is defined below.
+Figure size is controlled by the commands in the unix shell source
+\verb"xfig2pictex.sh".
+Hand edit of the pictex file is possible to shrink or blow up the
+figure. Figure size changes can also be done inside xfig.
+\footnotesize\begin{verbatim}
+\newcommand{\Figure}[2]
+% #1=title
+% #2=pictex file name
+{% begin command \Figure
+    \protect\begin{center}%
+    \input{#2}%
+    \protect\end{center}%
+    \protect\caption{#1}%
+}% end of command \Figure
+\end{verbatim}\normalsize\rm
+
+
+The editing features of {\tt xfig}, which adds \LaTeX{} commands over
+the top of figures, is invaluable. After getting used to the environment
+your productivity should increase and the quality of your figures should
+better than ever before.
+
+{\bf Maple Postscript Output}.
+Below are some examples for controlling the maple postscript output,
+to remove the default labels, default tick marks, the border on the
+outside of the plot and to change the orientation to portrait. Finally,
+recommendations on fixing the plot output size and thickness of lines,
+fonts and title.
+
+\begin{verbatim}
+f:=x->sin(x):
+xmarks:=[1=`1.0`,2=`2.0`,3=`3.00`]:
+ymarks:=[0.5=`00.5`,1.0=`1.00`]:
+plot(f,0..2*Pi,
+  style=line,
+  thickness=3,
+  tickmarks=[xmarks,ymarks],
+  axesfont=[TIMES,BOLD,16],
+  titlefont=[TIMES,BOLD,30],
+  title=`sin(x) plot`);
+
+This plots f(x) without x and y labels.
+The line thickness is wider, for reproduction.
+The tick marks are set by hand. Gets rid of overlapping ticks at (0,0).
+The tick marks appear in a none-default font in a bolder and larger style.
+The title is specified, but in a larger and different font.
+  See ?plot,options for other FONTS, STYLES, SIZES.
+
+Other options:
+
+    numpoints=100       Smoother curves
+    resolution=300      Smoother curves
+    linestyle=2         Dashed line for second plot
+    linestyle=3         Another kind of dashed line for third plot, etc
+
+Controlling the output:
+
+  with(plots):
+  setoptions(style=line, thickness=3,
+             axesfont=[TIMES,BOLD,16], titlefont=[TIMES,BOLD,30],
+             title=`sin(x) plot`);
+  plot(f,0..2*Pi);
+
+    This allows you to set all the defaults so they don't appear in the
+    plot commands. Very handy dith DISPLAY from plots package.
+    Unfortunately, tickmarks=[xmarks,ymarks]
+    cannot be set this way. It has to be in each plot command!
+
+  plotsetup(ps,plotoutput=`plot.ps`,plotoptions=`portrait,noborder`);
+
+    Select postscript output instead of x11 screen output.
+    This sets the plot output to the file "plot.ps".
+    Output will be portrait format instead of the default landscape.
+    The border is removed from the plot.
+
+  plotsetup(x11);
+
+    Sets the plot back to the screen. Undoes all the above.
+
+  plotsetup(ps,plotoutput=`plot.ps`,
+            plotoptions=`portrait,noborder,height=288,width=144`);
+
+    Select postscript output instead of x11 screen output.
+    This sets the plot output to the file "plot.ps".
+    Output will be portrait format instead of the default landscape.
+    The border is removed from the plot.
+    The size of the plot will be 288/72 inches by 144/72 inches in
+    portrait format and 144/72 inches by 288/72 inches in landscape
+    format.
+
+    Font sizes are not scaled. Any special fonts stay full size.
+    If you intend to have fonts in the figure, then be prepared to add
+    them separately in XFIG. That will cure all the problems of font
+    consistency, size and location on the graphic.
+
+\end{verbatim}
+
+
+{\bf Postscript Figures}. It is possible to directly insert Postscript
+figures into \LaTeX{} documents. Many microcomputer programs produce
+Postscript output and therefore it may be an advantage to insert this
+type of figure directly. Some unix programs which can create the
+postscript images: {\tt gnuplot, xfig, idraw, freehand, matlab, xmath,
+maple} and {\tt mathematica}.
+
+Many theses in mathematics have successfully used postscript figure
+insertions. If there is a standard, then possibly it is postscript. This
+standard is not without problems. The biggest trouble is the size of
+labels and the pen size for plotting. Letters have to be 2mm high to
+pass the microfilm test (less than 2mm will vanish on the microfilm).
+The xerox test is applied to the pen size: it must not lighten or vanish
+upon being Xeroxed. If your figures are Postscript, then choose a large
+point size for the fonts to insure that reduction leaves the letters 2mm
+high. For example, 14pt \verb"\large" fonts reduced 50\% become 7pt
+fonts, which is almost exactly 2mm high. Recommended is the use of {\tt xfig}
+to add labels in \LaTeX{} mode. It is important to keep consistent fonts
+and font size, but PS fonts are from the outset inconsistent with all
+the \LaTeX{} fonts.
+
+Nelson Beebe has written an extensive article on insertion of Postscript
+figures, called {\em \TeX{} and Encapsulated Postscript}. Since this
+article is published and also updated periodically with new ideas, it is
+best to contact Nelson at {\tt beebe@math.utah.edu}. The 1991 version
+0.38 of the article was 44 pages (with index and figures).
+
+Nelson recommends reading first the short article (5 pages, 9 figures)
+of December 1992 called {\em Incorporating Encapsulated PostScript in
+\TeX{} and \LaTeX{} Documents}, available as {\tt exepsf.ps} in math
+directory {\tt /u/cl/doc} or email a request to Nelson, {\tt
+beebe@math.utah.edu}.
+
+{\bf NCAR Graphics}. The graphs produced by NCAR can be exported to
+Postscript format. The remarks of Nelson Beebe in his article on
+Postscript Figures apply to the exported figure files. See above for
+information on that article. Presently, there is no export of NCAR
+graphics files that can be filtered into {\tt xfig}. Therefore, editing
+of the graphics is limited to available tools for postscript figures.
+
+{\bf Editing Postscript Figures}.
+There was an announcement of editing tools for postscript sources by
+\begin{quote}
+ Craig Barratt, \verb"craig@ISL.Stanford.EDU".
+\end{quote}
+The package
+{\tt PsFrag} is available via anonymous ftp from {\tt isl.stanford.edu}
+(internet address 36.60.0.10).  Get the compressed tar file
+{\tt  pub/boyd/psfrag/psfrag.tar.Z}.
+Extract the archive using {\tt pdtar xzf}.
+See the files {\small\tt README, USAGE, INSTALL} for detailed
+information. The package is a set of shell scripts that employ {\tt
+dvips} and {\tt ghostscript} to replace postscript text items by
+\LaTeX{} code that overlay the postscript image.
+
+The advent of this same feature in {\tt xfig} makes the psfrag package
+nearly useless. Nevertheless, there are features in psfrag that are
+not in {\tt xfig}.
+
+
+{\bf Gnuplot Figures}. The program {\tt gnuplot} can produce publication
+quality figures with \LaTeX{}, Postscript or {\tt xfig} output. The
+latter is best if you want to make a quick figure and then edit it in
+{\tt xfig} to add labels, captions and change things like the line size,
+axes and fonts. Everything that {\tt gnuplot} produces can be edited
+manually in {\tt xfig}.
+
+There is a document available on {\tt gnuplot} figures called {\em
+\LaTeX{} and the GNUPLOT Plotting Program} by David Kotz, {\tt
+dfk@cs.duke.edu}, February 10, 1990. The \LaTeX{} file that produces the
+documentation is available at a number of sites on internet. Send mail
+to {\tt info-gnuplot@dartmouth.edu} (from version 3.5, 1993). This
+document is included in the {\tt Tutorial} directory of the gnuplot
+distribution.
+
+Graphs created by gnuplot can be exported in \LaTeX{} format for direct
+inclusion in a figure environment.
+For example, if you want $y=\sin(x)$ in your thesis try the following:
+\begin{verbatim}
+ (terminal window): gnuplot
+ (in gnuplot):
+                 set terminal latex
+                 set output "sin.tex"
+                 plot sin(x)
+                 quit
+\end{verbatim}
+The resulting file {\tt sin.tex} can be inserted into a figure
+environment with the command \verb"\input{sin.tex}". The figure size can
+be changed by editing {\tt sin.tex} on the line containing {\tt
+unitlength}.
+
+Gnuplot figures can be produced from raw data files of
+$(x,y)$-values. Consider the following command file
+\verb"fig1.2.1.gnuplot" invoked as
+\begin{quote}
+ \verb"gnuplot fig1.2.1.gnuplot"
+\end{quote}
+in a terminal window:
+\begin{verbatim}
+set nokey
+set data style lines
+set tics out
+set xrange [0:24]
+set yrange [120000:240000]
+set xtics 0,12
+set ytics 120000,60000
+plot "fig1.2.1.data"                            View result in X
+pause -1                                        Wait for key
+set term bfig                                   Output large xfig file
+set output "fig1.2.1.fig"
+replot
+set output                                      Back to X11 output
+!xfig fig1.2.1.fig                              Run xfig and
+fig2dev -L pictex fig1.2.1.fig fig1.2.1.pictex  Make pictex file
+!emacs fig1.2.1.pictex fig1.2.1.gnuplot         Hand edit sources
+\end{verbatim}
+
+{\bf Graphs from data using maple}. The computer algebra system {\tt
+maple} can make a figure from a given data file by writing the data into
+a list {\tt L} and then invoking {\tt plot([L])} to produce the graph.
+Virtually everything done in gnuplot above can be reproduced by a maple
+script. The real problem is that neither maple nor gnuplot provide any
+editing capabilities --- a program like {\tt xfig} is still needed along
+with translators and filters for import and export of the various
+graphics formats.
+
+\section{More Features}
+
+\subsection{Additional Commands}
+
+Some additional convenience commands have been defined.
+
+\verb|\begin{epigraph}| {\em words} \verb|\end{epigraph}|
+
+\noindent Creates an epigraph.
+An epigraph is a quotation or motto at the beginning of a book, a
+chapter or section. The text will be indented and single-spaced, but the
+rest of the formatting (such as a blank line between the text and
+attribution) must be done by hand. Overdoing the number of epigraphs
+will cause you to be known as an {\em epigraphist}, one versed in {\em
+graffiti}.
+
+\medskip
+
+\verb"\begin{topics}{template} ... \end{topics}"
+
+\noindent This special environment can be used to solve display problems
+that might otherwise use {\tt tabular} or {\tt array} constructions. It
+is similar to the {\tt itemize}, {\tt description} and {\tt enumerate}
+environments which have the special feature of allowing page breaks
+between items. The definition:
+
+\begin{center}\begin{tabular}{l}
+\verb"\newcommand{\topicslabel}[1]{\mbox{#1}\hfil}" \\
+\verb"\newenvironment{topics}[1]{" \\
+\verb"    \begin{list}{}{%" \\
+\verb"      \let\makelabel\topicslabel" \\
+\verb"      \settowidth{\labelwidth}{\topicslabel{#1}}" \\
+\verb"      \setlength{\leftmargin}{1.1\labelwidth}}" \\
+\verb"}{\end{list}}"
+\end{tabular}\end{center}
+
+The special feature of the {\tt topics} environment is seen in the
+example below. The alignment of items cannot be done in the usual list
+environments. But the new feature has a price: the longest item must be
+entered as a template at the start of the environment (similar to the
+{\tt tabbing} environment). The template has a natural length that is
+used as the item width (see the above definition) and therefore custom
+widths can be designed for the item column which will persist and be
+uniform from page to page. The \verb"\item[...]" is never optional: the
+square brackets must occur even if no text is to be entered!
+
+
+\newcommand{\topicslabel}[1]{\mbox{#1}\hfil}
+\newenvironment{topics}[1]{
+    \begin{list}{}{%
+      \let\makelabel\topicslabel
+      \settowidth{\labelwidth}{\topicslabel{#1}}
+      \setlength{\leftmargin}{1.1\labelwidth}}
+}{\end{list}}
+
+\begin{minipage}{2.5in}\footnotesize
+\begin{verbatim}
+ \begin{topics}
+       {\bf Crocodiles and Reptiles.}
+ \item[\bf How X works:]
+    \begin{topics}{\sf Windows.}
+    \item[\sf Windows.]
+         Usually made of glass but
+         X-windows are an exception.
+    \item[\sf Errors.]
+         They appear in the console
+         window from time to time.
+    \item[\sf Exit.]
+         For the twm manager, exit
+         by pull-down menu option.
+    \end{topics}
+  \item[\bf Alligators.]
+       In many places in the world
+       there can be found
+       crocodiles and alligators.
+  \item[\bf Crocodiles and Reptiles.]
+       Besides crocodiles and alligators
+       there are brown and green lizards.
+ \end{topics}
+\end{verbatim}
+\end{minipage}
+%
+\hfill
+\fbox{\parbox{3.5in}{\footnotesize
+ \begin{topics}
+       {\bf Crocodiles and Reptiles.}
+ \item[\bf How X works:]
+    \begin{topics}{\sf Windows.}
+    \item[\sf Windows.]
+         Usually made of glass but
+         X-windows are an exception.
+    \item[\sf Errors.]
+         They appear in the console
+         window from time to time.
+    \item[\sf Exit.]
+         For the twm manager, exit
+         by pull-down menu option.
+    \end{topics}
+  \item[\bf Alligators.]
+       In many places in the world
+       there can be found
+       crocodiles and alligators.
+  \item[\bf Crocodiles and Reptiles.]
+       Besides the crocodiles and alligators
+       there are brown and green lizards.
+ \end{topics}
+}}
+
+
+\medskip
+
+\verb|\noisytrue|, \verb|\noisyfalse|
+
+\noindent Enables and disables the printing of progress messages. This
+is useful for debugging if front matter is coming out wrong, or if you
+like programs to give out reassuring patter about what they're up to.
+The default is \verb|\noisytrue|.
+
+\medskip
+
+\verb|\begin{singlespace}| {\em words} \verb|\end{singlespace}|
+
+\noindent This environment allows single-spaced text to be inserted into
+the thesis at any point. Use it with caution: the Thesis Manual is very
+specific about double-spaced text, which is the default in this style. A
+warning: a control \verb"\par" is required before invoking single
+spacing and directly after as well. This can also be done by blank
+lines. Most complaints about single spacing can be resolved by inserting
+blank lines before and and the environment.
+
+
+\medskip
+
+\verb|\singlespace|\\
+\verb|\doublespace|\\
+\verb|\normalspace|
+
+\noindent In some circumstances, the singlespacing environment may not
+work. It usually requires a \verb"\par" control before it is used and
+immediately after before changing to other spacing. Each of these
+commands changes the inter-line spacing for everything up to the next
+space-setting command. \verb|\singlespace| and \verb|\doublespace| do
+the obvious things, while \verb|\normalspace| sets to the default
+spacing (double for theses, single for tech reports).  For this reason,
+\verb|\normalspace| is preferable to \verb|\doublespace|, when you only
+want to back to the usual spacing.
+
+\medskip
+
+\verb|\twopagefigure{#1}{#2}|
+
+\noindent
+This special command is made for inserting photographic paste-ups; the
+first page gets the caption, and the second is completely blank. Its
+arguments are the figure caption and a label. The figure caption should
+contain a label also in order to build a list of figures entry. Its
+definition may be helpful to understanding how it is to be used:
+
+\begin{verbatim}
+\newcommand{\twopagefigure}[2]{
+\begin{figure}[p]
+\vspace{4in}
+\caption{#1}
+\label{#2}
+\vspace{4in}
+\end{figure}
+\begin{figure}[p]
+\vspace{8in}
+\end{figure}
+}
+\end{verbatim}
+
+
+\verb|\theoremsetup|
+
+\noindent This setup control defines theorem-type environments {\tt
+theorem}, {\tt proposition} and {\tt corollary} in a default manner. Put
+the control into the preamble of the document if you wish to enable the
+feature. Remove the reference to disable the loading of these default
+definitions. Warning: once defined, there is no convenient way to erase
+the definitions.
+
+The reason for the control \verb"\theoremsetup", clumsy as it seems, is
+to allow for custom definitions of {\tt theorem}, {\tt proposition},
+{\tt corollary}. The \verb"\newtheorem" feature disallows a definition
+to be turned off or re-defined. A common tweak of the theorem
+environment is to insert Roman text in place of italics into the theorem
+body. Of course, it is desirable to call the result {\tt theorem} and
+not some other name.
+
+\medskip
+
+\verb|\begin{theorem}| {\em words} \verb|\end{theorem}|
+
+\noindent This theorem environment follows the suggestion in the
+\LaTeX{} manual. It defines a new counter called {\tt theorem} which is
+reset in each section and incremented upon each use of the environment.
+See the control \verb|\theoremsetup| above to enable this environment.
+New environments can be made from a base theorem environment:
+
+\medskip
+
+\verb|\newenvironment{Theorem}{\begin{theorem}\rm}{\end{theorem}}|
+
+This environment, used in place of {\tt theorem}, has all the features
+of the theorem environment but sets the text body in Roman. The {\tt
+Theorem} environment is {\em not defined} in the uuthesis style --- it
+is a customization to be coded into the preamble.
+
+
+\medskip
+
+\verb|\begin{proposition}| {\em words} \verb|\end{proposition}|
+
+\noindent Like the {\tt theorem} environment, this pre-defined
+environment follows the standard use of propositions and theorems, with
+the text of the proposition set in italics. The counter used is the {\tt
+theorem} counter: there is no separate counter for propositions. See
+\verb|\theoremsetup| above to enable this environment.
+
+\medskip
+
+\verb|\begin{corollary}| {\em words} \verb|\end{corollary}|
+
+\noindent Like the {\tt theorem} environment, text is set in italics.
+The same counter is used: {\tt theorem}. See the control
+\verb|\theoremsetup| above to enable this environment.
+
+\noindent Other inventions commonly used for a thesis can be included in
+the preamble of the document. Here are some normal definitions, which
+should be self-explanatory. Please observe that the items below are {\bf
+not pre-defined}! To make them useful, enter them into the preamble of
+the \LaTeX{} document.
+
+\begin{verbatim}
+\newtheorem{theorem}{Theorem}[chapter]          The common definitions
+\newtheorem{proposition}{Proposition}[chapter]  enabled by control
+\newtheorem{corollary}[proposition]{Corollary}     \theoremsetup
+
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{define}[theorem]{Definition}
+\newtheorem{hope}[theorem]{Conjecture}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{obs}[theorem]{Observation}
+
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem{co}[lemma]{Corollary}
+\newtheorem{df}[lemma]{Definition}
+\newtheorem{example}[lemma]{Example}
+\newtheorem{question}[lemma]{Open Question}
+\newtheorem{remark}[lemma]{Remark}
+\newtheorem{th}[lemma]{Theorem}
+
+\renewcommand{\thelemma}{\arabic{section}.\arabic{lemma}}
+\renewcommand{\theequation}{\arabic{section}.\arabic{equation}}
+\end{verbatim}
+
+\noindent The font used for these environments is by default italic. If
+you want a normal roman font, then new environments must be defined ---
+see the \LaTeX{} manual for details.
+
+\medskip
+
+\noindent
+Rudolf A. Roemer has suggested a clever macro for inserting
+equation numbers in the form, e.g., (1.2a), (1.2b).
+\begin{verbatim}
+% Put this into your "thesis.sty" file
+\newcounter{eqletter}\newcounter{eqdummy}%
+\newenvironment{mathletters}%
+{\setcounter{eqletter}{0}\refstepcounter{equation}%
+\setcounter{eqdummy}{\value{equation}}\setcounter{equation}{\value{eqletter}}%
+\renewcommand{\theequation}{\arabic{chapter}.\arabic{eqdummy}\alph{equation}}%
+}%
+{\setcounter{equation}{\value{eqdummy}}%
+\renewcommand{\theequation}{\arabic{chapter}.\arabic{equation}}}%
+\end{verbatim}
+
+\long\def\YY{
+\begin{minipage}{3.8in}
+\noindent
+An example of how to use Rudolf Roemer's macro appears below. The
+\LaTeX{} source appears on the right.\par
+\begin{mathletters}
+\label{eq-all}
+\begin{equation}
+2T+4X=\pi.
+\label{eq-veryfirst}
+\end{equation}
+\begin{eqnarray}
+T &= &2\pi \int_0^1 f(t)dt,
+ \label{eq-first} \\
+X &= &2\pi \int_0^1 g(t)dt.
+ \label{eq-last}
+\end{eqnarray}
+\end{mathletters}\par
+\noindent
+First, there is equation \ref{eq-first}, preceded by equation
+\ref{eq-veryfirst}, then there is equation \ref{eq-last},
+and they are all part of equation \ref{eq-all}.
+\end{minipage}
+}
+
+\newcounter{eqletter}\newcounter{eqdummy}%
+\newcounter{chapter}\setcounter{chapter}{1}
+\newenvironment{mathletters}%
+{\setcounter{eqletter}{0}\refstepcounter{equation}%
+\setcounter{eqdummy}{\value{equation}}\setcounter{equation}{\value{eqletter}}%
+\renewcommand{\theequation}{\arabic{chapter}.\arabic{eqdummy}\alph{equation}}%
+}%
+{\setcounter{equation}{\value{eqdummy}}%
+\renewcommand{\theequation}{\arabic{chapter}.\arabic{equation}}}%
+
+{\YY}
+\hfill
+{
+\noindent
+\begin{tabular}{@{}p{2.4in}@{}}
+\verb|\begin{mathletters}| \newline
+\verb|\label{eq-all}| \newline
+\verb|\begin{equation}| \newline
+\verb|2T+4X=\pi.| \newline
+\verb|\label{eq-veryfirst}| \newline
+\verb|\end{equation}| \newline
+\verb|\begin{eqnarray}| \newline
+\verb|T &= &2\pi \int_0^1 f(t)dt,| \newline
+\verb| \label{eq-first} \\| \newline
+\verb|X &= &2\pi \int_0^1 g(t)dt.| \newline
+\verb| \label{eq-last}| \newline
+\verb|\end{eqnarray}| \newline
+\verb|\end{mathletters}| \newline
+\end{tabular}
+}
+\par
+
+
+\medskip
+
+\verb|\begin{Proof} ... \end{Proof}|
+
+\noindent The  Proof environment is by Nelson Beebe.
+It uses normal Roman text, with a trailing
+black square at the end of the text, supplied automatically
+by the \verb|\end{Proof}|. The definition:
+
+\begin{verbatim}
+\newcommand{\boxx}{\unskip \nopagebreak \hfill ${\blacksquare}$% }
+\newenvironment{Proof}%
+    {\noindent{\bf Proof.}\begin{rm}}%
+    {\boxx\end{rm}}
+\end{verbatim}
+
+\verb|\proofline{#1}|
+
+\noindent Insert a line of text used to identify a proof. It can be used
+also to invent a proof environment, which might be more convenient. The
+definition allows for easy re-definition:
+
+\begin{quote}
+\verb|\def\proofline#1{\protect\par\noindent{\bf #1}:~}|
+\end{quote}
+
+\medskip
+
+\verb|\proof{#1}|
+
+\noindent Inserts a proof line of the form ``{\bf Proof \verb|#1|}:''
+which is convenient for items of the form {\bf Proof of Theorem 7:}. The
+definition allows it to be redefined easily:
+
+\begin{quote}
+\verb|\def\proof#1{\proofline{Proof #1}}|
+\end{quote}
+
+\medskip
+
+\verb|\pf|
+
+\noindent Inserts {\bf Proof:} into the text with no indent. This is a
+common way of marking proofs. The definition:
+
+\begin{quote}
+\verb|\def\pf{\protect\proofline{Proof}}|
+\end{quote}
+
+\medskip
+
+\verb|\qed|
+
+\noindent This control sequence is used to end a proof. It has the following
+definition in the uuthesis style:
+\begin{quote}
+\verb|\def\qed{\protect\par\noindent{}$\square$\protect\par}|
+\end{quote}
+Other possible definitions, placed in the preamble, would be:
+\begin{quote}
+\verb|\def\qed{\nobreak \hfill \rule{1ex}{1em}}|\\
+\verb|\def\qed{\nobreak\ \mbox{~~\rule{1ex}{1em}}}|
+\end{quote}
+
+\medskip
+
+\verb|\mainheading{#1}|
+
+\noindent The two-inch top margins that you see in the thesis are
+produced by this control sequence. It may be useful in solving some
+formatting problems. It is best used after an \verb|\eject| or
+\verb|\clearpage| command, so that the two inches of space is at the top
+of the page. The argument is the text that you want centered in
+\verb|\large\bf| print, just below the 2-inch white space. This command
+actually uses a special font size \verb|\HFmainhead| with baselineskip
+\verb|\HFmainheadHT|, basically large boldface. The text is set in a box
+of width \verb|\mainheadingwidth|, normally 4.25in.
+
+\medskip
+
+\verb|\ulabel{#1}{#2}|
+
+\noindent This feature supplies an alternative to the \verb|\label|
+control sequence. Its purpose is to prefix entries in the AUX file with
+a string given in the second argument \verb|#2|. An example showing how
+{\tt ulabel} works:
+\begin{verbatim}
+Example:
+         \begin{theorem}% Theorem 2.4
+         \ulabel{hottheorem}{Theorem}
+          The group ${\cal G}$ is simple.
+         \end{theorem}
+\end{verbatim}
+Later on, \verb"\ref{hottheorem}" produces string \verb"Theorem 2.4"
+because \verb"\thetheorem" equals \verb"2.4". The usual
+\verb"\label{hottheorem}" supplied by \LaTeX{} would produce only
+\verb"2.4" in the AUX file and \verb"\ref{hottheorem}" in this case
+would be \verb"2.4" instead of \verb"Theorem 2.4".
+
+
+\noindent Greg Conner used this control sequence in 1992 to reference
+theorems and corollaries. The advantage is that references can be tied
+to the particular theorem, corollary or lemma by words and number,
+resulting in a consistent system of references.
+
+
+\noindent The definition:
+
+\begin{verbatim}
+\def\ulabel#1#2{\@bsphack\if@filesw {\let\thepage\relax
+   \def\protect{\noexpand\noexpand\noexpand}%
+   \xdef\@gtempa{\write\@auxout{\string
+   \newlabel{#1}{{#2 \@currentlabel}{\thepage}}}}}\@gtempa
+   \if@nobreak \ifvmode\nobreak\fi\fi\fi\@esphack}
+\end{verbatim}
+
+\medskip
+
+\verb|\inputpicture|
+
+% Nov 1992
+\noindent Jeff McGough used the control \verb|\inputpicture| in November
+1992 to input figure files in his thesis.  He found that complicated
+figures slowed the evaluation process considerably and it became
+convenient to compile the DVI file with {\em phantom figures} in place
+of the real ones. The {\em phantom figure} was a box as seen below made
+with this \LaTeX{} source:
+
+\begin{minipage}{2.3in}
+\footnotesize\rm
+\verb|\setlength{\unitlength}{0.0063in}%| \\
+\verb|\begin{picture}(573,357)(114,408)| \\
+\verb|\thicklines| \\
+\verb|\put(114,408){\framebox(573,357){}}| \\
+\verb|\end{picture}|
+\end{minipage}
+\hfill
+\begin{minipage}{4in}
+\setlength{\unitlength}{0.0063in}%
+\begin{picture}(573,357)(114,408)
+\thicklines
+\put(114,408){\framebox(573,357){}}
+\end{picture}
+\end{minipage}
+
+\bigskip
+
+
+The generation of figures is controlled by
+\begin{quote}
+\verb|\newcommand{\inputpicture}[1]{%| \\
+\verb|   \ifinputpicture \input{#1} \else \input{box.tex} \fi }| \\
+\verb|\newif\ifinputpicture \inputpicturetrue|
+\end{quote}
+where file {\tt box.tex} contains the contents given above.
+
+To use the \verb|\inputpicture| control, enter after the beginning of
+the document one of these two commands:
+\begin{quote}
+\verb|\inputpicturetrue| \\
+\verb|\inputpicturefalse|
+\end{quote}
+
+To input a picture file \verb|pic.tex| use the following syntax:
+\begin{quote}
+\verb|\inputpicture{pic.tex}|
+\end{quote}
+The picture will appear in the DVI file if the
+control sequence \verb|\inputpicturetrue|
+was
+set and a box will appear in the DVI file if \verb|\inputpicturefalse|
+was set.
+
+
+\subsection{Other Documents}
+
+The thesis itself is not the only document that you may need to produce.
+It is useful to have a file \verb|forms.tex| which has all the
+declarations of the regular thesis, but only generates, say, the
+committee approval page, so it can be printed on bond paper and signed
+before the thesis goes through Format Approval.
+
+It may be desirable to use a title page for the abstracts that are
+submitted separately; \verb|\abstracttitlepage| works just like
+\verb|\titlepage|, but produces a slightly different output.
+
+Another possibility is for the thesis to be turned into a departmental
+technical report.  This is required in Computer Science.  However, the
+thesis format does not follow the report format, so as mentioned
+earlier, the \verb|report| option to the style makes appropriate changes
+(there are really only a few that need to be made). The most significant
+change is the use of a different title page, which is generated by the
+command \verb|\reporttitlepage|. The default definition of the command
+is specific to Computer Science, and it should be redefined if used
+elsewhere.
+
+\section{Warnings and Problems}
+
+The uuthesis style will not correct forms of references, spelling
+mistakes, or poor writing.  Proofread everything.
+
+A common complaint is inconsistency of use. An example: in the
+introduction the terminology {\bf 4--dimensional} used is whereas later
+on it becomes {\bf four--dimensional}. While not a difficulty for
+American mathematicians, it is definitely a problem for persons whose
+native language is not English. A thesis is an international document,
+and therefore the manuscript must pass a consistency test of this
+nature. Nelson Beebe recommends using a control sequence for each piece
+of special terminology, to insure consistency throughout the document.
+
+Double words are a common defect in theses. These can be eliminated by a
+unix program {\tt dw} that checks for this situation. See the sample
+thesis sources in {\tt /usr/local/lib/tex/uuthesis} on mathematics
+department unix machines or send email to Nelson Beebe.
+
+Missing words are another common problem. Careful proofing of text is
+the only sure cure for such defects.
+
+Placement of punctuation is determined by the style guide. It is to be
+consistent. Equations at the end of a sentence should end with a period,
+in general. Commas often appear at the end of a displayed equation.
+Quotations should be treated as per the style guide: sometimes they get
+quote marks and sometimes not. Italics and periods are used according
+to the dictionary: is it `et al.', `{\em et al.}', `et.\ al.' or `{\em
+et.\ al.}? Hyphenation is used according to the dictionary or a style
+guide but must be consistent throughout the text.
+
+Overuse of certain words is a common thesis fault that can be reduced
+by using a dictionary and a word count program. For example, the word
+{\bf note} or phrase {\bf note that} tend to be used too much. Other pet
+combinations known to irritate readers are {\bf because} and {\bf
+since}, essentially the same in mathematics, but not so for persons
+trained in other disciplines. A thesaurus can be useful for finding other
+combinations of words that replace the troublesome words.
+
+A spelling program like {\tt ispell} on the Unix systems is a safeguard
+against simple typographical errors. Other spell programs exist on
+microcomputer hardware. Most are useful, especially WordPerfect and
+MS-Word spelling checkers.
+
+The most commonly misused controls are
+
+\begin{quote}
+\verb"\eject" \\
+\verb"\newpage" \\
+\verb"\clearpage" \\
+\verb"\vspace" \\
+\verb"\vskip" \\
+\verb"\hskip" \\
+\verb"\hspace" \\
+\verb"\\" \\
+\verb"\\[2pt]" \\
+\verb"\mbox{...}" \\
+\verb"\smallskip" \\
+\verb"\medskip" \\
+\verb"\bigskip"
+\end{quote}
+
+As a general rule, leave hard space controls out of the document! Use
+environments and control sequences wherever possible. The {\tt newpage}
+command creates a document that the thesis office will have to reject:
+the page heights are to be identical.
+
+Use \verb"\clearpage" only to cause a dump of a page of floats (figures
+or tables entered with option \verb"[p]") or to force a figure dump at
+an important point. This command is a page-filling command, but it can
+backfire and cause figures and tables to end up on the wrong page.
+
+Avoid using font size \verb|\tiny|. It uses 7pt font size, which is
+right at the reproduction limit of 2mm for microfilm. Small subscripts
+in math mode can be increased in size by the use of
+\verb"\displaystyle". Commands like
+
+\verb"        \def\dd{\displaystyle}"
+
+as often seen in the preamble to decrease the typing of math mode
+equations, especially in the {\tt array} environment, where compressions
+always seem to appear.
+
+{\bf Error messages}.
+There is a requirement that all section and chapter headings must be
+less than 4.5 inches long.  This requirement has been met for the
+\verb|uuthesis| style, technically, but you can enter a longer title,
+and hence explicit line breaks are required to make the title into an
+inverted pyramid.
+
+The errors in this case show up in the preview but also in error
+messages during the \TeX{} compile, especially when the TOC is input.
+Please {\em don't edit the TOC}! It is recreated every time \TeX{} runs.
+The place to edit is the sectioning commands deep inside the \LaTeX{}
+document, where probably no error message is emitted. The fix is to
+insert an optional argument \verb"[...]", for example,
+
+\verb"\section{Main results on normal subgroups}"
+
+becomes
+
+\verb"\section[Main results on reduction \protect\\ of normal subgroups]"\\
+\verb"        {Main results on reduction of normal subgroups}"
+
+It takes two runs of \LaTeX{} to put the new TOC into the DVI output. On
+the second run the error given during read of the TOC should vanish.
+
+The control \verb"\def\mainheadingwidth{4.25in}" is standard and you
+may have to define it as 4.5in or 4.8in to make a particular title into
+an inverted pyramid. After such exceptions, it is important to set it
+back to 4.25in prior to typesetting the next title.
+
+The entry in the table of contents may have to be crafted independently
+of the actual title in order to create line breaks that are acceptable.
+This is done by the optional argument to a sectioning command:
+
+\footnotesize
+\verb"\chapter[Isomorphisms and Polymorphisms Revisited:"\\
+\verb"         \protect\\A Survey]"\\
+\verb"        {Isomorphisms and Polymorphisms"\\
+\verb"         \protect\\ Revisited: A survey}"
+\normalsize
+
+The sectioning commands that take the optional argument in square
+brackets are {\tt part}, {\tt chapter}, {\tt section}, {\tt subsection},
+{\tt subsubsection}, {\tt paragraph}. In addition, most commands that
+automatically enter data into the table of contents also take a square
+bracket optional argument, for example, {\tt caption} in the table and
+figure environments.
+
+The coding of chapter headings followed immediately by a section head is
+controlled by control
+\begin{quote} \verb|\fixchapterheading|.\end{quote}
+\noindent If you did not read these remarks above, then do so now.
+
+Captions on figures and tables have been revised several times. Long
+captions are centered, and the \verb|\protect\\| command can be used in
+both the TOC and TITLE arguments.  Long captions are completely
+feasible, but explicit line breaks may be required for extra long
+titles. There are two styles for captions: paragraph and centered.
+
+Default figure/table placement can be wrong. \LaTeX{} tries to put the
+figure/table on the same page following the reference with option
+\verb"[b]". Use of the \verb|[t]| option after previewing is usually
+sufficient to move the figure to the next page, if it didn't fit on the
+right page to begin with. It helps to have the figure follow the
+reference as close as possible (i.e., within the paragraph, right after
+the sentence with the reference). Sometimes \verb"\clearpage" is needed
+to force a figure onto the right page, especially at the end of a
+chapter.
+
+It is required by the thesis office that a figure appear {\bf after} it
+is cited, and never before the citation, even at the top of the present
+page. So sometimes option \verb"[t]" doesn't work and it has to be
+changed to \verb"[b]" or \verb"[p]" or \verb"[h]".
+
+The \verb|figure*| and \verb|table*| environments have been removed,
+since the format does not support double column printing in the first place.
+
+Double and other spacing in tables may be gotten using \verb|\arraystretch|.
+Default is for single spacing.  Table format does require at least one
+horizontal line between caption and body; use \verb|\hline|.
+
+This style has been used with a number of different laser printers,
+including Imagens, Laserwriters, and Laserjets.
+The different engines used by
+these printers may cause the margins to differ when printed out on
+two different printers by as much as 2-3 character widths. This may be
+corrected by issuing print commands with offsets (if that is
+possible), or by overriding the default margins.
+
+The signature pages required for theses and dissertations are formatted
+directly here, although you can get them from the thesis editor. These
+forms are correct now, but if the format of the signature pages changes,
+this style will have to be modified, or else you'll have to get the
+forms from the editor. Correspondence on changes is most appreciated
+(see below for contacts).
+
+\section{Bug fixes and improvements}
+The initial style files and documents were produced by Stan Shebs in
+1987. Several improvements were incorporated with bug fixes until
+version 1.2 in 1988, when the style files stabilized. Since that time,
+only minor fixes have been added. The most recent, by Nelson Beebe,
+1990-1993, and Conner and Gustafson, 1992. A major revision took place
+in October, 1993 by Gustafson. The fixes:
+
+\begin{quote}
+Rewrote APPROVAL pages to match the Handbook.\\
+Rewrote 11pt and 12pt options, eliminated uut11.sty, uut12.sty. \\
+Added {\tt topics} environment. \\
+Made special font sizes for all sectioning and header commands. \\
+Built commands for singlespaced and doublespaced titles. \\
+Rebuilt threelevels, fourlevels, fivelevels. \\
+Rebuilt parameters for sectioning commands to match thesis manual. \\
+Rebuilt {\tt chapter} and {\tt part} commands to correct TOC entries. \\
+Fixed maintext command to be useful everywhere (standardized). \\
+Fixed Part command so page numbering is correct. \\
+Fixed figure problems with positioning. \\
+Fixed figure captions and added paragraph/centering options. \\
+Isolated theorem control sequences to make them selectable. \\
+Added control sequences for chapter heading width. \\
+Changed TOC entry indent to 0in. Fixed TOC entry widths. \\
+Appendix controls rewritten. Added {\tt noappendix} control. \\
+Rewrote documentation, internal and external. \\
+Add double spacing for multi-line chapter titles (UofU
+thesis office request 1992).\\
+Fixed REFERENCES spacing, ABSTRACT spacing. \\
+Paragraph style parameters now have glue removed.\\
+Proof environment added. Theorem environments added. \\
+Titlepage repairs. \\
+Appendix repairs. \\
+Caption repairs.\\
+Added {\tt csreport} and {\tt honors} options.
+\end{quote}
+
+If you find something broken in the style file, or find a severe
+limitation, then please send email to one of the names below, so that
+the changes and fixes get applied to the master files.
+
+Contributors for bug fixes in 1993, 1994: Bill Brimley, Rudolf Roemer,
+Rick Gee, Elisabeth Manderscheid and Eric Eide. Rudolf contributed some
+clever macros for numbering math equations in the form, e.g., (1.2a),
+(1.2b). These were not implemented in uuthesis, because of their special
+nature, but have been placed in this document instead, for reference.
+Rick Gee contributed to spacing fixes in the LOF and TOC. Elisabeth
+identified the pieces needed for an honors thesis. Eric attacked the
+problem of widow section titles and \verb"\vbox" controls. The actual
+problem was cured by adding a {\tt nopagebreak} control into the
+sectioning commands. No one has found an easy solution for the problem
+of keeping segments of text together on the page.
+
+The \LaTeX{}2e version of {\tt uuthesis} was initially created by Ken
+Parker (Computer Science) in May of 1995. The sources remained privately
+used for 1995 to 1997. In January 1998, the sources were activated for
+general use by anyone who wanted to experiment with \LaTeX{}2e.
+
+
+\section{Author addresses}
+If you have problems with this format, or suggestions for improvements
+and features, contact (in this order):
+\begin{center}\footnotesize
+\begin{tabular}{lll}
+Nelson Beebe & Math, 581--5254 & \verb|beebe@math.utah.edu|, 1998 \\
+Grant B.\ Gustafson & Math, 581--6879 & \verb|gustafso@math.utah.edu|,
+1998\\
+Leigh B.\ Stoller & CS, 585-3733 & \verb|stoller@cs.utah.edu|, 1995 \\
+Stan Shebs & Apple (CA) & \verb|shebs@cygnus.com|, April 1995 \\
+\end{tabular}
+\end{center}
+
+\section{Acknowledgments}
+
+The \verb|uuthesis| style file has passed through many hands.
+It seems to have started life both as the standard \LaTeX\ report style
+file \verb|report.sty| by Leslie Lamport, and as a Stanford thesis format
+\verb|suthesis.sty|, done by an unknown person at Stanford. Mike Jordan
+adapted
+it to the University of Utah style and wrote the format of signature pages.
+Mark Watkins did some cleanup, and added macro definitions to
+parameterize committee members, graduate deans, and so forth, as well as
+writing a few of the paragraphs above.  Other contributions have been
+made by Nelson Beebe, Ed Cetron, Greg Conner, David Eyre, Grant
+Gustafson, Ming He, Paul Joyce, Tina Ma, Jeff McGough, Eric Muehle, John
+W. Peterson, Robert Dillon and Jeff Yost.  Finally, Linda Zillman,
+thesis editor, was very helpful in adapting the format to the
+capabilities and restrictions of \LaTeX. Continued support since 1993
+has kindly been given by Christine Pickett, thesis editor, and many of
+the newest features and fixes are due to her enthusiasm and cooperation.
+
+\section{Sample Root Files}
+
+\noindent The following is a root file for a dissertation. Made in 1993
+by Jeff McGough and Grant Gustafson. It uses separate files for
+everything, including the abstract, acknowledgments, chapters and
+bibliography. Note in particular the preamble items versus the control
+sequences that appear after the start of the document.
+
+\begin{verbatim}
+\documentstyle[11pt,amssymbols,thesis,diagram,tgrind]{uuthesis2}
+\includeonly{chap1,chap2,chap3,appendix}
+\title{REPRESENTATION OF SOLUTIONS TO LINEAR\protect\\
+       ALGEBRAIC EQUATIONS}
+\author{Fred Krylov}
+\thesistype{dissertation}
+\graduatedean{Ann W. Hart}
+\department{Department of Mathematics}
+\degree{Doctor of Philosophy}
+\departmentchair{Paul Fife}
+\committeechair{Fletcher Gross}
+\firstreader{Hans Othmer}
+\secondreader{Jim Carlson}
+\thirdreader{Grant Gustafson}
+\fourthreader{Nick Korevaar}
+\chairtitle{Professor}
+\submitdate{March 1993}
+\copyrightyear{1993}
+\fourlevels
+\dedication{For my cat, Mouse, a few lines only.}
+ \inputpicturetrue  % By Jeff McGough.
+\begin{document}
+\frontmatterformat
+\titlepage
+\copyrightpage
+\committeeapproval
+\readingapproval
+\preface{abstract}{Abstract}
+\dedicationpage
+\tableofcontents
+\listoffigures
+\listoftables
+\optionalfront{Notation and Symbols}{\input{notation.tex}}
+\preface{acknowledge}{Acknowledgements}
+\maintext
+\include{chap1}
+\include{chap2}
+\include{chap3}
+\numberofappendices=1
+\appendix
+\include{appendix}
+\bibliographystyle{siam}
+\bibliography{thesis}
+\end{document}
+\end{verbatim}
+
+\noindent {\bf Eyre Thesis}. The following is the contents of
+\verb|thesis.tex| for the Masters Thesis of David Eyre, March, 1990. It
+is a numerical analysis thesis with a large section of computer code.
+David produced the thesis on a SUN workstation and also on the VAX 8600
+mainframe computer. It contains no figures. The thesis was first typed
+in ARTICLE style as several separate documents and then re--edited into
+the thesis format. It is an unusual example in that it contains no list
+of figures, no list of tables and only a single appendix.
+
+In the actual thesis produced for the library, the computer utility {\tt
+lptops} was used to generate the thesis pages for the computer code,
+complete with page numbering. The file {\tt code.tex} simply inserts the
+correct page number so that the bibliography is numbered properly.
+
+\begin{verbatim}
+\documentstyle[12pt]{uuthesis}
+\thesistype{thesis}
+\title{EXACT ANALYSIS OF GENERAL SPARSE \\
+~ \\ RATIONAL LINEAR SYSTEMS}
+\author{David Jay Eyre}
+\degree{Master of Science}
+\department{Department of Mathematics}
+\graduatedean{B. Gale Dick}
+\submitdate{March 1990}
+\copyrightyear{1990}
+\committeechair{Peter Alfeld}
+\firstreader{Paul C. Fife}
+\secondreader{Don H. Tucker}
+\departmentchair{Klaus Schmitt}
+\dedication{\mbox{For Cas}}
+\chairtitle{Professor}
+\threelevels
+\newtheorem{th}{Theorem}
+\newtheorem{lm}[th]{Lemma}
+\newtheorem{co}[th]{Corollary}
+\newtheorem{df}[th]{Definition}
+\begin{document}
+\requiredfrontmatter{abstract}
+\preface{acknowledge}{ACKNOWLEDGMENTS}
+\maintext
+\input{tbody}
+\input{appendix}
+\input{code}
+\input{biblio}
+\end{document}
+\end{verbatim}
+
+\noindent {\bf Joyce Thesis}. The following is the contents of
+\verb|thesis.tex| for the Ph.D. thesis of Paul Joyce, June, 1988. It is
+a mathematics thesis that does not use automatic features of the {\tt
+uuthesis} style. This particular thesis was typeset using \TeX{}tures on
+a MacIntosh SE computer with output from a Laserwriter printer. Figures
+were automatically integrated at print time (no paste-up). Note in
+particular the ordering of control sequences and the placement of
+definitions in the preamble.
+
+The Joyce thesis, done on a MacIntosh computer
+using Textures,
+is a large thesis consisting of the following computer source files:
+
+\begin{center}
+\begin{tabular}{|l|l|}
+\hline
+File Name               & Description \\
+\hline
+THESIS.TEX              & main control file \\
+ABSTRACT.TEX         & abstract \\
+ACK.TEX              & Acknowledgments \\
+THESIS.GRAPHICS         & figures \\
+CH1.TEX            & chapter 1 \\
+CH2.TEX            & chapter 2 \\
+CH3.TEX            & chapter 3 \\
+CH4B.TEX            & chapter 4 \\
+CH5.TEX            & chapter 5 \\
+CH6.TEX            & chapter 6 \\
+CH7.TEX            & chapter 7 \\
+CH8.TEX            & chapter 8 \\
+CH9.TEX            & chapter 9 \\
+THESIS.BIB          & bibliography \\
+\hline
+\end{tabular}
+\end{center}
+The file THESIS.TEX is reproduced below, so that you can see how to
+structure the writing of the thesis. Paul wrote the key chapters first,
+then the figures, bibliography and introduction.
+
+
+\begin{verbatim}
+\documentstyle{uuthesis}
+\includeonly{ch7,ch8,ch9} % Debug only chapter 7, 8, 9
+\title{Age--Ordered Distributions For Population Genetics
+Models}
+\author{Paul Joseph Joyce}
+\thesistype{dissertation}
+\graduatedean{B. Gale Dick}
+\department{Department of Mathematics}
+\degree{Doctor of Philosophy}
+\departmentchair{T. Benny Rushing}
+\committeechair{Simon Tavar\'e}
+\firstreader{Robert M. Brooks}
+\secondreader{Stewart N. Ethier}
+\thirdreader{James P. Keener}
+\fourthreader{Klaus Schmitt}
+\chairtitle{Professor}
+\submitdate{June 1988}
+\copyrightyear{1988}
+\dedication{This thesis is dedicated to my parents
+Dorothy A. and Thomas F. Joyce.}
+\threelevels
+\newtheorem{lemma}[theorem]{Lemma}
+\begin{document}
+\frontmatterformat
+\titlepage
+\copyrightpage
+\committeeapproval
+\readingapproval
+\preface{abstract}{ABSTRACT}
+\dedicationpage
+\tableofcontents
+\listoffigures
+\preface{ack}{ACKNOWLEDGMENTS}
+\maintext
+\include{ch1}
+\include{ch2}
+\include{ch3}
+\include{ch4b}
+\include{ch5}
+\include{ch6}
+\include{ch7}
+\include{ch8}
+\include{ch9}
+\bibliographystyle{acm}
+\end{document}
+\end{verbatim}
+
+Below is a sample \LaTeX{}2e source.
+
+
+\begin{verbatim}
+% -*-latex-*-
+% Sample thesis source for uuthesis format 1998
+% Tested with LaTeX 2.09 and LaTeX2e
+% Set up for \documentclass{} constructions of LaTeX2e
+%
+\documentclass[Chicago]{uuthesis2e}
+  %\documentstyle{uuthesis1-8}
+  %\documentstyle[honors]{uuthesis1-8}% Use for an honors thesis
+  %\documentstyle[12pt]{uuthesis1-8}
+  %\documentstyle[11pt]{uuthesis1-8}
+  %\doublespacedheadings% single-spaced is the default
+\fourlevels
+\title{THEORETICAL STUDIES ON SECOND \\ ORDER DYNAMICAL SYSTEMS}
+\author{John Andrew Smith}
+\thesistype{dissertation}
+  %\thesistype{Honors Thesis}%       Use these for an honors thesis
+  %\honorssupervisor{Hans G.~Othmer}
+  %\honorsadvisor{John R.~Nelson}
+  %\honorsdirector{Richard J.~Cummings}
+  %\honorsdepartment{Mathematics}
+\graduatedean{Ann W. Hart}
+\department{Department of Mathematics}
+\degree{Doctor of Philosophy}
+\departmentchair{Paul C. Fife}
+\committeechair{Hans G. Othmer}
+\firstreader{Frederick R. Adler}
+\secondreader{Aaron L. Fogelson}
+\thirdreader{James P. Keener}
+\fourthreader{Mark A. Lewis}
+\chairtitle{Professor}
+\submitdate{December 1993}
+\copyrightyear{1993}
+\dedication{To the memory of my grandfather}
+\def\mainheadingwidth{4.25in}
+\def\BR{\protect\\}
+\def\abstracttext{
+  \hskip\parindent
+  Signal relay and adaptation in response to cAMP stimuli in the
+  cellular slime mold {\it Dictyostelium discoideum} are a model system
+  for the study of signal transduction.  Calcium dynamics in different
+  cell types, especially in deutosome eggs and cardiac cells, have
+  attracted a lot of interest lately.  This thesis attempts to develop
+  some general theories about second messenger dynamics.
+}
+\def\acknowledgementtext{
+  \hskip\parindent
+I wish to acknowledge joint work with coauthor Hans G. Othmer, part of
+which appears with minor modification as Chapter 2 and Chapter 4. These
+materials are included with permission of the publishers.
+\par
+Professor Kenneth W.\ Spitzer and Mr.\ Timothy J.\ Lewis provided me
+with much information and fruitful discussions during the development of
+the models presented in Chapter 6.  I also want to express my deep
+appreciation for the patient help received from Dr.\ Nelson H.\ F.\
+Beebe and Mr.\ Pieter J.\ Bowman on my computational work and the
+preparation of the manuscript.
+\par
+The research in this thesis was supported in part under NIH
+Grant \#GM123456.
+}
+\def\FIG#1#2#3{
+\begin{figure}[#2]\begin{center}
+\def\Xsize{3}\def\Ysize{1.75}\def\Zdim{1.7in}
+\fbox{\setlength{\unitlength}{1in}
+\begin{picture}(\Xsize,\Ysize)\vspace*{\Zdim}
+\end{picture}}
+\caption{#1\label{#3}}\end{center}\end{figure}
+}
+
+\long\def\TAB#1#2#3{
+\begin{table}[#2]
+\begin{center}
+\caption{#1\label{#3}}
+\bigskip
+\protect
+\begin{tabular}{|l|l|}
+\hline
+\bf Control name    &      \bf Point size       \\
+\hline
+\tt tiny            &        6pt                    \\
+\tt scriptsize      &        8pt                    \\
+\tt footnotesize    &        9.5pt                  \\
+\tt normalsize      &        12pt                   \\
+\tt large           &        14pt                   \\
+\tt Large           &        18pt                   \\
+\tt LARGE           &        22pt                   \\
+\tt huge            &        25pt                   \\
+\tt Huge            &        30pt                   \\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+}
+\def\TEXT{
+Once upon a time, in a distant galaxy called \"O\"o\c c, there lived a
+computer named R.~J. Drofnats. Mr.~Drofnats---or ``R. J.,'' as he
+preferred to be called--- was happiest when he was at work typesetting
+beautiful documents. Once upon a time, in a distant galaxy called
+\"O\"o\c c, there lived a computer named R.~J. Drofnats.
+Mr.~Drofnats---or ``R. J.,'' as he preferred to be called.
+}
+\begin{document}
+\frontmatterformat
+\titlepage
+\copyrightpage
+\committeeapproval
+\readingapproval
+\prefacesection{Abstract}\abstracttext
+\dedicationpage
+\tableofcontents
+\listoffigures
+\listoftables
+\prefacesection{Acknowledgements}\acknowledgementtext
+\maintext
+\def\mainheadingwidth{4.5in}
+\part[Planet Earth and Other Planets of the\BR Solar System]
+{Planet Earth and Other Planets\BR of the Solar System}
+\def\mainheadingwidth{4.25in}
+
+\chapter{Planets and the Sun}\TEXT{}
+
+\section{Mercury, Venus, Mars and the Earth}\TEXT{}
+
+\section[Jupiter, Saturn, Uranus, Neptune and Pluto]
+        {Jupiter, Saturn, Uranus,\BR Neptune and Pluto}
+\TEXT{} See Figure \ref{fig1}.\par
+\FIG{Planetary Configurations.}{t}{fig1}\par\TEXT{}
+
+\section{Rising and Setting of Planets}\TEXT{}\par\TEXT{}
+
+%\vbox{
+\subsection{Calculation of Risetimes}\TEXT{}
+%}
+
+\subsection{The Northern and Southern Lights}\TEXT{} See Figure \ref{fig2}.
+\par\FIG{Aurora Borealis and Aurora Australis.}{b}{fig2}\par\TEXT{}
+
+\subsubsection{Eclipses of the Sun and Moon}\TEXT{}
+
+\subsection{Constellations}
+\subsubsection{Andromeda and Aquarius}
+
+%\subsubsubsection{The Chained Maiden}\TEXT{}
+%\subsubsubsection{The Water Bearer}\TEXT{}
+\TEXT{}
+
+\paragraph{Abbreviations for some constellations.}\TEXT{}
+
+\section[The Sun as a Controlling Body of Our Solar System]
+        {The Sun as a Controlling Body\BR of Our Solar System}
+\subsection{Spheres and Corona}\TEXT{} See Table \ref{tab1}.\par
+\TAB{Moon's Perigee and Apogee.}{b}{tab1}\par\TEXT{}\par
+\TEXT{} See Figure \ref{fig3}.\par\TEXT{}\par\TEXT{}
+\FIG{Photosphere and Chromosphere.}{b}{fig3}
+\clearpage
+
+\chapter[The Earth: Size, Computation of Time and\BR Seasons]
+        {The Earth: Size, Computation\BR of Time and Seasons}
+\fixchapterheading
+\section{Size and Dimensions}\TEXT{}
+
+\section{Atmosphere of the Earth}\TEXT{} See Table \ref{tab2}.\par
+
+\section{Computation of Time}\TEXT{}
+
+\section{The Zones and Seasons}\TEXT{}
+
+\TAB{Chronological Cycles.}{t}{tab2}\par\TEXT{}\par
+\clearpage
+
+\numberofappendices=1
+\appendix
+\chapter{Morning and Evening Stars}
+
+\fixchapterheading
+\section{Morning Stars}\TEXT{} See Table \ref{tab3}.\par
+\TAB{Data on Morning Stars.}{b}{tab3}\par\TEXT{}\par
+\TEXT{}\par\TEXT{}
+
+\section{Evening Stars}\TEXT{} See Table \ref{tab4}.\par
+\TAB{Data on Evening Stars.}{b}{tab4}\par\TEXT{}\par
+\TEXT{}
+
+\typeout{Using bibtex SIAM style bibliography}
+\begin{thebibliography}{10000}
+
+\bibitem{ado90}
+{\sc J.~C. Alexander, E.~J. Doedel, and H.~G. Othmer}, {\em On the resonance
+  structure in a forced excitable system}, SIAM J. Appl. Math., 50 (1990),
+  pp.~1373--1418.
+
+\bibitem{cas75}
+{\sc R.~Casten, H.~Cohen, and P.~Lagerstorm}, {\em Perturbation analysis of an
+  approximation to the {H}odgkin-{H}uxley theory}, Quart. Appl. Math., 32
+  (1975), pp.~365--402.
+
+\bibitem{cle55}
+{\sc E.~A. Coddington and N.~Levinson}, {\em Theory of Ordinary Differential
+  Equations}, McGraw-Hill, New York, 1955.
+
+\bibitem{con84}
+{\sc C.~Conley}, {\em On travelling wave solutions of nonlinear diffusion
+  equations}, Ind. Univ. Math. J., 33 (1984), pp.~319--343.
+
+\bibitem{fif76}
+{\sc P.~C. Fife}, {\em Singular perturbation and wave front techniques in
+  reaction-diffusion problems}, in Proc. AMS-SIAM Symposium on Asymptotic
+  Methods and Singular Perturbations, New York, 1976, Am. Math. Soc.
+
+\bibitem{tur52}
+{\sc A.~M. Turing}, {\em The chemical basis of morphogenesis}, Phil. Trans. R.
+  Soc. Lond. B, 237 (1952), pp.~37--72.
+
+\end{thebibliography}
+
+\end{document}
+
+\end{verbatim}
+
+\end{document}

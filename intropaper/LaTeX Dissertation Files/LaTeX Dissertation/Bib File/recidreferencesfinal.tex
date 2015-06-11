@@ -1,0 +1,45 @@
+%-----------------------------------------------------------------------------------
+%----- This is the bibliography to be printed out and inserted into the ------------
+%----- dissertation.  The dimensions are all worked out and conform with -----------
+%----- the rest of the dissertation, including the 1.8 spacing ---------------------
+%----- Just make sure that this bibliography ---------------------------------------
+%----- exactly matches the one used in the dissertation.----------------------------
+%-----------------------------------------------------------------------------------
+
+
+\documentclass[12pt]{article}
+\usepackage{apacite}
+\usepackage[sectionbib]{natbib}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy} \setlength{\oddsidemargin}{0.5in}
+\setlength{\textheight}{8.5in} \setlength{\voffset}{-0.46in}
+\setlength{\textwidth}{5.85in}
+\renewcommand{\bibsection}{\hspace{5.48cm}\vspace{0.5cm}\large\textbf{REFERENCES}}
+\fancyfoot{} \fancyhead{} \fancyhead[C]{} \fancyhead[R]{\thepage} \setlength{\headwidth}{5.85in}
+\renewcommand{\headrulewidth}{0pt}
+
+%----- Formatting for apacite to work properly -------------------------------------
+%\renewcommand{\baselinestretch}{1.8}
+\setlength{\bibhang}{2.5em}
+%\setlength{\bibitemsep}{\baselineskip}
+%\setlength{\bibsep}{7.5pt}
+%-----------------------------------------------------------------------------------
+
+\begin{document}
+
+\thispagestyle{empty}
+
+\setcounter{page}{88}
+
+$ $
+
+\vspace{0.8cm}
+
+
+
+\bibliographystyle{apacite}
+\bibliography{recidfinal}
+\nocite{*}
+
+\end{document}

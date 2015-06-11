@@ -1,0 +1,47 @@
+# Alphabetical file listing
+# Host:      sunup.math.utah.edu
+# Directory: /pub/uuthesis/samplethesis
+# Date:      Thu Feb 10 07:48:42 MST 2000
+# PROTECTION  BYTES  LAST-WRITE  FILENAME
+-rw-rw-r--      636 Oct  5  1996 00dir.cmd
+-rw-r--r--     5932 Jun  4  1999 00dir.html
+-rw-rw-r--     2037 Jun  4  1999 00dir.lst
+-rw-rw-r--      636 Jun  4  1999 00tdir.cmd
+-rw-r--r--     5942 Jun  4  1999 00tdir.html
+-rw-rw-r--     2045 Jun  4  1999 00tdir.lst
+-rw-rw-r--     2089 Jul  9  1993 Makefile
+-rw-rw-r--     3447 Oct 22  1993 README
+-rw-rw-r--      157 Oct 24  1993 abstract.tex
+-rw-rw-r--      480 Oct 25  1993 acknowledge.tex
+-rw-rw-r--     6531 Oct 26  1993 appendix.tex
+-rw-rw-r--     5320 Jun 19  1992 auxdefs.sty
+-rw-rw-r--      599 Oct 24  1993 box.tex
+-rw-rw-r--    12402 Nov 21  1993 chap1.tex
+-rw-rw-r--     3543 Nov 21  1993 chap2.tex
+-rw-rw-r--     8380 Oct 26  1993 chap3.tex
+-rw-rw-r--     6438 Jun 21  1992 diag_examples.tex
+-rw-rw-r--    18713 Jun 21  1992 diag_manual.tex
+-rw-rw-r--    34079 Oct 25  1993 diagram.sty
+-rw-rw-r--    19625 Jul  8  1993 fig1.tex
+-rw-rw-r--    23805 Jul  8  1993 fig2.tex
+-rw-rw-r--    17203 Jul  8  1993 fig3.tex
+-rw-rw-r--     2037 Jun  4  1999 index
+-rw-rw-r--     3862 Jun  4  1999 index.html
+-rw-rw-r--    19801 Apr 20  1992 lams1.mf
+-rw-rw-r--    18956 Apr 20  1992 lams2.mf
+-rw-rw-r--    27913 Apr 20  1992 lams3.mf
+-rw-rw-r--    18229 Apr 20  1992 lams4.mf
+-rw-rw-r--    15782 Apr 20  1992 lams5.mf
+-rw-rw-r--    22980 Jul 29  1993 lamsarrow.sty
+-rw-rw-r--     1881 Jul  8  1993 notation.tex
+-rw-rw-r--     4145 Jul  8  1993 rhs.tex
+-rw-rw-r--     4148 Jul  8  1993 rhs_mod.tex
+-rw-rw-r--      831 Jul  8  1993 tgrind.sty
+-rw-rw-r--    10301 Jul 14  1995 tgrindex.tex
+-rw-rw-r--    10689 Jul 14  1995 tgrindmac.tex
+-rw-rw-r--    95138 Jul  8  1993 thesis.bib
+-rw-rw-r--    82516 May 26  1995 thesis.dvi
+-rw-rw-r--      811 Jul  9  1993 thesis.spell-okay
+-rw-rw-r--      723 Oct 23  1993 thesis.sty
+-rw-rw-r--     3774 Nov 21  1993 thesis.tex
+-rw-rw-r--    65105 Apr 27  1995 uuthesis.sty

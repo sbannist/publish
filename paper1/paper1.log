@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.5.26)  8 JUN 2015 10:50
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.5.26)  9 JUN 2015 09:08
 entering extended mode
 **paper1.tex
 (C:\Users\Steve\Documents\GitHub\publish\paper1\paper1.tex
@@ -1089,12 +1089,15 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 \glo@main@file=\write5
 Package glossaries Info: Writing glossary file paper1.glo on input line 59.
 
-(C:\Users\Steve\Documents\GitHub\publish\paper1\paper1.aux)
+(C:\Users\Steve\Documents\GitHub\publish\paper1\paper1.aux
+
+LaTeX Warning: Label `eq:mrp1' multiply defined.
+
+)
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 65.
 LaTeX Font Info:    Try loading font information for OML+txmi on input line 65.
 
-
-(D:\LaTeX-Portable\miktex-portable\tex\latex\txfonts\omltxmi.fd
+ (D:\LaTeX-Portable\miktex-portable\tex\latex\txfonts\omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    ... okay on input line 65.
@@ -1199,439 +1202,35 @@ File: utxsyc.fd 2000/12/15 v3.1
 \cftafterequtitleskip=\skip105
  [1
 
-{D:/LaTeX-Portable/miktex-portable/pdftex/config/pdftex.map}]
-
-Package natbib Warning: Citation `desaguliers_course_1734' on page 2 undefined 
-on input line 98.
-
-
-Package natbib Warning: Citation `engels_condition_1892' on page 2 undefined on
- input line 100.
-
-
-Package natbib Warning: Citation `jevons_coal_1965' on page 2 undefined on inpu
-t line 100.
-
-
-Package natbib Warning: Citation `eckel_coal_1921' on page 2 undefined on input
- line 100.
-
-
-Package natbib Warning: Citation `soddy_matter_1911' on page 2 undefined on inp
-ut line 100.
-
-
-Package natbib Warning: Citation `soddy_cartesian_1921' on page 2 undefined on 
-input line 100.
-
-
-Package natbib Warning: Citation `soddy_money_1931' on page 2 undefined on inpu
-t line 100.
-
-
-Package natbib Warning: Citation `soddy_wealth_1933' on page 2 undefined on inp
-ut line 100.
-
-
-Package natbib Warning: Citation `soddy_role_1934' on page 2 undefined on input
- line 100.
-
-
-Package natbib Warning: Citation `nef_rise_1932' on page 2 undefined on input l
-ine 102.
-
-[2]
-
-Package natbib Warning: Citation `mantoux_industrial_1961' on page 3 undefined 
-on input line 104.
-
-
-Package natbib Warning: Citation `cottrell_energy_1955' on page 3 undefined on 
-input line 106.
-
-
-Package natbib Warning: Citation `cipolla_sources_1961' on page 3 undefined on 
-input line 108.
-
-
-Package natbib Warning: Citation `cipolla_economic_1962' on page 3 undefined on
- input line 108.
-
-
-Package natbib Warning: Citation `cipolla_guns_1966' on page 3 undefined on inp
-ut line 108.
-
-
-Package natbib Warning: Citation `cipolla_before_1983' on page 3 undefined on i
-nput line 108.
-
-
-Package natbib Warning: Citation `mokyr_lever_1992' on page 3 undefined on inpu
-t line 108.
-
-
-Package natbib Warning: Citation `deane_first_1979' on page 3 undefined on inpu
-t line 110.
-
-
+{D:/LaTeX-Portable/miktex-portable/pdftex/config/pdftex.map}] [2]
 Overfull \hbox (1.92406pt too wide) in paragraph at lines 110--111
 []\OT1/txr/m/n/10.95 Phyllis Deane in writ-ing of the En-glish In-dus-trial Rev
 -o-lu-tion notes ``The most im-por-tant achieve-
  []
 
-
-Package natbib Warning: Citation `wrigley_continuity_1988' on page 3 undefined 
-on input line 112.
-
-
-Package natbib Warning: Citation `wrigley_energy_2010' on page 3 undefined on i
-nput line 112.
-
-[3]
-
-Package natbib Warning: Citation `malanima_path_2010' on page 4 undefined on in
-put line 114.
-
-
-Package natbib Warning: Citation `mcneill_pursuit_1982' on page 4 undefined on 
-input line 116.
-
-
-Package natbib Warning: Citation `pomeranz_great_2001' on page 4 undefined on i
-nput line 116.
-
-
-Package natbib Warning: Citation `pomeranz_beyond_2002' on page 4 undefined on 
-input line 116.
-
-
-Package natbib Warning: Citation `smith_inquiry_1977' on page 4 undefined on in
-put line 116.
-
-[4]
-
-Package natbib Warning: Citation `allen_british_2009' on page 5 undefined on in
-put line 118.
-
-
-Package natbib Warning: Citation `allen_british_2009' on page 5 undefined on in
-put line 120.
-
-
-Package natbib Warning: Citation `cottrell_energy_1955' on page 5 undefined on 
-input line 122.
-
-
-Package natbib Warning: Citation `allen_british_2009' on page 5 undefined on in
-put line 122.
-
-
-Package natbib Warning: Citation `wrigley_continuity_1988' on page 5 undefined 
-on input line 122.
-
-
-Package natbib Warning: Citation `wrigley_energy_2010' on page 5 undefined on i
-nput line 122.
-
-
-Package natbib Warning: Citation `smil_energy_1994' on page 5 undefined on inpu
-t line 122.
-
-
-Package natbib Warning: Citation `smil_energy_2008' on page 5 undefined on inpu
-t line 122.
-
-
-Package natbib Warning: Citation `georgescu-roegen_entropy_1971' on page 5 unde
-fined on input line 124.
-
-
-Package natbib Warning: Citation `garrett_are_2009' on page 5 undefined on inpu
-t line 124.
-
-
-Package natbib Warning: Citation `garrett_modes_2012' on page 5 undefined on in
-put line 124.
-
-
-Package natbib Warning: Citation `garrett_long-run_2015' on page 5 undefined on
- input line 124.
-
-[5]
-
-Package natbib Warning: Citation `weber_religion_1964' on page 6 undefined on i
-nput line 132.
-
-
-Package natbib Warning: Citation `weber_protestant_2002' on page 6 undefined on
- input line 132.
-
-[6]
-
-Package natbib Warning: Citation `north_rise_1973' on page 7 undefined on input
- line 136.
-
-
-Package natbib Warning: Citation `north_institutions_1990' on page 7 undefined 
-on input line 136.
-
-
-Package natbib Warning: Citation `landes_unbound_1969' on page 7 undefined on i
-nput line 138.
-
-
-Package natbib Warning: Citation `landes_wealth_1999' on page 7 undefined on in
-put line 138.
-
-
-Package natbib Warning: Citation `mccloskey_bourgeois_2007' on page 7 undefined
- on input line 138.
-
-
-Package natbib Warning: Citation `mccloskey_bourgeois_2010' on page 7 undefined
- on input line 138.
-
-
-Package natbib Warning: Citation `goldstone_cultural_1987' on page 7 undefined 
-on input line 140.
-
-
-Package natbib Warning: Citation `goldstone_rise_2000' on page 7 undefined on i
-nput line 140.
-
-
-Package natbib Warning: Citation `goldstone_why_2008' on page 7 undefined on in
-put line 140.
-
-
-Package natbib Warning: Citation `goldstone_rise_2000' on page 7 undefined on i
-nput line 140.
-
-[7]
-
-Package natbib Warning: Citation `acemoglu_chapter_2005' on page 8 undefined on
- input line 142.
-
-
-Package natbib Warning: Citation `acemoglu_introduction_2012' on page 8 undefin
-ed on input line 142.
-
-
-Package natbib Warning: Citation `acemoglu_politics_2005' on page 8 undefined o
-n input line 142.
-
-
+[3] [4] [5] [6] [7]
 Overfull \hbox (11.0345pt too wide) in paragraph at lines 142--143
 []\OT1/txr/m/n/10.95 Daron Ace-moglu's work rep-re-sents a mod-ern quan-ti-ta-t
 ive ver-sion of institutionally--driven growth;
  []
 
-
-Package natbib Warning: Citation `marx_contribution_1904' on page 8 undefined o
-n input line 146.
-
-
-Package natbib Warning: Citation `veblen_theory_2009' on page 8 undefined on in
-put line 146.
-
-[8]
-
-Package natbib Warning: Citation `hartwell_revolution_1962' on page 9 undefined
- on input line 153.
-
-
-Package natbib Warning: Citation `hartwell_markets_1966' on page 9 undefined on
- input line 153.
-
-
-Package natbib Warning: Citation `hartwell_cycle_1967' on page 9 undefined on i
-nput line 153.
-
-
-Package natbib Warning: Citation `hartwell_demographic_1982' on page 9 undefine
-d on input line 153.
-
-
-Package natbib Warning: Citation `elvin_pattern_1973' on page 9 undefined on in
-put line 153.
-
-
-Package natbib Warning: Citation `mcneill_pursuit_1982' on page 9 undefined on 
-input line 153.
-
-
-Package natbib Warning: Citation `mote_imperial_1999' on page 9 undefined on in
-put line 153.
-
-
-Package natbib Warning: Citation `jones_growth_1988' on page 9 undefined on inp
-ut line 153.
-
-
-Package natbib Warning: Citation `jones_recurrent_1996' on page 9 undefined on 
-input line 153.
-
-
-Package natbib Warning: Citation `tim_wright_economic_2007' on page 9 undefined
- on input line 153.
-
-
-Package natbib Warning: Citation `allen_british_2009' on page 9 undefined on in
-put line 155.
-
-[9]
-
-Package natbib Warning: Citation `pomeranz_great_2001' on page 10 undefined on 
-input line 161.
-
-
-Package natbib Warning: Citation `pomeranz_great_2001' on page 10 undefined on 
-input line 163.
-
-[10]
-
-Package natbib Warning: Citation `pomeranz_great_2001' on page 11 undefined on 
-input line 165.
-
+[8] [9] [10]
 
 Package natbib Warning: Citation `huang_review_2002' on page 11 undefined on in
 put line 167.
 
-
-Package natbib Warning: Citation `peter_c_perdue_china_2009' on page 11 undefin
-ed on input line 167.
-
-
-Package natbib Warning: Citation `duchesne_rise_2004' on page 11 undefined on i
-nput line 167.
-
-
-Package natbib Warning: Citation `duchesne_uniqueness_2011' on page 11 undefine
-d on input line 167.
-
-
-Package natbib Warning: Citation `wong_china_1997' on page 11 undefined on inpu
-t line 169.
-
-
-Package natbib Warning: Citation `vries_via_2003' on page 11 undefined on input
- line 171.
-
-
-Package natbib Warning: Citation `pomeranz_via_2004' on page 11 undefined on in
-put line 173.
-
-[11]
-
-Package natbib Warning: Citation `allen_british_2009' on page 12 undefined on i
-nput line 183.
-
-
-Package natbib Warning: Citation `allen_great_2001' on page 12 undefined on inp
-ut line 183.
-
-
-Package natbib Warning: Citation `allen_wages_2007' on page 12 undefined on inp
-ut line 183.
-
-
-Package natbib Warning: Citation `allen_agricultural_2009' on page 12 undefined
- on input line 183.
-
-
-Package natbib Warning: Citation `needham_science_1954' on page 12 undefined on
- input line 197.
-
-[12]
-
-Package natbib Warning: Citation `hobson_eastern_2004' on page 13 undefined on 
-input line 199.
-
-
-Package natbib Warning: Citation `hobson_eastern_2004' on page 13 undefined on 
-input line 201.
-
-
-Package natbib Warning: Citation `hobson_eastern_2004' on page 13 undefined on 
-input line 205.
-
-[13]
-
-Package natbib Warning: Citation `harrod_essay_1939' on page 14 undefined on in
-put line 213.
-
-
+[11] [12] [13]
 Overfull \hbox (1.31111pt too wide) in paragraph at lines 213--214
 []\OT1/txr/m/n/10.95 The first macroe-co-nomic growth model many economists en-
 counter is the Harrod--Domar model
  []
 
+[14] [15]
 
-Package natbib Warning: Citation `solow_technical_1957' on page 14 undefined on
- input line 215.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-Package natbib Warning: Citation `romer_origins_1994' on page 14 undefined on i
-nput line 217.
-
-[14]
-
-Package natbib Warning: Citation `warr_rexs:_2006' on page 15 undefined on inpu
-t line 221.
-
-
-Package natbib Warning: Citation `ayres_underestimated_2013' on page 15 undefin
-ed on input line 221.
-
-[15]
-
-LaTeX Warning: Reference `tbl:dataSources' on page 16 undefined on input line 2
-29.
-
-
-Package natbib Warning: Citation `fouquet_heat_2008' on page 16 undefined on in
-put line 249.
-
-
-Package natbib Warning: Citation `fouquet_thousand_1998' on page 16 undefined o
-n input line 249.
-
-[16]
-
-Package natbib Warning: Citation `fouquet_heat_2008' on page 17 undefined on in
-put line 253.
-
-
-Package natbib Warning: Citation `snooks_was_1994' on page 17 undefined on inpu
-t line 255.
-
-
-Package natbib Warning: Citation `bjornsson_stinepack:_2012' on page 17 undefin
-ed on input line 257.
-
-
-Package natbib Warning: Citation `r_core_team_r:_2014' on page 17 undefined on 
-input line 257.
-
-
-Package natbib Warning: Citation `officer_what_2009' on page 17 undefined on in
-put line 259.
-
-
-Package natbib Warning: Citation `snooks_was_1994' on page 17 undefined on inpu
-t line 263.
-
-
-Package natbib Warning: Citation `mitchell_british_1988' on page 17 undefined o
-n input line 263.
-
-[17]
-
-LaTeX Warning: Reference `fig:overall levels' on page 18 undefined on input lin
-e 265.
-
-
-<C:/Users/Steve/Documents/GitHub/publish/diss2/images/overallLevels.png, id=175
+[16] [17]
+<C:/Users/Steve/Documents/GitHub/publish/diss2/images/overallLevels.png, id=427
 , 481.8pt x 481.8pt>
 File: C:/Users/Steve/Documents/GitHub/publish/diss2/images/overallLevels.png Gr
 aphic file (type png)
@@ -1641,26 +1240,11 @@ Package pdftex.def Info: C:/Users/Steve/Documents/GitHub/publish/diss2/images/o
 verallLevels.png used on input line 271.
 (pdftex.def)             Requested size: 389.04034pt x 389.05019pt.
 
-[18 <C:/Users/Steve/Documents/GitHub/publish/diss2/images/overallLevels.png>]
 
-Package natbib Warning: Citation `kuznets_modern_1966' on page 19 undefined on 
-input line 279.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-LaTeX Warning: Reference `fig:ggdp' on page 19 undefined on input line 279.
-
-
-LaTeX Warning: Reference `fig:gdpLog' on page 19 undefined on input line 279.
-
-
-LaTeX Warning: Reference `tbl:growthByCentury' on page 19 undefined on input li
-ne 279.
-
-
-LaTeX Warning: Reference `fig:popLog' on page 19 undefined on input line 279.
-
-
-<C:/Users/Steve/Documents/GitHub/publish/diss2/images/ggdp.png, id=182, 505.649
+[18]
+<C:/Users/Steve/Documents/GitHub/publish/diss2/images/ggdp.png, id=447, 505.649
 1pt x 505.6491pt>
 File: C:/Users/Steve/Documents/GitHub/publish/diss2/images/ggdp.png Graphic fil
 e (type png)
@@ -1670,7 +1254,7 @@ Package pdftex.def Info: C:/Users/Steve/Documents/GitHub/publish/diss2/images/g
 gdp.png used on input line 289.
 (pdftex.def)             Requested size: 237.7498pt x 237.74768pt.
 
-<C:/Users/Steve/Documents/GitHub/publish/diss2/images/ggdppop.png, id=183, 505.
+<C:/Users/Steve/Documents/GitHub/publish/diss2/images/ggdppop.png, id=448, 505.
 6491pt x 505.6491pt>
 File: C:/Users/Steve/Documents/GitHub/publish/diss2/images/ggdppop.png Graphic 
 file (type png)
@@ -1684,7 +1268,7 @@ gdppop.png used on input line 289.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-<C:/Users/Steve/Documents/GitHub/publish/diss2/images/gdpLog.png, id=184, 505.6
+<C:/Users/Steve/Documents/GitHub/publish/diss2/images/gdpLog.png, id=449, 505.6
 491pt x 505.6491pt>
 File: C:/Users/Steve/Documents/GitHub/publish/diss2/images/gdpLog.png Graphic f
 ile (type png)
@@ -1694,7 +1278,7 @@ Package pdftex.def Info: C:/Users/Steve/Documents/GitHub/publish/diss2/images/g
 dpLog.png used on input line 299.
 (pdftex.def)             Requested size: 237.7498pt x 237.74768pt.
 
-<C:/Users/Steve/Documents/GitHub/publish/diss2/images/gdpPopLog.png, id=185, 50
+<C:/Users/Steve/Documents/GitHub/publish/diss2/images/gdpPopLog.png, id=450, 50
 5.6491pt x 505.6491pt>
 File: C:/Users/Steve/Documents/GitHub/publish/diss2/images/gdpPopLog.png Graphi
 c file (type png)
@@ -1707,22 +1291,7 @@ dpPopLog.png used on input line 299.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-LaTeX Warning: Reference `fig:gdpLog' on page 19 undefined on input line 303.
-
-
-Package natbib Warning: Citation `grove_little_2003' on page 19 undefined on in
-put line 303.
-
-
-Package natbib Warning: Citation `parker_global_2014' on page 19 undefined on i
-nput line 303.
-
-[19]
-
-LaTeX Warning: Reference `tbl:growthByCentury' on page 20 undefined on input li
-ne 307.
-
+[19 <C:/Users/Steve/Documents/GitHub/publish/diss2/images/overallLevels.png>]
 [20 <C:/Users/Steve/Documents/GitHub/publish/diss2/images/ggdp.png> <C:/Users/S
 teve/Documents/GitHub/publish/diss2/images/ggdppop.png> <C:/Users/Steve/Documen
 ts/GitHub/publish/diss2/images/gdpLog.png> <C:/Users/Steve/Documents/GitHub/pub
@@ -1732,10 +1301,10 @@ Overfull \hbox (2.7294pt too wide) in paragraph at lines 314--331
  []
 
 
-LaTeX Warning: Reference `fig:popLog' on page 21 undefined on input line 334.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-<C:/Users/Steve/Documents/GitHub/publish/diss2/images/popLog.png, id=201, 491.4
+<C:/Users/Steve/Documents/GitHub/publish/diss2/images/popLog.png, id=474, 491.4
 36pt x 491.436pt>
 File: C:/Users/Steve/Documents/GitHub/publish/diss2/images/popLog.png Graphic f
 ile (type png)
@@ -1748,33 +1317,8 @@ opLog.png used on input line 340.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[21] [22 <C:/Users/Steve/Documents/GitHub/publish/diss2/images/popLog.png>]
-
-LaTeX Warning: Reference `fig:energyLog' on page 23 undefined on input line 349
-.
-
-
-Package natbib Warning: Citation `zeileis_testing_2003' on page 23 undefined on
- input line 349.
-
-
-LaTeX Warning: Reference `tbl:growthByCentury' on page 23 undefined on input li
-ne 349.
-
-
-LaTeX Warning: Reference `fig:energyLog' on page 23 undefined on input line 349
-.
-
-
-LaTeX Warning: Reference `tbl:growthByCentury' on page 23 undefined on input li
-ne 349.
-
-
-Package natbib Warning: Citation `nef_rise_1932' on page 23 undefined on input 
-line 351.
-
-
-<C:/Users/Steve/Documents/GitHub/publish/diss2/images/energyLog1.png, id=215, 5
+[21] [22]
+<C:/Users/Steve/Documents/GitHub/publish/diss2/images/energyLog1.png, id=498, 5
 05.6491pt x 505.6491pt>
 File: C:/Users/Steve/Documents/GitHub/publish/diss2/images/energyLog1.png Graph
 ic file (type png)
@@ -1784,16 +1328,9 @@ Package pdftex.def Info: C:/Users/Steve/Documents/GitHub/publish/diss2/images/e
 nergyLog1.png used on input line 357.
 (pdftex.def)             Requested size: 237.7498pt x 237.74768pt.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[23] [24 <C:/Users/Steve/Documents/GitHub/publish/diss2/images/energyLog1.png>]
-
-LaTeX Warning: Reference `fig:energyVsGdpLD' on page 25 undefined on input line
- 362.
-
-
-<C:/Users/Steve/Documents/GitHub/publish/diss2/images/energyVsGdp.png, id=228, 
+[23 <C:/Users/Steve/Documents/GitHub/publish/diss2/images/popLog.png>] [24 <C:/
+Users/Steve/Documents/GitHub/publish/diss2/images/energyLog1.png>]
+<C:/Users/Steve/Documents/GitHub/publish/diss2/images/energyVsGdp.png, id=511, 
 481.8pt x 481.8pt>
 File: C:/Users/Steve/Documents/GitHub/publish/diss2/images/energyVsGdp.png Grap
 hic file (type png)
@@ -1803,8 +1340,8 @@ Package pdftex.def Info: C:/Users/Steve/Documents/GitHub/publish/diss2/images/e
 nergyVsGdp.png used on input line 371.
 (pdftex.def)             Requested size: 237.7498pt x 237.74553pt.
 
-<C:/Users/Steve/Documents/GitHub/publish/diss2/images/energyVsGdpDiff.png, id=2
-29, 722.7pt x 722.7pt>
+<C:/Users/Steve/Documents/GitHub/publish/diss2/images/energyVsGdpDiff.png, id=5
+12, 722.7pt x 722.7pt>
 File: C:/Users/Steve/Documents/GitHub/publish/diss2/images/energyVsGdpDiff.png 
 Graphic file (type png)
 
@@ -1813,28 +1350,12 @@ Package pdftex.def Info: C:/Users/Steve/Documents/GitHub/publish/diss2/images/e
 nergyVsGdpDiff.png used on input line 371.
 (pdftex.def)             Requested size: 237.7498pt x 237.75288pt.
 
-
-LaTeX Warning: Reference `tbl:growthByCentury' on page 25 undefined on input li
-ne 376.
-
 [25
 
  <C:/Users/Steve/Documents/GitHub/publish/diss2/images/energyVsGdp.png> <C:/Use
 rs/Steve/Documents/GitHub/publish/diss2/images/energyVsGdpDiff.png>]
-
-LaTeX Warning: Reference `fig:energyVsGdpLD' on page 26 undefined on input line
- 378.
-
 [26]
-
-LaTeX Warning: Reference `tbl:fitTest' on page 27 undefined on input line 391.
-
-
-LaTeX Warning: Reference `fig:scatterplot' on page 27 undefined on input line 4
-17.
-
-
-<C:/Users/Steve/Documents/GitHub/publish/diss2/images/scatterplot.png, id=242, 
+<C:/Users/Steve/Documents/GitHub/publish/diss2/images/scatterplot.png, id=529, 
 674.52pt x 674.52pt>
 File: C:/Users/Steve/Documents/GitHub/publish/diss2/images/scatterplot.png Grap
 hic file (type png)
@@ -1847,16 +1368,7 @@ catterplot.png used on input line 423.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-Package natbib Warning: Citation `granger_investigating_1969' on page 27 undefi
-ned on input line 430.
-
 [27]
-
-LaTeX Warning: Reference `tbl:grangerEnergyGdp' on page 28 undefined on input l
-ine 432.
-
-
 Overfull \hbox (5.82321pt too wide) in paragraph at lines 438--449
 [][] 
  []
@@ -1864,32 +1376,16 @@ Overfull \hbox (5.82321pt too wide) in paragraph at lines 438--449
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-Package natbib Warning: Citation `hajnal_european_1965' on page 28 undefined on
- input line 452.
-
 [28 <C:/Users/Steve/Documents/GitHub/publish/diss2/images/scatterplot.png>]
-
-Package natbib Warning: Citation `thirsk_economic_1978' on page 29 undefined on
- input line 454.
-
-
-Package natbib Warning: Citation `crosby_columbian_1972' on page 29 undefined o
-n input line 456.
-
 [29]
-
-LaTeX Warning: Reference `fig:structural' on page 30 undefined on input line 46
-6.
-
 File: C:/Users/Steve/Documents/GitHub/publish/diss2/images/energyLog1.png Graph
 ic file (type png)
-<use C:/Users/Steve/Documents/GitHub/publish/diss2/images/energyLog1.png>
+ <use C:/Users/Steve/Documents/GitHub/publish/diss2/images/energyLog1.png>
 Package pdftex.def Info: C:/Users/Steve/Documents/GitHub/publish/diss2/images/e
 nergyLog1.png used on input line 476.
 (pdftex.def)             Requested size: 142.64989pt x 142.64552pt.
 
-<C:/Users/Steve/Documents/GitHub/publish/diss2/images/gbpgdplog.png, id=261, 49
+<C:/Users/Steve/Documents/GitHub/publish/diss2/images/gbpgdplog.png, id=562, 49
 1.436pt x 491.436pt>
 File: C:/Users/Steve/Documents/GitHub/publish/diss2/images/gbpgdplog.png Graphi
 c file (type png)
@@ -1905,17 +1401,9 @@ ile (type png)
 Package pdftex.def Info: C:/Users/Steve/Documents/GitHub/publish/diss2/images/p
 opLog.png used on input line 476.
 (pdftex.def)             Requested size: 142.64989pt x 142.64777pt.
-
-
-LaTeX Warning: Reference `tbl:grangerEnergyGdp' on page 30 undefined on input l
-ine 482.
-
-
-LaTeX Warning: Reference `fig:temps' on page 30 undefined on input line 484.
-
-[30 <C:/Users/Steve/Documents/GitHub/publish/diss2/images/gbpgdplog.png>]
+ [30 <C:/Users/Steve/Documents/GitHub/publish/diss2/images/gbpgdplog.png>]
 <C:/Users/Steve/Documents/GitHub/publish/diss2/images/2000_Year_Temperature_Com
-parison.png, id=268, 602.25pt x 444.66125pt>
+parison.png, id=571, 602.25pt x 444.66125pt>
 File: C:/Users/Steve/Documents/GitHub/publish/diss2/images/2000_Year_Temperatur
 e_Comparison.png Graphic file (type png)
 
@@ -1924,46 +1412,9 @@ _Comparison.png>
 Package pdftex.def Info: C:/Users/Steve/Documents/GitHub/publish/diss2/images/2
 000_Year_Temperature_Comparison.png used on input line 490.
 (pdftex.def)             Requested size: 389.04034pt x 287.25551pt.
-
-
-Package natbib Warning: Citation `thirsk_economic_1978' on page 31 undefined on
- input line 493.
-
-
-LaTeX Warning: Reference `tbl:monarchs' on page 31 undefined on input line 493.
-
-
-
-LaTeX Warning: Reference `tbl:growthByCentury' on page 31 undefined on input li
-ne 493.
-
-
-LaTeX Warning: Reference `fig:energyLog' on page 31 undefined on input line 493
-.
-
-[31 <C:/Users/Steve/Documents/GitHub/publish/diss2/images/2000_Year_Temperature
-_Comparison.png>]
-
-Package natbib Warning: Citation `nef_rise_1932' on page 32 undefined on input 
-line 495.
-
-
-LaTeX Warning: Reference `fig:temps' on page 32 undefined on input line 497.
-
-
-Package natbib Warning: Citation `grove_little_2003' on page 32 undefined on in
-put line 499.
-
-
-Package natbib Warning: Citation `lamb_aspects_1980' on page 32 undefined on in
-put line 499.
-
-
-LaTeX Warning: Reference `fig:woodCoal' on page 32 undefined on input line 501.
-
-
-[32]
-<C:/Users/Steve/Documents/GitHub/publish/diss2/images/woodCoal.png, id=282, 390
+ [31 <C:/Users/Steve/Documents/GitHub/publish/diss2/images/2000_Year_Temperatur
+e_Comparison.png>] [32]
+<C:/Users/Steve/Documents/GitHub/publish/diss2/images/woodCoal.png, id=600, 390
 .258pt x 325.215pt>
 File: C:/Users/Steve/Documents/GitHub/publish/diss2/images/woodCoal.png Graphic
  file (type png)
@@ -1973,33 +1424,8 @@ Package pdftex.def Info: C:/Users/Steve/Documents/GitHub/publish/diss2/images/w
 oodCoal.png used on input line 507.
 (pdftex.def)             Requested size: 389.04034pt x 324.20187pt.
 
-
-Package natbib Warning: Citation `nef_early_1977' on page 33 undefined on input
- line 510.
-
-
-Package natbib Warning: Citation `thirsk_economic_1978' on page 33 undefined on
- input line 514.
-
 [33 <C:/Users/Steve/Documents/GitHub/publish/diss2/images/woodCoal.png>]
-
-Package natbib Warning: Citation `de_vries_economy_1976' on page 34 undefined o
-n input line 516.
-
-
-Package natbib Warning: Citation `de_vries_measuring_1980' on page 34 undefined
- on input line 516.
-
-
-LaTeX Warning: Reference `tbl:EIRinventions' on page 34 undefined on input line
- 522.
-
 [34]
-
-Package natbib Warning: Citation `hobson_eastern_2004' on page 35 undefined on 
-input line 524.
-
-
 Overfull \hbox (28.6451pt too wide) in paragraph at lines 530--572
 [][] 
  []
@@ -2013,103 +1439,11 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[35] [36] [37]
+[35] [36] [37] [38
 
-Package natbib Warning: Citation `bentley_murder_1941' on page 38 undefined on 
-input line 670.
-
-
-Package natbib Warning: Citation `pomeranz_great_2001' on page 38 undefined on 
-input line 675.
-
-[38
-
-]
-
-Package natbib Warning: Citation `needham_science_1954' on page 39 undefined on
- input line 681.
-
-
-Package natbib Warning: Citation `hobson_eastern_2004' on page 39 undefined on 
-input line 681.
-
-
-Package natbib Warning: Citation `weber_protestant_2002' on page 39 undefined o
-n input line 685.
-
-
-Package natbib Warning: Citation `landes_unbound_1969' on page 39 undefined on 
-input line 685.
-
-
-Package natbib Warning: Citation `landes_wealth_1999' on page 39 undefined on i
-nput line 685.
-
-
-Package natbib Warning: Citation `mccloskey_bourgeois_2007' on page 39 undefine
-d on input line 685.
-
-
-Package natbib Warning: Citation `mccloskey_bourgeois_2010' on page 39 undefine
-d on input line 685.
-
-[39]
-
-Package natbib Warning: Citation `maddison_world_2007' on page 40 undefined on 
-input line 695.
-
-
-Package natbib Warning: Citation `smil_energy_1994' on page 40 undefined on inp
-ut line 695.
-
-
-Package natbib Warning: Citation `smil_energy_2008' on page 40 undefined on inp
-ut line 695.
-
-
-Package natbib Warning: Citation `j._w._de_zeeuw_peat_1978' on page 40 undefine
-d on input line 695.
-
-
-Package natbib Warning: Citation `hartwell_revolution_1962' on page 40 undefine
-d on input line 695.
-
-
-Package natbib Warning: Citation `hartwell_markets_1966' on page 40 undefined o
-n input line 695.
-
-
-Package natbib Warning: Citation `hartwell_cycle_1967' on page 40 undefined on 
-input line 695.
-
-
-Package natbib Warning: Citation `hartwell_demographic_1982' on page 40 undefin
-ed on input line 695.
-
-
-Package natbib Warning: Citation `u.s._energy_information_administration_energy
-_????' on page 40 undefined on input line 695.
-
-[40]
-
-Package natbib Warning: Citation `maddison_world_2007' on page 41 undefined on 
-input line 697.
-
-
-LaTeX Warning: Reference `fig:poplevel1900' on page 41 undefined on input line 
-701.
-
-
-Package natbib Warning: Citation `maddison_world_2007' on page 41 undefined on 
-input line 705.
-
-
-Package natbib Warning: Citation `maddison_world_2007' on page 41 undefined on 
-input line 705.
-
-
+] [39] [40]
 <C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/maddisonregpoplevel
-s1900.png, id=319, 505.6491pt x 505.6491pt>
+s1900.png, id=687, 505.6491pt x 505.6491pt>
 File: C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/maddisonregpop
 levels1900.png Graphic file (type png)
 
@@ -2120,7 +1454,7 @@ ages/maddisonregpoplevels1900.png used on input line 708.
 (pdftex.def)             Requested size: 216.135pt x 216.13637pt.
 
 <C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/maddisonreggdplevel
-s1900.png, id=320, 505.6491pt x 505.6491pt>
+s1900.png, id=688, 505.6491pt x 505.6491pt>
 File: C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/maddisonreggdp
 levels1900.png Graphic file (type png)
 
@@ -2131,7 +1465,7 @@ ages/maddisonreggdplevels1900.png used on input line 709.
 (pdftex.def)             Requested size: 216.135pt x 216.13637pt.
 
 <C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/maddisonregpoppct.p
-ng, id=321, 505.6491pt x 505.6491pt>
+ng, id=689, 505.6491pt x 505.6491pt>
 File: C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/maddisonregpop
 pct.png Graphic file (type png)
 
@@ -2142,7 +1476,7 @@ ages/maddisonregpoppct.png used on input line 710.
 (pdftex.def)             Requested size: 216.135pt x 216.13637pt.
 
 <C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/maddisonreggdppct.p
-ng, id=322, 505.6491pt x 505.6491pt>
+ng, id=690, 505.6491pt x 505.6491pt>
 File: C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/maddisonreggdp
 pct.png Graphic file (type png)
 
@@ -2164,37 +1498,13 @@ Overfull \hbox (2.08049pt too wide) in paragraph at lines 708--712
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-Package natbib Warning: Citation `pomeranz_great_2001' on page 41 undefined on 
-input line 716.
-
-
-Package natbib Warning: Citation `crosby_columbian_1972' on page 41 undefined o
-n input line 716.
-
-
-LaTeX Warning: Reference `fig:capita' on page 41 undefined on input line 718.
-
-
-Package natbib Warning: Citation `maddison_world_2007' on page 41 undefined on 
-input line 718.
-
 [41] [42 <C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/maddisonre
 gpoplevels1900.png> <C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images
 /maddisonreggdplevels1900.png> <C:/Users/Steve/Documents/GitHub/publish/1310uta
 hSoc/images/maddisonregpoppct.png> <C:/Users/Steve/Documents/GitHub/publish/131
 0utahSoc/images/maddisonreggdppct.png>]
-
-Package natbib Warning: Citation `maddison_world_2007' on page 43 undefined on 
-input line 724.
-
-
-Package natbib Warning: Citation `maddison_world_2007' on page 43 undefined on 
-input line 724.
-
-
 <C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/ggdpcapitadodge.png
-, id=340, 505.6491pt x 505.6491pt>
+, id=724, 505.6491pt x 505.6491pt>
 File: C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/ggdpcapitadodg
 e.png Graphic file (type png)
 
@@ -2203,19 +1513,12 @@ e.png Graphic file (type png)
 Package pdftex.def Info: C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/im
 ages/ggdpcapitadodge.png used on input line 727.
 (pdftex.def)             Requested size: 345.8173pt x 345.82744pt.
- [43 <C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/ggdpcapitadodg
-e.png>]
-
-LaTeX Warning: Reference `fig:1500pop' on page 44 undefined on input line 737.
 
 
-LaTeX Warning: Reference `fig:1820pop' on page 44 undefined on input line 737.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-LaTeX Warning: Reference `fig:1900pop' on page 44 undefined on input line 737.
-
-
-<C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/1500pop.png, id=350
+<C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/1500pop.png, id=728
 , 457.71pt x 265.99374pt>
 File: C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/1500pop.png Gr
 aphic file (type png)
@@ -2225,7 +1528,12 @@ Package pdftex.def Info: C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/im
 ages/1500pop.png used on input line 744.
 (pdftex.def)             Requested size: 345.8173pt x 200.97624pt.
 
-<C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/1820pop.png, id=351
+[43]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/1820pop.png, id=739
 , 457.71pt x 265.99374pt>
 File: C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/1820pop.png Gr
 aphic file (type png)
@@ -2242,7 +1550,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-<C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/1900pop.png, id=352
+<C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/1900pop.png, id=740
 , 457.71pt x 265.99374pt>
 File: C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/1900pop.png Gr
 aphic file (type png)
@@ -2252,18 +1560,10 @@ Package pdftex.def Info: C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/im
 ages/1900pop.png used on input line 760.
 (pdftex.def)             Requested size: 345.8173pt x 200.97624pt.
 
-[44 <C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/1500pop.png>]
+[44 <C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/ggdpcapitadodge
+.png> <C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/1900pop.png>]
 
-LaTeX Warning: Reference `fig:1500gdp' on page 45 undefined on input line 763.
-
-
-LaTeX Warning: Reference `fig:1820gdp' on page 45 undefined on input line 763.
-
-
-LaTeX Warning: Reference `fig:1900gdp' on page 45 undefined on input line 763.
-
-
-<C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/1500gdp.png, id=358
+<C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/1500gdp.png, id=749
 , 457.71pt x 265.99374pt>
 File: C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/1500gdp.png Gr
 aphic file (type png)
@@ -2277,7 +1577,7 @@ ages/1500gdp.png used on input line 769.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-<C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/1820gdp.png, id=359
+<C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/1820gdp.png, id=750
 , 457.71pt x 268.00125pt>
 File: C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/1820gdp.png Gr
 aphic file (type png)
@@ -2291,7 +1591,7 @@ ages/1820gdp.png used on input line 776.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-<C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/1900gdp.png, id=360
+<C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/1900gdp.png, id=751
 , 438.63875pt x 245.91875pt>
 File: C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/1900gdp.png Gr
 aphic file (type png)
@@ -2304,37 +1604,13 @@ ages/1900gdp.png used on input line 783.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-Package natbib Warning: Citation `pomeranz_great_2001' on page 45 undefined on 
-input line 790.
-
-[45 <C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/1820pop.png> <C
-:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/1900pop.png>]
+[45 <C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/1500pop.png> <C
+:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/1820pop.png>]
 [46 <C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/1500gdp.png> <C
 :/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/1820gdp.png>]
 [47 <C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/1900gdp.png>]
-
-Package natbib Warning: Citation `wong_china_1997' on page 48 undefined on inpu
-t line 804.
-
-
-Package natbib Warning: Citation `wong_china_1997' on page 48 undefined on inpu
-t line 808.
-
-[48]
-
-Package natbib Warning: Citation `pomeranz_great_2001' on page 49 undefined on 
-input line 820.
-
-[49]
-
-LaTeX Warning: Reference `fig:asad1' on page 50 undefined on input line 831.
-
-
-LaTeX Warning: Reference `fig:asad2' on page 50 undefined on input line 831.
-
-
-<C:/Users/Steve/Documents/GitHub/publish/diss2/images/era1.png, id=387, 505.649
+[48] [49]
+<C:/Users/Steve/Documents/GitHub/publish/diss2/images/era1.png, id=787, 505.649
 1pt x 505.6491pt>
 File: C:/Users/Steve/Documents/GitHub/publish/diss2/images/era1.png Graphic fil
 e (type png)
@@ -2344,7 +1620,7 @@ Package pdftex.def Info: C:/Users/Steve/Documents/GitHub/publish/diss2/images/e
 ra1.png used on input line 840.
 (pdftex.def)             Requested size: 216.135pt x 216.13637pt.
 
-<C:/Users/Steve/Documents/GitHub/publish/diss2/images/era2.png, id=388, 505.649
+<C:/Users/Steve/Documents/GitHub/publish/diss2/images/era2.png, id=788, 505.649
 1pt x 505.6491pt>
 File: C:/Users/Steve/Documents/GitHub/publish/diss2/images/era2.png Graphic fil
 e (type png)
@@ -2358,7 +1634,7 @@ ra2.png used on input line 840.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-<C:/Users/Steve/Documents/GitHub/publish/diss2/images/era3.png, id=389, 505.649
+<C:/Users/Steve/Documents/GitHub/publish/diss2/images/era3.png, id=789, 505.649
 1pt x 505.6491pt>
 File: C:/Users/Steve/Documents/GitHub/publish/diss2/images/era3.png Graphic fil
 e (type png)
@@ -2368,7 +1644,7 @@ Package pdftex.def Info: C:/Users/Steve/Documents/GitHub/publish/diss2/images/e
 ra3.png used on input line 849.
 (pdftex.def)             Requested size: 216.135pt x 216.13637pt.
 
-<C:/Users/Steve/Documents/GitHub/publish/diss2/images/era4.png, id=390, 505.649
+<C:/Users/Steve/Documents/GitHub/publish/diss2/images/era4.png, id=790, 505.649
 1pt x 505.6491pt>
 File: C:/Users/Steve/Documents/GitHub/publish/diss2/images/era4.png Graphic fil
 e (type png)
@@ -2381,48 +1657,11 @@ ra4.png used on input line 849.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-LaTeX Warning: Reference `tbl:grangerEnergyGdp' on page 50 undefined on input l
-ine 854.
-
-
-LaTeX Warning: Reference `sec:EIRstory' on page 50 undefined on input line 856.
-
-
 [50] [51 <C:/Users/Steve/Documents/GitHub/publish/diss2/images/era1.png> <C:/Us
 ers/Steve/Documents/GitHub/publish/diss2/images/era2.png> <C:/Users/Steve/Docum
 ents/GitHub/publish/diss2/images/era3.png> <C:/Users/Steve/Documents/GitHub/pub
 lish/diss2/images/era4.png>]
-
-LaTeX Warning: Reference `tbl:grangerEnergyGdp' on page 52 undefined on input l
-ine 862.
-
-
-LaTeX Warning: Reference `fig:woodCoal' on page 52 undefined on input line 862.
-
-
-
-Package natbib Warning: Citation `nef_rise_1932' on page 52 undefined on input 
-line 864.
-
-
-LaTeX Warning: Reference `fig:woodprice' on page 52 undefined on input line 864
-.
-
-
-LaTeX Warning: Reference `fig:allen_energy' on page 52 undefined on input line 
-864.
-
-
-Package natbib Warning: Citation `nef_rise_1932' on page 52 undefined on input 
-line 868.
-
-
-Package natbib Warning: Citation `nef_rise_1932' on page 52 undefined on input 
-line 868.
-
-
-<C:/Users/Steve/Documents/GitHub/publish/diss2/images/woodprice.png, id=405, 50
+<C:/Users/Steve/Documents/GitHub/publish/diss2/images/woodprice.png, id=817, 50
 5.6491pt x 505.6491pt>
 File: C:/Users/Steve/Documents/GitHub/publish/diss2/images/woodprice.png Graphi
 c file (type png)
@@ -2436,31 +1675,10 @@ oodprice.png used on input line 871.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [52] [53 <C:/Users/Steve/Documents/GitHub/publish/diss2/images/woodprice.png>]
-
-LaTeX Warning: Reference `fig:woodCoal' on page 54 undefined on input line 891.
-
-
-
-Package natbib Warning: Citation `allen_british_2009' on page 54 undefined on i
-nput line 895.
-
-
-LaTeX Warning: Reference `fig:woodCoal' on page 54 undefined on input line 895.
-
-
 [54
 
 ]
-
-Package natbib Warning: Citation `desaguliers_course_1734' on page 55 undefined
- on input line 899.
-
-
-LaTeX Warning: Reference `fig:desagulier' on page 55 undefined on input line 90
-1.
-
-
-<C:/Users/Steve/Documents/GitHub/publish/diss2/images/desagulier1.png, id=422, 
+<C:/Users/Steve/Documents/GitHub/publish/diss2/images/desagulier1.png, id=842, 
 633.11531pt x 161.10187pt>
 File: C:/Users/Steve/Documents/GitHub/publish/diss2/images/desagulier1.png Grap
 hic file (type png)
@@ -2470,7 +1688,7 @@ Package pdftex.def Info: C:/Users/Steve/Documents/GitHub/publish/diss2/images/d
 esagulier1.png used on input line 908.
 (pdftex.def)             Requested size: 410.65517pt x 104.49619pt.
 
-<C:/Users/Steve/Documents/GitHub/publish/diss2/images/desagulier2.png, id=423, 
+<C:/Users/Steve/Documents/GitHub/publish/diss2/images/desagulier2.png, id=843, 
 728.7225pt x 327.47343pt>
 File: C:/Users/Steve/Documents/GitHub/publish/diss2/images/desagulier2.png Grap
 hic file (type png)
@@ -2484,22 +1702,11 @@ Overfull \hbox (21.6148pt too wide) in paragraph at lines 909--910
  [][] 
  []
 
-[55 <C:/Users/Steve/Documents/GitHub/publish/diss2/images/desagulier1.png> <C:/
-Users/Steve/Documents/GitHub/publish/diss2/images/desagulier2.png>]
 
-LaTeX Warning: Reference `fig:wage-energy' on page 56 undefined on input line 9
-15.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Package natbib Warning: Citation `allen_british_2009' on page 56 undefined on i
-nput line 920.
-
-
-Package natbib Warning: Citation `allen_british_2009' on page 56 undefined on i
-nput line 920.
-
-
-<C:/Users/Steve/Documents/GitHub/publish/diss2/images/wage-energy.png, id=430, 
+<C:/Users/Steve/Documents/GitHub/publish/diss2/images/wage-energy.png, id=849, 
 505.6491pt x 505.6491pt>
 File: C:/Users/Steve/Documents/GitHub/publish/diss2/images/wage-energy.png Grap
 hic file (type png)
@@ -2509,35 +1716,17 @@ Package pdftex.def Info: C:/Users/Steve/Documents/GitHub/publish/diss2/images/w
 age-energy.png used on input line 922.
 (pdftex.def)             Requested size: 302.58766pt x 302.59708pt.
 
-[56 <C:/Users/Steve/Documents/GitHub/publish/diss2/images/wage-energy.png>]
 
-LaTeX Warning: Reference `tbl:EIRinventions' on page 57 undefined on input line
- 930.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-LaTeX Warning: Reference `eq:mrp2' on page 57 undefined on input line 932.
-
-
-LaTeX Warning: Reference `eq:mrp2' on page 57 undefined on input line 941.
-
-[57
+[55] [56 <C:/Users/Steve/Documents/GitHub/publish/diss2/images/desagulier1.png>
+ <C:/Users/Steve/Documents/GitHub/publish/diss2/images/desagulier2.png>]
+[57 <C:/Users/Steve/Documents/GitHub/publish/diss2/images/wage-energy.png>]
+[58
 
 ]
-
-LaTeX Warning: Reference `fig:wage-energy' on page 58 undefined on input line 9
-48.
-
-
-Package natbib Warning: Citation `allen_british_2009' on page 58 undefined on i
-nput line 948.
-
-
-LaTeX Warning: Reference `fig:allen_wages' on page 58 undefined on input line 9
-51.
-
-
 <C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/gworldwages.png, id
-=442, 505.6491pt x 505.6491pt>
+=878, 505.6491pt x 505.6491pt>
 File: C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/gworldwages.pn
 g Graphic file (type png)
 
@@ -2551,24 +1740,8 @@ ages/gworldwages.png used on input line 957.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Package natbib Warning: Citation `allen_british_2009' on page 58 undefined on i
-nput line 961.
-
-
-LaTeX Warning: Reference `fig:allen_energy' on page 58 undefined on input line 
-961.
-
-
-Package natbib Warning: Citation `allen_british_2009' on page 58 undefined on i
-nput line 966.
-
-
-Package natbib Warning: Citation `allen_british_2009' on page 58 undefined on i
-nput line 966.
-
-
 <C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/allen_energy.png, i
-d=443, 655.44875pt x 655.44875pt>
+d=886, 655.44875pt x 655.44875pt>
 File: C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/allen_energy.p
 ng Graphic file (type png)
 
@@ -2581,15 +1754,11 @@ ages/allen_energy.png used on input line 967.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+[59]
 
-LaTeX Warning: Reference `fig:wage-energy' on page 58 undefined on input line 9
-71.
+LaTeX Warning: Text page 60 contains only floats.
 
-[58]
-
-LaTeX Warning: Text page 59 contains only floats.
-
-[59 <C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/gworldwages.png
+[60 <C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/gworldwages.png
 > <C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/allen_energy.png>
 ] (C:\Users\Steve\Documents\GitHub\publish\paper1\paper1.bbl
 LaTeX Font Info:    Try loading font information for OT1+txtt on input line 16.
@@ -2597,7 +1766,7 @@ LaTeX Font Info:    Try loading font information for OT1+txtt on input line 16.
 
 (D:\LaTeX-Portable\miktex-portable\tex\latex\txfonts\ot1txtt.fd
 File: ot1txtt.fd 2000/12/15 v3.1
-) [60] [61]
+) [61] [62]
 LaTeX Font Info:    Try loading font information for OMS+txr on input line 124.
 
 
@@ -2606,7 +1775,7 @@ File: omstxr.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/txsy/m/n' tried instead on input line 124.
- [62]
+ [63]
 Underfull \hbox (badness 2913) in paragraph at lines 218--225
 []\OT1/txr/m/n/10.95 Roger Fou-quet and Pe-ter J. G. Pear-son.  A Thou-sand Yea
 rs of En-ergy Use in the
@@ -2618,19 +1787,19 @@ Underfull \hbox (badness 1789) in paragraph at lines 218--225
 xr/m/n/10.95 , 19(4):1, Oc-to-ber 1998.  ISSN 01956574.  doi:
  []
 
-[63] [64] [65] [66]
+[64] [65] [66] [67]
 Underfull \hbox (badness 10000) in paragraph at lines 493--501
 []$\OT1/txtt/m/n/10.95 http : / / www . nature . com . ezproxy . lib . utah . e
 du / scientificamerican / journal /
  []
 
-[67]
+[68]
 Underfull \hbox (badness 2469) in paragraph at lines 521--524
 []\OT1/txr/m/n/10.95 Lawrence H. Of-fi-cer.  What Was the U.K. GDP Then?, 2009.
   URL []$\OT1/txtt/m/n/10.95 http : / / www .
  []
 
-[68] [69]
+[69] [70]
 Underfull \hbox (badness 2762) in paragraph at lines 674--682
 \OT1/txr/m/n/10.95 pact of nat-u-ral re-source con-sump-tion and tech-no-log-i-
 cal change on eco-nomic growth.
@@ -2660,7 +1829,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 674--682
 _urlVersion = 0 & _userid = 722937 &
  []
 
-[70]) [71]
+[71]) [72]
 
 Package glossaries Warning: No \printglossary or \printglossaries found.
 (Remove \makeglossaries if you don't want any glossaries.)
@@ -2671,22 +1840,14 @@ Package natbib Warning: There were undefined citations.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 975.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 975.
-(C:\Users\Steve\Documents\GitHub\publish\paper1\paper1.aux
-
-Package natbib Warning: Citation(s) may have changed.
-(natbib)                Rerun to get citations correct.
-
-)
+(C:\Users\Steve\Documents\GitHub\publish\paper1\paper1.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 975.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 975.
 Package rerunfilecheck Info: File `paper1.out' has not changed.
 (rerunfilecheck)             Checksum: 983FCA7888554CEBCC8E886FC53821FF;1739.
 
 
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
  )
 (\end occurred inside a group at level 2)
@@ -2696,13 +1857,13 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 ### bottom level
 (\end occurred when \ifdim on line 975 was incomplete) 
 Here is how much of TeX's memory you used:
- 19911 strings out of 493921
- 348232 string characters out of 3144900
- 442724 words of memory out of 3000000
- 22522 multiletter control sequences out of 15000+200000
- 51693 words of font info for 119 fonts, out of 3000000 for 9000
+ 19909 strings out of 493921
+ 348214 string characters out of 3144900
+ 447592 words of memory out of 3000000
+ 22521 multiletter control sequences out of 15000+200000
+ 49754 words of font info for 116 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 48i,9n,75p,1739b,711s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 48i,9n,75p,1739b,618s stack positions out of 5000i,500n,10000p,200000b,50000s
 {D:/LaTeX-Portable/miktex
 -portable/fonts/enc/dvips/fontname/8r.enc}<D:/LaTeX-Portable/miktex-portable/fo
 nts/type1/public/txfonts/rtxi.pfb><D:/LaTeX-Portable/miktex-portable/fonts/type
@@ -2712,9 +1873,9 @@ s/txsy.pfb><D:/LaTeX-Portable/miktex-portable/fonts/type1/public/txfonts/txtt.p
 fb><D:/LaTeX-Portable/miktex-portable/fonts/type1/urw/times/utmb8a.pfb><D:/LaTe
 X-Portable/miktex-portable/fonts/type1/urw/times/utmr8a.pfb><D:/LaTeX-Portable/
 miktex-portable/fonts/type1/urw/times/utmri8a.pfb>
-Output written on paper1.pdf (71 pages, 1728192 bytes).
+Output written on paper1.pdf (72 pages, 1791707 bytes).
 PDF statistics:
- 743 PDF objects out of 1000 (max. 8388607)
- 233 named destinations out of 1000 (max. 500000)
+ 1090 PDF objects out of 1200 (max. 8388607)
+ 234 named destinations out of 1000 (max. 500000)
  367 words of extra memory for PDF output out of 10000 (max. 10000000)
 

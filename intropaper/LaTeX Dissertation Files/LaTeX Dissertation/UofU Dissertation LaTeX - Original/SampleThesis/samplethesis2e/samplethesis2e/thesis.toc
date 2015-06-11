@@ -1,0 +1,29 @@
+\contentsline {chapter}{\uppercase {Abstract}}{ii}
+\contentsline {chapter}{LIST OF FIGURES}{v}
+\contentsline {chapter}{LIST OF TABLES}{vi}
+\contentsline {chapter}{\uppercase {Notation and Symbols}}{vii}
+\contentsline {chapter}{\uppercase {Acknowledgements}}{viii}
+\contentsline {groupheader}{CHAPTERS}{1}
+\contentsline {chapter}{\numberline {1.}\hyphenpenalty =10000\exhyphenpenalty =10000\relax \linepenalty =0\uppercase {Introduction}}{1}
+\contentsline {groupheader}{\vspace {-22pt}}{1}
+\contentsline {section}{\numberline {1.1}The Sample.tex file}{1}
+\contentsline {subsection}{\numberline {1.1.1}Ordinary Text}{1}
+\contentsline {subsection}{\numberline {1.1.2}Displayed Text}{2}
+\contentsline {subsubsection}{\numberline {1.1.2.1}Quotations}{2}
+\contentsline {subsubsection}{\numberline {1.1.2.2}Lists}{2}
+\contentsline {paragraph}{\numberline {1.1.2.2.1}Itemize.}{3}
+\contentsline {paragraph}{\numberline {1.1.2.2.2}Verse.}{3}
+\contentsline {subsubsection}{\numberline {1.1.2.3}Mathematics}{3}
+\contentsline {section}{\numberline {1.2}More examples: Jeff McGough's Thesis}{3}
+\contentsline {section}{\numberline {1.3}History of the Gelfand problem}{4}
+\contentsline {section}{\numberline {1.4}Fundamental results}{5}
+\contentsline {chapter}{\numberline {2.}\hyphenpenalty =10000\exhyphenpenalty =10000\relax \linepenalty =0\uppercase {Quadratic nonlinearities}}{6}
+\contentsline {groupheader}{\vspace {-22pt}}{6}
+\contentsline {section}{\numberline {2.1}Derivation of the quadratic formula}{6}
+\contentsline {section}{\numberline {2.2}Application of the quadratic formula}{6}
+\contentsline {chapter}{\numberline {3.}\hyphenpenalty =10000\exhyphenpenalty =10000\relax \linepenalty =0\uppercase {Systems}}{9}
+\contentsline {groupheader}{\vspace {-22pt}}{9}
+\contentsline {section}{\numberline {3.1}Diagrams made with diagram.sty}{9}
+\contentsline {section}{\numberline {3.2}Sample diagrams from diagram.tex}{9}
+\contentsline {chapter}{\hyphenpenalty =10000\exhyphenpenalty =10000\relax \linepenalty =0\uppercase {APPENDIX: Classical identities}}{15}
+\contentsline {chapter}{REFERENCES}{20}

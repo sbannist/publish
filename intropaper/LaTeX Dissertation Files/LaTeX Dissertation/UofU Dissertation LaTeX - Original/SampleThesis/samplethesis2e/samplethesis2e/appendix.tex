@@ -1,0 +1,236 @@
+\chapter{Classical identities}\label{appendix}
+\fixchapterheading
+\section*{Rellich's identity}\label{rellich.section}
+\setcounter{thrm}{0}
+%
+%
+
+Standard developments of Pohozaev's identity used an identity by
+Rellich~\cite{rellich:der40}, reproduced here.
+
+\begin{lem}[Rellich]
+Given $L$ in divergence form and $a,d$ defined above, $u\in C^2
+(\Omega )$, we have
+\begin{equation}\label{rellich}
+\int_{\Omega}(-Lu)\nabla u\cdot (x-\overline{x})\, dx
+= (1-\frac{n}{2}) \int_{\Omega} a(\nabla u,\nabla u) \, dx
+-
+\frac{1}{2} \int_{\Omega}
+d(\nabla u, \nabla u) \, dx
+\end{equation}
+$$
++
+\frac{1}{2} \int_{\partial\Omega} a(\nabla u,\nabla u)(x-\overline{x})
+\cdot \nu  \, dS
+-
+\int_{\partial\Omega}
+a(\nabla u,\nu )\nabla u\cdot (x-\overline{x}) \, dS.
+$$
+\end{lem}
+{\bf Proof:}\\
+There is no loss in generality to take $\overline{x} = 0$. First
+rewrite $L$:
+$$Lu = \frac{1}{2}\left[ \sum_{i}\sum_{j}
+\frac{\partial}{\partial x_i}
+\left( a_{ij} \frac{\partial u}{\partial x_j} \right) +
+\sum_{i}\sum_{j}
+\frac{\partial}{\partial x_i}
+\left( a_{ij} \frac{\partial u}{\partial x_j} \right)
+\right]$$
+Switching the order of summation on the second term and relabeling
+subscripts, $j \rightarrow i$ and $i \rightarrow j$, then using the fact
+that $a_{ij}(x)$ is a symmetric matrix,
+gives the symmetric form needed to derive Rellich's identity.
+\begin{equation}
+Lu = \frac{1}{2} \sum_{i,j}\left[
+\frac{\partial}{\partial x_i}
+\left( a_{ij} \frac{\partial u}{\partial x_j} \right) +
+\frac{\partial}{\partial x_j}
+\left( a_{ij} \frac{\partial u}{\partial x_i} \right)
+\right].
+\end{equation}
+
+Multiplying $-Lu$ by $\frac{\partial u}{\partial x_k} x_k$ and integrating
+over $\Omega$, yields
+$$\int_{\Omega}(-Lu)\frac{\partial u}{\partial x_k} x_k \, dx=
+-\frac{1}{2} \int_{\Omega}
+\sum_{i,j}\left[
+\frac{\partial}{\partial x_i}
+\left( a_{ij} \frac{\partial u}{\partial x_j} \right) +
+\frac{\partial}{\partial x_j}
+\left( a_{ij} \frac{\partial u}{\partial x_i} \right)
+\right]
+\frac{\partial u}{\partial x_k} x_k \, dx$$
+Integrating by parts (for integral theorems see~\cite[p. 20]
+{zeidler:nfa88IIa})
+gives
+$$= \frac{1}{2} \int_{\Omega}
+\sum_{i,j} a_{ij} \left[
+\frac{\partial u}{\partial x_j}
+\frac{\partial^2 u}{\partial x_k\partial x_i} +
+\frac{\partial u}{\partial x_i}
+\frac{\partial^2 u}{\partial x_k\partial x_j}
+\right] x_k \, dx
+$$
+$$
++
+\frac{1}{2} \int_{\Omega}
+\sum_{i,j} a_{ij} \left[
+\frac{\partial u}{\partial x_j} \delta_{ik} +
+\frac{\partial u}{\partial x_i} \delta_{jk}
+\right] \frac{\partial u}{\partial x_k} \, dx
+$$
+$$- \frac{1}{2} \int_{\partial\Omega}
+\sum_{i,j} a_{ij} \left[
+\frac{\partial u}{\partial x_j} \nu_{i} +
+\frac{\partial u}{\partial x_i} \nu_{j}
+\right] \frac{\partial u}{\partial x_k} x_k \, dx
+$$
+= $I_1 + I_2 + I_3$, where the unit normal vector is $\nu$.
+One may rewrite $I_1$ as
+$$I_1 = \frac{1}{2} \int_{\Omega}
+\sum_{i,j} a_{ij} \frac{\partial}{\partial x_k}\left(
+\frac{\partial u}{\partial x_i}
+\frac{\partial u}{\partial x_j}
+\right) x_k \, dx
+$$
+Integrating the first term by parts again yields
+$$I_1 = -\frac{1}{2} \int_{\Omega}
+\sum_{i,j} a_{ij} \left(
+\frac{\partial u}{\partial x_i}
+\frac{\partial u}{\partial x_j}
+\right) \, dx
++
+\frac{1}{2} \int_{\partial\Omega}
+\sum_{i,j} a_{ij} \left(
+\frac{\partial u}{\partial x_i}
+\frac{\partial u}{\partial x_j}
+\right) x_k \nu_k \, dS
+$$
+$$
+-
+\frac{1}{2} \int_{\Omega}
+\sum_{i,j} \left(
+\frac{\partial u}{\partial x_i}
+\frac{\partial u}{\partial x_j}
+\right) x_k \frac{\partial a_{ij}}{\partial x_k}\, dx.
+$$
+Summing over $k$ gives
+$$\int_{\Omega}(-Lu)(\nabla u\cdot x)\, dx =
+-\frac{n}{2} \int_{\Omega}
+\sum_{i,j} a_{ij} \left(
+\frac{\partial u}{\partial x_i}
+\frac{\partial u}{\partial x_j}
+\right) \, dx
+$$
+$$
++
+\frac{1}{2} \int_{\partial\Omega}
+\sum_{i,j} a_{ij} \left(
+\frac{\partial u}{\partial x_i}
+\frac{\partial u}{\partial x_j}
+\right) (x\cdot \nu ) \, dS
+-
+\frac{1}{2} \int_{\Omega}
+\sum_{i,j} \left(
+\frac{\partial u}{\partial x_i}
+\frac{\partial u}{\partial x_j}
+\right) (x\cdot  \nabla a_{ij}) \, dx
+$$
+$$
++
+\frac{1}{2} \int_{\Omega}
+\sum_{i,j,k} a_{ij} \left[
+\frac{\partial u}{\partial x_j}
+\frac{\partial u}{\partial x_k} \delta_{ik} +
+\frac{\partial u}{\partial x_i}
+\frac{\partial u}{\partial x_k} \delta_{jk}
+\right] \, dx
+$$
+$$- \frac{1}{2} \int_{\partial\Omega}
+\sum_{i,j} a_{ij} \left[
+\frac{\partial u}{\partial x_j} \nu_{i} +
+\frac{\partial u}{\partial x_i} \nu_{j}
+\right] (\nabla u\cdot x) \, dS.
+$$
+Combining the first and fourth term on the right-hand side
+simplifies the expression
+$$\int_{\Omega}(-Lu)(\nabla u\cdot x)\, dx
+=
+(1-\frac{n}{2}) \int_{\Omega}
+\sum_{i,j} a_{ij} \left(
+\frac{\partial u}{\partial x_i}
+\frac{\partial u}{\partial x_j}
+\right) \, dx
+$$
+$$
++
+\frac{1}{2} \int_{\partial\Omega}
+\sum_{i,j} a_{ij} \left(
+\frac{\partial u}{\partial x_i}
+\frac{\partial u}{\partial x_j}
+\right) (x\cdot \nu ) \, dS
+-
+\frac{1}{2} \int_{\Omega}
+\sum_{i,j} \left(
+\frac{\partial u}{\partial x_i}
+\frac{\partial u}{\partial x_j}
+\right) (x\cdot  \nabla a_{ij}) \, dx
+$$
+$$
+-
+\frac{1}{2} \int_{\partial\Omega}
+\sum_{i,j} a_{ij} \left[
+\frac{\partial u}{\partial x_j} \nu_{i} +
+\frac{\partial u}{\partial x_i} \nu_{j}
+\right] (\nabla u\cdot x) \, dS.
+$$
+Using the notation defined above, the result follows.
+
+
+%
+%
+%
+\section*{Fortran code}\label{code}
+%
+%
+
+%% The following was constructed by a very handy program called
+%% tgrind.  tgrind is a filter to convert C or fortran files into
+%% formatted tex.  Starting with a fortran subroutine rhs.f:
+%%
+%% tgrind -lf -f >rhs.tex rhs.f
+%%
+%% This creates the tex file rhs.tex.  This may be directly included
+%% in a latex document via the special command \tgrind (latex command
+%% here):
+%%
+%% \begin{singlespace}
+%% \begin{small}
+%% \tgrind{rhs.tex}
+%% \end{small}
+%% \end{singlespace}
+%%
+%% Otherwise, the file rhs.tex needs to be edited (rhs_mod.tex)
+%% to be included into a latex document (it is a stand-alone
+%% tex file).  The line with the \File command (top) needs to be
+%% removed or commented out: \File{rhs.f},{14:32},{Jul  5 1993} and
+%% the \end command at the bottom also needs to be commented out.  The
+%% file rhs.tex can then be included into the document:
+%%
+%% \begin{singlespace}
+%% \begin{small}
+%% \input{rhs_mod.tex}
+%% \end{small}
+%% \end{singlespace}
+%%
+%% In either case, the \File command probably will need removing
+%% because it places the page numbers differently than the normal
+%% thesis style. Using both gives:
+
+ \begin{singlespace}
+ \begin{small}
+% \let\end\relax \def\File#1,#2,#3{}
+ \tgrind{rhs_mod.tex}
+ \end{small}
+ \end{singlespace}

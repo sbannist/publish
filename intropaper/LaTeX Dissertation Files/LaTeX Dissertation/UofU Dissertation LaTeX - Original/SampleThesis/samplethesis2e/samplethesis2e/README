@@ -1,0 +1,156 @@
+This directory contains a minor update of the University of Utah
+sample thesis to illustrate use with LaTeX 2e, which has been the
+standard version of LaTeX since the appearance of the second edition
+of the LaTeX Users Guide and Reference Manual in 1994.
+
+The Makefile has been updated to include GNU standard targets [See the
+GNU Makefile standards in emacs help node "(Standards) Standard
+Targets".]  
+
+The Makefile also includes targets for creating PostScript and PDF
+versions of the thesis.
+
+To typeset this document, ensure that uuthesis2e.cls is in your
+TEXINPUTS search path (a copy is available in ../latex2e).  Then
+use the GNU standard incantation:
+
+	./configure && make all check install
+
+------------------------------------------------------------------------
+WELCOME.
+
+The files in this directory contain most everything you will need to
+format a thesis in LaTeX following the University of Utah thesis
+editor's guidelines.  At first glance, especially if you are
+unfamiliar with LaTeX, this may seem rather complicated.  It really is
+not very hard.  Much of the contents of this directory are examples of
+doing special or complicated technical formatting.  Most likely you
+will only use some of the options available and may ignore most of the
+files here.
+
+NOTE: This is a TEMPLATE for a dissertation which uses the uuthesis
+style in LaTeX.  It is set up for you to copy and then include the
+body of your thesis.  Although the thesis this sample was derived from
+went through the thesis office with few problems, formats do change over
+time and your thesis will probably still require some hand editing.
+
+The main file is the file thesis.tex.  It will pull in all the "stuff"
+you will need to construct the thesis.  LaTeXing this file 
+
+	latex2e thesis
+
+will build an up-to-date thesis.dvi file.  I have included a makefile
+which can do some of the work automatically.
+
+---------------------------------------------------------------------
+The MAKEFILE has the following commands setup.
+
+make thesis - runs make thesis.dvi, make spell and make dw.
+
+make thesis.dvi - the main build command.  The file thesis.tex is 
+processed through latex2e, bibtex and sed to produce a "correct" final 
+copy.  This takes 3 passes through latex2e to complete.  The output is 
+thesis.dvi.  This maybe viewed by 
+
+          xdvi thesis.dvi &
+
+Note: make thesis.dvi can create many auxilary files.  Explanations of 
+some are provided below.
+
+make spell - checks for spelling errors.  Words that do not 
+appear in the dictionary or the file thesis.spell-ok will be 
+placed in a file thesis.spell.   Once the words in thesis.spell are 
+verified (or the source corrected) they should be placed in 
+thesis.spell-ok.  The words in  thesis.spell-ok should be sorted.   
+Emacs can do the sort: select the region and do M-x sort-lines.  
+
+make dw - find double words.  The word and it's location is 
+placed in a file thesis.dw. 
+
+Normally, one will just type "latex2e thesis" to update the thesis.dvi 
+file. After adding a citation to the thesis and the citation data to
+the bib database thesis.bib, you need to "latex2e thesis" and then
+"bibtex thesis".  The citations will appear after two more "latex2e
+thesis"'s. 
+
+The essential files for the "make thesis" to work:
+
+Makefile
+README
+abstract.tex
+acknowledge.tex
+appendix.tex
+auxdefs.sty
+box.tex
+chap1.tex
+chap2.tex
+chap3.tex
+diagram.sty
+fig1.tex
+fig2.tex
+fig3.tex
+notation.tex
+rhs.tex
+thesis.bib
+thesis.sty
+thesis.tex
+uumods.sty
+
+The full compliment of files after a make thesis will look like:
+
+Makefile
+README
+abstract.tex
+acknowledge.tex
+appendix.aux
+appendix.tex
+auxdefs.sty
+box.tex
+chap1.aux
+chap1.tex
+chap2.aux
+chap2.tex
+chap3.aux
+chap3.tex
+diag_examples.tex
+diag_manual.tex
+diagram-3.1.tar
+diagram.sty
+fig1.tex
+fig2.tex
+fig3.tex
+lams1.mf
+lams2.mf
+lams3.mf
+lams4.mf
+lams5.mf
+lamsarrow.sty
+notation.tex
+rhs.tex
+rhs_mod.tex
+tgrind.sty
+thesis.aux
+thesis.bbl
+thesis.bib
+thesis.blg
+thesis.dvi
+thesis.dw
+thesis.lof
+thesis.log
+thesis.lot
+thesis.spell-okay
+thesis.sty
+thesis.tex
+thesis.toc
+thesis.toc.old
+
+This example is still under construction!!!
+
+Good Luck,
+
+Jeff McGough
+
+ps:
+
+For the academic year 1993--94, I will be available to help if you
+have problems.  To contact me, EMAIL: mcgough
