@@ -20,7 +20,7 @@ df.diff.mtoesplineln <- as.data.frame(diff(mtoesplineln))
 df.diff.mtoesplineln$date <- index(mtoesplineln)[1:708]
 
 
-bp.mtoe <- breakpoints(mtoebp ~ 1,breaks = 3) ### based on BIC,RSS
+bp.mtoe <- breakpoints(mtoebp ~ 1,breaks = 4) ### based on BIC,RSS
 summary(bp.mtoe)
 plot(bp.mtoe)
 ci.mtoe <- confint(bp.mtoe)
@@ -45,6 +45,17 @@ ggplot(df.mtoespline,aes(x=date,y=mtoespline))+
     scale_y_continuous(lim = c(0,70))+
     scale_y_log10(name='log base 10 of million tonnes of oil oquivalent')+
     ggtitle('Annual English energy consumption, \n log scale, with structural breakpoints at \n 1590, 1736, 1844')
+############################### for Richard's question on break points
+ggplot(df.mtoespline,aes(x=date,y=mtoespline))+
+    geom_line(colour='blue',size=2)+
+    geom_vline(xintercept = c(1498,1604,1736,1844),colour='red',size=1)+
+    scale_x_continuous(lim = c(begin,end),name='Year')+
+    scale_y_continuous(lim = c(0,70))+
+    scale_y_log10(name='log base 10 of million tonnes of oil oquivalent')+
+    ggtitle('Annual English energy consumption, \n log scale, with structural
+ breakpoints at \n 1498, 1604, 1736, 1844')
+###############################
+
 
 filename <- c('energyLog1.png')
 
