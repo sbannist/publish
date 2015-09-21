@@ -1,0 +1,32 @@
+\chapter{Recidivism rates: Definitions and policy}
+
+blah
+
+\section{The various definitions of recidivism and their problems}
+
+blah
+
+\section{The role of recidivism rates in correctional policy}
+
+blah
+
+\section{The costs of crime}
+
+
+
+
+
+
+\section{Examples of typesetting}
+
+When entering in simple equations, enter them in directly in the line and make sure that they fit in the line.  For example, if we are writing an equation that is a fractional equation, $m = (y_1-y)/(x_1-x)$, write it so that it looks good on a single line. But if the equation is complicated, we use the following:
+
+\begin{equation}
+y = \sum_{i=1}^n x^2P(x) - \mu_X^2
+\end{equation}
+
+When referring to the equation, always write ``Equation 1'' and do not abbreviate as Eq. 1 or write Equation (1).
+
+On the issue of tables, 1) always refer to the table, 2) only explain the highlights of the table or the things to look for, and 3) refer to the table using ``Table 1.3'' (capitalize ``T'') or use ``blah blah (see Table 1.3).''  Three types of notes:  1) general note - Write \emph{Note}.  then enter commentary, 2) specific note - use superscript lowercase letters a, b, c, etc., 3) probability note - the last note and it is entered $^*p<.05$.  Always write the notes in this order.
+
+

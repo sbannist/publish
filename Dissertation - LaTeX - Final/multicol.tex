@@ -1,0 +1,592 @@
+%%% ====================================================================
+%%%  @TeX-file{
+%%%     author          = "Nelson H. F. Beebe",
+%%%     version         = "2.00",
+%%%     date            = "14 June 1998",
+%%%     time            = "10:42:12 MDT",
+%%%     filename        = "multicol.tex",
+%%%     address         = "Center for Scientific Computing
+%%%                        Department of Mathematics
+%%%                        University of Utah
+%%%                        Salt Lake City, UT 84112
+%%%                        USA",
+%%%     telephone       = "+1 801 581 5254",
+%%%     FAX             = "+1 801 581 4148",
+%%%     checksum        = "10432 592 3219 22510",
+%%%     email           = "beebe@math.utah.edu (Internet)",
+%%%     codetable       = "ISO/ASCII",
+%%%     keywords        = "TeX, multi-column",
+%%%     supported       = "yes",
+%%%     docstring       = "This file contains plain TeX support for
+%%%                        multi-column output, possibly intermixed in
+%%%                        single-column material on the same page.
+%%%
+%%%			   WARNING: These macros do NOT support
+%%%			   footnotes or insertions inside the
+%%%			   multi-column environment.
+%%%
+%%%                        The code is based on the author's
+%%%                        doublecol.tex file, and subsumes it: you can
+%%%                        replace \input doublecol.tex by \input
+%%%                        multicol.tex and get identical output.  Both
+%%%                        files contain fixes for three subtle bugs
+%%%                        that appear in the TeXbook's two-column
+%%%                        macros for its index (though they do not
+%%%                        affect the TeXbook index).
+%%%
+%%%                        The user interface is via these macros:
+%%%
+%%%                        \input multicol.tex
+%%%                        ...
+%%%			   \NumberOfColumns=3
+%%%                        \BeginMultiColumns
+%%%                          ...two-column material...
+%%%                        \EndMultiColumns
+%%%
+%%%                        The \begin... \end... block acts as a
+%%%                        separate paragraph, separated by \parskip
+%%%                        glue from surrounding text.  Paragraph
+%%%                        indentation will apply inside the
+%%%                        environment, so you may wish to control it
+%%%                        with \noindent, or with \parskip=0pt.
+%%%
+%%%                        You can change \NumberOfColumns at any time
+%%%                        outside the \begin... \end... block.
+%%%
+%%%                        User-accessible parameters are:
+%%%
+%%%                        \InterColumnSpace width of space between columns
+%%%			   \NumberOfColumns  number of columns (default = 2)
+%%%                        \PageHeight       horizontal width of page
+%%%                        \PageWidth        vertical length of page
+%%%                        \NoRuleSeparator  set \Separator to \relax
+%%%                        \Separator        macro to generate column
+%%%                                          separator; default value is
+%%%                                          \relax (i.e. do nothing)
+%%%                        \RuleSeparator    set \Separator to \vrule
+%%%
+%%%                        All of these have suitable defaults, so none
+%%%                        of them normally needs to be set by the user.
+%%%
+%%%                        The checksum field above contains a CRC-16
+%%%                        checksum as the first value, followed by the
+%%%                        equivalent of the standard UNIX wc (word
+%%%                        count) utility output of lines, words, and
+%%%                        characters.  This is produced by Robert
+%%%                        Solovay's checksum utility.",
+%%%  }
+%%% ====================================================================
+%%%
+%%% If this file has already been loaded, don't load it again.
+%%%
+\ifx \MulticolVersion \undefined
+    \relax
+\else
+    \endinput
+\fi
+%%%
+%%% Issue a banner message to inform the user of the code version and date.
+%%%
+\def \MulticolVersion {2.00}%
+\def \MulticolDate    {[14-Jun-1998]}%
+\immediate \write16 {This is multicol.tex, version \MulticolVersion\space \MulticolDate}%
+%%% ====================================================================
+%%% Revision history:
+%%%
+%%% 2.00 [14-Jun-1998]
+%%%      (1) Standardize comment formatting (%%% at start of line, %% at
+%%%          current indentation, % at comment column).
+%%%      (2) Replace all horizontal tabs by equivalent numbers of spaces.
+%%%      (3) Add \MulticolDate and \MulticolVersion and use them in the
+%%%          banner.
+%%%
+%%% 1.00 [18-Feb-1995]
+%%%      Original version.
+%%%
+%%% ====================================================================
+%%%
+%%% We will need one \count variable with (regrettably) a user-accessible
+%%% name, in which to save the category code of commercial-at.
+%%%
+\newcount \ATcode
+\ATcode = \catcode `\@
+%%%
+%%% Make @ act like a letter temporarily while TeX reads this file, so
+%%% that we can create private macro names that avoid collision with
+%%% user-defined names.  Several of the names below from the TeXbook code
+%%% have been prefixed with @ for privacy.
+%%%
+\catcode `@ = 11
+%%%
+%%% We need a global counter to track the number of columns in
+%%% progress, and a private one that records the global value on entry
+%%% to the multi-column environment.  This is a safety feature to
+%%% prevent erroneous behavior if the global counter is changed inside
+%%% the environment.
+%%%
+\newcount \NumberOfColumns
+\NumberOfColumns = 2		% default is double-column, for drop-in
+				% compatibility with doublecol.tex
+\newcount \@NumberOfColumns
+\@NumberOfColumns = \NumberOfColumns
+%%%
+%%% For multi-column output, to simplify box addressing, we want to
+%%% allocate a consecutive range of boxes to hold the columns.  In order
+%%% to guarantee that allocated boxes are consecutive in number, the
+%%% allocation must be done on one place.  Thus, we need to define the
+%%% maximum number of columns that we are prepared to handle, recognizing
+%%% that TeX registers are scarce resources in large jobs.
+%%%
+\newcount \@FirstBox		% This will be permanently assigned
+\newcount \@NextBox		% This will be reset in \BeginMultiColumns to
+				% \@FirstBox + \@NumberOfColumns, that is, one
+				% larger than the last allocated column box.
+%%%
+%%% Allocate \@MaxColumns consecutive boxes.  \newbox cannot be used
+%%% inside a loop because it is defined to be \outer, so we must do this
+%%% with sequential code.  To avoid consistency problems, we compute
+%%% \@MaxColumns from the number of boxes actually allocated.
+%%%
+\newcount \@MaxColumns
+%%%
+\newbox \@dummy			% 1
+\@FirstBox = \allocationnumber	% remember number of first box
+\newbox \@dummy			% 2
+\newbox \@dummy			% 3
+\newbox \@dummy			% 4
+\newbox \@dummy			% 5
+\newbox \@dummy			% 6
+\newbox \@dummy			% 7
+\newbox \@dummy			% 8 (= \@MaxColumns)
+\let \@dummy = \relax		% we no longer need \@dummy
+\@MaxColumns = \allocationnumber
+\advance \@MaxColumns by 1
+\advance \@MaxColumns by -\@FirstBox % compute max number of columns
+%%%
+%%% Create and initialize new dimensions.  These start out with suitable
+%%% values based on the current page dimensions defined by \hsize and
+%%% \vsize, but occasionally, users may wish to modify their values after
+%%% they \input this file.
+%%%
+\newdimen \PageWidth
+\PageWidth = \hsize
+%%%
+\newdimen \PageHeight
+\PageHeight = \vsize
+%%%
+\newdimen \@ColumnWidth
+%%%
+\newdimen \InterColumnSpace
+\InterColumnSpace = 1pc
+%%%
+%%% We offer the user two choices of column separators, either
+%%% \NoRuleSeparator for empty space (the default), or \RuleSeparator for
+%%% a thin vertical rule.  Fancier choices are possible, so \Separator is
+%%% named so as to be globally visible, and therefore, modifiable.
+%%%
+\def \NoRuleSeparator {\let \Separator = \relax}%
+%%%
+\def \RuleSeparator {\let \Separator = \vrule}%
+%%%
+\NoRuleSeparator			% set our default
+%%%
+%%% For convenience, we support the double-column macros from
+%%% doublecol.sty.
+%%%
+\def \begindoublecolumns
+{%
+    \begingroup			% to isolate change to \NumberOfColumns
+	\NumberOfColumns = 2
+	\BeginMultiColumns
+}%
+%%%
+\def \enddoublecolumns
+{%
+	\EndMultiColumns
+    \endgroup
+}%
+%%%
+%%% We need one box register to hold a partial page while multi-column
+%%% material is being constructed.
+%%%
+\newbox \@partialpage
+%%%
+%%% Output routines are regrettably awkward to deal with, because
+%%% different macro packages create their own, and we need three
+%%% different ones here.  Ours do NOT attempt to handle footnotes or
+%%% insertions arising from the multi-column environment; those must be
+%%% restricted to the single-column part of your document.  LaTeX's
+%%% output routine is particularly complex, and correspondingly fragile:
+%%% this code should not be used in LaTeX documents.
+%%%
+%%% Here is the inside of the first of our three output routines.  It is
+%%% quite similar to Plain TeX's \plainoutput routine.  Its argument is
+%%% output in a fullpage box, possibly with headline and footline
+%%% attached.
+%%%
+\def \@onepageout #1%
+{%
+    \shipout \vbox{\@makepage{\vbox{#1}}}%
+    \advancepageno
+    \ifnum \outputpenalty > -\@MM \relax \else \dosupereject \fi
+}%
+%%%
+%%% \@makepage constructs the page image, with attached headline and
+%%% footline.
+%%%
+\def \@makepage #1%
+{%
+  {%				% group to localize dimension changes
+    \hsize = \PageWidth		% reset original page dimensions
+    \vsize = \PageHeight
+    \makeheadline		% defined in plain.tex
+    \@pagebody{#1}%
+\iftrue
+    \vbox to 24pt		% I don't understand why this explicit \vbox
+    {%				% is needed here; without it, the box is only
+	\offinterlineskip	% 6.44444pt high, putting the page number
+        \vss			% flush with the bottom of the index
+	\makefootline		% defined in plain.tex
+    }%
+\else
+    \vbox{%			% This alternative also gives a short box,
+      \offinterlineskip 	% instead of one 24pt high, sigh...
+      \makefootline
+    }%
+\fi
+  }%
+}%
+%%%
+\def \@pagebody #1%
+{%
+    \vbox to \vsize {\boxmaxdepth = \maxdepth \@pagecontents{#1}}%
+}%
+%%%
+\def \@pagecontents #1%
+{%
+    \setbox0 = \vbox{#1}%
+    \dimen@ = \dp0
+    \unvbox 0
+    \ifr@ggedbottom
+	\kern-\dimen@ \vfil
+    \fi
+}%
+%%%
+%%% The multi-column environment starts with \BeginMultiColumns.  It
+%%% starts a new group to localize changes, collects the current pending
+%%% output into the box \@partialpage, sets up a new output routine
+%%% capable of handling multi-column text, and suitably adjusts page
+%%% dimensions.
+%%%
+\def \BeginMultiColumns
+{%
+    \begingroup			% to localize parameter changes
+	%
+	% Force the main vertical list into the holding box
+	% \@partialpage.  It will be put back into the main vertical
+	% list either in the first invocation of \@pagesofar, or else in
+	% \EndMultiColumns.  We accomplish this by creating our second
+	% output routine, to save \box255 in \box\@partialpage, then
+	% issuing an \eject, which just puts a penalty into the main
+	% vertical list that immediately causes TeX to call the output
+	% routine.
+	%
+	% The third subtle bug that lurked here in the original TeXbook
+	% code surfaces if this output routine gets called more than
+	% once, which can happen if \BeginMultiColumns is invoked near
+	% a page break.  The original code simply assigned a new value
+	% to the \@partialpage box.  However, on a second call to this
+	% routine, that box already has something in it, and the
+	% assignment here lost an entire page of output!  The solution
+	% is to include any existing \@partialpage material inside the
+	% vbox on the right-hand side.  If box \@partialpage is already
+	% empty, unboxing it does no harm.
+	%
+	% The original code had a \bigskip following the \unvbox 255,
+	% but we eliminate it for two reasons:
+	%
+	% (1) successive invocations of this output routine will pile up
+	% multiple copies of \bigskip, giving uneven output spacing, and
+	%
+	% (2) it is better design to allow the user of the multi-column
+	% environment to supply skips where they are wanted.
+	%
+	\output = {\global \setbox\@partialpage =
+		   \vbox {\unvbox \@partialpage \unvbox 255 }}%
+	\eject
+	%
+	% Change the output routine to one that will take care of the
+	% holding box \@partialpage, and splitting enough vertical
+	% material into n columns to fill up a page.
+	%
+	\output = {\@multicolumnout}%
+	%
+	% Save some globals in internal variables to discourage user
+	% modification.
+	%
+	\@NumberOfColumns = \NumberOfColumns
+	%
+	% Do a sanity check on the number of requested columns.
+	%
+	\ifnum \@NumberOfColumns > \@MaxColumns
+	    \message{Too many columns: request reduced from \NumberOfColumns =
+		{\the\@NumberOfColumns} to \the\@MaxColumns}%
+	    \@NumberOfColumns = \@MaxColumns
+	\fi
+	\ifnum \@NumberOfColumns < 1
+	    \message{Too few columns: request increased from \NumberOfColumns =
+		{\the\@NumberOfColumns} to 1}%
+	    \@NumberOfColumns = 1
+	\fi
+	%
+	% Recompute \@NextBox, which serves as a loop limit, one beyond
+	% the last column box number used.
+	%
+	\@NextBox = \@FirstBox
+	\advance \@NextBox by \@NumberOfColumns
+	%
+	% Recompute column width, allowing \InterColumnSpace for each
+	% intercolumn space.
+	%
+	\count255 = \@NumberOfColumns	% number of columns
+	\advance \count255 by -1	% number of intercolumn spaces
+	\dimen@ = \InterColumnSpace 	% width of intercolumn space
+	\multiply \dimen@ by \count255
+	\@ColumnWidth = \PageWidth
+	\advance \@ColumnWidth by -\dimen@
+	\divide \@ColumnWidth by \@NumberOfColumns % and split what is left
+	%
+	% Reset the page dimensions to reflect the reduced column width,
+	% and a page \@NumberOfColumns times as high, since it must hold
+	% that many columns' worth of text.
+	%
+	\hsize = \@ColumnWidth
+	\vsize = \PageHeight
+	\multiply \vsize by \@NumberOfColumns
+}%
+%%%
+%%% The multi-column environment ends with \EndMultiColumns, which
+%%% takes care of outputting any remaining two-column material, and any
+%%% saved \@partialpage, ends the multi-column group, and resets the
+%%% \pagegoal.  It also incorporates a fix for the second subtle bug in
+%%% the TeXbook algorithm.
+%%%
+\def \EndMultiColumns
+{%
+	%
+	% Change the output routine again to one that will split the
+	% main vertical list into n equal columns and then force it
+	% to be called by issuing an \eject.
+	%
+	\output = {\@balancecolumns}%
+	\eject
+	\ifvoid \@FirstBox
+	    \relax
+	\else
+	    \message{ERROR: this cannot happen: column boxes lost!}%
+	\fi
+	% --------------------------------------------------------------
+	% [12-Feb-1995] Nelson H. F. Beebe <beebe@math.utah.edu>
+	% Here is the fix for the second subtle bug in the TeXbook's
+	% double column output handling.  If no material was typeset
+	% since \BeginMultiColumns was issued, then \@multicolumnout
+	% was never called, so the holding box \@partialpage still has
+	% all of the text on the page that existed when
+	% \BeginMultiColumns was called.  The TeXbook's version of
+	% \EndMultiColumns forgot to output this holding box, with the
+	% result that a large chunk of text could disappear from the
+	% output!  We therefore \unvbox a non-empty \@partialpage to
+	% place it back into the main vertical list.
+	% --------------------------------------------------------------
+	\ifvoid \@partialpage
+	    \relax
+	\else
+	    \unvbox \@partialpage
+        \fi
+    \endgroup			% restore old parameters, output routines, etc.
+    \pagegoal = \vsize		% reset \pagegoal, because it is changed
+				% inside TeX itself, and is not affected
+				% by grouping.
+}%
+%%%
+%%% In order to deal with the boundary case of very short boxes to be
+%%% \vsplit, we force the split height, \dimen@, to be at least as
+%%% large as the smaller of \topskip and \baselineskip.
+%%%
+\def \@checksplitheight
+{%
+    \dimen1 = \baselineskip	% ensure than \dimen@ >=
+    \ifdim \dimen1 > \topskip	% min(\topskip,\baselineskip)
+        \dimen1 = \topskip
+    \fi
+    \ifdim \dimen@ < \dimen1
+        \dimen@ = \dimen1
+    \fi
+}%
+%%%
+%%% Here is the second, and main, output routine for use during the
+%%% multi-column environment.
+%%%
+\def \@multicolumnout
+{%
+    \dimen@ = \PageHeight	% \dimen@ is defined in plain.tex
+    \advance \dimen@ by -\ht\@partialpage % compute height available for
+					 % multi-column text
+    \@checksplitheight
+    \@DoColumnSplit{255}%
+    \@onepageout{\@pagesofar}	% and output any \@partialpage and the
+			  	% n columns
+    \unvbox 255			% put the remaining material back on
+				% the main vertical list and restore
+    \penalty \outputpenalty	% the last penalty, if any
+}%
+%%%
+%%% This macro collects any \@partialpage material pending, and
+%%% attaches an \hbox containing the column boxes, separated by
+%%% \Separator.  It is called by the output routines \@multicolumnout
+%%% and \@balancecolumns.
+%%%
+\def \@pagesofar
+{%
+    \unvbox \@partialpage	% put pending partial page back onto
+			 	% main vertical list
+    \count255 = \@FirstBox
+    \setbox0 = \hbox{\box\count255} % \hbox because we will do \unhbox below
+    \wd0 = \@ColumnWidth
+    \advance \count255 by 1
+    \loop
+    \ifnum \count255 < \@NextBox
+	\setbox2 = \box\count255
+	\wd2 = \@ColumnWidth	% ensure uniform column widths
+	\setbox0 = \hbox{\unhbox0 \hfil \Separator \hfil \box2}%
+        \advance \count255 by 1
+    \repeat
+    \hbox to \PageWidth {\unhbox0}% add the n columns to the main vertical list
+}%
+%%%
+%%% For debugging convenience, we can enable these macros for displaying
+%%% box dimensions, usually inside \message{} invocations.  \inputlineno
+%%% is not known in TeX versions before TeX 3.0, so take care to avoid
+%%% trying to expand it in such a case.
+%%%
+%%% \def \@linenumber
+%%% {%
+%%%     \ifx \inputlineno \undefined \relax \else line \the\inputlineno: \fi
+%%% }%
+%%%
+%%% \def \@bug #1%
+%%% {%
+%%%     \@linenumber box #1: (ht = \the\ht#1, dp=\the\dp#1, wd=\the\wd#1)
+%%% }%
+%%%
+%%% Here is the third and last output routine, called by
+%%% \EndMultiColumns.  Its job is to juggle the final galley into n
+%%% approximately equal columns until the last column is no taller than
+%%% those to its left.  This requires a splitting loop that starts out
+%%% with a close estimate of the expected height.  It also incorporates a
+%%% fix for the first subtle bug in the TeXbook algorithm to handle the
+%%% case of a single line having appeared in the multi-column
+%%% environment.
+%%%
+\def \@balancecolumns
+{%
+    \setbox0 = \vbox{\unvbox 255}%
+    \dimen@ = \ht0
+    \advance \dimen@ by \topskip
+    \advance \dimen@ by -\baselineskip
+    \divide \dimen@ by \@NumberOfColumns % (\ht0 + \topskip - \baselineskip)/n
+    %-------------------------------------------------------------------
+    % [11-Feb-1995] Nelson H. F. Beebe <beebe@math.utah.edu>
+    % Fix a serious boundary case bug in the \@balancecolumns macro in
+    % the double-column output routine in The TeXbook, p. 417.
+    %
+    % Consider this example of \tenrm text with only one line to be
+    % typeset in double column mode.  Then \ht0 = 10pt, \topskip = 10pt,
+    % and \baselineskip = 12pt.  The above computation produces \dimen@
+    % = (10pt + 10pt - 12pt)/2 = 4pt.  The \loop below will \vsplit box0
+    % into a \vbox of \ht1 = 4pt, which is 6pt too small to hold the
+    % 10pt text.  The result is:
+    %
+    % (a) A message ``Overfull \vbox (6.0pt too high) has occurred while
+    %     \output is active'' is issued, possibly multiple times if the
+    %     loop iterates more than once;
+    %
+    % and more seriously,
+    %
+    % (b) The 10pt high text will be forced into a box 4pt high, so the
+    %     text on the next line (which is back in one-column mode) will
+    %     be 6pt higher up on the page than it should, overlapping with
+    %     the left column of the double-column output.
+    %
+    % (c) If \RuleSeparator has been selected, the \vrule set will be
+    %     only 4pt high, whereas a correct \vrule would have height 10pt
+    %     and depth 3.5 pt.
+    %
+    % We can eliminate (a) by making \vfuzz large, and for generality,
+    % we set \vbadness `infinite' so TeX doesn't warn about underfull
+    % vboxes either.   Both changes are done inside a group to make them
+    % temporary.
+    %
+    % We can fix (b) and (c) by requiring that the split height never
+    % be less than min(\topskip,\baselineskip).  This computation is
+    % done in \@checksplitheight.
+    %-------------------------------------------------------------------
+    \@checksplitheight
+    \begingroup			% group to localize \vbadness change
+	\vbadness = 10000		% ignore underfull vboxes in the loop
+	\vfuzz = \maxdimen	% ignore overfull vboxes in the loop
+	\loop			% loop to split off column boxes
+	    \setbox2 = \copy0
+	    \@DoColumnSplit{2}%
+	\ifdim \ht2 > 0pt	% then have leftover material
+	    \advance \dimen@ by 1pt % so increase column height a smidgen
+	\repeat			% and try again
+	%
+	% Supply \vfil glue in the last column.
+	%
+	\count255 = \@NextBox
+	\advance \count255 by -1
+	\setbox\count255 = \vbox to \dimen@
+	    		   {%
+				\dimen1 = \dp2
+				\vbox {\unvbox\count255}%
+				\kern -\dimen1
+				\vfil
+			   }%
+	\@pagesofar		% collect any pending partial page and
+				% attach the n column pieces
+    \endgroup
+}%
+%%%
+%%% This routine does a tentative multi-column split of \box#1 into the
+%%% column registers.  It needs to be a separate macro, with its own
+%%% group, because TeX's \loop ... \if ... \repeat construct cannot be
+%%% nested otherwise.  Also, assignments need to be \global in order
+%%% not to be lost.
+%%%
+%%% Because \vsplit requires an exact size, the box that it returns may
+%%% be underfull or overfull.  In the former case, after all of the
+%%% splits have been done, there may still be more material left.  The
+%%% caller of this routine will therefore test for this, and if there
+%%% is material left, adjust \dimen@ upward, and try again.
+%%%
+\def \@DoColumnSplit #1%
+{%		% split \vbox#1 into \@NumberOfColumns boxesof height \dimen@
+    \begingroup
+	\splittopskip = \topskip % preserve the same topskip glue
+	\splitmaxdepth = \maxdepth % and same maxdepth inside and out
+	\count255 = \@FirstBox
+	\loop			% loop to try tentative split
+	\ifnum \count255 < \@NextBox
+	    \global\setbox\count255 = \vsplit#1 to \dimen@ % split off a column
+	    \global\setbox\count255 = \vbox to \dimen@ {\unvbox\count255}%
+	    \advance \count255 by 1
+	\repeat
+    \endgroup
+}%
+%%%
+%%% Finally, we restore the original catcode of commercial-at.
+%%%
+\catcode `\@ = \ATcode
+%%%
+\endinput			% That's all, folks!

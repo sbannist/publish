@@ -1,0 +1,2787 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.6.9)  12 SEP 2015 20:01
+entering extended mode
+**Dissertation01.tex
+
+("C:\Users\Steve\Documents\GitHub\publish\intropaper\LaTeX Dissertation Files\L
+aTeX Dissertation\Dissertation - LaTeX - Final\Dissertation01.tex"
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
+ lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
+german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
+ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
+an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
+ishmax, welsh, loaded.
+
+("C:\Users\Steve\Documents\GitHub\publish\intropaper\LaTeX Dissertation Files\L
+aTeX Dissertation\Dissertation - LaTeX - Final\uuthesis2e.cls"
+Document Class: uuthesis2e 1998/04/01 v1.3 University of Utah Thesis Class
+Document Style `uuthesis2e'. Version 1.8d - 6 Apr 1996
+
+("C:\Users\Steve\Documents\GitHub\publish\intropaper\LaTeX Dissertation Files\L
+aTeX Dissertation\Dissertation - LaTeX - Final\Turabian.clo")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size12.clo"
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+Using 12pt option
+\footheight=\dimen102
+\numberofappendices=\count79
+\c@part=\count80
+\c@chapter=\count81
+\@titlesize=\dimen103
+\@maxsize=\dimen104
+\c@figure=\count82
+\c@table=\count83
+\descriptionmargin=\dimen105
+\minilength=\skip41
+\c@oldchapter=\count84
+\c@oldtocdepth=\count85
+)
+("C:\Users\Steve\Documents\GitHub\publish\intropaper\LaTeX Dissertation Files\L
+aTeX Dissertation\Dissertation - LaTeX - Final\amssymb.sty"
+Package: amssymb 1996/11/03 v2.2b
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks14
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip42
+
+For additional information on amsmath, use the `?' option.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+Package: amstext 2000/06/29 v2.01
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks15
+\ex@=\dimen106
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen107
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count86
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count87
+\leftroot@=\count88
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count89
+\DOTSCASE@=\count90
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen108
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count91
+\c@MaxMatrixCols=\count92
+\dotsspace@=\muskip10
+\c@parentequation=\count93
+\dspbrk@lvl=\count94
+\tag@help=\toks16
+\row@=\count95
+\column@=\count96
+\maxfields@=\count97
+\andhelp@=\toks17
+\eqnshift@=\dimen109
+\alignsep@=\dimen110
+\tagshift@=\dimen111
+\tagwidth@=\dimen112
+\totwidth@=\dimen113
+\lineht@=\dimen114
+\@envbody=\toks18
+\multlinegap=\skip43
+\multlinetaggap=\skip44
+\mathdisplay@stack=\toks19
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+("C:\Users\Steve\Documents\GitHub\publish\intropaper\LaTeX Dissertation Files\L
+aTeX Dissertation\Dissertation - LaTeX - Final\thesis.sty"
+\c@thrm=\count98
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\lscape.sty"
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count99
+)))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks20
+)
+\Gin@req@height=\dimen115
+\Gin@req@width=\dimen116
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\eepic\epic.sty"
+Enhancements to Picture Environment. Version 1.2 - Released June 1, 1986
+\@@multicnt=\count100
+\d@lta=\count101
+\@delta=\dimen117
+\@@delta=\dimen118
+\@gridcnt=\count102
+\@joinkind=\count103
+\@dotgap=\dimen119
+\@ddotgap=\dimen120
+\@x@diff=\count104
+\@y@diff=\count105
+\x@diff=\dimen121
+\y@diff=\dimen122
+\@dotbox=\box28
+\num@segments=\count106
+\num@segmentsi=\count107
+\@datafile=\read1
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\eepic\eepic.sty"
+Extension to Epic and LaTeX. Version 1.1e - Released Dec 21, 1999
+\@gphlinewidth=\count108
+\@eepictcnt=\count109
+\@tempdimc=\dimen123
+\maxovaldiam=\dimen124
+\@filltype=\box29
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\rotating\rotating.sty"
+Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@r@tfl@t=\count110
+\rotFPtop=\skip45
+\rotFPbot=\skip46
+\rot@float@box=\box30
+\rot@mess@toks=\toks21
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\verbatim.sty"
+Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks22
+\verbatim@line=\toks23
+\verbatim@in@stream=\read2
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdfpages\pdfpages.sty"
+Package: pdfpages 2015/05/11 v0.4x Insert pages of external PDF documents (AM)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\calc.sty"
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count111
+\calc@Bcount=\count112
+\calc@Adimen=\dimen125
+\calc@Bdimen=\dimen126
+\calc@Askip=\skip47
+\calc@Bskip=\skip48
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count113
+\calc@Cskip=\skip49
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\eso-pic\eso-pic.sty"
+Package: eso-pic 2015/04/20 v2.0e eso-pic (RN)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\atbegshi.sty"
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+))
+\AM@pagewidth=\dimen127
+\AM@pageheight=\dimen128
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdfpages\pppdftex.def"
+File: pppdftex.def 2015/05/11 v0.4x Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box31
+\AM@toc@title=\toks24
+\c@AM@survey=\count114
+\AM@templatesizebox=\box32
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\txfonts\txfonts.sty"
+Package: txfonts 2008/01/22 v3.2.1
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 21.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/txr/m/n on input line 21.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/txr/m/n on input line 21.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/txr/m/n --> OT1/txr/bx/n on input line 22.
+\symitalic=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `italic' in version `bold'
+(Font)                  OT1/txr/m/it --> OT1/txr/bx/it on input line 26.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/txr/bx/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/txr/bx/n on input line 29.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 30.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/txr/m/it on input line 30.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/txr/m/it on input line 30.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/txr/m/it --> OT1/txr/bx/it on input line 31.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/txss/m/n on input line 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/txss/m/n on input line 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/txss/m/n --> OT1/txss/b/n on input line 41.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 50.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/txtt/m/n on input line 50.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/txtt/m/n on input line 50.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/txtt/m/n --> OT1/txtt/b/n on input line 51.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 58.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/txmi/m/it on input line 58.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/txmi/m/it on input line 58.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/txmi/m/it --> OML/txmi/bx/it on input line 59.
+\symlettersA=\mathgroup7
+LaTeX Font Info:    Overwriting symbol font `lettersA' in version `bold'
+(Font)                  U/txmia/m/it --> U/txmia/bx/it on input line 67.
+LaTeX Font Info:    Redeclaring math alphabet \mathfrak on input line 70.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 77.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/txsy/m/n on input line 77.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/txsy/m/n on input line 77.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/txsy/m/n --> OMS/txsy/bx/n on input line 78.
+LaTeX Font Info:    Redeclaring symbol font `AMSa' on input line 93.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `normal'
+(Font)                  U/msa/m/n --> U/txsya/m/n on input line 93.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `bold'
+(Font)                  U/msa/m/n --> U/txsya/m/n on input line 93.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `bold'
+(Font)                  U/txsya/m/n --> U/txsya/bx/n on input line 94.
+LaTeX Font Info:    Redeclaring symbol font `AMSb' on input line 102.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `normal'
+(Font)                  U/msb/m/n --> U/txsyb/m/n on input line 102.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `bold'
+(Font)                  U/msb/m/n --> U/txsyb/m/n on input line 102.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `bold'
+(Font)                  U/txsyb/m/n --> U/txsyb/bx/n on input line 103.
+\symsymbolsC=\mathgroup8
+LaTeX Font Info:    Overwriting symbol font `symbolsC' in version `bold'
+(Font)                  U/txsyc/m/n --> U/txsyc/bx/n on input line 113.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 120.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/txex/m/n on input line 120.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/txex/m/n on input line 120.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/txex/m/n --> OMX/txex/bx/n on input line 121.
+\symlargesymbolsA=\mathgroup9
+LaTeX Font Info:    Overwriting symbol font `largesymbolsA' in version `bold'
+(Font)                  U/txexa/m/n --> U/txexa/bx/n on input line 129.
+LaTeX Info: Redefining \not on input line 1043.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\utilities\pgfpages.sty"
+Package: pgfpages 2011/01/05 ver 0.02
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\basiclayer\pgfcore.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\systemlayer\pgfsys.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\utilities\pgfrcs.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-common.te
+x"
+\pgfutil@everybye=\toks25
+\pgfutil@tempdima=\dimen129
+\pgfutil@tempdimb=\dimen130
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-common-li
+sts.tex"))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-latex.def
+"
+\pgfutil@abb=\box33
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ms\everyshi.sty"
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgfrcs.code.tex"
+Package: pgfrcs 2013/12/20 v3.0.0 (rcs-revision 1.28)
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys.code.tex
+"
+Package: pgfsys 2013/11/30 v3.0.0 (rcs-revision 1.47)
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeys.code.tex
+"
+\pgfkeys@pathtoks=\toks26
+\pgfkeys@temptoks=\toks27
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeysfiltered.c
+ode.tex"
+\pgfkeys@tmptoks=\toks28
+))
+\pgf@x=\dimen131
+\pgf@y=\dimen132
+\pgf@xa=\dimen133
+\pgf@ya=\dimen134
+\pgf@xb=\dimen135
+\pgf@yb=\dimen136
+\pgf@xc=\dimen137
+\pgf@yc=\dimen138
+\w@pgf@writea=\write3
+\r@pgf@reada=\read3
+\c@pgf@counta=\count115
+\c@pgf@countb=\count116
+\c@pgf@countc=\count117
+\c@pgf@countd=\count118
+\t@pgf@toka=\toks29
+\t@pgf@tokb=\toks30
+\t@pgf@tokc=\toks31
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgf.cfg"
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys-pdftex.d
+ef"
+File: pgfsys-pdftex.def 2013/07/18  (rcs-revision 1.33)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys-common-p
+df.def"
+File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
+)))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsyssoftpath.
+code.tex"
+File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
+\pgfsyssoftpath@smallbuffer@items=\count119
+\pgfsyssoftpath@bigbuffer@items=\count120
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsysprotocol.
+code.tex"
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcore.code.tex
+"
+Package: pgfcore 2010/04/11 v3.0.0 (rcs-revision 1.7)
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathcalc.code.tex"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathutil.code.tex")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathparser.code.tex
+"
+\pgfmath@dimen=\dimen139
+\pgfmath@count=\count121
+\pgfmath@box=\box34
+\pgfmath@toks=\toks32
+\pgfmath@stack@operand=\toks33
+\pgfmath@stack@operation=\toks34
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.code.
+tex"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.basic
+.code.tex")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.trigo
+nometric.code.tex")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.rando
+m.code.tex")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.compa
+rison.code.tex")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.base.
+code.tex")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.round
+.code.tex")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.misc.
+code.tex")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.integ
+erarithmetics.code.tex")))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfloat.code.tex"
+\c@pgfmathroundto@lastzeros=\count122
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepoints.co
+de.tex"
+File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
+\pgf@picminx=\dimen140
+\pgf@picmaxx=\dimen141
+\pgf@picminy=\dimen142
+\pgf@picmaxy=\dimen143
+\pgf@pathminx=\dimen144
+\pgf@pathmaxx=\dimen145
+\pgf@pathminy=\dimen146
+\pgf@pathmaxy=\dimen147
+\pgf@xx=\dimen148
+\pgf@xy=\dimen149
+\pgf@yx=\dimen150
+\pgf@yy=\dimen151
+\pgf@zx=\dimen152
+\pgf@zy=\dimen153
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathconst
+ruct.code.tex"
+File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
+\pgf@path@lastx=\dimen154
+\pgf@path@lasty=\dimen155
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathusage
+.code.tex"
+File: pgfcorepathusage.code.tex 2013/12/13  (rcs-revision 1.23)
+\pgf@shorten@end@additional=\dimen156
+\pgf@shorten@start@additional=\dimen157
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorescopes.co
+de.tex"
+File: pgfcorescopes.code.tex 2013/10/09  (rcs-revision 1.44)
+\pgfpic=\box35
+\pgf@hbox=\box36
+\pgf@layerbox@main=\box37
+\pgf@picture@serial@count=\count123
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoregraphicst
+ate.code.tex"
+File: pgfcoregraphicstate.code.tex 2013/09/19  (rcs-revision 1.11)
+\pgflinewidth=\dimen158
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoretransform
+ations.code.tex"
+File: pgfcoretransformations.code.tex 2013/10/10  (rcs-revision 1.17)
+\pgf@pt@x=\dimen159
+\pgf@pt@y=\dimen160
+\pgf@pt@temp=\dimen161
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorequick.cod
+e.tex"
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreobjects.c
+ode.tex"
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathproce
+ssing.code.tex"
+File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorearrows.co
+de.tex"
+File: pgfcorearrows.code.tex 2013/11/07  (rcs-revision 1.40)
+\pgfarrowsep=\dimen162
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreshade.cod
+e.tex"
+File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
+\pgf@max=\dimen163
+\pgf@sys@shading@range@num=\count124
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreimage.cod
+e.tex"
+File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreexternal.
+code.tex"
+File: pgfcoreexternal.code.tex 2013/07/15  (rcs-revision 1.20)
+\pgfexternal@startupbox=\box38
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorelayers.co
+de.tex"
+File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoretranspare
+ncy.code.tex"
+File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepatterns.
+code.tex"
+File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
+)))
+\pgf@logicalpages=\count125
+\pgf@firstshipout=\count126
+\pgf@lastshipout=\count127
+\pgf@currentshipout=\count128
+\pgf@cpn=\count129
+\pgf@shipoutnextto=\count130
+\pgfphysicalheight=\dimen164
+\pgfphysicalwidth=\dimen165
+\pgfpages@shipoutbox=\box39
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\booktabs\booktabs.sty"
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen166
+\lightrulewidth=\dimen167
+\cmidrulewidth=\dimen168
+\belowrulesep=\dimen169
+\belowbottomsep=\dimen170
+\aboverulesep=\dimen171
+\abovetopsep=\dimen172
+\cmidrulesep=\dimen173
+\cmidrulekern=\dimen174
+\defaultaddspace=\dimen175
+\@cmidla=\count131
+\@cmidlb=\count132
+\@aboverulesep=\dimen176
+\@belowrulesep=\dimen177
+\@thisruleclass=\count133
+\@lastruleclass=\count134
+\@thisrulewidth=\dimen178
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\longtable.sty"
+Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip50
+\LTright=\skip51
+\LTpre=\skip52
+\LTpost=\skip53
+\LTchunksize=\count135
+\LTcapwidth=\dimen179
+\LT@head=\box40
+\LT@firsthead=\box41
+\LT@foot=\box42
+\LT@lastfoot=\box43
+\LT@cols=\count136
+\LT@rows=\count137
+\c@LT@tables=\count138
+\c@LT@chunks=\count139
+\LT@p@ftn=\toks35
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ltxmisc\chngpage.sty"
+Package: chngpage 2003/08/10 v1.2 change page layout
+\c@cp@cnt=\count140
+\c@cp@tempcnt=\count141
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\subfig\subfig.sty"
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+
+
+Package subfig Warning: Your document class has a bad definition
+ of \endfigure, most likely
+ \let\endfigure=\end@float
+ which has now been changed to
+ \def\endfigure{\end@float}
+ because otherwise subsequent changes to \end@float
+ (like done by several packages changing float behaviour)
+ can't take effect on \endfigure.
+ Please complain to your document class author.
+
+
+Package subfig Warning: Your document class has a bad definition
+ of \endtable, most likely
+ \let\endtable=\end@float
+ which has now been changed to
+ \def\endtable{\end@float}
+ because otherwise subsequent changes to \end@float
+ (like done by several packages changing float behaviour)
+ can't take effect on \endtable.
+ Please complain to your document class author.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\caption.sty"
+Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\caption3.sty"
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
+\captionmargin=\dimen180
+\captionmargin@=\dimen181
+\captionwidth=\dimen182
+\caption@tempdima=\dimen183
+\caption@indent=\dimen184
+\caption@parindent=\dimen185
+\caption@hangindent=\dimen186
+\abovecaptionskip=\skip54
+\belowcaptionskip=\skip55
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+)
+
+Package caption Warning: Unsupported document class (or package) detected,
+(caption)                usage of the caption package is not recommended.
+See the caption package documentation for explanation.
+
+Package caption Info: \@makecaption = \long macro:#1#2-> \vskip \captionlineski
+p \baselineskip =\captionlineskip \setbox \@tempboxa \hbox {{#1}. #2}\ifdim \wd
+ \@tempboxa >\hsize \unhbox \@tempboxa \par \else \centering {#1}. #2 \fi .
+\c@ContinuedFloat=\count142
+Package caption Info: longtable package is loaded.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\ltcaption.sty"
+Package: ltcaption 2013/02/03 v1.3-62 longtable captions (AR)
+)
+Package caption Info: rotating package is loaded.
+)
+\c@KVtest=\count143
+\sf@farskip=\skip56
+\sf@captopadj=\dimen187
+\sf@capskip=\skip57
+\sf@nearskip=\skip58
+\c@subfigure=\count144
+\c@subfigure@save=\count145
+\c@lofdepth=\count146
+\c@subtable=\count147
+\c@subtable@save=\count148
+\c@lotdepth=\count149
+\sf@top=\skip59
+\sf@bottom=\skip60
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count150
+\float@exts=\toks36
+\float@box=\box44
+\@float@everytoks=\toks37
+\@floatcapt=\box45
+)
+\c@section=\count151
+\c@subsection=\count152
+\c@paragraph=\count153
+\c@subsubsection=\count154
+
+("C:\Users\Steve\Documents\GitHub\publish\intropaper\LaTeX Dissertation Files\L
+aTeX Dissertation\Dissertation - LaTeX - Final\Dissertation01.aux"
+("C:\Users\Steve\Documents\GitHub\publish\intropaper\LaTeX Dissertation Files\L
+aTeX Dissertation\Dissertation - LaTeX - Final\intropaper.aux")
+("C:\Users\Steve\Documents\GitHub\publish\intropaper\LaTeX Dissertation Files\L
+aTeX Dissertation\Dissertation - LaTeX - Final\paper1.aux"
+
+LaTeX Warning: Label `eq:mrp1' multiply defined.
+
+)
+("C:\Users\Steve\Documents\GitHub\publish\intropaper\LaTeX Dissertation Files\L
+aTeX Dissertation\Dissertation - LaTeX - Final\paper2.aux"
+
+LaTeX Warning: Label `fig:allen_wages' multiply defined.
+
+
+LaTeX Warning: Label `fig:wage-energy' multiply defined.
+
+)
+("C:\Users\Steve\Documents\GitHub\publish\intropaper\LaTeX Dissertation Files\L
+aTeX Dissertation\Dissertation - LaTeX - Final\scbappendix1.aux")
+("C:\Users\Steve\Documents\GitHub\publish\intropaper\LaTeX Dissertation Files\L
+aTeX Dissertation\Dissertation - LaTeX - Final\scbappendix2.aux"
+
+LaTeX Warning: Label `eq:mrp1' multiply defined.
+
+
+LaTeX Warning: Label `eq:mrp1' multiply defined.
+
+
+LaTeX Warning: Label `eq:mrp2' multiply defined.
+
+))
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 92.
+LaTeX Font Info:    Try loading font information for OML+txmi on input line 92.
+
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\txfonts\omltxmi.fd"
+File: omltxmi.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 92.
+LaTeX Font Info:    Try loading font information for OMS+txsy on input line 92.
+
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\txfonts\omstxsy.fd"
+File: omstxsy.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 92.
+LaTeX Font Info:    Try loading font information for OMX+txex on input line 92.
+
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\txfonts\omxtxex.fd"
+File: omxtxex.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 92.
+LaTeX Font Info:    Try loading font information for U+txexa on input line 92.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\txfonts\utxexa.fd"
+File: utxexa.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Try loading font information for OT1+txr on input line 92.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\txfonts\ot1txr.fd"
+File: ot1txr.fd 2000/12/15 v3.1
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count155
+\scratchdimen=\dimen188
+\scratchbox=\box46
+\nofMPsegments=\count156
+\nofMParguments=\count157
+\everyMPshowfont=\toks38
+\MPscratchCnt=\count158
+\MPscratchDim=\dimen189
+\MPnumerator=\count159
+\makeMPintoPDFobject=\count160
+\everyMPtoPDFconversion=\toks39
+)
+\AtBeginShipoutBox=\box47
+ ABD: EveryShipout initializing macros
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: float package is loaded.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Try loading font information for U+txsya on input line 98.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\txfonts\utxsya.fd"
+File: utxsya.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Try loading font information for U+txsyb on input line 98.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\txfonts\utxsyb.fd"
+File: utxsyb.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Try loading font information for U+txmia on input line 98.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\txfonts\utxmia.fd"
+File: utxmia.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Try loading font information for U+txsyc on input line 98.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\txfonts\utxsyc.fd"
+File: utxsyc.fd 2000/12/15 v3.1
+)
+Title.
+[-1
+
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
+LaTeX Font Info:    Try loading font information for OMS+txr on input line 99.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\txfonts\omstxr.fd"
+File: omstxr.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <12> not available
+(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 99.
+
+Copyright.
+[-1]
+<C:/Users/Steve/Desktop/VAT/Projects/Research/Dissertation/Statement-of-Approva
+l-PhD1-2.pdf, id=14, 614.295pt x 794.97pt>
+File: C:/Users/Steve/Desktop/VAT/Projects/Research/Dissertation/Statement-of-Ap
+proval-PhD1-2.pdf Graphic file (type pdf)
+
+<use C:/Users/Steve/Desktop/VAT/Projects/Research/Dissertation/Statement-of-App
+roval-PhD1-2.pdf>
+Package pdftex.def Info: C:/Users/Steve/Desktop/VAT/Projects/Research/Dissertat
+ion/Statement-of-Approval-PhD1-2.pdf used on input line 101.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: C:/Users/Steve/Desktop/VAT/Projects/Research/Dissertation/Statement-of-Ap
+proval-PhD1-2.pdf Graphic file (type pdf)
+
+<use C:/Users/Steve/Desktop/VAT/Projects/Research/Dissertation/Statement-of-App
+roval-PhD1-2.pdf>
+Package pdftex.def Info: C:/Users/Steve/Desktop/VAT/Projects/Research/Dissertat
+ion/Statement-of-Approval-PhD1-2.pdf used on input line 101.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+
+
+Package pdfpages Warning: Erroneous page width of 0.0pt is corrected.
+
+
+Package pdfpages Warning: Erroneous page height of 0.0pt is corrected.
+
+
+<C:/Users/Steve/Desktop/VAT/Projects/Research/Dissertation/Statement-of-Approva
+l-PhD1-2.pdf, id=17, page=1, 614.295pt x 794.97pt>
+File: C:/Users/Steve/Desktop/VAT/Projects/Research/Dissertation/Statement-of-Ap
+proval-PhD1-2.pdf Graphic file (type pdf)
+
+<use C:/Users/Steve/Desktop/VAT/Projects/Research/Dissertation/Statement-of-App
+roval-PhD1-2.pdf, page 1>
+Package pdftex.def Info: C:/Users/Steve/Desktop/VAT/Projects/Research/Dissertat
+ion/Statement-of-Approval-PhD1-2.pdf, page1 used on input line 101.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: C:/Users/Steve/Desktop/VAT/Projects/Research/Dissertation/Statement-of-Ap
+proval-PhD1-2.pdf Graphic file (type pdf)
+
+<use C:/Users/Steve/Desktop/VAT/Projects/Research/Dissertation/Statement-of-App
+roval-PhD1-2.pdf, page 1>
+Package pdftex.def Info: C:/Users/Steve/Desktop/VAT/Projects/Research/Dissertat
+ion/Statement-of-Approval-PhD1-2.pdf, page1 used on input line 101.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: C:/Users/Steve/Desktop/VAT/Projects/Research/Dissertation/Statement-of-Ap
+proval-PhD1-2.pdf Graphic file (type pdf)
+
+<use C:/Users/Steve/Desktop/VAT/Projects/Research/Dissertation/Statement-of-App
+roval-PhD1-2.pdf, page 1>
+Package pdftex.def Info: C:/Users/Steve/Desktop/VAT/Projects/Research/Dissertat
+ion/Statement-of-Approval-PhD1-2.pdf, page1 used on input line 101.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: C:/Users/Steve/Desktop/VAT/Projects/Research/Dissertation/Statement-of-Ap
+proval-PhD1-2.pdf Graphic file (type pdf)
+
+<use C:/Users/Steve/Desktop/VAT/Projects/Research/Dissertation/Statement-of-App
+roval-PhD1-2.pdf, page 1>
+Package pdftex.def Info: C:/Users/Steve/Desktop/VAT/Projects/Research/Dissertat
+ion/Statement-of-Approval-PhD1-2.pdf, page1 used on input line 101.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: C:/Users/Steve/Desktop/VAT/Projects/Research/Dissertation/Statement-of-Ap
+proval-PhD1-2.pdf Graphic file (type pdf)
+
+<use C:/Users/Steve/Desktop/VAT/Projects/Research/Dissertation/Statement-of-App
+roval-PhD1-2.pdf, page 1>
+Package pdftex.def Info: C:/Users/Steve/Desktop/VAT/Projects/Research/Dissertat
+ion/Statement-of-Approval-PhD1-2.pdf, page1 used on input line 101.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [0 <C:/Users/Steve/Desktop/VAT/Projects/Research/Dissertation/Statement-of-App
+roval-PhD1-2.pdf>]
+("C:\Users\Steve\Documents\GitHub\publish\intropaper\LaTeX Dissertation Files\L
+aTeX Dissertation\Dissertation - LaTeX - Final\abstract.tex" [3])
+Abstract.
+[4]
+Dedication.
+[5]
+("C:\Users\Steve\Documents\GitHub\publish\intropaper\LaTeX Dissertation Files\L
+aTeX Dissertation\Dissertation - LaTeX - Final\Dissertation01.toc"
+Overfull \hbox (3.46776pt too wide) in paragraph at lines 10--10
+ [][] []\OT1/txr/bx/n/12 ENERGY AND IN-STI-TU-TIONS: WHAT \OT1/txr/bx/it/12 RE-
+ALLY \OT1/txr/bx/n/12 HAP-PENED IN THE 
+ []
+
+)
+\tf@toc=\write4
+
+Contents.
+[6]
+List of Figures.
+
+("C:\Users\Steve\Documents\GitHub\publish\intropaper\LaTeX Dissertation Files\L
+aTeX Dissertation\Dissertation - LaTeX - Final\Dissertation01.lof"
+
+LaTeX Warning: Citation `maddison_world_2007' on page vii undefined on input li
+ne 11.
+
+
+LaTeX Warning: Citation `maddison_world_2007' on page vii undefined on input li
+ne 12.
+
+
+LaTeX Warning: Citation `nef_rise_1932' on page vii undefined on input line 21.
+
+
+
+LaTeX Warning: Citation `allen_british_2009' on page vii undefined on input lin
+e 23.
+
+
+LaTeX Warning: Citation `allen_british_2009' on page vii undefined on input lin
+e 25.
+
+
+LaTeX Warning: Citation `allen_british_2009' on page vii undefined on input lin
+e 27.
+
+[7]
+
+LaTeX Warning: Citation `allen_british_2009' on page viii undefined on input li
+ne 28.
+
+)
+\tf@lof=\write5
+ [8]
+List of Tables.
+
+("C:\Users\Steve\Documents\GitHub\publish\intropaper\LaTeX Dissertation Files\L
+aTeX Dissertation\Dissertation - LaTeX - Final\Dissertation01.lot"
+
+LaTeX Warning: Citation `williamson_why_1984' on page ix undefined on input lin
+e 9.
+
+
+LaTeX Warning: Citation `hartwell_markets_1966' on page ix undefined on input l
+ine 10.
+
+)
+\tf@lot=\write6
+ [9]
+("C:\Users\Steve\Documents\GitHub\publish\intropaper\LaTeX Dissertation Files\L
+aTeX Dissertation\Dissertation - LaTeX - Final\acknowledge.tex")
+Acknowledgments.
+[10]
+("C:\Users\Steve\Documents\GitHub\publish\intropaper\LaTeX Dissertation Files\L
+aTeX Dissertation\Dissertation - LaTeX - Final\intropaper.tex"
+CHAPTER 1.
+Title Error: (537.07544pt too wide)
+Page 1, Title="Chapter two -- ``Energy and institutions: What really happened i
+n the English Industrial Revolution? What did not happen in China?''"
+
+[1
+
+
+] [2]
+Overfull \hbox (4.57288pt too wide) in paragraph at lines 119--120
+[]\OT1/txr/m/n/12 The fourth in-tro-duc-tory sec-tion re-views Chi-nese in-sti-
+tu-tions. This dis-cus-sion is mainly
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[3]
+Title Error: (163.929pt too wide)
+Page 4, Title="Chapter three --- ``The rise of industrial capitalism. What happ
+ens next?''"
+
+[4]) [5]
+("C:\Users\Steve\Documents\GitHub\publish\intropaper\LaTeX Dissertation Files\L
+aTeX Dissertation\Dissertation - LaTeX - Final\paper1.tex"
+CHAPTER 2.
+
+Overfull \hbox (11.98886pt too wide) in paragraph at lines 97--99
+[]\OT1/txr/m/n/12 The out-come should pro-vide in-sights into eco-nomic de-vel-
+op-ment for growth economists
+ []
+
+[6
+
+
+
+]
+
+LaTeX Warning: Citation `desaguliers_course_1734' on page 7 undefined on input 
+line 104.
+
+
+LaTeX Warning: Citation `engels_condition_1892' on page 7 undefined on input li
+ne 106.
+
+
+LaTeX Warning: Citation `jevons_coal_1965' on page 7 undefined on input line 10
+6.
+
+
+LaTeX Warning: Citation `eckel_coal_1921' on page 7 undefined on input line 106
+.
+
+
+LaTeX Warning: Citation `soddy_matter_1911' on page 7 undefined on input line 1
+06.
+
+
+LaTeX Warning: Citation `soddy_cartesian_1921' on page 7 undefined on input lin
+e 106.
+
+
+LaTeX Warning: Citation `soddy_money_1931' on page 7 undefined on input line 10
+6.
+
+
+LaTeX Warning: Citation `soddy_wealth_1933' on page 7 undefined on input line 1
+06.
+
+
+LaTeX Warning: Citation `soddy_role_1934' on page 7 undefined on input line 106
+.
+
+
+LaTeX Warning: Citation `nef_rise_1932' on page 7 undefined on input line 108.
+
+
+LaTeX Warning: Citation `mantoux_industrial_1961' on page 7 undefined on input 
+line 110.
+
+[7]
+
+LaTeX Warning: Citation `cottrell_energy_1955' on page 8 undefined on input lin
+e 112.
+
+
+LaTeX Warning: Citation `cipolla_sources_1961' on page 8 undefined on input lin
+e 114.
+
+
+LaTeX Warning: Citation `cipolla_economic_1962' on page 8 undefined on input li
+ne 114.
+
+
+LaTeX Warning: Citation `cipolla_guns_1966' on page 8 undefined on input line 1
+14.
+
+
+LaTeX Warning: Citation `cipolla_before_1983' on page 8 undefined on input line
+ 114.
+
+
+LaTeX Warning: Citation `mokyr_lever_1992' on page 8 undefined on input line 11
+4.
+
+
+LaTeX Warning: Citation `deane_first_1979' on page 8 undefined on input line 11
+6.
+
+
+LaTeX Warning: Citation `wrigley_continuity_1988' on page 8 undefined on input 
+line 118.
+
+
+LaTeX Warning: Citation `wrigley_energy_2010' on page 8 undefined on input line
+ 118.
+
+
+LaTeX Warning: Citation `malanima_path_2010' on page 8 undefined on input line 
+120.
+
+[8]
+
+LaTeX Warning: Citation `mcneill_pursuit_1982' on page 9 undefined on input lin
+e 122.
+
+
+LaTeX Warning: Citation `pomeranz_great_2001' on page 9 undefined on input line
+ 122.
+
+
+LaTeX Warning: Citation `pomeranz_beyond_2002' on page 9 undefined on input lin
+e 122.
+
+
+LaTeX Warning: Citation `smith_inquiry_1977' on page 9 undefined on input line 
+122.
+
+
+LaTeX Warning: Citation `allen_british_2009' on page 9 undefined on input line 
+124.
+
+
+LaTeX Warning: Citation `allen_british_2009' on page 9 undefined on input line 
+126.
+
+[9]
+
+LaTeX Warning: Citation `cottrell_energy_1955' on page 10 undefined on input li
+ne 128.
+
+
+LaTeX Warning: Citation `allen_british_2009' on page 10 undefined on input line
+ 128.
+
+
+LaTeX Warning: Citation `wrigley_continuity_1988' on page 10 undefined on input
+ line 128.
+
+
+LaTeX Warning: Citation `wrigley_energy_2010' on page 10 undefined on input lin
+e 128.
+
+
+LaTeX Warning: Citation `smil_energy_1994' on page 10 undefined on input line 1
+28.
+
+
+LaTeX Warning: Citation `smil_energy_2008' on page 10 undefined on input line 1
+28.
+
+
+LaTeX Warning: Citation `georgescu-roegen_entropy_1971' on page 10 undefined on
+ input line 130.
+
+
+LaTeX Warning: Citation `garrett_are_2009' on page 10 undefined on input line 1
+30.
+
+
+LaTeX Warning: Citation `garrett_modes_2012' on page 10 undefined on input line
+ 130.
+
+
+LaTeX Warning: Citation `garrett_long-run_2015' on page 10 undefined on input l
+ine 130.
+
+[10]
+
+LaTeX Warning: Citation `weber_religion_1964' on page 11 undefined on input lin
+e 138.
+
+
+LaTeX Warning: Citation `weber_protestant_2002' on page 11 undefined on input l
+ine 138.
+
+
+LaTeX Warning: Citation `north_rise_1973' on page 11 undefined on input line 14
+2.
+
+
+LaTeX Warning: Citation `north_institutions_1990' on page 11 undefined on input
+ line 142.
+
+[11]
+
+LaTeX Warning: Citation `landes_unbound_1969' on page 12 undefined on input lin
+e 144.
+
+
+LaTeX Warning: Citation `landes_wealth_1999' on page 12 undefined on input line
+ 144.
+
+
+LaTeX Warning: Citation `mccloskey_bourgeois_2007' on page 12 undefined on inpu
+t line 144.
+
+
+LaTeX Warning: Citation `mccloskey_bourgeois_2010' on page 12 undefined on inpu
+t line 144.
+
+
+LaTeX Warning: Citation `goldstone_cultural_1987' on page 12 undefined on input
+ line 146.
+
+
+LaTeX Warning: Citation `goldstone_rise_2000' on page 12 undefined on input lin
+e 146.
+
+
+LaTeX Warning: Citation `goldstone_why_2008' on page 12 undefined on input line
+ 146.
+
+
+LaTeX Warning: Citation `goldstone_rise_2000' on page 12 undefined on input lin
+e 146.
+
+
+LaTeX Warning: Citation `acemoglu_chapter_2005' on page 12 undefined on input l
+ine 148.
+
+
+LaTeX Warning: Citation `acemoglu_introduction_2012' on page 12 undefined on in
+put line 148.
+
+
+LaTeX Warning: Citation `acemoglu_politics_2005' on page 12 undefined on input 
+line 148.
+
+
+LaTeX Warning: Citation `marx_contribution_1904' on page 12 undefined on input 
+line 152.
+
+
+LaTeX Warning: Citation `veblen_theory_2009' on page 12 undefined on input line
+ 152.
+
+[12]
+
+LaTeX Warning: Citation `hartwell_revolution_1962' on page 13 undefined on inpu
+t line 159.
+
+
+LaTeX Warning: Citation `hartwell_markets_1966' on page 13 undefined on input l
+ine 159.
+
+
+LaTeX Warning: Citation `hartwell_cycle_1967' on page 13 undefined on input lin
+e 159.
+
+
+LaTeX Warning: Citation `hartwell_demographic_1982' on page 13 undefined on inp
+ut line 159.
+
+
+LaTeX Warning: Citation `elvin_pattern_1973' on page 13 undefined on input line
+ 159.
+
+
+LaTeX Warning: Citation `mcneill_pursuit_1982' on page 13 undefined on input li
+ne 159.
+
+
+LaTeX Warning: Citation `mote_imperial_1999' on page 13 undefined on input line
+ 159.
+
+
+LaTeX Warning: Citation `jones_growth_1988' on page 13 undefined on input line 
+159.
+
+
+LaTeX Warning: Citation `jones_recurrent_1996' on page 13 undefined on input li
+ne 159.
+
+
+LaTeX Warning: Citation `tim_wright_economic_2007' on page 13 undefined on inpu
+t line 159.
+
+[13]
+
+LaTeX Warning: Citation `allen_british_2009' on page 14 undefined on input line
+ 161.
+
+
+LaTeX Warning: Citation `pomeranz_great_2001' on page 14 undefined on input lin
+e 167.
+
+[14]
+
+LaTeX Warning: Citation `pomeranz_great_2001' on page 15 undefined on input lin
+e 169.
+
+
+LaTeX Warning: Citation `pomeranz_great_2001' on page 15 undefined on input lin
+e 171.
+
+
+LaTeX Warning: Citation `philip_c._huang_review:_2002' on page 15 undefined on 
+input line 173.
+
+
+LaTeX Warning: Citation `peter_c._perdue_china_2009' on page 15 undefined on in
+put line 173.
+
+
+LaTeX Warning: Citation `duchesne_rise_2004' on page 15 undefined on input line
+ 173.
+
+
+LaTeX Warning: Citation `duchesne_uniqueness_2011' on page 15 undefined on inpu
+t line 173.
+
+
+LaTeX Warning: Citation `wong_china_1997' on page 15 undefined on input line 17
+5.
+
+
+LaTeX Warning: Citation `vries_via_2003' on page 15 undefined on input line 177
+.
+
+[15]
+
+LaTeX Warning: Citation `pomeranz_via_2004' on page 16 undefined on input line 
+179.
+
+
+LaTeX Warning: Citation `allen_british_2009' on page 16 undefined on input line
+ 189.
+
+
+LaTeX Warning: Citation `allen_great_2001' on page 16 undefined on input line 1
+89.
+
+
+LaTeX Warning: Citation `allen_wages_2007' on page 16 undefined on input line 1
+89.
+
+
+LaTeX Warning: Citation `allen_agricultural_2009' on page 16 undefined on input
+ line 189.
+
+[16]
+
+LaTeX Warning: Citation `needham_science_1954' on page 17 undefined on input li
+ne 203.
+
+
+LaTeX Warning: Citation `hobson_eastern_2004' on page 17 undefined on input lin
+e 205.
+
+
+LaTeX Warning: Citation `hobson_eastern_2004' on page 17 undefined on input lin
+e 207.
+
+[17]
+
+LaTeX Warning: Citation `hobson_eastern_2004' on page 18 undefined on input lin
+e 211.
+
+
+LaTeX Warning: Citation `harrod_essay_1939' on page 18 undefined on input line 
+219.
+
+
+LaTeX Warning: Citation `solow_technical_1957' on page 18 undefined on input li
+ne 221.
+
+
+LaTeX Warning: Citation `romer_origins_1994' on page 18 undefined on input line
+ 223.
+
+[18]
+
+LaTeX Warning: Citation `warr_rexs:_2006' on page 19 undefined on input line 22
+7.
+
+
+LaTeX Warning: Citation `ayres_underestimated_2013' on page 19 undefined on inp
+ut line 227.
+
+[19]
+
+LaTeX Warning: Citation `fouquet_heat_2008' on page 20 undefined on input line 
+255.
+
+
+LaTeX Warning: Citation `fouquet_thousand_1998' on page 20 undefined on input l
+ine 255.
+
+
+LaTeX Warning: Citation `fouquet_heat_2008' on page 20 undefined on input line 
+259.
+
+[20]
+
+LaTeX Warning: Citation `snooks_was_1994' on page 21 undefined on input line 26
+1.
+
+
+LaTeX Warning: Citation `tomas_johannesson_stinepack:_2012' on page 21 undefine
+d on input line 263.
+
+
+LaTeX Warning: Citation `r_core_team_r:_2014' on page 21 undefined on input lin
+e 263.
+
+
+LaTeX Warning: Citation `officer_what_2009' on page 21 undefined on input line 
+265.
+
+
+LaTeX Warning: Citation `snooks_was_1994' on page 21 undefined on input line 26
+9.
+
+
+LaTeX Warning: Citation `mitchell_british_1988' on page 21 undefined on input l
+ine 269.
+
+
+LaTeX Warning: Citation `mitchell_british_1988' on page 21 undefined on input l
+ine 269.
+
+
+<C:/Users/Steve/Documents/GitHub/publish/diss2/images/overallLevels.png, id=120
+, 481.8pt x 481.8pt>
+File: C:/Users/Steve/Documents/GitHub/publish/diss2/images/overallLevels.png Gr
+aphic file (type png)
+
+<use C:/Users/Steve/Documents/GitHub/publish/diss2/images/overallLevels.png>
+Package pdftex.def Info: C:/Users/Steve/Documents/GitHub/publish/diss2/images/o
+verallLevels.png used on input line 277.
+(pdftex.def)             Requested size: 380.49936pt x 380.50754pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[21]
+
+LaTeX Warning: Citation `kuznets_modern_1966' on page 22 undefined on input lin
+e 285.
+
+[22 <C:/Users/Steve/Documents/GitHub/publish/diss2/images/overallLevels.png>]
+<C:/Users/Steve/Documents/GitHub/publish/diss2/images/ggdp.png, id=128, 505.649
+1pt x 505.6491pt>
+File: C:/Users/Steve/Documents/GitHub/publish/diss2/images/ggdp.png Graphic fil
+e (type png)
+
+<use C:/Users/Steve/Documents/GitHub/publish/diss2/images/ggdp.png>
+Package pdftex.def Info: C:/Users/Steve/Documents/GitHub/publish/diss2/images/g
+gdp.png used on input line 295.
+(pdftex.def)             Requested size: 232.53024pt x 232.53195pt.
+
+<C:/Users/Steve/Documents/GitHub/publish/diss2/images/ggdppop.png, id=129, 505.
+6491pt x 505.6491pt>
+File: C:/Users/Steve/Documents/GitHub/publish/diss2/images/ggdppop.png Graphic 
+file (type png)
+
+<use C:/Users/Steve/Documents/GitHub/publish/diss2/images/ggdppop.png>
+Package pdftex.def Info: C:/Users/Steve/Documents/GitHub/publish/diss2/images/g
+gdppop.png used on input line 295.
+(pdftex.def)             Requested size: 232.53024pt x 232.53195pt.
+
+<C:/Users/Steve/Documents/GitHub/publish/diss2/images/gdpLog.png, id=130, 505.6
+491pt x 505.6491pt>
+File: C:/Users/Steve/Documents/GitHub/publish/diss2/images/gdpLog.png Graphic f
+ile (type png)
+
+<use C:/Users/Steve/Documents/GitHub/publish/diss2/images/gdpLog.png>
+Package pdftex.def Info: C:/Users/Steve/Documents/GitHub/publish/diss2/images/g
+dpLog.png used on input line 305.
+(pdftex.def)             Requested size: 232.53024pt x 232.53195pt.
+
+<C:/Users/Steve/Documents/GitHub/publish/diss2/images/gdpPopLog.png, id=131, 50
+5.6491pt x 505.6491pt>
+File: C:/Users/Steve/Documents/GitHub/publish/diss2/images/gdpPopLog.png Graphi
+c file (type png)
+
+<use C:/Users/Steve/Documents/GitHub/publish/diss2/images/gdpPopLog.png>
+Package pdftex.def Info: C:/Users/Steve/Documents/GitHub/publish/diss2/images/g
+dpPopLog.png used on input line 305.
+(pdftex.def)             Requested size: 232.53024pt x 232.53195pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Citation `grove_little_2003' on page 23 undefined on input line 
+309.
+
+
+LaTeX Warning: Citation `parker_global_2014' on page 23 undefined on input line
+ 309.
+
+[23 <C:/Users/Steve/Documents/GitHub/publish/diss2/images/ggdp.png> <C:/Users/S
+teve/Documents/GitHub/publish/diss2/images/ggdppop.png>]
+Overfull \hbox (43.5762pt too wide) in paragraph at lines 320--337
+[][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[24 <C:/Users/Steve/Documents/GitHub/publish/diss2/images/gdpLog.png> <C:/Users
+/Steve/Documents/GitHub/publish/diss2/images/gdpPopLog.png>]
+<C:/Users/Steve/Documents/GitHub/publish/diss2/images/popLog.png, id=142, 491.4
+36pt x 491.436pt>
+File: C:/Users/Steve/Documents/GitHub/publish/diss2/images/popLog.png Graphic f
+ile (type png)
+
+<use C:/Users/Steve/Documents/GitHub/publish/diss2/images/popLog.png>
+Package pdftex.def Info: C:/Users/Steve/Documents/GitHub/publish/diss2/images/p
+opLog.png used on input line 346.
+(pdftex.def)             Requested size: 380.49936pt x 380.51402pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[25]
+
+LaTeX Warning: Citation `zeileis_testing_2003' on page 26 undefined on input li
+ne 355.
+
+[26 <C:/Users/Steve/Documents/GitHub/publish/diss2/images/popLog.png>]
+
+LaTeX Warning: Citation `nef_rise_1932' on page 27 undefined on input line 357.
+
+
+
+<C:/Users/Steve/Documents/GitHub/publish/diss2/images/energyLog1.png, id=151, 5
+05.6491pt x 505.6491pt>
+File: C:/Users/Steve/Documents/GitHub/publish/diss2/images/energyLog1.png Graph
+ic file (type png)
+
+<use C:/Users/Steve/Documents/GitHub/publish/diss2/images/energyLog1.png>
+Package pdftex.def Info: C:/Users/Steve/Documents/GitHub/publish/diss2/images/e
+nergyLog1.png used on input line 363.
+(pdftex.def)             Requested size: 232.53024pt x 232.53195pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[27]
+<C:/Users/Steve/Documents/GitHub/publish/diss2/images/energyVsGdp.png, id=155, 
+481.8pt x 481.8pt>
+File: C:/Users/Steve/Documents/GitHub/publish/diss2/images/energyVsGdp.png Grap
+hic file (type png)
+
+<use C:/Users/Steve/Documents/GitHub/publish/diss2/images/energyVsGdp.png>
+Package pdftex.def Info: C:/Users/Steve/Documents/GitHub/publish/diss2/images/e
+nergyVsGdp.png used on input line 377.
+(pdftex.def)             Requested size: 232.53024pt x 232.52585pt.
+
+<C:/Users/Steve/Documents/GitHub/publish/diss2/images/energyVsGdpDiff.png, id=1
+56, 722.7pt x 722.7pt>
+File: C:/Users/Steve/Documents/GitHub/publish/diss2/images/energyVsGdpDiff.png 
+Graphic file (type png)
+
+<use C:/Users/Steve/Documents/GitHub/publish/diss2/images/energyVsGdpDiff.png>
+Package pdftex.def Info: C:/Users/Steve/Documents/GitHub/publish/diss2/images/e
+nergyVsGdpDiff.png used on input line 377.
+(pdftex.def)             Requested size: 232.53024pt x 232.52585pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[28 <C:/Users/Steve/Documents/GitHub/publish/diss2/images/energyLog1.png>]
+[29 <C:/Users/Steve/Documents/GitHub/publish/diss2/images/energyVsGdp.png> <C:/
+Users/Steve/Documents/GitHub/publish/diss2/images/energyVsGdpDiff.png>]
+<C:/Users/Steve/Documents/GitHub/publish/diss2/images/scatterplot.png, id=166, 
+674.52pt x 674.52pt>
+File: C:/Users/Steve/Documents/GitHub/publish/diss2/images/scatterplot.png Grap
+hic file (type png)
+
+<use C:/Users/Steve/Documents/GitHub/publish/diss2/images/scatterplot.png>
+Package pdftex.def Info: C:/Users/Steve/Documents/GitHub/publish/diss2/images/s
+catterplot.png used on input line 429.
+(pdftex.def)             Requested size: 380.49936pt x 380.50755pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[30]
+
+LaTeX Warning: Citation `granger_investigating_1969' on page 31 undefined on in
+put line 436.
+
+
+Overfull \hbox (52.72011pt too wide) in paragraph at lines 444--455
+[][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Citation `hajnal_european_1965' on page 31 undefined on input li
+ne 458.
+
+[31 <C:/Users/Steve/Documents/GitHub/publish/diss2/images/scatterplot.png>]
+
+LaTeX Warning: Citation `de_vries_industrial_1994' on page 32 undefined on inpu
+t line 460.
+
+
+LaTeX Warning: Citation `thirsk_economic_1978' on page 32 undefined on input li
+ne 460.
+
+
+LaTeX Warning: Citation `crosby_columbian_1972' on page 32 undefined on input l
+ine 462.
+
+[32]
+File: C:/Users/Steve/Documents/GitHub/publish/diss2/images/energyLog1.png Graph
+ic file (type png)
+ <use C:/Users/Steve/Documents/GitHub/publish/diss2/images/energyLog1.png>
+Package pdftex.def Info: C:/Users/Steve/Documents/GitHub/publish/diss2/images/e
+nergyLog1.png used on input line 482.
+(pdftex.def)             Requested size: 139.51814pt x 139.513pt.
+
+<C:/Users/Steve/Documents/GitHub/publish/diss2/images/gbpgdplog.png, id=178, 49
+1.436pt x 491.436pt>
+File: C:/Users/Steve/Documents/GitHub/publish/diss2/images/gbpgdplog.png Graphi
+c file (type png)
+
+<use C:/Users/Steve/Documents/GitHub/publish/diss2/images/gbpgdplog.png>
+Package pdftex.def Info: C:/Users/Steve/Documents/GitHub/publish/diss2/images/g
+bpgdplog.png used on input line 482.
+(pdftex.def)             Requested size: 139.51814pt x 139.5208pt.
+File: C:/Users/Steve/Documents/GitHub/publish/diss2/images/popLog.png Graphic f
+ile (type png)
+
+<use C:/Users/Steve/Documents/GitHub/publish/diss2/images/popLog.png>
+Package pdftex.def Info: C:/Users/Steve/Documents/GitHub/publish/diss2/images/p
+opLog.png used on input line 482.
+(pdftex.def)             Requested size: 139.51814pt x 139.5208pt.
+ [33 <C:/Users/Steve/Documents/GitHub/publish/diss2/images/gbpgdplog.png>]
+<C:/Users/Steve/Documents/GitHub/publish/diss2/images/2000_Year_Temperature_Com
+parison.png, id=183, 602.25pt x 444.66125pt>
+File: C:/Users/Steve/Documents/GitHub/publish/diss2/images/2000_Year_Temperatur
+e_Comparison.png Graphic file (type png)
+
+<use C:/Users/Steve/Documents/GitHub/publish/diss2/images/2000_Year_Temperature
+_Comparison.png>
+Package pdftex.def Info: C:/Users/Steve/Documents/GitHub/publish/diss2/images/2
+000_Year_Temperature_Comparison.png used on input line 496.
+(pdftex.def)             Requested size: 380.49936pt x 280.94548pt.
+
+
+LaTeX Warning: Citation `thirsk_economic_1978' on page 34 undefined on input li
+ne 499.
+
+[34 <C:/Users/Steve/Documents/GitHub/publish/diss2/images/2000_Year_Temperature
+_Comparison.png>]
+
+LaTeX Warning: Citation `nef_rise_1932' on page 35 undefined on input line 501.
+
+
+
+LaTeX Warning: Citation `grove_little_2003' on page 35 undefined on input line 
+505.
+
+
+LaTeX Warning: Citation `lamb_aspects_1980' on page 35 undefined on input line 
+505.
+
+[35]
+<C:/Users/Steve/Documents/GitHub/publish/diss2/images/woodCoal.png, id=191, 390
+.258pt x 325.215pt>
+File: C:/Users/Steve/Documents/GitHub/publish/diss2/images/woodCoal.png Graphic
+ file (type png)
+
+<use C:/Users/Steve/Documents/GitHub/publish/diss2/images/woodCoal.png>
+Package pdftex.def Info: C:/Users/Steve/Documents/GitHub/publish/diss2/images/w
+oodCoal.png used on input line 513.
+(pdftex.def)             Requested size: 380.49936pt x 317.08583pt.
+
+
+LaTeX Warning: Citation `nef_early_1977' on page 36 undefined on input line 516
+.
+
+
+LaTeX Warning: Citation `thirsk_economic_1978' on page 36 undefined on input li
+ne 520.
+
+[36 <C:/Users/Steve/Documents/GitHub/publish/diss2/images/woodCoal.png>]
+
+LaTeX Warning: Citation `de_vries_economy_1976' on page 37 undefined on input l
+ine 522.
+
+
+LaTeX Warning: Citation `de_vries_measuring_1980' on page 37 undefined on input
+ line 522.
+
+
+LaTeX Warning: Citation `hobson_eastern_2004' on page 37 undefined on input lin
+e 530.
+
+[37]
+Missing character: There is no é in font txr!
+Missing character: There is no é in font txr!
+
+Overfull \hbox (82.03609pt too wide) in paragraph at lines 536--578
+[][] 
+ []
+
+
+LaTeX Warning: Float too large for page by 62.64859pt on input line 578.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[38] [39] [40]
+
+LaTeX Warning: Citation `bentley_murder_1941' on page 41 undefined on input lin
+e 676.
+
+
+LaTeX Warning: Citation `pomeranz_great_2001' on page 41 undefined on input lin
+e 681.
+
+[41
+
+]
+
+LaTeX Warning: Citation `needham_science_1954' on page 42 undefined on input li
+ne 687.
+
+
+LaTeX Warning: Citation `hobson_eastern_2004' on page 42 undefined on input lin
+e 687.
+
+
+LaTeX Warning: Citation `weber_protestant_2002' on page 42 undefined on input l
+ine 691.
+
+
+LaTeX Warning: Citation `landes_unbound_1969' on page 42 undefined on input lin
+e 691.
+
+
+LaTeX Warning: Citation `landes_wealth_1999' on page 42 undefined on input line
+ 691.
+
+
+LaTeX Warning: Citation `mccloskey_bourgeois_2007' on page 42 undefined on inpu
+t line 691.
+
+
+LaTeX Warning: Citation `mccloskey_bourgeois_2010' on page 42 undefined on inpu
+t line 691.
+
+
+Overfull \hbox (2.06488pt too wide) in paragraph at lines 691--692
+[]\OT1/txr/m/n/12 And if trans-mit-ted in-sti-tu-tional ex-cep-tion-al-ism ac-c
+ounts for the rapid spread of growth
+ []
+
+[42]
+
+LaTeX Warning: Citation `maddison_world_2007' on page 43 undefined on input lin
+e 701.
+
+
+LaTeX Warning: Citation `smil_energy_1994' on page 43 undefined on input line 7
+01.
+
+
+LaTeX Warning: Citation `smil_energy_2008' on page 43 undefined on input line 7
+01.
+
+
+LaTeX Warning: Citation `j._w._de_zeeuw_peat_1978' on page 43 undefined on inpu
+t line 701.
+
+
+LaTeX Warning: Citation `hartwell_revolution_1962' on page 43 undefined on inpu
+t line 701.
+
+
+LaTeX Warning: Citation `hartwell_markets_1966' on page 43 undefined on input l
+ine 701.
+
+
+LaTeX Warning: Citation `hartwell_cycle_1967' on page 43 undefined on input lin
+e 701.
+
+
+LaTeX Warning: Citation `hartwell_demographic_1982' on page 43 undefined on inp
+ut line 701.
+
+
+LaTeX Warning: Citation `u.s._energy_information_administration_energy_????' on
+ page 43 undefined on input line 701.
+
+
+LaTeX Warning: Citation `maddison_world_2007' on page 43 undefined on input lin
+e 703.
+
+[43]
+
+LaTeX Warning: Citation `maddison_world_2007' on page 44 undefined on input lin
+e 711.
+
+
+LaTeX Warning: Citation `maddison_world_2007' on page 44 undefined on input lin
+e 711.
+
+
+<C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/maddisonregpoplevel
+s1900.png, id=217, 505.6491pt x 505.6491pt>
+File: C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/maddisonregpop
+levels1900.png Graphic file (type png)
+
+<use C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/maddisonregpopl
+evels1900.png>
+Package pdftex.def Info: C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/im
+ages/maddisonregpoplevels1900.png used on input line 714.
+(pdftex.def)             Requested size: 211.38997pt x 211.39128pt.
+
+<C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/maddisonreggdplevel
+s1900.png, id=218, 505.6491pt x 505.6491pt>
+File: C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/maddisonreggdp
+levels1900.png Graphic file (type png)
+
+<use C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/maddisonreggdpl
+evels1900.png>
+Package pdftex.def Info: C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/im
+ages/maddisonreggdplevels1900.png used on input line 715.
+(pdftex.def)             Requested size: 211.38997pt x 211.39128pt.
+
+<C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/maddisonregpoppct.p
+ng, id=219, 505.6491pt x 505.6491pt>
+File: C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/maddisonregpop
+pct.png Graphic file (type png)
+
+<use C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/maddisonregpopp
+ct.png>
+Package pdftex.def Info: C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/im
+ages/maddisonregpoppct.png used on input line 716.
+(pdftex.def)             Requested size: 211.38997pt x 211.39128pt.
+
+<C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/maddisonreggdppct.p
+ng, id=220, 505.6491pt x 505.6491pt>
+File: C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/maddisonreggdp
+pct.png Graphic file (type png)
+
+<use C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/maddisonreggdpp
+ct.png>
+Package pdftex.def Info: C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/im
+ages/maddisonreggdppct.png used on input line 717.
+(pdftex.def)             Requested size: 211.38997pt x 211.39128pt.
+
+Overfull \hbox (2.28pt too wide) in paragraph at lines 714--718
+[][] [] 
+ []
+
+
+Overfull \hbox (2.28pt too wide) in paragraph at lines 714--718
+[] [] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Citation `pomeranz_great_2001' on page 44 undefined on input lin
+e 722.
+
+
+LaTeX Warning: Citation `crosby_columbian_1972' on page 44 undefined on input l
+ine 722.
+
+
+LaTeX Warning: Citation `maddison_world_2007' on page 44 undefined on input lin
+e 724.
+
+[44]
+
+LaTeX Warning: Citation `maddison_world_2007' on page 45 undefined on input lin
+e 730.
+
+
+LaTeX Warning: Citation `maddison_world_2007' on page 45 undefined on input lin
+e 730.
+
+
+<C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/ggdpcapitadodge.png
+, id=225, 505.6491pt x 505.6491pt>
+File: C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/ggdpcapitadodg
+e.png Graphic file (type png)
+
+<use C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/ggdpcapitadodge
+.png>
+Package pdftex.def Info: C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/im
+ages/ggdpcapitadodge.png used on input line 733.
+(pdftex.def)             Requested size: 338.22523pt x 338.23532pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[45 <C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/maddisonregpopl
+evels1900.png> <C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/madd
+isonreggdplevels1900.png> <C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/
+images/maddisonregpoppct.png> <C:/Users/Steve/Documents/GitHub/publish/1310utah
+Soc/images/maddisonreggdppct.png>] [46 <C:/Users/Steve/Documents/GitHub/publish
+/1310utahSoc/images/ggdpcapitadodge.png>]
+<C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/1500pop.png, id=237
+, 457.71pt x 265.99374pt>
+File: C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/1500pop.png Gr
+aphic file (type png)
+
+<use C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/1500pop.png>
+Package pdftex.def Info: C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/im
+ages/1500pop.png used on input line 750.
+(pdftex.def)             Requested size: 338.22523pt x 196.5644pt.
+
+<C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/1820pop.png, id=238
+, 457.71pt x 265.99374pt>
+File: C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/1820pop.png Gr
+aphic file (type png)
+
+<use C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/1820pop.png>
+Package pdftex.def Info: C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/im
+ages/1820pop.png used on input line 758.
+(pdftex.def)             Requested size: 338.22523pt x 196.5644pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/1900pop.png, id=239
+, 457.71pt x 265.99374pt>
+File: C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/1900pop.png Gr
+aphic file (type png)
+
+<use C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/1900pop.png>
+Package pdftex.def Info: C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/im
+ages/1900pop.png used on input line 766.
+(pdftex.def)             Requested size: 338.22523pt x 196.5644pt.
+
+[47 <C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/1500pop.png> <C
+:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/1820pop.png>]
+<C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/1500gdp.png, id=243
+, 457.71pt x 265.99374pt>
+File: C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/1500gdp.png Gr
+aphic file (type png)
+
+<use C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/1500gdp.png>
+Package pdftex.def Info: C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/im
+ages/1500gdp.png used on input line 775.
+(pdftex.def)             Requested size: 338.22523pt x 196.5644pt.
+
+<C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/1820gdp.png, id=244
+, 457.71pt x 268.00125pt>
+File: C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/1820gdp.png Gr
+aphic file (type png)
+
+<use C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/1820gdp.png>
+Package pdftex.def Info: C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/im
+ages/1820gdp.png used on input line 782.
+(pdftex.def)             Requested size: 338.22523pt x 198.04791pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/1900gdp.png, id=245
+, 438.63875pt x 245.91875pt>
+File: C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/1900gdp.png Gr
+aphic file (type png)
+
+<use C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/1900gdp.png>
+Package pdftex.def Info: C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/im
+ages/1900gdp.png used on input line 789.
+(pdftex.def)             Requested size: 338.22523pt x 189.62819pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[48 <C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/1900pop.png> <C
+:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/1500gdp.png>]
+
+LaTeX Warning: Citation `pomeranz_great_2001' on page 49 undefined on input lin
+e 796.
+
+[49 <C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/1820gdp.png> <C
+:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/1900gdp.png>]
+
+LaTeX Warning: Citation `wong_china_1997' on page 50 undefined on input line 81
+0.
+
+[50]
+
+LaTeX Warning: Citation `wong_china_1997' on page 51 undefined on input line 81
+4.
+
+
+Overfull \hbox (9.34944pt too wide) in paragraph at lines 824--825
+[]\OT1/txr/m/n/12 ``...as late as the mid--eighteenth cen-tury, west-ern Eu-rop
+e was not uniquely
+ []
+
+
+LaTeX Warning: Citation `pomeranz_great_2001' on page 51 undefined on input lin
+e 826.
+
+[51]
+<C:/Users/Steve/Documents/GitHub/publish/diss2/images/era1.png, id=259, 505.649
+1pt x 505.6491pt>
+File: C:/Users/Steve/Documents/GitHub/publish/diss2/images/era1.png Graphic fil
+e (type png)
+
+<use C:/Users/Steve/Documents/GitHub/publish/diss2/images/era1.png>
+Package pdftex.def Info: C:/Users/Steve/Documents/GitHub/publish/diss2/images/e
+ra1.png used on input line 846.
+(pdftex.def)             Requested size: 211.38997pt x 211.39128pt.
+
+<C:/Users/Steve/Documents/GitHub/publish/diss2/images/era2.png, id=260, 505.649
+1pt x 505.6491pt>
+File: C:/Users/Steve/Documents/GitHub/publish/diss2/images/era2.png Graphic fil
+e (type png)
+
+<use C:/Users/Steve/Documents/GitHub/publish/diss2/images/era2.png>
+Package pdftex.def Info: C:/Users/Steve/Documents/GitHub/publish/diss2/images/e
+ra2.png used on input line 846.
+(pdftex.def)             Requested size: 211.38997pt x 211.39128pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<C:/Users/Steve/Documents/GitHub/publish/diss2/images/era3.png, id=261, 505.649
+1pt x 505.6491pt>
+File: C:/Users/Steve/Documents/GitHub/publish/diss2/images/era3.png Graphic fil
+e (type png)
+
+<use C:/Users/Steve/Documents/GitHub/publish/diss2/images/era3.png>
+Package pdftex.def Info: C:/Users/Steve/Documents/GitHub/publish/diss2/images/e
+ra3.png used on input line 855.
+(pdftex.def)             Requested size: 211.38997pt x 211.39128pt.
+
+<C:/Users/Steve/Documents/GitHub/publish/diss2/images/era4.png, id=262, 505.649
+1pt x 505.6491pt>
+File: C:/Users/Steve/Documents/GitHub/publish/diss2/images/era4.png Graphic fil
+e (type png)
+
+<use C:/Users/Steve/Documents/GitHub/publish/diss2/images/era4.png>
+Package pdftex.def Info: C:/Users/Steve/Documents/GitHub/publish/diss2/images/e
+ra4.png used on input line 855.
+(pdftex.def)             Requested size: 211.38997pt x 211.39128pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[52] [53 <C:/Users/Steve/Documents/GitHub/publish/diss2/images/era1.png> <C:/Us
+ers/Steve/Documents/GitHub/publish/diss2/images/era2.png> <C:/Users/Steve/Docum
+ents/GitHub/publish/diss2/images/era3.png> <C:/Users/Steve/Documents/GitHub/pub
+lish/diss2/images/era4.png>]
+
+LaTeX Warning: Citation `nef_rise_1932' on page 54 undefined on input line 870.
+
+
+[54]
+
+LaTeX Warning: Citation `nef_rise_1932' on page 55 undefined on input line 874.
+
+
+
+LaTeX Warning: Citation `nef_rise_1932' on page 55 undefined on input line 874.
+
+
+
+<C:/Users/Steve/Documents/GitHub/publish/diss2/images/woodprice.png, id=276, 50
+5.6491pt x 505.6491pt>
+File: C:/Users/Steve/Documents/GitHub/publish/diss2/images/woodprice.png Graphi
+c file (type png)
+
+<use C:/Users/Steve/Documents/GitHub/publish/diss2/images/woodprice.png>
+Package pdftex.def Info: C:/Users/Steve/Documents/GitHub/publish/diss2/images/w
+oodprice.png used on input line 877.
+(pdftex.def)             Requested size: 295.94466pt x 295.95396pt.
+
+[55 <C:/Users/Steve/Documents/GitHub/publish/diss2/images/woodprice.png>]
+
+LaTeX Warning: Citation `allen_british_2009' on page 56 undefined on input line
+ 901.
+
+
+Overfull \hbox (4.46486pt too wide) in paragraph at lines 903--904
+[]\OT1/txr/m/n/12 Moving to the phase--two in-dus-trial rev-o-lu-tion of re-pla
+c-ing muscle--power with steam--
+ []
+
+[56
+
+]
+
+LaTeX Warning: Citation `desaguliers_course_1734' on page 57 undefined on input
+ line 905.
+
+
+Overfull \hbox (3.1481pt too wide) in paragraph at lines 905--906
+\OT1/txr/m/n/12 ci-ety, col-league of Sir Isaac New-ton, and au-thor of $[]$.
+ []
+
+
+<C:/Users/Steve/Documents/GitHub/publish/diss2/images/desagulier1.png, id=285, 
+633.11531pt x 161.10187pt>
+File: C:/Users/Steve/Documents/GitHub/publish/diss2/images/desagulier1.png Grap
+hic file (type png)
+
+<use C:/Users/Steve/Documents/GitHub/publish/diss2/images/desagulier1.png>
+Package pdftex.def Info: C:/Users/Steve/Documents/GitHub/publish/diss2/images/d
+esagulier1.png used on input line 914.
+(pdftex.def)             Requested size: 401.63965pt x 102.20267pt.
+
+<C:/Users/Steve/Documents/GitHub/publish/diss2/images/desagulier2.png, id=286, 
+728.7225pt x 327.47343pt>
+File: C:/Users/Steve/Documents/GitHub/publish/diss2/images/desagulier2.png Grap
+hic file (type png)
+
+<use C:/Users/Steve/Documents/GitHub/publish/diss2/images/desagulier2.png>
+Package pdftex.def Info: C:/Users/Steve/Documents/GitHub/publish/diss2/images/d
+esagulier2.png used on input line 915.
+(pdftex.def)             Requested size: 443.92021pt x 199.48868pt.
+
+Overfull \hbox (21.14027pt too wide) in paragraph at lines 915--916
+ [][] 
+ []
+
+[57 <C:/Users/Steve/Documents/GitHub/publish/diss2/images/desagulier1.png> <C:/
+Users/Steve/Documents/GitHub/publish/diss2/images/desagulier2.png>]
+
+LaTeX Warning: Citation `allen_british_2009' on page 58 undefined on input line
+ 926.
+
+
+LaTeX Warning: Citation `allen_british_2009' on page 58 undefined on input line
+ 926.
+
+
+<C:/Users/Steve/Documents/GitHub/publish/diss2/images/wage-energy.png, id=290, 
+505.6491pt x 505.6491pt>
+File: C:/Users/Steve/Documents/GitHub/publish/diss2/images/wage-energy.png Grap
+hic file (type png)
+
+<use C:/Users/Steve/Documents/GitHub/publish/diss2/images/wage-energy.png>
+Package pdftex.def Info: C:/Users/Steve/Documents/GitHub/publish/diss2/images/w
+age-energy.png used on input line 928.
+(pdftex.def)             Requested size: 295.94466pt x 295.95396pt.
+
+[58 <C:/Users/Steve/Documents/GitHub/publish/diss2/images/wage-energy.png>]
+[59
+
+]
+
+LaTeX Warning: Citation `allen_british_2009' on page 60 undefined on input line
+ 954.
+
+
+<C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/gworldwages.png, id
+=298, 505.6491pt x 505.6491pt>
+File: C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/gworldwages.pn
+g Graphic file (type png)
+
+<use C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/gworldwages.png
+>
+Package pdftex.def Info: C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/im
+ages/gworldwages.png used on input line 963.
+(pdftex.def)             Requested size: 253.67053pt x 253.67262pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Citation `allen_british_2009' on page 60 undefined on input line
+ 967.
+
+
+LaTeX Warning: Citation `allen_british_2009' on page 60 undefined on input line
+ 972.
+
+
+LaTeX Warning: Citation `allen_british_2009' on page 60 undefined on input line
+ 972.
+
+
+<C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/allen_energy.png, i
+d=299, 655.44875pt x 655.44875pt>
+File: C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/allen_energy.p
+ng Graphic file (type png)
+
+<use C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/allen_energy.pn
+g>
+Package pdftex.def Info: C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/im
+ages/allen_energy.png used on input line 973.
+(pdftex.def)             Requested size: 253.67053pt x 253.67372pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Citation `kuznets_modern_1966' on page 60 undefined on input lin
+e 987.
+
+[60]
+
+LaTeX Warning: Text page 61 contains only floats.
+
+[61 <C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/gworldwages.png
+> <C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/allen_energy.png>
+]
+Overfull \hbox (2.24487pt too wide) in paragraph at lines 989--990
+[]\OT1/txr/m/n/12 Why is learn-ing to con-sume un-con-strained en-ergy in-puts 
+so fun-da-men-tal to the growth
+ []
+
+[62] [63]) [64]
+("C:\Users\Steve\Documents\GitHub\publish\intropaper\LaTeX Dissertation Files\L
+aTeX Dissertation\Dissertation - LaTeX - Final\paper2.tex"
+CHAPTER 3.
+[65
+
+
+
+]
+
+LaTeX Warning: Citation `wallerstein_capitalist_1995' on page 66 undefined on i
+nput line 140.
+
+
+LaTeX Warning: Citation `marxist_internet_archive_encyclopedia_????' on page 66
+ undefined on input line 144.
+
+[66]
+
+LaTeX Warning: Citation `marx_capital:_1992' on page 67 undefined on input line
+ 153.
+
+
+LaTeX Warning: Citation `sweezy_transition_1950' on page 67 undefined on input 
+line 153.
+
+
+LaTeX Warning: Citation `sweezy_transition_1950' on page 67 undefined on input 
+line 153.
+
+[67]
+
+LaTeX Warning: Citation `pirenne_economic_1936' on page 68 undefined on input l
+ine 155.
+
+
+LaTeX Warning: Citation `sweezy_transition_1950' on page 68 undefined on input 
+line 155.
+
+
+LaTeX Warning: Citation `sweezy_transition_1950' on page 68 undefined on input 
+line 159.
+
+
+LaTeX Warning: Citation `sweezy_transition_1950' on page 68 undefined on input 
+line 161.
+
+[68]
+
+LaTeX Warning: Citation `carus-wilson_industrial_1941' on page 69 undefined on 
+input line 163.
+
+
+LaTeX Warning: Citation `white_medieval_1970' on page 69 undefined on input lin
+e 163.
+
+
+LaTeX Warning: Citation `gimpel_medieval_1992' on page 69 undefined on input li
+ne 163.
+
+
+LaTeX Warning: Citation `debeir_servitude_1991' on page 69 undefined on input l
+ine 163.
+
+
+LaTeX Warning: Citation `carus-wilson_industrial_1941' on page 69 undefined on 
+input line 165.
+
+
+LaTeX Warning: Citation `carus-wilson_industrial_1941' on page 69 undefined on 
+input line 167.
+
+
+Overfull \hbox (10.78006pt too wide) in paragraph at lines 171--172
+\OT1/txr/m/n/12 ready laid. Economists must ask what are the in-cen-tives to ma
+ke this dra-matic productivity--
+ []
+
+[69]
+
+LaTeX Warning: Citation `aston_brenner_1985' on page 70 undefined on input line
+ 177.
+
+
+LaTeX Warning: Citation `postan_agrarian_1978' on page 70 undefined on input li
+ne 177.
+
+
+LaTeX Warning: Citation `ladurie_les_1966' on page 70 undefined on input line 1
+77.
+
+
+LaTeX Warning: Citation `bois_crisis_1984' on page 70 undefined on input line 1
+77.
+
+
+LaTeX Warning: Citation `nef_rise_1932' on page 70 undefined on input line 179.
+
+
+
+LaTeX Warning: Citation `nef_rise_1932' on page 70 undefined on input line 179.
+
+
+[70]
+
+LaTeX Warning: Citation `mantoux_industrial_1961' on page 71 undefined on input
+ line 183.
+
+
+LaTeX Warning: Citation `hartwell_revolution_1962' on page 71 undefined on inpu
+t line 191.
+
+
+LaTeX Warning: Citation `hartwell_markets_1966' on page 71 undefined on input l
+ine 191.
+
+
+LaTeX Warning: Citation `hartwell_cycle_1967' on page 71 undefined on input lin
+e 191.
+
+
+LaTeX Warning: Citation `hartwell_demographic_1982' on page 71 undefined on inp
+ut line 191.
+
+
+LaTeX Warning: Citation `shiba_commerce_1970' on page 71 undefined on input lin
+e 193.
+
+[71]
+
+LaTeX Warning: Citation `allen_wages_2011' on page 72 undefined on input line 1
+95.
+
+
+LaTeX Warning: Citation `pomeranz_great_2001' on page 72 undefined on input lin
+e 195.
+
+
+LaTeX Warning: Citation `xu_chinese_2000' on page 72 undefined on input line 19
+7.
+
+
+LaTeX Warning: Citation `hobson_eastern_2004' on page 72 undefined on input lin
+e 199.
+
+[72]
+
+LaTeX Warning: Citation `maddison_world_2007' on page 73 undefined on input lin
+e 217.
+
+
+LaTeX Warning: Citation `united_nations_world_????' on page 73 undefined on inp
+ut line 217.
+
+[73]
+<C:/Users/Steve/Documents/GitHub/publish/diss3/images/logPop1-2014.jpg, id=346,
+ 505.6491pt x 505.6491pt>
+File: C:/Users/Steve/Documents/GitHub/publish/diss3/images/logPop1-2014.jpg Gra
+phic file (type jpg)
+
+<use C:/Users/Steve/Documents/GitHub/publish/diss3/images/logPop1-2014.jpg>
+Package pdftex.def Info: C:/Users/Steve/Documents/GitHub/publish/diss3/images/l
+ogPop1-2014.jpg used on input line 234.
+(pdftex.def)             Requested size: 253.67053pt x 253.67262pt.
+
+<C:/Users/Steve/Documents/GitHub/publish/diss3/images/logDiffPop1-2014.jpg, id=
+347, 505.6491pt x 505.6491pt>
+File: C:/Users/Steve/Documents/GitHub/publish/diss3/images/logDiffPop1-2014.jpg
+ Graphic file (type jpg)
+
+<use C:/Users/Steve/Documents/GitHub/publish/diss3/images/logDiffPop1-2014.jpg>
+Package pdftex.def Info: C:/Users/Steve/Documents/GitHub/publish/diss3/images/l
+ogDiffPop1-2014.jpg used on input line 234.
+(pdftex.def)             Requested size: 253.67053pt x 253.67262pt.
+[74 <C:/Users/Steve/Documents/GitHub/publish/diss3/images/logPop1-2014.jpg> <C:
+/Users/Steve/Documents/GitHub/publish/diss3/images/logDiffPop1-2014.jpg>]
+
+LaTeX Warning: Citation `prak_economic_2001' on page 75 undefined on input line
+ 247.
+
+Title Error: (15.59999pt too wide)
+Page 75, Title="Different modeling schools produce an ahistorical approach"
+
+
+LaTeX Warning: Citation `prak_economic_2001' on page 75 undefined on input line
+ 250.
+
+
+LaTeX Warning: Citation `prak_economic_2001' on page 75 undefined on input line
+ 252.
+
+[75]
+
+LaTeX Warning: Citation `mokyr_lever_1992' on page 76 undefined on input line 2
+56.
+
+
+LaTeX Warning: Citation `jones_growth_1988' on page 76 undefined on input line 
+256.
+
+
+LaTeX Warning: Citation `crafts_output_1992' on page 76 undefined on input line
+ 256.
+
+
+Overfull \hbox (3.30087pt too wide) in paragraph at lines 260--261
+[]\OT1/txr/m/n/12 de Vries sketches the post--Industrial Rev-o-lu-tion con-tour
+s of mod-ern eco-nomic growth
+ []
+
+
+LaTeX Warning: Citation `prak_economic_2001' on page 76 undefined on input line
+ 263.
+
+[76]
+
+LaTeX Warning: Citation `prak_economic_2001' on page 77 undefined on input line
+ 265.
+
+
+LaTeX Warning: Citation `wrigley_people_1987' on page 77 undefined on input lin
+e 270.
+
+
+Overfull \hbox (12.9849pt too wide) in paragraph at lines 270--271
+[]\OT1/txr/m/n/12 Wrigley's (and Scofield's) Wrigley [[], p. 237] ma-jor cor-re
+-la-tions for his neo--Malthusian
+ []
+
+[77]
+
+LaTeX Warning: Citation `wrigley_people_1987' on page 78 undefined on input lin
+e 308.
+
+
+LaTeX Warning: Citation `mokyr_lever_1992' on page 78 undefined on input line 3
+15.
+
+[78
+
+]
+
+LaTeX Warning: Citation `prak_economic_2001' on page 79 undefined on input line
+ 317.
+
+
+LaTeX Warning: Citation `wrigley_continuity_1988' on page 79 undefined on input
+ line 319.
+
+
+LaTeX Warning: Citation `kaldor_case_1970' on page 79 undefined on input line 3
+23.
+
+[79] [80]
+Title Error: (134.98799pt too wide)
+Page 81, Title="The rise of the demand for capital and its supply---the path to
+ industrial capitalism"
+
+
+LaTeX Warning: Citation `nef_rise_1932' on page 81 undefined on input line 352.
+
+
+
+LaTeX Warning: Citation `nef_rise_1932' on page 81 undefined on input line 355.
+
+
+
+LaTeX Warning: Citation `nef_rise_1932' on page 81 undefined on input line 358.
+
+
+[81]
+
+LaTeX Warning: Citation `nef_rise_1932' on page 82 undefined on input line 361.
+
+
+
+LaTeX Warning: Citation `mielants_origins_2007' on page 82 undefined on input l
+ine 367.
+
+[82]
+Title Error: (5.56798pt too wide)
+Page 83, Title="Transition from muscle power to steam power in England"
+
+
+LaTeX Warning: Citation `hsien-chun_wang_discovering_2009' on page 83 undefined
+ on input line 373.
+
+
+LaTeX Warning: Citation `allen_british_2009' on page 83 undefined on input line
+ 377.
+
+[83]
+
+LaTeX Warning: Citation `mantoux_industrial_1961' on page 84 undefined on input
+ line 385.
+
+
+LaTeX Warning: Citation `mantoux_industrial_1961' on page 84 undefined on input
+ line 388.
+
+
+LaTeX Warning: Citation `mantoux_industrial_1961' on page 84 undefined on input
+ line 391.
+
+
+LaTeX Warning: Citation `mantoux_industrial_1961' on page 84 undefined on input
+ line 393.
+
+
+LaTeX Warning: Citation `mantoux_industrial_1961' on page 84 undefined on input
+ line 393.
+
+
+Overfull \hbox (2.2121pt too wide) in paragraph at lines 393--394
+\OT1/txr/m/n/12 start-ing in the the four-teenth cen-tury and the sev-en-teenth
+ and eigh-teenth cen-turies. Specif-
+ []
+
+[84]
+
+LaTeX Warning: Citation `mantoux_industrial_1961' on page 85 undefined on input
+ line 401.
+
+
+LaTeX Warning: Citation `mantoux_industrial_1961' on page 85 undefined on input
+ line 403.
+
+[85]
+
+LaTeX Warning: Citation `williamson_why_1984' on page 86 undefined on input lin
+e 411.
+
+
+LaTeX Warning: Citation `williamson_why_1984' on page 86 undefined on input lin
+e 416.
+
+
+LaTeX Warning: Citation `williamson_why_1984' on page 86 undefined on input lin
+e 416.
+
+[86]
+
+LaTeX Warning: Citation `nef_rise_1932' on page 87 undefined on input line 440.
+
+
+[87]
+
+LaTeX Warning: Citation `temin_roman_2012' on page 88 undefined on input line 4
+46.
+
+
+LaTeX Warning: Citation `cottrell_energy_1955' on page 88 undefined on input li
+ne 451.
+
+[88] [89]
+
+LaTeX Warning: Citation `hartwell_markets_1966' on page 90 undefined on input l
+ine 484.
+
+
+LaTeX Warning: Citation `hartwell_markets_1966' on page 90 undefined on input l
+ine 489.
+
+
+LaTeX Warning: Citation `hartwell_markets_1966' on page 90 undefined on input l
+ine 489.
+
+
+Overfull \hbox (5.6681pt too wide) in paragraph at lines 490--501
+ [][] 
+ []
+
+[90]
+
+LaTeX Warning: Citation `hartwell_markets_1966' on page 91 undefined on input l
+ine 514.
+
+
+LaTeX Warning: Citation `hartwell_markets_1966' on page 91 undefined on input l
+ine 518.
+
+
+LaTeX Warning: Citation `hartwell_markets_1966' on page 91 undefined on input l
+ine 520.
+
+
+LaTeX Warning: Citation `hobson_eastern_2004' on page 91 undefined on input lin
+e 520.
+
+[91]
+
+LaTeX Warning: Citation `hartwell_markets_1966' on page 92 undefined on input l
+ine 522.
+
+
+LaTeX Warning: Citation `hartwell_markets_1966' on page 92 undefined on input l
+ine 524.
+
+
+LaTeX Warning: Citation `shiba_commerce_1970' on page 92 undefined on input lin
+e 526.
+
+
+LaTeX Warning: Citation `tim_wright_economic_2007' on page 92 undefined on inpu
+t line 530.
+
+
+LaTeX Warning: Citation `elvin_pattern_1973' on page 92 undefined on input line
+ 530.
+
+[92]
+Title Error: (37.728pt too wide)
+Page 93, Title="Ming dynasty: 1368--1644 CE and Qing dynasty: 1644--1911 CE"
+
+
+LaTeX Warning: Citation `xu_chinese_2000' on page 93 undefined on input line 53
+6.
+
+
+LaTeX Warning: Citation `xu_chinese_2000' on page 93 undefined on input line 53
+7.
+
+
+LaTeX Warning: Citation `xu_chinese_2000' on page 93 undefined on input line 54
+1.
+
+
+LaTeX Warning: Citation `elvin_pattern_1973' on page 93 undefined on input line
+ 541.
+
+
+LaTeX Warning: Citation `rowe_approaches_1986' on page 93 undefined on input li
+ne 541.
+
+
+LaTeX Warning: Citation `li_development_1986' on page 93 undefined on input lin
+e 541.
+
+
+LaTeX Warning: Citation `xu_chinese_2000' on page 93 undefined on input line 54
+1.
+
+[93]
+
+LaTeX Warning: Citation `xu_chinese_2000' on page 94 undefined on input line 54
+3.
+
+
+LaTeX Warning: Citation `allen_wages_2007' on page 94 undefined on input line 5
+47.
+
+
+LaTeX Warning: Citation `pomeranz_great_2001' on page 94 undefined on input lin
+e 549.
+
+[94]
+
+LaTeX Warning: Citation `allen_british_2009' on page 95 undefined on input line
+ 556.
+
+
+LaTeX Warning: Citation `allen_british_2009' on page 95 undefined on input line
+ 556.
+
+File: C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/gworldwages.pn
+g Graphic file (type png)
+
+<use C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/images/gworldwages.png
+>
+Package pdftex.def Info: C:/Users/Steve/Documents/GitHub/publish/1310utahSoc/im
+ages/gworldwages.png used on input line 557.
+(pdftex.def)             Requested size: 253.67053pt x 253.67262pt.
+
+
+LaTeX Warning: Citation `allen_british_2009' on page 95 undefined on input line
+ 566.
+
+
+LaTeX Warning: Citation `allen_british_2009' on page 95 undefined on input line
+ 566.
+
+File: C:/Users/Steve/Documents/GitHub/publish/diss2/images/wage-energy.png Grap
+hic file (type png)
+<use C:/Users/Steve/Documents/GitHub/publish/diss2/images/wage-energy.png>
+Package pdftex.def Info: C:/Users/Steve/Documents/GitHub/publish/diss2/images/w
+age-energy.png used on input line 568.
+(pdftex.def)             Requested size: 253.67053pt x 253.67262pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[95] [96] [97
+
+]
+<C:/Users/Steve/Documents/GitHub/publish/diss3/images/logDiffPop1750-2014.jpg, 
+id=425, 505.6491pt x 505.6491pt>
+File: C:/Users/Steve/Documents/GitHub/publish/diss3/images/logDiffPop1750-2014.
+jpg Graphic file (type jpg)
+
+<use C:/Users/Steve/Documents/GitHub/publish/diss3/images/logDiffPop1750-2014.j
+pg>
+Package pdftex.def Info: C:/Users/Steve/Documents/GitHub/publish/diss3/images/l
+ogDiffPop1750-2014.jpg used on input line 594.
+(pdftex.def)             Requested size: 253.67053pt x 253.67262pt.
+) [98 <C:/Users/Steve/Documents/GitHub/publish/diss3/images/logDiffPop1750-2014
+.jpg>]
+("C:\Users\Steve\Documents\GitHub\publish\intropaper\LaTeX Dissertation Files\L
+aTeX Dissertation\Dissertation - LaTeX - Final\scbappendix1.tex") [99
+
+
+]
+("C:\Users\Steve\Documents\GitHub\publish\intropaper\LaTeX Dissertation Files\L
+aTeX Dissertation\Dissertation - LaTeX - Final\scbappendix2.tex"
+Title Error: (20.80762pt too wide)
+Page 100, Title="Importance of energy for growth and development"
+
+[100
+
+
+]
+Overfull \hbox (5.39206pt too wide) in paragraph at lines 71--72
+\OT1/txr/m/n/12 trepreneurs max-i-mize prof-its given the de-rived de-mand curv
+es of the var-i-ous in-put choices. 
+ []
+
+) [101]
+("C:\Users\Steve\Documents\GitHub\publish\intropaper\LaTeX Dissertation Files\L
+aTeX Dissertation\Dissertation - LaTeX - Final\Dissertation01.bbl" [102
+
+]
+Missing character: There is no Ã in font txr!
+Missing character: There is no © in font txr!
+Missing character: There is no Ã in font txr!
+Missing character: There is no © in font txr!
+Missing character: There is no Â in font txr!
+Missing character: There is no © in font txr!
+Missing character: There is no Â in font txr!
+Missing character: There is no © in font txr!
+
+[103]
+Missing character: There is no Â in font txr!
+Missing character: There is no © in font txr!
+ [104]
+Missing character: There is no Â in font txr!
+Missing character: There is no © in font txr!
+Missing character: There is no Â in font txr!
+Missing character: There is no © in font txr!
+ [105] [106]
+Missing character: There is no Â in font txr!
+Missing character: There is no © in font txr!
+ [107]
+Missing character: There is no Â in font txr!
+Missing character: There is no © in font txr!
+ [108]
+Missing character: There is no Â in font txr!
+Missing character: There is no © in font txr!
+ [109]) [110]
+("C:\Users\Steve\Documents\GitHub\publish\intropaper\LaTeX Dissertation Files\L
+aTeX Dissertation\Dissertation - LaTeX - Final\Dissertation01.aux"
+("C:\Users\Steve\Documents\GitHub\publish\intropaper\LaTeX Dissertation Files\L
+aTeX Dissertation\Dissertation - LaTeX - Final\intropaper.aux")
+("C:\Users\Steve\Documents\GitHub\publish\intropaper\LaTeX Dissertation Files\L
+aTeX Dissertation\Dissertation - LaTeX - Final\paper1.aux")
+("C:\Users\Steve\Documents\GitHub\publish\intropaper\LaTeX Dissertation Files\L
+aTeX Dissertation\Dissertation - LaTeX - Final\paper2.aux")
+("C:\Users\Steve\Documents\GitHub\publish\intropaper\LaTeX Dissertation Files\L
+aTeX Dissertation\Dissertation - LaTeX - Final\scbappendix1.aux")
+("C:\Users\Steve\Documents\GitHub\publish\intropaper\LaTeX Dissertation Files\L
+aTeX Dissertation\Dissertation - LaTeX - Final\scbappendix2.aux"))
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 12721 strings out of 493921
+ 243758 string characters out of 3144877
+ 273722 words of memory out of 3000000
+ 15642 multiletter control sequences out of 15000+200000
+ 46434 words of font info for 115 fonts, out of 3000000 for 9000
+ 841 hyphenation exceptions out of 8191
+ 48i,18n,42p,1583b,435s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
+m Files (x86)/MiKTeX 2.9/fonts/type1/public/txfonts/rtxb.pfb><C:/Program Files 
+(x86)/MiKTeX 2.9/fonts/type1/public/txfonts/rtxi.pfb><C:/Program Files (x86)/Mi
+KTeX 2.9/fonts/type1/public/txfonts/rtxmi.pfb><C:/Program Files (x86)/MiKTeX 2.
+9/fonts/type1/public/txfonts/rtxr.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/
+type1/public/txfonts/txsy.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/ur
+w/times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utm
+bi8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C
+:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Dissertation01.pdf (121 pages, 2532467 bytes).
+PDF statistics:
+ 503 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 218 words of extra memory for PDF output out of 10000 (max. 10000000)
+

@@ -1,0 +1,64 @@
+\contentsline {chapter}{\uppercase {Abstract}}{iii}
+\contentsline {chapter}{LIST OF FIGURES}{vii}
+\contentsline {chapter}{LIST OF TABLES}{ix}
+\contentsline {chapter}{\uppercase {Acknowledgments}}{x}
+\contentsline {groupheader}{CHAPTERS}{1}
+\contentsline {chapter}{\numberline {1.}\hyphenpenalty =10000\exhyphenpenalty =10000\relax \linepenalty =0\uppercase {General introduction}}{1}
+\contentsline {groupheader}{\vspace {-22pt}}{1}
+\contentsline {section}{\numberline {1.1}Chapter two -- ``Energy and institutions: What really happened in the English Industrial Revolution? What did not happen in China?''}{2}
+\contentsline {section}{\numberline {1.2}Chapter three --- ``The rise of industrial capitalism. What happens next?''}{4}
+\contentsline {chapter}{\numberline {2.}\hyphenpenalty =10000\exhyphenpenalty =10000\relax \linepenalty =0\uppercase {Energy and institutions: What \textit {really} happened in the English Industrial Revolution? What did not happen in China?}}{6}
+\contentsline {groupheader}{\vspace {-22pt}}{6}
+\contentsline {section}{\numberline {2.1}Introduction}{6}
+\contentsline {subsection}{\numberline {2.1.1}English energy data}{7}
+\contentsline {subsection}{\numberline {2.1.2}New institutionalists}{10}
+\contentsline {subsection}{\numberline {2.1.3}Chinese energy data}{13}
+\contentsline {subsection}{\numberline {2.1.4}Chinese institutions}{14}
+\contentsline {subsection}{\numberline {2.1.5}Chinese science and invention}{17}
+\contentsline {subsection}{\numberline {2.1.6}Growth theory}{18}
+\contentsline {section}{\numberline {2.2}English data, econometrics, and economics}{19}
+\contentsline {subsection}{\numberline {2.2.1}A first look at the data}{19}
+\contentsline {subsubsection}{\numberline {2.2.1.1}Sources and methods}{19}
+\contentsline {subsubsection}{\numberline {2.2.1.2}Modern economic growth}{22}
+\contentsline {subsubsection}{\numberline {2.2.1.3}An energy revolution}{26}
+\contentsline {subsection}{\numberline {2.2.2}Econometric and economic analyses}{29}
+\contentsline {subsubsection}{\numberline {2.2.2.1}Econometric analysis}{30}
+\contentsline {subsubsection}{\numberline {2.2.2.2}Economic analysis}{33}
+\contentsline {section}{\numberline {2.3}Chinese comparative data and institutions}{41}
+\contentsline {subsection}{\numberline {2.3.1}Preamble to Chinese growth}{41}
+\contentsline {subsection}{\numberline {2.3.2}A first look at data and institutions}{43}
+\contentsline {subsubsection}{\numberline {2.3.2.1}Sources and methods}{43}
+\contentsline {subsubsection}{\numberline {2.3.2.2}Regional population and GDP dynamics}{44}
+\contentsline {subsubsection}{\numberline {2.3.2.3}Comparative institutions}{50}
+\contentsline {section}{\numberline {2.4}Toward a theory of industrial revolutions}{52}
+\contentsline {section}{\numberline {2.5}Conclusion}{62}
+\contentsline {chapter}{\numberline {3.}\hyphenpenalty =10000\exhyphenpenalty =10000\relax \linepenalty =0\uppercase {The rise of industrial capitalism. What happens next?}}{65}
+\contentsline {groupheader}{\vspace {-22pt}}{65}
+\contentsline {section}{\numberline {3.1}Abstract}{65}
+\contentsline {section}{\numberline {3.2}Introduction}{65}
+\contentsline {subsection}{\numberline {3.2.1}Definitions}{66}
+\contentsline {subsection}{\numberline {3.2.2}English transition to industrial capitalism}{67}
+\contentsline {subsection}{\numberline {3.2.3}Evidence of a Chinese transition to industrial capitalism}{71}
+\contentsline {section}{\numberline {3.3}English industrial capitalism}{72}
+\contentsline {subsection}{\numberline {3.3.1}A first look at data}{73}
+\contentsline {subsubsection}{\numberline {3.3.1.1}Sources and methods}{73}
+\contentsline {subsubsection}{\numberline {3.3.1.2}Global population trends}{74}
+\contentsline {subsection}{\numberline {3.3.2}Jan de Vries from Early Modern Capitalism---a survey}{75}
+\contentsline {subsubsection}{\numberline {3.3.2.1}Different modeling schools produce an ahistorical approach}{75}
+\contentsline {subsubsection}{\numberline {3.3.2.2}The neo--Malthusian model---pre--industrial growth}{76}
+\contentsline {subsubsection}{\numberline {3.3.2.3}Wrigley's neo--Malthusian world}{77}
+\contentsline {subsubsection}{\numberline {3.3.2.4}From two models to one}{78}
+\contentsline {subsection}{\numberline {3.3.3}Nicholas Kaldor}{79}
+\contentsline {subsection}{\numberline {3.3.4}Industrial revolutions}{80}
+\contentsline {subsection}{\numberline {3.3.5}The rise of the demand for capital and its supply---the path to industrial capitalism}{81}
+\contentsline {subsubsection}{\numberline {3.3.5.1}Transition from wood to coal for heating in England}{81}
+\contentsline {subsubsection}{\numberline {3.3.5.2}Transition from muscle power to steam power in England}{83}
+\contentsline {subsection}{\numberline {3.3.6}The primary roles of capital in the EIR}{87}
+\contentsline {section}{\numberline {3.4}Evidence of Chinese industrial capitalism}{89}
+\contentsline {subsection}{\numberline {3.4.1}A look at the data sources and interpretation}{90}
+\contentsline {subsubsection}{\numberline {3.4.1.1}Sung dynasty: 760--1279 CE}{90}
+\contentsline {subsubsection}{\numberline {3.4.1.2}Ming dynasty: 1368--1644 CE and Qing dynasty: 1644--1911 CE}{93}
+\contentsline {section}{\numberline {3.5}Conclusion}{97}
+\contentsline {chapter}{\hbox to\@tempdima {A.\hfil } CHINESE IMPERIAL DYNASTIES}{99}
+\contentsline {chapter}{\hbox to\@tempdima {B.\hfil } TECHNICAL APPENDIX}{100}
+\contentsline {chapter}{REFERENCES}{102}

@@ -1,0 +1,94 @@
+%% ====================================================================%%
+%% thesis.tex - sample root file for UofU thesis or dissertation       %%
+%% ====================================================================%%
+%% This contains portions of a thesis which met the graduate school    %%
+%% standards with only a few modifications.                            %%
+%% ====================================================================%%
+%%% NOTE: Writing a thesis implicitly involves meeting standards of the%%
+%%% publisher, in this case, the Graduate School of the University of  %%
+%%% Utah. The thesis office distributes "A Handbook for Theses and     %%
+%%% Dissertations" which is the publication standard of the graduate   %%
+%%% school (the AMS has a similar document for AMS publications).      %%
+%%% Uuthesis can help you meet the standard, but uuthesis does not set %%
+%%% any standards -- standards are set by the graduate school.         %%
+%% ====================================================================%%
+%% The command ``latex thesis'' will build the document.  To produce a %%
+%% final version you may also type ``make thesis''.                    %%
+%% ====================================================================%%
+%%
+\documentclass[11pt,Chicago]{uuthesis2e}
+\usepackage{amssymb}
+\usepackage{thesis}
+\usepackage{diagram}
+\usepackage{tgrind}
+\let \tenrm = \rm 		% This is used in fig*.tex
+%%
+%% For drafts of one or more chapters, uncomment the relevant line
+%% by removing the percent %:
+%%
+%\includeonly{}                    % Only front matter and back matter
+%\includeonly{chap1}               %  plus chapter 1
+%\includeonly{chap1,chap2}         %  plus chapter 1 and 2
+%\includeonly{chap1,chap2,chap3}   %  plus all chapters
+\includeonly{chap1,chap2,chap3,%  % BEWARE: First % kills white space
+             appendix}            %  plus all chapters, appendix
+%\includeonly{chap1,chap2,%        % BEWARE: First % kills white space
+%             appendix}            %  plus chapters 1-2, appendix
+%\includeonly{chap3}               % Front + chapter 3 + back
+%
+%\tracingstats=2                % show TeX memory usage
+\title{REPRESENTATION OF SOLUTIONS TO LINEAR\protect\\
+       ALGEBRAIC EQUATIONS}
+\author{Fred Krylov}
+\thesistype{dissertation}
+\graduatedean{Ann W. Hart}
+\department{Department of Mathematics}
+\degree{Doctor of Philosophy}
+\departmentchair{Paul Fife}
+\committeechair{Fletcher Gross}
+\firstreader{Hans Othmer}
+\secondreader{Jim Carlson}
+\thirdreader{Grant Gustafson}
+\fourthreader{Nick Korevaar}
+\chairtitle{Professor}
+\submitdate{March 1993}
+\copyrightyear{1993}
+% Chapter is one level, section and subsection are the next two levels.
+\fourlevels
+\dedication{For my cat, Mouse, a few lines only.}
+ \inputpicturetrue  % By Jeff McGough. See uuguide and private thesis.sty
+%\inputpicturefalse % To NOT produce pictures, uncomment this line
+\begin{document}
+%% Comment out items by inserting a percent % character
+\frontmatterformat
+\titlepage
+\copyrightpage
+\committeeapproval
+\readingapproval
+\preface{abstract}{Abstract}
+\dedicationpage
+\tableofcontents
+\listoffigures
+\listoftables
+%
+% Optional front page, made from source "notation.tex".
+% If you don't need it, then don't use it.
+%
+\optionalfront{Notation and Symbols}{\input{notation.tex}}
+\preface{acknowledge}{Acknowledgements}
+\maintext       % Start normal page numbering. Parts and chapters follow.
+\include{chap1}
+\include{chap2}
+\include{chap3}
+\numberofappendices=1   % Set 0 for none, else number of appendices.
+\appendix       % Chapters, sections are now appendix style
+\include{appendix}
+%
+% The choice of bibliography style is a major decision, jointly made
+% by you, your thesis advisor and the thesis editor. Common choices are
+% "siam", "acm", "amsplain", "plain", "chicago".
+%
+\bibliographystyle{siam}
+\bibliography{thesis}
+
+\end{document}

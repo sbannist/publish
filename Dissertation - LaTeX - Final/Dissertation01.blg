@@ -1,0 +1,83 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: Dissertation01.aux
+A level-1 auxiliary file: intropaper.aux
+A level-1 auxiliary file: paper1.aux
+A level-1 auxiliary file: paper2.aux
+A level-1 auxiliary file: scbappendix1.aux
+A level-1 auxiliary file: scbappendix2.aux
+The style file: plain.bst
+Database file #1: paper1.bib
+Database file #2: paper2.bib
+Repeated entry---line 156 of file paper2.bib
+ : @book{hobson_eastern_2004
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 163 of file paper2.bib
+ : @book{elvin_pattern_1973
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 206 of file paper2.bib
+ : @book{mantoux_industrial_1961
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 219 of file paper2.bib
+ : @book{jones_growth_1988
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 254 of file paper2.bib
+ : @article{tim_wright_economic_2007
+ :                                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 273 of file paper2.bib
+ : @article{hartwell_demographic_1982
+ :                                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 302 of file paper2.bib
+ : @book{nef_rise_1932
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 336 of file paper2.bib
+ : @techreport{allen_wages_2007
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 351 of file paper2.bib
+ : @book{cottrell_energy_1955
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 367 of file paper2.bib
+ : @article{hartwell_markets_1966
+ :                               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 383 of file paper2.bib
+ : @article{hartwell_revolution_1962
+ :                                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 400 of file paper2.bib
+ : @article{hartwell_cycle_1967
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 445 of file paper2.bib
+ : @book{wrigley_continuity_1988
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 469 of file paper2.bib
+ : @book{allen_british_2009
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 481 of file paper2.bib
+ : @book{mokyr_lever_1992
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 491 of file paper2.bib
+ : @book{maddison_world_2007
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 522 of file paper2.bib
+ : @book{pomeranz_great_2001
+ :                          ,
+I'm skipping whatever remains of this entry
+Warning--empty journal in cipolla_economic_1962
+Warning--empty publisher in hajnal_european_1965
+Warning--can't use both author and editor fields in smith_inquiry_1977
+Warning--can't use both author and editor fields in veblen_theory_2009
+Warning--there's a number but no series in vries_via_2003
+(There were 17 error messages)

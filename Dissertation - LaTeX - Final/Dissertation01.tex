@@ -1,0 +1,164 @@
+\documentclass[12pt,Turabian]{uuthesis2e}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{thesis}
+%\usepackage{diagram} %----- This is incompatible with graphicx and epic packages
+%\usepackage{tgrind}
+\let \tenrm = \rm       % This is used in fig*.tex
+%\pagestyle{myheading}
+%-----------------------------------------------------------------------------------
+%----- Graphics packages that I have added in.--------------------------------------
+%-----------------------------------------------------------------------------------
+\usepackage{lscape}
+\usepackage{graphicx}
+\usepackage{epic,eepic}
+\setlength{\unitlength}{1cm}
+\usepackage{rotating}
+\usepackage{graphicx}
+\usepackage{verbatim}
+%\usepackage{tocloft}
+\usepackage{pdfpages}
+
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{txfonts}
+\usepackage{amssymb}
+\usepackage{pgfpages}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{chngpage}
+%\usepackage{pdfpages}
+\usepackage[lofdepth,lotdepth,position=bottom]{subfig}
+\usepackage{caption}
+\usepackage{float}
+%\usepackage{natbib}
+%\usepackage{draftwatermark}
+%\newtheorem{mydef}{Definition}[section]
+%\numberwithin{equation}{section}
+%\usepackage{underscore}
+
+%-----------------------------------------------------------------------------------
+%\usepackage{apalike}
+%\usepackage[tocbib, nobibnewpage]{apacite}
+%\usepackage{natbib}
+%\usepackage{chapterbib}
+%\setlength{\bibindent}{2.5em}
+%\renewcommand{\bibname}{\normalsize \textbf{REFERENCES}}
+%\rawbibliographyfalse
+%%
+%% For drafts of one or more chapters, uncomment the relevant line
+%% by removing the percent %:
+%%
+%\includeonly{}                    % Only front matter and back matter
+%\includeonly{chap1}               %  plus chapter 1
+%\includeonly{chap1,chap2}         %  plus chapter 1 and 2
+%\includeonly{chap1,chap2,chap3}   %  plus all chapters
+%\includeonly{chap1,chap2,chap3,%  % BEWARE: First % kills white space
+%             appendix}            %  plus all chapters, appendix
+%\includeonly{chap1,chap2,%        % BEWARE: First % kills white space
+%             appendix}            %  plus chapters 1-2, appendix
+%\includeonly{chap3}               % Front + chapter 3 + back
+%
+%\tracingstats=2                % show TeX memory usage
+
+%-----------------------------------------------------------------------------------
+%----- The information for the front matter such as title page, committee ----------
+%----- information, etc. -----------------------------------------------------------
+%-----------------------------------------------------------------------------------
+\title{Economic development with unlimited supplies of
+energy:
+causes and consequences of industrial revolutions}
+\author{Stephen Charles Bannister}
+\thesistype{dissertation} \graduatedean{David Kieda}
+\department{Department of Economics} \degree{Doctor of Philosophy}
+\departmentchair{Thomas Maloney} \committeechair{Richard Fowles}
+\firstreader{Thomas Maloney} \secondreader{William T. Carlisle}
+\thirdreader{Rudiger Von Arnim} \fourthreader{Timothy Garrett}
+
+%\fifthreader{Myron W. Evans} \sixthreader{John Watkins}
+\chairtitle{Professor} \submitdate{June 2015} \copyrightyear{2015}
+% Chapter is one level, section and subsection are the next two levels.
+\fourlevels \dedication{For Dr. Stephen Reynolds}% and Rachel Call}
+ \inputpicturetrue  % By Jeff McGough. See uuguide and private thesis.sty
+%\inputpicturefalse % To NOT produce pictures, uncomment this line
+
+%-----------------------------------------------------------------------------------
+%----- End of the information section ----------------------------------------------
+%-----------------------------------------------------------------------------------
+
+\setcounter{tocdepth}{3}
+
+\begin{document}
+%% Comment out items by inserting a percent % character
+%% ********************************************************************************************
+%% To produce only the chapters, use % to eliminate everything from frontmatter to optionalfront
+%%*********************************************************************************************
+\frontmatterformat
+\titlepage
+\copyrightpage
+
+\includepdf[pages=1]{C:/Users/Steve/Desktop/VAT/Projects/Research/Dissertation/Statement-of-Approval-PhD1-2.pdf}
+%\committeeapproval
+%\readingapproval
+\preface{abstract}{Abstract}
+\dedicationpage
+%\iffalse
+\tableofcontents
+\listoffigures
+\listoftables
+%\fi
+%
+%%%%% Optional front page, made from source "notation.tex".
+%%%%% If you don't need it, then don't use it.
+%
+%\optionalfront{Notation and Symbols}{\input{notation.tex}}
+\preface{acknowledge}{Acknowledgments}
+%-----------------------------------------------------------------------------------
+%----- The body of the text --------------------------------------------------------
+%-----------------------------------------------------------------------------------
+\maintext
+\include{intropaper}
+\include{paper1}
+\include{paper2}
+%\end{document}
+%\section*{\end{document}}
+
+\iffalse
+\include{CH02}
+\include{CH03}
+\include{CH04}
+\include{CH05}
+\include{CH06}
+\fi
+%-----------------------------------------------------------------------------------
+%----- Appendices - Set to 0 if none, otherwise set to number of -------------------
+%----- appendices used. ------------------------------------------------------------
+%-----------------------------------------------------------------------------------
+\numberofappendices=2
+\appendix
+\include{scbappendix1}
+\include{scbappendix2}
+%-----------------------------------------------------------------------------------
+\iffalse
+% The choice of bibliography style is a major decision, jointly made
+% by you, your thesis advisor and the thesis editor. Common choices are
+% "siam", "acm", "amsplain", "plain", "chicago".
+%
+%-----------------------------------------------------------------------------------
+%----- The bibliography - Only a small number of styles work with this
+
+\fi
+\bibliographystyle{plain}
+%\bibliography{Dissertation01}
+\bibliography{paper1,paper2}
+%\nocite{*}
+
+\iffalse
+\begin{thebibliography}{90}
+\bibliographystyle{plain}
+\include{Dissertation01.bib}
+\end{thebibliography}
+\fi
+
+\end{document}

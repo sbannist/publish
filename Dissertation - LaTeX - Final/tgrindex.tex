@@ -1,0 +1,318 @@
+%%% ====================================================================
+%%%  @TeX-file{
+%%%     author          = "Nelson H. F. Beebe",
+%%%     version         = "1.00",
+%%%     date            = "18 February 1995",
+%%%     time            = "11:09:42 MST",
+%%%     filename        = "tgrindex.tex",
+%%%     address         = "Center for Scientific Computing
+%%%                        Department of Mathematics
+%%%                        University of Utah
+%%%                        Salt Lake City, UT 84112
+%%%                        USA",
+%%%     telephone       = "+1 801 581 5254",
+%%%     FAX             = "+1 801 581 4148",
+%%%     checksum        = "42253 318 1396 10301",
+%%%     email           = "beebe@math.utah.edu (Internet)",
+%%%     codetable       = "ISO/ASCII",
+%%%     keywords        = "index, tgrind",
+%%%     supported       = "yes",
+%%%     docstring       = "This file contains macros needed for the
+%%%                        tgrind indexing feature.  It can also be
+%%%                        used for other multi-column indexing
+%%%                        applications.  It \inputs multicol.tex for
+%%%                        multi-column typesetting support.
+%%%
+%%%                        The companion tstindex.tex file contains
+%%%                        extensive indexing tests that can be used
+%%%                        to validate any changes you make to private
+%%%                        versions of the indexing macros.
+%%%
+%%%                        User accessible macros:
+%%%
+%%%                             \NumberOfColumns = <number>
+%%%
+%%%                        	\BeginIndex
+%%%					\Entry{descriptivetext}{numberlist}
+%%%				\EndIndex
+%%%
+%%%				\def \IndexRule {...}
+%%%
+%%%				\def \IndexTitle {My Title}
+%%%
+%%%				\NewIndexLetter	% skip glue when initial letter
+%%%						% of index entries changes
+%%%
+%%%				\NoRuleSeparator % no vertical rule separator
+%%%
+%%%				\RuleSeparator % vertical rule separator
+%%%
+%%%			   The defaults set when this file is \input are:
+%%%
+%%%				\IndexRule		rule of width \hsize
+%%%				\IndexTitle		Linenumber Index
+%%%				\NumberOfColumns	3
+%%%				\NewIndexLetter		\medbreak
+%%%				\RuleSeparator
+%%%
+%%%			   Any changes made after this file is \input
+%%%			   will therefore apply to all following
+%%%			   indexes.  If you want to alter anything
+%%%			   inside the Index environment, the easiest
+%%%			   way to do so is like this:
+%%%
+%%%				\let \OldBeginIndex = \BeginIndex
+%%%				\def \BeginIndex {\OldBeginIndex ...changes...}
+%%%
+%%%                        The checksum field above contains a CRC-16
+%%%                        checksum as the first value, followed by the
+%%%                        equivalent of the standard UNIX wc (word
+%%%                        count) utility output of lines, words, and
+%%%                        characters.  This is produced by Robert
+%%%                        Solovay's checksum utility.",
+%%%  }
+%%% ====================================================================
+%%
+%% If this file has already been loaded, don't load it again.
+%%
+\ifx \BeginIndex \undefined
+    \relax
+\else
+    \endinput
+\fi
+%%
+\input multicol.tex		% multi-column typesetting support for Plain TeX
+\NumberOfColumns = 3		% default value
+%%
+%% Issue a banner message to inform the user of the code version and date.
+%%
+\immediate \write16 {This is tgrindex.tex, version 1.00 [18-Feb-1995]}%
+%%
+\RuleSeparator			% vertical rule separates index columns
+%%
+\def \NewIndexLetter {\medbreak}
+%%
+%%----------------------------------------------------------------------
+%% Make our own version of \dotfill to avoid use of math fonts, so that
+%% we can change font families to PostScript Type 1 fonts more easily.
+%% The only change we need is to use a text dot instead of a math dot.
+%% This is needed only for old Solution 1 below, which is no longer used.
+%% \count255 = \catcode`@
+%% \catcode`@=11		%so @ acts like a letter in \m@th
+%% \def \dotfill
+%% {%
+%%     \cleaders
+%%     \hbox {$\m@th \mkern 1.5mu\hbox{.}\mkern 1.5mu$}%
+%%     \hfill
+%% }%
+%% \catcode`@ = \count255
+%%----------------------------------------------------------------------
+%% This rather complicated sequence of macros is taken from The TeXbook,
+%% Appendix D, p. 394.  The single usable result of all of this complexity
+%% is the macro \: for separating an index entry name from its sequence of
+%% line numbers.  The reason for the complexity is the desire to support
+%% both short and long names and number lists, with the name text set
+%% ragged left, and the number lists set ragged right, with the two
+%% joined by dotfill that is at least 3em from left and right margins,
+%% as illustrated by these styles:
+%%
+%% ttttttttttt ....... nnnnnnnnnn
+%%
+%% tttttttttttttttttttttttttttttt
+%%    ttttttt .............. nnnnnnn
+%%                nnnnnnnnnnnnnnnnnn
+%%
+%% tttttttttttttttttttttttttttttt
+%%    tttttttttttt ..............
+%%                nnnnnnnnnnnnnnnnnn
+%%                    nnnnnnnnnnnnnn
+%%
+%% tttttttttttttttttttttttt
+%%    tttttttttttttttt
+%%    ttttttttttttt
+%%    ..... nnnnnnnnnnnnnnnnnnnnn
+%%              nnnnnnnnnnnnnnnnn
+%%              nnnnnnnnnnnnnnnn
+%%
+\hyphenpenalty = 10000				% no hyphens
+\exhyphenpenalty = 10000			% no hyphens
+\pretolerance = 10000				% no hyphens
+%%
+%% For tgrind, it is ESSENTIAL that the dot in \dbox be in a normal text
+%% font, rather than a math font, so that we can stay within Type 1
+%% PostScript font families, if they are selected.
+\newbox \dbox
+\setbox \dbox = \hbox to .4em {\hss.\hss}	% dot box for leaders
+%%
+\newskip\rrskipb
+\rrskipb = .5em plus 3em			% ragged right space before break
+%%
+\newskip\rrskipa
+\rrskipa = -.17em plus -3em minus .11em		% ditto, after
+%%
+\newskip\rlskipa
+\rlskipa = 0pt plus 3em				% ragged left space after break
+%%
+\newskip\rlskipb
+\rlskipb = .33em plus -3em minus .11em		% ditto, before
+%%
+\newskip\lskip
+\lskip = 3.3\wd\dbox plus 1fil minus .3\wd\dbox	% for leaders
+%%
+\newskip\lskipa
+\lskipa = -2.67em plus -3em minus .11em		% after leaders
+%%
+\mathchardef\rlpen = 1000
+%%
+\mathchardef\leadpen = 600			% constants used
+%%
+\def \rrspace		% raggedright space
+{%
+	\nobreak
+	\hskip \rrskipb
+	\penalty0
+	\hskip \rrskipa
+}%
+%%
+\def \rlspace		% raggedleft space
+{
+	\penalty \rlpen
+	\hskip \rlskipb
+	\vadjust{}
+	\nobreak
+	\hskip \rlskipa
+}%
+%%
+\uccode`~=` %
+%%
+\uppercase
+{%
+  \def \:%
+  {%
+	\nobreak
+	\hskip \rrskipb
+	\penalty \leadpen
+	\hskip \rrskipa
+	\vadjust{}%
+	\nobreak
+	\leaders \copy \dbox \hskip \lskip
+	\kern 3em
+	\penalty\leadpen
+	\hskip \lskipa
+	\vadjust{}%
+	\nobreak
+	\hskip\rlskipa
+	\let ~ = \rlspace
+  }%
+}%
+%%----------------------------------------------------------------------
+%% For long index number lists (which are not expected in tgrind output),
+%% but are nevertheless possible, we want the output to look like this:
+%%
+%% procname................................. 80, 110, 120, 190,
+%%                                210, 230, 250, 290, 330, 340,
+%%                                ...
+%%                                804, 830, 861, 907, 921, 941,
+%%                                       1002, 1090, 1304, 1350
+%%
+%% Usage: \Entry{procedurename}{linenumberlist}
+%%
+\def \Entry#1#2%
+{%
+%% Simple solution 1:
+%%   \noindent
+%%   \setbox0 = \hbox{\strut #2}%
+%%   \ifdim \wd0 > 3em		% must be long list of linenumbers
+%%	\raggedleft
+%%	\dimen0 = \hsize
+%%	\advance \dimen0 by -3em
+%%	\hbox to \dimen0{#1\dotfill}
+%%	\hfil #2
+%%  \else			% set flush right to a fixed width
+%%       \hbox to \hsize{#1\dotfill \hbox to 3em{\hss \box0}}%
+%%  \fi
+%% Complicated, but better, solution 2:
+   \noindent
+   \uccode`~ = 0
+   \parindent = 0pt
+   \parfillskip = 0pt
+   \uppercase
+   {%
+	\everypar
+	{%
+		\hangindent = 1.5em
+		\hangafter = 1
+		\let ~ = \rrspace
+	}%
+   }%
+   \begingroup
+	\obeyspaces
+	#1\:#2
+   \endgroup
+   \par			% ensure that we start a newline for next entry
+}%
+%%----------------------------------------------------------------------
+%% Our \raggedleft is adapted from \raggedright in The TeXbook, top of
+%% p. 356.  It is needed only Solution 1 above.
+%%
+%% \def \raggedleft
+%% {
+%%     \leftskip = 0pt plus 2em
+%%     \spaceskip = 0.3333em
+%%     \xspaceskip = 0.5em
+%%     \parfillskip = 0pt
+%% }%
+%%----------------------------------------------------------------------
+%% The details of producing an index header and switching to multicolumn
+%% mode are concealed in \BeginIndex.  For tgrind use, \obeyspaces is in
+%% effect when \BeginIndex is reached, so we need to turn that off to
+%% avoid active spaces causing errors from real spaces below.  Also,
+%% tgrind has an \everyhbox token list in effect, so we need to get rid
+%% of that too.  We supply extra vertical space above the environment, an
+%% \IndexRule, an \IndexTitle, and we tell TeX where page breaks are
+%% allowed.  The two-column index text looks best if all baselines match
+%% in the two columns, so we provide a small amount of stretchability
+%% in the \parskip glue.
+%%
+\def \BeginIndex
+{%
+    \bigskip
+    \begingroup
+        \catcode`\ =  10% cancel \obeyspaces inside this group
+        \everyhbox =  {}% turn off outer \hbox hook
+	\parskip = 0pt plus 0.5pt minus 0.25pt
+        \allowbreak	% page break is okay here
+        \tenrm		% change back to normal text for the index
+	\IndexRule
+        \nobreak	% no page break allowed
+        \medskip	% around this
+        \nobreak	% no page break allowed
+        \centerline {{\bf \IndexTitle}}% index title
+        \nobreak	% no page break allowed
+        \medskip	% around this
+        \nobreak	% space, until after first entry.
+        \BeginMultiColumns
+            \nobreak
+            \message{Begin Index...}%
+}%
+%%----------------------------------------------------------------------
+%% Getting out of the index is easier: just tell TeX where page breaks
+%% are allowed, set the \IndexRule, and supply vertical space below to
+%% match that above the index supplied by \BeginIndex.
+\def \EndIndex
+{%
+	    \nobreak
+	    \message{...End Index}%
+        \EndMultiColumns
+        \nobreak
+	\IndexRule
+	\bigskip
+	\goodbreak	% this is an exceptionally good place for a page break
+			% since a new file begins next
+    \endgroup
+}%
+\def \IndexRule {\hbox to \hsize{\hrulefill}}
+%%
+\def \IndexTitle {Linenumber Index}% this can be redefined by user
+%%
+\endinput
